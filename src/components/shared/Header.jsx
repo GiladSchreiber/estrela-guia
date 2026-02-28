@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <Link to="/"><img src="/Quilombo_Logo.svg" alt="Quilombo" className={styles.logo} /></Link>
+        <Link to="/"><img src={`${import.meta.env.BASE_URL}Quilombo_Logo.svg`} alt="Quilombo" className={styles.logo} /></Link>
         {!isHome && <NavMenu />}
       </div>
     </header>
