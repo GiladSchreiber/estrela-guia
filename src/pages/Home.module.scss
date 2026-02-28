@@ -26,9 +26,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: $space-md;
-  padding: $space-md $space-lg;
+  padding: $space-md;
   max-width: 500px;
   margin: 0 auto;
+
+  @media (min-width: $bp-mobile) {
+    padding: $space-md $space-lg;
+  }
 
   @media (min-width: $bp-desktop) {
     grid-template-columns: repeat(4, 1fr);
