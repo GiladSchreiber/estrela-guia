@@ -1,0 +1,174 @@
+[
+  {
+    "id": "articles",
+    "titleHe": "יידוע",
+    "icon": "🔤",
+    "taglineHe": "o, a, um, uma",
+    "explanation": [
+      {
+        "type": "paragraph",
+        "he": "לכל שם עצם בפורטוגזית יש מין — זכר או נקבה, בדיוק כמו בעברית."
+      },
+      {
+        "type": "paragraph",
+        "he": "שמות עצם המציינים בני אדם יכולים להחליף מין: menino/menina, aluno/aluna, amigo/amiga."
+      },
+      {
+        "type": "paragraph",
+        "he": "שמות עצם שאינם בני אדם יש להם מין קבוע."
+      },
+      {
+        "type": "paragraph",
+        "he": "הכלל: סיומת ‎-a = נקבה, כל השאר = זכר."
+      },
+      {
+        "type": "note",
+        "he": "דוגמאות לחריגים: um mapa (זכר למרות ‎-a)\na luz (נקבה למרות שאינו מסתיים ב‎-a)"
+      },
+      {
+        "type": "table",
+        "caption": "מיליות לא מיודעות",
+        "columnLangs": ["label", "pt", "pt"],
+        "headers": ["", "זכר", "נקבה"],
+        "rows": [
+          ["יחיד", "um", "uma"],
+          ["רבים", "uns", "umas"]
+        ]
+      },
+      {
+        "type": "table",
+        "caption": "מיליות מיודעות",
+        "columnLangs": ["label", "pt", "pt"],
+        "headers": ["", "זכר", "נקבה"],
+        "rows": [
+          ["יחיד", "o", "a"],
+          ["רבים", "os", "as"]
+        ]
+      }
+    ],
+    "examples": [
+      { "pt": "Eu vi um menino na rua", "he": "ראיתי ילד ברחוב" },
+      { "pt": "O sol é muito forte hoje", "he": "השמש חזקה מאוד היום" },
+      { "pt": "Ela comprou uma casa nova", "he": "היא קנתה בית חדש" },
+      { "pt": "As amigas são legais", "he": "החברות הן נחמדות" }
+    ],
+    "sentences": [
+      { "id": "art1", "blank_pt": "Eu vi ___ menino na rua", "answer": "um", "instruction": "לא מיודע, זכר", "translation": "ראיתי ילד ברחוב" },
+      { "id": "art2", "blank_pt": "Ela comprou ___ casa nova", "answer": "uma", "instruction": "לא מיודע, נקבה", "translation": "היא קנתה בית חדש" },
+      { "id": "art3", "blank_pt": "___ sol é muito forte hoje", "answer": "O", "instruction": "מיודע, זכר", "translation": "השמש חזקה מאוד היום" },
+      { "id": "art4", "blank_pt": "Eu gosto de tocar ___ berimbau", "answer": "o", "instruction": "מיודע, זכר", "translation": "אני אוהב לנגן בברימבו" },
+      { "id": "art5", "blank_pt": "___ casa é grande", "answer": "A", "instruction": "מיודע, נקבה", "translation": "הבית גדול" },
+      { "id": "art6", "blank_pt": "Eles têm ___ amigos", "answer": "uns", "instruction": "לא מיודע, זכר רבים", "translation": "יש להם חברים" },
+      { "id": "art7", "blank_pt": "___ amigas são legais", "answer": "As", "instruction": "מיודע, נקבה רבים", "translation": "החברות הן נחמדות" },
+      { "id": "art8", "blank_pt": "Eu quero ___ livro", "answer": "um", "instruction": "לא מיודע, זכר", "translation": "אני רוצה ספר" },
+      { "id": "art9", "blank_pt": "___ livro está na mesa", "answer": "O", "instruction": "מיודע, זכר", "translation": "הספר על השולחן" },
+      { "id": "art10", "blank_pt": "___ mestres ensinam muito bem", "answer": "Os", "instruction": "מיודע, זכר רבים", "translation": "המאסטרים מלמדים מאוד טוב" }
+    ]
+  },
+  {
+    "id": "adjectives",
+    "titleHe": "שמות תואר",
+    "icon": "✏️",
+    "taglineHe": "התאמת מין ומספר",
+    "explanation": [
+      {
+        "type": "paragraph",
+        "he": "שמות תואר בפורטוגזית מסכימים במין ובמספר עם שם העצם שהם מתארים."
+      },
+      {
+        "type": "table",
+        "caption": "סיומות סטנדרטיות",
+        "columnLangs": ["label", "pt", "pt"],
+        "headers": ["", "זכר", "נקבה"],
+        "rows": [
+          ["יחיד", "-o", "-a"],
+          ["רבים", "-os", "-as"]
+        ]
+      },
+      {
+        "type": "note",
+        "he": "חלק משמות התואר הם בלתי משתנים — אותה צורה לזכר ולנקבה, אך בצורת הרבים מוסיפים ‎-s:\nforte → fortes, idealista → idealistas, grande → grandes."
+      },
+      {
+        "type": "note",
+        "he": "שמות תואר לא סדירים — bom/boa:\nbom (זכר יחיד) / boa (נקבה יחיד)\nbons (זכר רבים) / boas (נקבה רבים)"
+      }
+    ],
+    "examples": [
+      { "pt": "A capoeira é forte", "he": "הקפואירה היא חזקה" },
+      { "pt": "A mulher é bonita", "he": "האישה היא יפה" },
+      { "pt": "As meninas são pequenas", "he": "הבנות הן קטנות" },
+      { "pt": "As casas são amarelas", "he": "הבתים הם צהובים" }
+    ],
+    "sentences": [
+      { "id": "adj1", "blank_pt": "O homem é ___", "answer": "forte", "base": "forte", "instruction": "זכר יחיד, בלתי משתנה", "translation": "האיש הוא חזק" },
+      { "id": "adj2", "blank_pt": "A mulher é ___", "answer": "bonita", "base": "bonito", "instruction": "נקבה יחיד", "translation": "האישה היא יפה" },
+      { "id": "adj3", "blank_pt": "Os amigos são ___", "answer": "pequenos", "base": "pequeno", "instruction": "זכר רבים", "translation": "החברים הם קטנים" },
+      { "id": "adj4", "blank_pt": "As casas são ___", "answer": "amarelas", "base": "amarelo", "instruction": "נקבה רבים", "translation": "הבתים הם צהובים" },
+      { "id": "adj5", "blank_pt": "A mulher é ___", "answer": "alta", "base": "alto", "instruction": "נקבה יחיד", "translation": "האישה היא גבוהה" },
+      { "id": "adj6", "blank_pt": "Os homens são ___", "answer": "altos", "base": "alto", "instruction": "זכר רבים", "translation": "האנשים הם גבוהים" },
+      { "id": "adj7", "blank_pt": "Os livros são ___", "answer": "interessantes", "base": "interessante", "instruction": "בלתי משתנה, רבים", "translation": "הספרים הם מעניינים" },
+      { "id": "adj8", "blank_pt": "Meu carro é ___", "answer": "rápido", "base": "rápido", "instruction": "זכר יחיד", "translation": "המכונית שלי מהירה" },
+      { "id": "adj9", "blank_pt": "Os carros são ___", "answer": "novos", "base": "novo", "instruction": "זכר רבים", "translation": "המכוניות הן חדשות" },
+      { "id": "adj10", "blank_pt": "As meninas são ___", "answer": "fortes", "base": "forte", "instruction": "נקבה רבים, בלתי משתנה", "translation": "הבנות הן חזקות" },
+      { "id": "adj11", "blank_pt": "O rapaz é ___", "answer": "idealista", "base": "idealista", "instruction": "זכר יחיד, בלתי משתנה (-ista)", "translation": "הנער הוא אידיאליסט" },
+      { "id": "adj12", "blank_pt": "A cantiga é ___", "answer": "boa", "base": "bom", "instruction": "נקבה יחיד, לא סדיר", "translation": "השיר הוא טוב" },
+      { "id": "adj13", "blank_pt": "Os mestres são ___", "answer": "bons", "base": "bom", "instruction": "זכר רבים, לא סדיר", "translation": "המאסטרים הם טובים" }
+    ]
+  },
+  {
+    "id": "possession",
+    "titleHe": "שייכות",
+    "icon": "🤝",
+    "taglineHe": "meu, minha, nosso, seu",
+    "explanation": [
+      {
+        "type": "paragraph",
+        "he": "כינויי השייכות בפורטוגזית מסכימים עם מין שם העצם שהם מתארים — לא עם מין בעל החפץ."
+      },
+      {
+        "type": "paragraph",
+        "he": "כינוי השייכות יכול לבוא לפני שם העצם או אחרי פועל:\nsua casa / a casa é sua — שניהם נכונים."
+      },
+      {
+        "type": "table",
+        "caption": "כינויי שייכות",
+        "columnLangs": ["label", "pt", "pt", "pt", "pt"],
+        "headers": ["", "זכר יחיד", "נקבה יחיד", "זכר רבים", "נקבה רבים"],
+        "rows": [
+          ["שלי", "meu", "minha", "meus", "minhas"],
+          ["שלו / שלה / שלך", "seu", "sua", "seus", "suas"],
+          ["שלנו", "nosso", "nossa", "nossos", "nossas"],
+          ["שלכם / שלהם", "seu", "sua", "seus", "suas"]
+        ]
+      },
+      {
+        "type": "note",
+        "he": "אפשר להוסיף מילית מיודעת לפני כינוי השייכות:\nmeu berimbau או O meu berimbau — שניהם נכונים."
+      },
+      {
+        "type": "paragraph",
+        "he": "לגוף שלישי מפורש: dele (שלו), dela (שלה), deles (זכר), delas (נקבה)."
+      }
+    ],
+    "examples": [
+      { "pt": "O livro é meu", "he": "הספר הוא שלי" },
+      { "pt": "Essa é sua casa", "he": "זה הבית שלה" },
+      { "pt": "Nossos amigos são muito legais", "he": "החברים שלנו ממש נחמדים" },
+      { "pt": "O carro é dele", "he": "המכונית היא שלו" }
+    ],
+    "sentences": [
+      { "id": "pos1", "blank_pt": "O livro é ___", "answer": "meu", "instruction": "זכר יחיד, שלי", "translation": "הספר הוא שלי" },
+      { "id": "pos2", "blank_pt": "Essa é ___ casa", "answer": "sua", "instruction": "נקבה יחיד, שלה", "translation": "זה הבית שלה" },
+      { "id": "pos3", "blank_pt": "___ amigos são muito legais", "answer": "Nossos", "instruction": "זכר רבים, שלנו", "translation": "החברים שלנו ממש נחמדים" },
+      { "id": "pos4", "blank_pt": "Eu gosto de tocar com ___ mestre", "answer": "seu", "instruction": "זכר יחיד, שלך", "translation": "אני אוהב לנגן עם המאסטר שלך" },
+      { "id": "pos5", "blank_pt": "Nós gostamos da ___ cidade", "answer": "nossa", "instruction": "נקבה יחיד, שלנו", "translation": "אנחנו אוהבים את העיר שלנו" },
+      { "id": "pos6", "blank_pt": "Essa mochila é ___", "answer": "sua", "instruction": "נקבה יחיד, שלכם", "translation": "התיק הזה שלכם" },
+      { "id": "pos7", "blank_pt": "O carro é ___", "answer": "dele", "instruction": "גוף שלישי מפורש, שלו", "translation": "המכונית היא שלו" },
+      { "id": "pos8", "blank_pt": "O cachorro é ___", "answer": "deles", "instruction": "גוף שלישי רבים, שלהם", "translation": "הכלב הוא שלהם" },
+      { "id": "pos9", "blank_pt": "O professor é ___", "answer": "nosso", "instruction": "זכר יחיד, שלנו", "translation": "המורה הוא שלנו" },
+      { "id": "pos10", "blank_pt": "As ideias são ___", "answer": "nossas", "instruction": "נקבה רבים, שלנו", "translation": "הרעיונות הם שלנו" },
+      { "id": "pos11", "blank_pt": "Esses são ___ amigos", "answer": "meus", "instruction": "זכר רבים, שלי", "translation": "אלה החברים שלי" }
+    ]
+  }
+]

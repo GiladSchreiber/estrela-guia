@@ -1,0 +1,24 @@
+@use '../../styles/variables' as *;
+
+.header {
+  background: $surface;
+  border-bottom: 1px solid $border;
+  padding: $space-sm $space-lg;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: ltr;
+}
+
+.logo {
+  height: 36px;
+  width: auto;
+  // Tint the black SVG paths to match $primary green (#4a7c59)
+  filter: brightness(0) saturate(100%) invert(44%) sepia(19%) saturate(606%) hue-rotate(94deg) brightness(93%) contrast(88%);
+}

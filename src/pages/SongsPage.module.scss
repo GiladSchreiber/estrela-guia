@@ -1,0 +1,46 @@
+@use '../styles/variables' as *;
+
+.header {
+  padding: $space-lg;
+  border-bottom: 1px solid $border;
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $text;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  padding: $space-lg;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.songBtn {
+  display: flex;
+  align-items: center;
+  direction: ltr;
+  background: $surface;
+  border: 1px solid $border;
+  border-left: 4px solid $primary;
+  border-radius: $radius-md;
+  padding: $space-md $space-lg;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, transform 0.1s;
+  &:hover { background: rgba(0,0,0,0.02); transform: translateX(2px); }
+  &:active { transform: translateX(0); }
+}
+
+.songTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: $text;
+  text-transform: capitalize;
+}

@@ -1,0 +1,127 @@
+@use '../styles/variables' as *;
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: $space-md;
+  padding: $space-lg $space-lg $space-md;
+  position: sticky;
+  top: $header-height;
+  background: $bg;
+  z-index: 10;
+  border-bottom: 1px solid $border;
+
+  h2 {
+    flex: 1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $text;
+    text-align: center;
+  }
+}
+
+.back {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  color: $muted;
+  cursor: pointer;
+  padding: $space-sm;
+  border-radius: $radius-sm;
+  white-space: nowrap;
+
+  &:hover {
+    color: $text;
+    background: rgba(0, 0, 0, 0.04);
+  }
+}
+
+.quizBtn {
+  background: $primary;
+  color: #fff;
+  border: none;
+  border-radius: $radius-sm;
+  padding: 5px $space-sm;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+
+  &:hover { opacity: 0.88; }
+}
+
+.dotsGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.counter {
+  font-size: 0.78rem;
+  color: $muted;
+  font-variant-numeric: tabular-nums;
+}
+
+.cardArea {
+  padding: $space-md $space-lg;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-md $space-lg $space-xl;
+  max-width: 480px;
+  margin: 0 auto;
+  width: 100%;
+  gap: $space-md;
+}
+
+.navBtn {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius-md;
+  padding: $space-sm $space-lg;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $text;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+  font-family: inherit;
+
+  &:hover:not(:disabled) {
+    background: darken(#fafaf7, 4%);
+    transform: translateY(-1px);
+  }
+
+  &:disabled {
+    opacity: 0.35;
+    cursor: default;
+  }
+}
+
+.dots {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: $border;
+  transition: background 0.2s ease, transform 0.2s ease;
+
+  &.active {
+    background: $primary;
+    transform: scale(1.3);
+  }
+}

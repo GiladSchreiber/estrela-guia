@@ -1,0 +1,37 @@
+@use '../styles/variables' as *;
+
+.hero {
+  width: 100%;
+  text-align: center;
+  padding: $space-xl $space-lg $space-lg;
+
+  h1 {
+    font-family: $font-calligraphic;
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: $primary;
+    direction: ltr;
+    line-height: 1.2;
+    margin-bottom: $space-xs;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: $muted;
+    font-weight: 400;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-md;
+  padding: $space-md $space-lg;
+  max-width: 500px;
+  margin: 0 auto;
+
+  @media (min-width: $bp-desktop) {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 900px;
+  }
+}

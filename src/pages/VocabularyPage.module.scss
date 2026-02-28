@@ -1,0 +1,82 @@
+@use '../styles/variables' as *;
+
+.header {
+  padding: $space-lg $space-lg $space-md;
+  display: flex;
+  align-items: center;
+  gap: $space-md;
+
+  h2 {
+    flex: 1;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $text;
+  }
+}
+
+.quizBtn {
+  background: $primary;
+  color: #fff;
+  border: none;
+  border-radius: $radius-md;
+  padding: $space-sm $space-md;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+
+  &:hover { opacity: 0.88; }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-md;
+  padding: 0 $space-lg $space-xl;
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (min-width: $bp-desktop) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  background: $surface;
+  border: 1px solid $border;
+  border-top: 4px solid $blue;
+  border-radius: $radius-md;
+  padding: $space-lg $space-md;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $space-sm;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: $text;
+}
+
+.count {
+  font-size: 0.8rem;
+  color: $muted;
+}

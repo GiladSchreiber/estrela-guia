@@ -1,0 +1,61 @@
+@use '../../styles/variables' as *;
+
+.card {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius-md;
+  padding: $space-xl $space-md;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $space-md;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  text-align: center;
+  aspect-ratio: 1;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+}
+
+.icon {
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: $text;
+}
+
+// Accent top border per category
+.vocabulary { border-top: 4px solid $blue; }
+.grammar    { border-top: 4px solid $green; }
+.songs      { border-top: 4px solid $accent; }
+.sentences  { border-top: 4px solid mix($green, $blue, 50%); }
+
+// Coming soon state
+.disabled {
+  cursor: default;
+  opacity: 0.55;
+  &:hover { transform: none; box-shadow: none; }
+  &:active { transform: none; }
+}
+
+.soonBadge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: $muted;
+  background: $border;
+  border-radius: 999px;
+  padding: 2px 10px;
+  letter-spacing: 0.3px;
+}

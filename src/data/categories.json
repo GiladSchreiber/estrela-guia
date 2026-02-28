@@ -1,0 +1,27 @@
+[
+  {
+    "id": "vocabulary",
+    "title": "אוצר מילים",
+    "icon": "📚",
+    "path": "/vocabulary"
+  },
+  {
+    "id": "grammar",
+    "title": "דקדוק",
+    "icon": "✏️",
+    "path": "/grammar"
+  },
+  {
+    "id": "songs",
+    "title": "שירים",
+    "icon": "🎵",
+    "path": "/songs"
+  },
+  {
+    "id": "sentences",
+    "title": "משפטים",
+    "icon": "💬",
+    "path": "/sentences",
+    "comingSoon": true
+  }
+]

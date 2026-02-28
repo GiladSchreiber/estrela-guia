@@ -1,0 +1,38 @@
+// Colors — soft Brazilian flag palette
+$green:   #4a7c59;
+$yellow:  #e8c547;
+$blue:    #4a6fa5;
+$bg:      #fafaf7;
+$text:    #2c2c2c;
+$surface: #ffffff;
+$border:  #e0ddd5;
+$muted:   #7a7a72;
+
+// Semantic
+$primary:   $green;
+$accent:    $yellow;
+$secondary: $blue;
+
+// Typography — Assistant covers Hebrew + Latin
+$font-base:        'Assistant', 'Arial Hebrew', sans-serif;
+$font-calligraphic: 'Dancing Script', cursive;
+
+// Spacing
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 24px;
+$space-xl: 40px;
+
+// Breakpoints
+$bp-mobile:  480px;
+$bp-tablet:  768px;
+$bp-desktop: 1024px;
+
+// Radius
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 20px;
+
+// Layout
+$header-height: 52px; // logo (36px) + padding (8px × 2)

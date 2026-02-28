@@ -1,0 +1,64 @@
+@use '../styles/variables' as *;
+
+.header {
+  padding: $space-lg $space-lg $space-md;
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $text;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-md;
+  padding: 0 $space-lg $space-xl;
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $space-xs;
+  background: $surface;
+  border: 1px solid $border;
+  border-top: 4px solid $blue;
+  border-radius: $radius-lg;
+  padding: $space-md;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: right;
+  transition: box-shadow 0.15s, transform 0.15s;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.icon {
+  font-size: 1.6rem;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: $text;
+}
+
+.tagline {
+  font-size: 0.8rem;
+  color: $muted;
+  dir: ltr;
+  font-style: italic;
+}

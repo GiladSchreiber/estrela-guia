@@ -1,0 +1,196 @@
+[
+  {
+    "id": "mandei-caiar",
+    "title": "Mandei caiar meu sobrado",
+    "type": "capoeira",
+    "media_url": "https://capoeira.cafe/mandei-caiar-meu-sobrado-mestre-boa-voz/",
+    "lyrics": [
+      [
+        { "pt": "Mandei caiar meu sobrado", "he": "שלחתי לסייד את הבית שלי" },
+        { "pt": "Mandei, mandei, mandei", "he": "שלחתי, שלחתי, שלחתי" },
+        { "pt": "Mandei caiar de amarelo", "he": "שלחתי לסייד בצהוב" },
+        { "pt": "Caiei, caiei, caiei", "he": "סיידתי, סיידתי, סיידתי" }
+      ],
+      [
+        { "pt": "Amarelo que lembra dourado", "he": "צהוב שמזכיר זהב" },
+        { "pt": "Dourado, que é meu berimbau", "he": "זהב, שהוא הבירימבאו שלי" },
+        { "pt": "Dourado, de cordão de ouro", "he": "זהב, כמו חוט זהב" },
+        { "pt": "Besouro, Besouro, Besouro", "he": "ביזורו, ביזורו, ביזורו" }
+      ],
+      [
+        { "pt": "Pra quem nunca ouviu falar", "he": "למי שמעולם לא שמע עליו" },
+        { "pt": "Pra aqueles que dizem: é lenda", "he": "לאלה שאומרים: \"זה מיתוס\"" },
+        { "pt": "Pois saibam que Besouro Preto", "he": "אז תדעו שביזורו השחור" },
+        { "pt": "Viveu, viveu e morreu", "he": "חי, חי ומת" }
+      ],
+      [
+        { "pt": "Pras bandas de Maracangalha", "he": "באזור של מרקנגליה" },
+        { "pt": "Sem temer a inimigo nenhum", "he": "מבלי לפחד מאף אויב" },
+        { "pt": "Não valeu, seu corpo fechado", "he": "הוא לא עמד, אפילו עם גופו הסגור" },
+        { "pt": "Pras facas de aticum", "he": "מול הסכינים של אטיקום" }
+      ],
+      [
+        { "pt": "Mas mesmo depois de morto", "he": "אבל גם אחרי מותו" },
+        { "pt": "Entre uma e outra cantiga", "he": "בין שיר אחד לאחר" },
+        { "pt": "Besouro vai sempre viver", "he": "ביזורו תמיד ימשיך לחיות" },
+        { "pt": "Enquanto existir mandinga", "he": "כל עוד קיימת מנדינגה" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Amarelo que lembra dourado",
+        "marked_words": ["lembra"],
+        "topic_id": null,
+        "label_he": "זמן הווה",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Dourado, que é meu berimbau",
+        "marked_words": ["meu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Não valeu, seu corpo fechado",
+        "marked_words": ["seu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Pois saibam que Besouro Preto",
+        "marked_words": ["Preto"],
+        "topic_id": "adjectives",
+        "label_he": "שם תואר — התאמת מין",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Viveu, viveu e morreu",
+        "marked_words": ["viveu", "morreu"],
+        "topic_id": null,
+        "label_he": "זמן עבר",
+        "is_new": true
+      }
+    ],
+    "vocab": [
+      { "pt": "mandar", "he": "לצוות, לשלוח" },
+      { "pt": "caiar", "he": "לסייד" },
+      { "pt": "sobrado", "he": "בית, בקתה" },
+      { "pt": "amarelo", "he": "צהוב" },
+      { "pt": "dourado", "he": "זהוב" },
+      { "pt": "lembrar", "he": "להזכיר, לזכור" },
+      { "pt": "ouro", "he": "זהב" },
+      { "pt": "ouvir", "he": "לשמוע" },
+      { "pt": "falar", "he": "לדבר" },
+      { "pt": "lenda", "he": "אגדה, מיתוס" },
+      { "pt": "saber", "he": "לדעת" },
+      { "pt": "preto", "he": "שחור" },
+      { "pt": "viver", "he": "לחיות" },
+      { "pt": "morrer", "he": "למות" },
+      { "pt": "banda", "he": "איזור, צד" },
+      { "pt": "temer", "he": "לפחד" },
+      { "pt": "inimigo", "he": "אויב" },
+      { "pt": "corpo", "he": "גוף" },
+      { "pt": "fechado", "he": "סגור" },
+      { "pt": "faca", "he": "סכין" },
+      { "pt": "cantiga", "he": "שיר (מסורתי)" },
+      { "pt": "existir", "he": "להתקיים" },
+      { "pt": "sem", "he": "בלי" },
+      { "pt": "sempre", "he": "תמיד" },
+      { "pt": "mesmo", "he": "אפילו, גם" },
+      { "pt": "depois", "he": "אחרי" },
+      { "pt": "entre", "he": "בין" },
+      { "pt": "enquanto", "he": "כל עוד, בזמן ש..." }
+    ],
+    "sentences": [
+      { "pt": "Mandei caiar meu sobrado", "he": "שלחתי לסייד את הבית שלי" },
+      { "pt": "Amarelo que lembra dourado", "he": "צהוב שמזכיר זהב" },
+      { "pt": "Dourado, que é meu berimbau", "he": "זהב, שהוא הבירימבאו שלי" },
+      { "pt": "Pra quem nunca ouviu falar", "he": "למי שמעולם לא שמע עליו" },
+      { "pt": "Sem temer a inimigo nenhum", "he": "מבלי לפחד מאף אויב" },
+      { "pt": "Não valeu, seu corpo fechado", "he": "הוא לא עמד, אפילו עם גופו הסגור" },
+      { "pt": "Besouro vai sempre viver", "he": "בסורו תמיד ימשיך לחיות" },
+      { "pt": "Enquanto existir mandinga", "he": "כל עוד קיימת מנדינגה" }
+    ]
+  },
+  {
+    "id": "veja-veja",
+    "title": "Veja Veja",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=W3lkrq3jFEU&t=21s",
+    "lyrics": [
+      [
+        { "pt": "Veja Veja, Veja, veja, veja, veja", "he": "תראה, תראה, תראה, תראה, תראה" },
+        { "pt": "Ai, ai, ai, ai, ai", "he": "איי, איי, איי, איי, איי" },
+        { "pt": "Lá em baixo tem uma lagoa", "he": "למטה יש לגונה" },
+        { "pt": "Ai, ai, ai, ai, ai", "he": "איי, איי, איי, איי, איי" },
+        { "pt": "Lá em cima tem uma vista boa", "he": "למעלה יש נוף יפה" },
+        { "pt": "Ai, ai, ai, ai, ai", "he": "איי, איי, איי, איי, איי" }
+      ],
+      [
+        { "pt": "Lá em baixo tem um mar", "he": "למטה יש ים" },
+        { "pt": "para nadar", "he": "לשחות" },
+        { "pt": "Lá em cima tem a lua", "he": "למעלה יש את הירח" },
+        { "pt": "para viajar", "he": "לשוטט" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Lá em baixo tem uma lagoa",
+        "marked_words": ["uma"],
+        "topic_id": "articles",
+        "label_he": "מילית לא מיודעת",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Lá em cima tem a lua",
+        "marked_words": ["a"],
+        "topic_id": "articles",
+        "label_he": "מילית מיודעת",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Lá em cima tem uma vista boa",
+        "marked_words": ["boa"],
+        "topic_id": "adjectives",
+        "label_he": "שם תואר — התאמת מין",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Veja Veja, Veja, veja, veja, veja",
+        "marked_words": ["Veja", "veja"],
+        "topic_id": null,
+        "label_he": "פועל חריג — ver",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Lá em baixo tem um mar para nadar",
+        "marked_words": ["tem"],
+        "topic_id": null,
+        "label_he": "פועל חריג — ter",
+        "is_new": true
+      }
+    ],
+    "vocab": [
+      { "pt": "ver / veja", "he": "לראות / תראה" },
+      { "pt": "tem", "he": "יש (מ־ter)" },
+      { "pt": "lagoa", "he": "לגונה, אגם" },
+      { "pt": "vista", "he": "נוף" },
+      { "pt": "bom / boa", "he": "טוב / טובה" },
+      { "pt": "mar", "he": "ים" },
+      { "pt": "lua", "he": "ירח" },
+      { "pt": "nadar", "he": "לשחות" },
+      { "pt": "viajar", "he": "לשוטט, לנסוע" },
+      { "pt": "em baixo", "he": "למטה" },
+      { "pt": "em cima", "he": "למעלה" },
+      { "pt": "para", "he": "בשביל, כדי" }
+    ],
+    "sentences": [
+      { "pt": "Lá em baixo tem uma lagoa", "he": "למטה יש לגונה" },
+      { "pt": "Lá em cima tem uma vista boa", "he": "למעלה יש נוף יפה" },
+      { "pt": "Lá em baixo tem um mar para nadar", "he": "למטה יש ים בשביל לשחות" },
+      { "pt": "Lá em cima tem a lua para viajar", "he": "למעלה יש את הירח לשוטט" }
+    ]
+  }
+]

@@ -1,0 +1,523 @@
+@use '../styles/variables' as *;
+
+// ── Header (same grid pattern as GrammarTopicPage) ────────────────
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: $space-lg $space-lg $space-md;
+  position: sticky;
+  top: $header-height;
+  background: $bg;
+  z-index: 10;
+  border-bottom: 1px solid $border;
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: $text;
+    text-align: center;
+  }
+}
+
+.back {
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  color: $muted;
+  cursor: pointer;
+  padding: $space-sm;
+  border-radius: $radius-sm;
+  font-family: inherit;
+  white-space: nowrap;
+  justify-self: start;
+  &:hover { color: $text; background: rgba(0,0,0,0.04); }
+}
+
+.headerSpacer {}
+
+// ── Content ───────────────────────────────────────────────────────
+.content {
+  padding: $space-lg;
+  display: flex;
+  flex-direction: column;
+  gap: $space-xl;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+}
+
+.sectionTitle {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+// ── Media button ──────────────────────────────────────────────────
+.mediaRow {
+  display: flex;
+  justify-content: center;
+}
+
+.mediaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-sm;
+  background: $primary;
+  color: #fff;
+  border-radius: $radius-md;
+  padding: $space-sm $space-lg;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: inherit;
+  transition: opacity 0.15s;
+  &:hover { opacity: 0.88; }
+}
+
+.mediaBtnDisabled {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-sm;
+  background: $border;
+  color: $muted;
+  border-radius: $radius-md;
+  padding: $space-sm $space-lg;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+// ── Lyrics ────────────────────────────────────────────────────────
+.verses {
+  display: flex;
+  flex-direction: column;
+  gap: $space-lg;
+}
+
+.verse {
+  display: flex;
+  flex-direction: column;
+  gap: $space-xs;
+  padding: $space-md;
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius-md;
+}
+
+.lyricLine {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: 1fr 1fr;
+    gap: $space-md;
+    align-items: baseline;
+  }
+}
+
+.lyricPt {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $blue;
+  line-height: 1.5;
+}
+
+.lyricHe {
+  font-size: 0.9rem;
+  color: $muted;
+  line-height: 1.5;
+
+  @media (min-width: $bp-tablet) {
+    text-align: left; // left in code = left visually on the right column in RTL page
+  }
+}
+
+// ── Grammar notes ─────────────────────────────────────────────────
+.grammarGroup {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+}
+
+.groupLabel {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: $muted;
+  padding: $space-xs 0;
+}
+
+.noteCard {
+  background: $surface;
+  border: 1px solid $border;
+  border-radius: $radius-md;
+  padding: $space-sm $space-md;
+  display: flex;
+  flex-direction: column;
+  gap: $space-xs;
+}
+
+.noteSentence {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $text;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.marked {
+  background: lighten(#e8c547, 28%);
+  color: darken(#e8c547, 40%);
+  border-radius: 3px;
+  padding: 0 3px;
+  font-weight: 700;
+  font-style: normal; // override <mark> default
+}
+
+.noteFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: $space-sm;
+}
+
+.noteLabel {
+  font-size: 0.82rem;
+  color: $muted;
+  font-weight: 600;
+}
+
+.noteLink {
+  background: none;
+  border: 1px solid $blue;
+  color: $blue;
+  border-radius: $radius-sm;
+  padding: 2px $space-sm;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+  &:hover { background: rgba(74,111,165,0.08); }
+}
+
+.noteSoon {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: $muted;
+  background: $border;
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+// ── Quiz CTA buttons ──────────────────────────────────────────────
+.quizBtns {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+}
+
+.quizWordBtn,
+.quizSentenceBtn {
+  padding: $space-md $space-lg;
+  border-radius: $radius-md;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  transition: opacity 0.15s, transform 0.1s;
+  &:hover { opacity: 0.9; transform: translateY(-1px); }
+  &:active { transform: translateY(0); }
+}
+
+.quizWordBtn {
+  background: $primary;
+  border: none;
+  color: #fff;
+}
+
+.quizSentenceBtn {
+  background: $primary;
+  border: none;
+  color: #fff;
+}
+
+// ── Progress bar (quiz) ───────────────────────────────────────────
+.quizTopBar {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  padding: $space-md $space-lg $space-sm;
+}
+
+.progressLabel {
+  font-size: 0.82rem;
+  color: $muted;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.progressTrack {
+  flex: 1;
+  height: 6px;
+  background: $border;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: $primary;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.progressFillRecap {
+  height: 100%;
+  background: $yellow;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.liveScore {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: $primary;
+  white-space: nowrap;
+}
+
+.exitQuizBtn {
+  background: none;
+  border: none;
+  font-size: 0.8rem;
+  color: $muted;
+  cursor: pointer;
+  font-family: inherit;
+  padding: $space-xs $space-sm;
+  border-radius: $radius-sm;
+  white-space: nowrap;
+  &:hover { color: $text; background: rgba(0,0,0,0.04); }
+}
+
+// ── Quiz card ─────────────────────────────────────────────────────
+.quizCard {
+  overflow: hidden;
+  margin: $space-md $space-lg;
+  background: $surface;
+  border: 1px solid $border;
+  border-top: 4px solid $primary;
+  border-radius: $radius-lg;
+  padding: $space-xl $space-lg $space-lg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-md;
+  min-height: 240px;
+  justify-content: center;
+
+  @media (min-width: $bp-tablet) {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.cardSlide {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-md;
+}
+
+.cardLang {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wordText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $text;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.sentenceText {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: $text;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.translationText {
+  font-size: 1rem;
+  color: $muted;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.revealBtn {
+  background: $surface;
+  border: 1.5px solid $border;
+  border-radius: $radius-md;
+  padding: $space-sm $space-lg;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: $text;
+  cursor: pointer;
+  font-family: inherit;
+  margin-top: $space-sm;
+  transition: background 0.15s;
+  &:hover { background: darken(#fafaf7, 3%); }
+}
+
+// ── Mark buttons ──────────────────────────────────────────────────
+.markRow {
+  display: flex;
+  gap: $space-md;
+  margin: 0 $space-lg;
+
+  @media (min-width: $bp-tablet) {
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.wrongBtn,
+.correctBtn {
+  flex: 1;
+  padding: $space-md;
+  border-radius: $radius-md;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-xs;
+  transition: transform 0.1s, opacity 0.15s;
+  &:active { transform: scale(0.97); }
+}
+
+.wrongBtn {
+  background: #fde8e8;
+  border: 1.5px solid #f5b8b8;
+  color: #c0392b;
+  &:hover { background: #fad4d4; }
+}
+
+.correctBtn {
+  background: lighten(#4a7c59, 50%);
+  border: 1.5px solid lighten(#4a7c59, 35%);
+  color: darken(#4a7c59, 5%);
+  &:hover { background: lighten(#4a7c59, 44%); }
+}
+
+.markIcon { font-size: 1.1rem; }
+
+// ── Results ───────────────────────────────────────────────────────
+.results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $space-xl $space-lg;
+  gap: $space-lg;
+  text-align: center;
+
+  @media (min-width: $bp-tablet) {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.praiseText  { font-size: 1.8rem; font-weight: 700; color: $text; }
+
+.scoreBig {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.scoreNum   { font-size: 4rem; font-weight: 800; color: $primary; line-height: 1; }
+.scoreSlash { font-size: 2.5rem; color: $muted; font-weight: 300; }
+.scoreTotal { font-size: 2.5rem; font-weight: 600; color: $muted; }
+.scoreCaption { font-size: 0.88rem; color: $muted; margin-top: -$space-md; }
+
+.scoreBarTrack {
+  width: 100%;
+  height: 10px;
+  background: $border;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.scoreBarFill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.6s ease;
+}
+
+.scorePct { font-size: 1rem; font-weight: 700; color: $text; margin-top: -$space-sm; }
+
+.resultActions {
+  display: flex;
+  flex-direction: column;
+  gap: $space-md;
+  width: 100%;
+  margin-top: $space-md;
+}
+
+.retryWrongBtn {
+  background: lighten(#e8c547, 28%);
+  border: 1.5px solid lighten(#e8c547, 10%);
+  color: darken(#e8c547, 35%);
+  border-radius: $radius-md;
+  padding: $space-md;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  &:hover { opacity: 0.85; }
+}
+
+.retryBtn {
+  background: $surface;
+  border: 1.5px solid $border;
+  color: $text;
+  border-radius: $radius-md;
+  padding: $space-md;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  &:hover { background: darken(#fafaf7, 3%); }
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  color: $muted;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: underline;
+  padding: $space-xs;
+}

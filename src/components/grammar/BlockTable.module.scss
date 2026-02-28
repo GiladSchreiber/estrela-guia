@@ -1,0 +1,63 @@
+@use '../../styles/variables' as *;
+
+.wrapper {
+  margin: $space-sm 0;
+}
+
+.caption {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: $muted;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: $space-sm;
+}
+
+.scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+
+  th, td {
+    padding: 9px $space-md;
+    border: 1px solid $border;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  thead tr {
+    background: darken(#fafaf7, 3%);
+
+    th {
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: $text;
+    }
+  }
+
+  tbody tr:nth-child(even) {
+    background: darken(#fafaf7, 1.5%);
+  }
+}
+
+.label {
+  font-weight: 700;
+  color: $text;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.pt {
+  font-weight: 600;
+  color: $blue;
+  letter-spacing: 0.2px;
+}
+
+.he {
+  color: $text;
+}
