@@ -1,4 +1,5 @@
 @use '../../styles/variables' as *;
+@use 'sass:color';
 
 .card {
   background: $surface;
@@ -43,7 +44,7 @@
 .vocabulary { border-top: 4px solid $blue; }
 .grammar    { border-top: 4px solid $green; }
 .songs      { border-top: 4px solid $accent; }
-.sentences  { border-top: 4px solid mix($green, $blue, 50%); }
+.sentences  { border-top: 4px solid color.mix($green, $blue, 50%); }
 
 // Coming soon state
 .disabled {

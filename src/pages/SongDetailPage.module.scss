@@ -1,4 +1,5 @@
 @use '../styles/variables' as *;
+@use 'sass:color';
 
 // ── Header (same grid pattern as GrammarTopicPage) ────────────────
 .header {
@@ -60,6 +61,50 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
+}
+
+// ── Song images ───────────────────────────────────────────────────
+.imagesRow {
+  display: flex;
+  gap: $space-lg;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.imageItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-xs;
+}
+
+.songImage {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: $radius-md;
+  border: 1px solid $border;
+}
+
+.imageLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  text-align: center;
+}
+
+.imageLabelPt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: $text;
+  font-style: italic;
+}
+
+.imageLabelHe {
+  font-size: 0.78rem;
+  color: $muted;
+  font-weight: 400;
 }
 
 // ── Media button ──────────────────────────────────────────────────
@@ -176,8 +221,8 @@
 }
 
 .marked {
-  background: lighten(#e8c547, 28%);
-  color: darken(#e8c547, 40%);
+  background: color.adjust(#e8c547, $lightness: 28%);
+  color: color.adjust(#e8c547, $lightness: -40%);
   border-radius: 3px;
   padding: 0 3px;
   font-weight: 700;
@@ -384,7 +429,7 @@
   font-family: inherit;
   margin-top: $space-sm;
   transition: background 0.15s;
-  &:hover { background: darken(#fafaf7, 3%); }
+  &:hover { background: color.adjust(#fafaf7, $lightness: -3%); }
 }
 
 // ── Mark buttons ──────────────────────────────────────────────────
@@ -425,10 +470,10 @@
 }
 
 .correctBtn {
-  background: lighten(#4a7c59, 50%);
-  border: 1.5px solid lighten(#4a7c59, 35%);
-  color: darken(#4a7c59, 5%);
-  &:hover { background: lighten(#4a7c59, 44%); }
+  background: color.adjust(#4a7c59, $lightness: 50%);
+  border: 1.5px solid color.adjust(#4a7c59, $lightness: 35%);
+  color: color.adjust(#4a7c59, $lightness: -5%);
+  &:hover { background: color.adjust(#4a7c59, $lightness: 44%); }
 }
 
 .markIcon { font-size: 1.1rem; }
@@ -486,9 +531,9 @@
 }
 
 .retryWrongBtn {
-  background: lighten(#e8c547, 28%);
-  border: 1.5px solid lighten(#e8c547, 10%);
-  color: darken(#e8c547, 35%);
+  background: color.adjust(#e8c547, $lightness: 28%);
+  border: 1.5px solid color.adjust(#e8c547, $lightness: 10%);
+  color: color.adjust(#e8c547, $lightness: -35%);
   border-radius: $radius-md;
   padding: $space-md;
   font-size: 0.95rem;
@@ -508,7 +553,7 @@
   font-weight: 600;
   cursor: pointer;
   font-family: inherit;
-  &:hover { background: darken(#fafaf7, 3%); }
+  &:hover { background: color.adjust(#fafaf7, $lightness: -3%); }
 }
 
 .backBtn {

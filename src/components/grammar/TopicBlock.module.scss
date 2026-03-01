@@ -1,4 +1,5 @@
 @use '../../styles/variables' as *;
+@use 'sass:color';
 
 .paragraph {
   font-size: 1rem;
@@ -12,13 +13,13 @@
   display: flex;
   align-items: flex-start;
   gap: $space-sm;
-  background: lighten(#e8c547, 30%);
-  border: 1px solid lighten(#e8c547, 12%);
+  background: color.adjust(#e8c547, $lightness: 30%);
+  border: 1px solid color.adjust(#e8c547, $lightness: 12%);
   border-radius: $radius-md;
   padding: $space-sm $space-md;
   font-size: 0.92rem;
   line-height: 1.6;
-  color: darken(#e8c547, 38%);
+  color: color.adjust(#e8c547, $lightness: -38%);
   white-space: pre-line;
 }
 

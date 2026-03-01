@@ -49,25 +49,23 @@ Array of categories: `[{ id, titleHe, icon, words: [{ pt, he }] }]`
 
 ---
 
-## Stage 4 — Songs Section 🔄 IN PROGRESS (2 / 6+ songs done)
+## Stage 4 — Songs Section ✅ DONE (23 / 23 songs done)
 
 ### What was built
-- **SongsPage** — stacked LTR list of song buttons with green left-border accent
+- **SongsPage** — stacked LTR list of song buttons with colored left-border accent; badge types: ladainha / quadra / popular / traditional
 - **SongDetailPage** — 4-phase page (detail / quiz / recap / results):
   - Lyrics in verse groups, stacked on mobile / side-by-side on tablet
+  - Song images with bilingual label (label_pt italic + label_he muted, separate spans)
   - Grammar notes split into ✨ חדש / 🔄 תזכורת; marked words highlighted; links to `/grammar/:topicId` or "בקרוב" badge
   - Word quiz: random PT↔HE per card; Sentence quiz: PT → flip → HE
   - Exit button (✕ יציאה) in progress bar on all quiz/recap phases
 
 ### Data: `src/data/songs.json`
-Song schema: `{ id, title, type, media_url, lyrics[][], grammar_notes[], vocab[], sentences[] }`
-
-### Remaining: add 4 songs from PDF
-See **Songs — Status** table below.
+Song schema: `{ id, title, type, badge?, media_url, images?: [{ file, label_pt, label_he }], lyrics[][], grammar_notes[], vocab[], sentences[] }`
 
 ---
 
-## Stage 5 — Complete Grammar Topics ← NEXT AFTER SONGS
+## Stage 5 — Complete Grammar Topics ← NEXT
 
 Add all grammar topics listed in **Grammar Topics — Missing** table below.
 Same infrastructure already in place — just add entries to `grammar-topics.json`.
@@ -110,19 +108,33 @@ Table cells with Portuguese content need `dir="ltr"` on the `<td>` or inner span
 
 ---
 
-## Songs — Status
+## Songs — Status ✅ ALL COMPLETE
 
-> Partial list — identified from class 1 PDF (68 pages). More songs likely exist.
-
-| # | Title | Data | Media |
-|---|-------|------|-------|
-| 1 | Mandei caiar meu sobrado | ✅ | ✅ [link](https://capoeira.cafe/mandei-caiar-meu-sobrado-mestre-boa-voz/) |
-| 2 | Veja Veja | ✅ | ✅ [link](https://www.youtube.com/watch?v=W3lkrq3jFEU&t=21s) |
-| 3 | Tava lá em casa | ⬜ | ⬜ |
-| 4 | É jogo praticado na terra de São Salvador | ⬜ | ⬜ |
-| 5 | Marinheiro só | ⬜ | ⬜ |
-| 6 | Eu Vou Encontrar Só | ⬜ | ⬜ |
-| … | (more from PDF — to be identified) | ⬜ | ⬜ |
+| # | Title | Data | Media | Images |
+|---|-------|------|-------|--------|
+| 1 | Mandei caiar meu sobrado | ✅ | ✅ | ⬜ |
+| 2 | Veja Veja | ✅ | ✅ | ⬜ |
+| 3 | Tava lá em casa | ✅ | ✅ | ⬜ |
+| 4 | É jogo praticado na terra de São Salvador | ✅ | ✅ | ⬜ |
+| 5 | Marinheiro só | ✅ | ✅ | ⬜ |
+| 6 | Eu Vou Encontrar Só | ✅ | ✅ | ✅ |
+| 7 | Siri De Mangue | ✅ | ✅ | ✅ |
+| 8 | Maior é Deus | ✅ | ✅ | ⬜ |
+| 9 | No nego você não dá | ✅ | ✅ | ⬜ |
+| 10 | O sobrado de mamãe é de baixo d'água | ✅ | ✅ | ⬜ |
+| 11 | Tim, tim, tim lá vai viola | ✅ | ✅ | ⬜ |
+| 12 | Eu chego lá | ✅ | ✅ | ⬜ |
+| 13 | Meu berimbau toca é assim | ✅ | ✅ | ⬜ |
+| 14 | Quando o meu mestre se foi | ✅ | ✅ | ⬜ |
+| 15 | Quadras do Mestre Bimba | ✅ | ✅ | ⬜ |
+| 16 | Vou esperar a lua voltar | ✅ | ✅ | ✅ (5 tree images) |
+| 17 | Vivo Num Ninho de Cobra | ✅ | ✅ | ⬜ |
+| 18 | Sinhá Vou jogar capoeira | ✅ | ✅ | ⬜ |
+| 19 | Sou Feito de Sangue e Suor | ✅ | ✅ | ⬜ |
+| 20 | Valente foi Lampião | ✅ | ✅ | ✅ (lampião_e_maria_bonita) |
+| 21 | Capoeira que vem da Bahia | ✅ | ✅ | ✅ (tico_tico, sabia_laranjeira) |
+| 22 | Um Buraco De Cobra Não Pode Botar Na Mão | ✅ | ✅ | ✅ (Moinho, Monjolo) |
+| 23 | Trem Das Onze | ✅ | ✅ | ⬜ |
 
 ---
 

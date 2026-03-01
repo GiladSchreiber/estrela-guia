@@ -26,16 +26,44 @@ function getPraise(pct) {
 }
 
 function highlightSentence(sentence, markedWords, markedClass) {
+  const words = sentence.split(' ')
   const lower = markedWords.map(w => w.toLowerCase())
-  return sentence.split(' ').map((word, i) => {
-    const clean = word.replace(/[^a-zA-ZÀ-ÿ]/g, '').toLowerCase()
-    return (
-      <span key={i}>
-        {i > 0 && ' '}
-        {lower.includes(clean) ? <mark className={markedClass}>{word}</mark> : word}
-      </span>
-    )
-  })
+  const result = []
+  let i = 0
+  while (i < words.length) {
+    // Try multi-word phrases first
+    let matched = false
+    for (const phrase of lower) {
+      const phraseWords = phrase.split(' ')
+      if (phraseWords.length > 1 && i + phraseWords.length <= words.length) {
+        const clean = w => w.replace(/[^a-zA-ZÀ-ÿ]/g, '').toLowerCase()
+        const segment = words.slice(i, i + phraseWords.length).map(clean).join(' ')
+        const phraseClean = phraseWords.map(clean).join(' ')
+        if (segment === phraseClean) {
+          result.push(
+            <span key={i}>
+              {i > 0 && ' '}
+              <mark className={markedClass}>{words.slice(i, i + phraseWords.length).join(' ')}</mark>
+            </span>
+          )
+          i += phraseWords.length
+          matched = true
+          break
+        }
+      }
+    }
+    if (!matched) {
+      const clean = words[i].replace(/[^a-zA-ZÀ-ÿ]/g, '').toLowerCase()
+      result.push(
+        <span key={i}>
+          {i > 0 && ' '}
+          {lower.includes(clean) ? <mark className={markedClass}>{words[i]}</mark> : words[i]}
+        </span>
+      )
+      i++
+    }
+  }
+  return result
 }
 
 export default function SongDetailPage() {
@@ -177,6 +205,27 @@ export default function SongDetailPage() {
               ))}
             </div>
           </section>
+
+          {/* Images */}
+          {song.images?.length > 0 && (
+            <section className={styles.section}>
+              <div className={styles.imagesRow}>
+                {song.images.map((img, i) => (
+                  <div key={i} className={styles.imageItem}>
+                    <img
+                      src={`${import.meta.env.BASE_URL}images/songs/${img.file}`}
+                      alt={img.label_he}
+                      className={styles.songImage}
+                    />
+                    <span className={styles.imageLabel}>
+                      <span className={styles.imageLabelPt} lang="pt">{img.label_pt}</span>
+                      <span className={styles.imageLabelHe}>{img.label_he}</span>
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Grammar notes */}
           <section className={styles.section}>
