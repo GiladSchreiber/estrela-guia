@@ -66,6 +66,63 @@
     ]
   },
   {
+    "id": "plurals",
+    "titleHe": "יחיד ורבים",
+    "icon": "🔢",
+    "taglineHe": "porta → portas, homem → homens",
+    "explanation": [
+      {
+        "type": "paragraph",
+        "he": "כדי להפוך שם עצם מיחיד לרבים, בודקים את סיומת המילה ומיישמים את הכלל המתאים. המילית גם משתנה: o → os, a → as."
+      },
+      {
+        "type": "table",
+        "caption": "חוקי הרבים",
+        "columnLangs": ["label", "label", "pt"],
+        "headers": ["הסיומת ביחיד", "מיחיד לרבים", "דוגמה"],
+        "rows": [
+          ["תנועה (הרב)", "מוסיפים S", "a porta → as portas\no livro → os livros"],
+          ["R או Z", "מוסיפים ES", "a mulher → as mulheres\no rapaz → os rapazes"],
+          ["S עם הטעמה בסוף", "מוסיפים ES", "o país → os países"],
+          ["S ללא הטעמה בסוף", "לא משתנה", "o lápis → os lápis"],
+          ["M", "M הופך ל-NS", "o homem → os homens\no jardim → os jardins"],
+          ["AL / EL / UL / OL", "L הופך ל-IS", "o animal → os animais\no papel → os papéis"],
+          ["IL עם הטעמה בסוף", "IL הופך ל-IS", "o barril → os barris"],
+          ["IL ללא הטעמה בסוף", "IL הופך ל-EIS", "o fóssil → os fósseis"],
+          ["ÃO", "ÃO → ÕES (ברב המקרים)", "a lição → as lições\no irmão → os irmãos"]
+        ]
+      },
+      {
+        "type": "note",
+        "he": "הסיומת ÃO אינה אחידה — חלק מהמילים הופכות ל-ÕES (lição → lições) וחלק ל-ÃOS (irmão → irmãos). את הנפוצות כדאי לשנן."
+      }
+    ],
+    "examples": [
+      { "pt": "As portas estão abertas", "he": "הדלתות פתוחות" },
+      { "pt": "Os homens aprendem capoeira", "he": "האנשים לומדים קפוארה" },
+      { "pt": "As mulheres jogam na roda", "he": "הנשים משחקות ברודה" },
+      { "pt": "As lições são importantes", "he": "השיעורים חשובים" }
+    ],
+    "sentences": [
+      { "id": "plr1", "blank_pt": "a porta → ___", "answer": "as portas", "instruction": "תנועה — הוסיפי S", "translation": "דלת → דלתות" },
+      { "id": "plr2", "blank_pt": "o livro → ___", "answer": "os livros", "instruction": "תנועה — הוסיפי S", "translation": "ספר → ספרים" },
+      { "id": "plr3", "blank_pt": "o mestre → ___", "answer": "os mestres", "instruction": "תנועה — הוסיפי S", "translation": "מאסטר → מאסטרים" },
+      { "id": "plr4", "blank_pt": "a amiga → ___", "answer": "as amigas", "instruction": "תנועה — הוסיפי S", "translation": "חברה → חברות" },
+      { "id": "plr5", "blank_pt": "a mulher → ___", "answer": "as mulheres", "instruction": "R בסוף — הוסיפי ES", "translation": "אישה → נשים" },
+      { "id": "plr6", "blank_pt": "o rapaz → ___", "answer": "os rapazes", "instruction": "Z בסוף — הוסיפי ES", "translation": "נער → נערים" },
+      { "id": "plr7", "blank_pt": "o país → ___", "answer": "os países", "instruction": "S עם הטעמה בסוף — הוסיפי ES", "translation": "מדינה → מדינות" },
+      { "id": "plr8", "blank_pt": "o lápis → ___", "answer": "os lápis", "instruction": "S ללא הטעמה — לא משתנה", "translation": "עיפרון → עיפרונות" },
+      { "id": "plr9", "blank_pt": "o homem → ___", "answer": "os homens", "instruction": "M → NS", "translation": "איש → אנשים" },
+      { "id": "plr10", "blank_pt": "o jardim → ___", "answer": "os jardins", "instruction": "M → NS", "translation": "גן → גנים" },
+      { "id": "plr11", "blank_pt": "o animal → ___", "answer": "os animais", "instruction": "AL → AIS", "translation": "בעל חיים → בעלי חיים" },
+      { "id": "plr12", "blank_pt": "o papel → ___", "answer": "os papéis", "instruction": "EL → ÉIS", "translation": "נייר / דף → ניירות" },
+      { "id": "plr13", "blank_pt": "o barril → ___", "answer": "os barris", "instruction": "IL עם הטעמה — IL → IS", "translation": "חבית → חביות" },
+      { "id": "plr14", "blank_pt": "o fóssil → ___", "answer": "os fósseis", "instruction": "IL ללא הטעמה — IL → EIS", "translation": "מאובן → מאובנים" },
+      { "id": "plr15", "blank_pt": "a lição → ___", "answer": "as lições", "instruction": "ÃO → ÕES", "translation": "שיעור → שיעורים" },
+      { "id": "plr16", "blank_pt": "o irmão → ___", "answer": "os irmãos", "instruction": "ÃO → ÃOS (יוצא דופן)", "translation": "אח → אחים" }
+    ]
+  },
+  {
     "id": "adjectives",
     "titleHe": "שמות תואר",
     "icon": "✏️",

@@ -71,6 +71,13 @@
         "topic_id": null,
         "label_he": "זמן עבר",
         "is_new": true
+      },
+      {
+        "sentence_pt": "Pras facas de aticum",
+        "marked_words": ["facas"],
+        "topic_id": "plurals",
+        "label_he": "רבים — faca → facas (תנועה בסוף, מוסיפים S)",
+        "is_new": true
       }
     ],
     "vocab": [
@@ -1370,6 +1377,13 @@
         "topic_id": null,
         "label_he": "זמן עבר + já — já = כבר (morreu = מת)",
         "is_new": true
+      },
+      {
+        "sentence_pt": "Muitas vezes na beira da praia",
+        "marked_words": ["vezes"],
+        "topic_id": "plurals",
+        "label_he": "רבים — vez → vezes (Z בסוף, מוסיפים ES)",
+        "is_new": false
       }
     ],
     "vocab": [
@@ -1517,6 +1531,13 @@
         "marked_words": ["Se esquecem"],
         "topic_id": null,
         "label_he": "פועל רפלקסיבי — esquecer-se de (לשכוח את)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "As freiras que estão rezando",
+        "marked_words": ["freiras"],
+        "topic_id": "plurals",
+        "label_he": "רבים — freira → freiras (תנועה בסוף, מוסיפים S)",
         "is_new": false
       }
     ],
