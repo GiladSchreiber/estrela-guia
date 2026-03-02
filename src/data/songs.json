@@ -5707,10 +5707,11 @@
         "marked_words": [
           "vá"
         ],
-        "topic_id": "verbs-regular",
+        "topic_id": "verbs-irregular",
         "label_he": "ציווי שלילי — não vá = אל תלך! (vá = ציווי של ir, משמש כדי לאסור)",
         "is_new": true,
-        "tense_id": "imperativo"
+        "tense_id": "imperativo",
+        "verb_id": "ir"
       },
       {
         "sentence_pt": "sei que carrego no peito",

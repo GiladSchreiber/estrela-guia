@@ -234,7 +234,7 @@ export default function GrammarTopicPage() {
     return (
       <div className="page">
         <div className={styles.header}>
-          <button className={styles.back} onClick={() => navigate('/grammar')}>→ חזרה</button>
+          <button className={styles.back} onClick={() => navigate(-1)}>→ חזרה</button>
           <h2>{topic.titleHe}</h2>
           <div className={styles.headerSpacer} />
         </div>

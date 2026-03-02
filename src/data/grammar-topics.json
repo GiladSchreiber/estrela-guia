@@ -7755,6 +7755,77 @@
                 "translation": "היא הייתה הולכת לפני"
               }
             ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי של ir הוא בלתי סדיר לחלוטין — vá / vão."
+              },
+              {
+                "type": "paragraph",
+                "he": "ציווי שלילי: não vá = אל תלך!"
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — ir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "vá"
+                  ],
+                  [
+                    "Vocês",
+                    "vão"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Vá embora!",
+                "he": "לך מפה!"
+              },
+              {
+                "pt": "Não vá sozinho.",
+                "he": "אל תלך לבד."
+              },
+              {
+                "pt": "Vão com cuidado!",
+                "he": "לכו בזהירות!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ir-imper-1",
+                "blank_pt": "___ devagar, o chão está molhado",
+                "answer": "Vá",
+                "translation": "לך לאט, הרצפה רטובה"
+              },
+              {
+                "id": "vi-ir-imper-2",
+                "blank_pt": "Não ___ embora ainda",
+                "answer": "vá",
+                "translation": "אל תלך עדיין"
+              },
+              {
+                "id": "vi-ir-imper-3",
+                "blank_pt": "___ todos juntos!",
+                "answer": "Vão",
+                "translation": "לכו כולם ביחד!"
+              }
+            ]
           }
         ]
       }
