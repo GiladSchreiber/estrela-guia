@@ -58,3 +58,23 @@ Build href as `/grammar/<topic_id>?tense=<tense_id>&verb=<verb_id>` when those f
 
 ### Remaining nulls (leave for later)
 sim להדגשה, nascer pra, deveria, ficar + gerúndio, começar a — no matching topic yet
+
+---
+
+## Task 2 — Songs: search / filter
+
+Add a search input at the top of the songs list page.
+- Filters songs in real time by title (PT or HE) as the user types
+- If no results, show a friendly empty state
+- Input is RTL-aware (Hebrew keyboard friendly)
+- No backend needed — filter the in-memory songs array
+
+---
+
+## Task 3 — Songs: show/hide translation toggle
+
+On the song page, add a button to reveal or hide the Hebrew translation of the lyrics.
+- Default state: translation hidden (encourages active listening/reading)
+- Button label changes: "הצג תרגום" / "הסתר תרגום"
+- Toggle applies per-song (state lives in the song page component)
+- Translation lines are already in the lyrics data — just conditionally render them
