@@ -159,6 +159,31 @@
   border-radius: $radius-md;
 }
 
+.sectionTitleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggleTranslation {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: $primary;
+  background: none;
+  border: 1.5px solid $primary;
+  border-radius: 999px;
+  padding: 3px $space-sm;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+
+  &:hover {
+    background: $primary;
+    color: #fff;
+  }
+}
+
 .lyricLine {
   display: grid;
   grid-template-columns: 1fr;

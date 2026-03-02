@@ -72,6 +72,7 @@ export default function SongDetailPage() {
   const song = songsData.find(s => s.id === songId)
 
   const [phase, setPhase] = useState('detail')
+  const [showTranslation, setShowTranslation] = useState(false)
   const [quizType, setQuizType] = useState(null)
 
   const [quizCards, setQuizCards]       = useState([])
@@ -191,14 +192,22 @@ export default function SongDetailPage() {
 
           {/* Lyrics */}
           <section className={styles.section}>
-            <h3 className={styles.sectionTitle}>מילים ומשמעויות</h3>
+            <div className={styles.sectionTitleRow}>
+              <h3 className={styles.sectionTitle}>מילים ומשמעויות</h3>
+              <button
+                className={styles.toggleTranslation}
+                onClick={() => setShowTranslation(v => !v)}
+              >
+                {showTranslation ? 'הסתר תרגום' : 'הצג תרגום'}
+              </button>
+            </div>
             <div className={styles.verses}>
               {song.lyrics.map((verse, vi) => (
                 <div key={vi} className={styles.verse}>
                   {verse.map((line, li) => (
                     <div key={li} className={styles.lyricLine}>
                       <span className={styles.lyricPt} dir="ltr" lang="pt">{line.pt}</span>
-                      <span className={styles.lyricHe} dir="rtl">{line.he}</span>
+                      {showTranslation && <span className={styles.lyricHe} dir="rtl">{line.he}</span>}
                     </div>
                   ))}
                 </div>
