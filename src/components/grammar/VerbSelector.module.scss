@@ -1,0 +1,82 @@
+@use '../../styles/variables' as *;
+
+.wrapper {
+  width: 100%;
+  position: relative;
+  background: $bg;
+  padding: $space-sm 0 0;
+  border-bottom: 1px solid $border;
+
+  // Fade hint: more verb chips exist beyond right edge
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 1px;
+    width: 3rem;
+    background: linear-gradient(to left, $bg 20%, transparent);
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+.track {
+  display: flex;
+  gap: $space-sm;
+  overflow-x: auto;
+  padding: 0 $space-lg $space-sm;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar { display: none; }
+}
+
+.chip {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  padding: $space-xs $space-md;
+  border-radius: 999px;
+  border: 1.5px solid $border;
+  background: $surface;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, border-color 0.15s;
+  min-width: 52px;
+
+  &:hover:not(.disabled) {
+    background: rgba(74, 124, 89, 0.07);
+    border-color: $primary;
+  }
+
+  &.active {
+    background: $primary;
+    border-color: $primary;
+
+    .namePt { color: #fff; }
+    .nameHe { color: rgba(255, 255, 255, 0.95); }
+
+    &:hover { background: $primary; }
+  }
+}
+
+.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.namePt {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: $text;
+  direction: ltr;
+}
+
+.nameHe {
+  font-size: 0.68rem;
+  color: $muted;
+}

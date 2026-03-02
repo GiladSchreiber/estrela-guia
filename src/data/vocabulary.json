@@ -554,5 +554,78 @@
       { "pt": "chão", "he": "רצפה" },
       { "pt": "parede", "he": "קיר" }
     ]
+  },
+  {
+    "id": "question-words",
+    "titleHe": "מילות שאלה",
+    "icon": "❓",
+    "words": [
+      { "pt": "onde", "he": "איפה" },
+      { "pt": "de onde", "he": "מאיפה" },
+      { "pt": "quando", "he": "מתי" },
+      { "pt": "o que / que", "he": "מה" },
+      { "pt": "quanto / quanta", "he": "כמה" },
+      { "pt": "quantos / quantas", "he": "כמה (רבים)" },
+      { "pt": "quem", "he": "מי" },
+      { "pt": "de quem", "he": "של מי" },
+      { "pt": "porque", "he": "למה" },
+      { "pt": "qual", "he": "איזה" },
+      { "pt": "quais", "he": "אילו (רבים)" }
+    ]
+  },
+  {
+    "id": "prepositions",
+    "titleHe": "מילות יחס",
+    "icon": "📍",
+    "words": [
+      { "pt": "antes de", "he": "לפני" },
+      { "pt": "depois de", "he": "אחרי" },
+      { "pt": "até", "he": "עד" },
+      { "pt": "desde", "he": "מ... / מאז..." },
+      { "pt": "através de", "he": "דרך / מעבר" },
+      { "pt": "sobre", "he": "מעל / לגבי" },
+      { "pt": "ao lado de", "he": "לצד" },
+      { "pt": "acima", "he": "מעל" },
+      { "pt": "baixo", "he": "מתחת" },
+      { "pt": "entre", "he": "בין" },
+      { "pt": "perto", "he": "ליד" },
+      { "pt": "dentro", "he": "בתוך" },
+      { "pt": "além de", "he": "מעבר ל..." },
+      { "pt": "em frente", "he": "מול / לפנים" },
+      { "pt": "de longe", "he": "מרחוק" },
+      { "pt": "em vez de", "he": "במקום" },
+      { "pt": "atrás", "he": "מאחור" },
+      { "pt": "fora", "he": "בחוץ" },
+      { "pt": "próximo", "he": "קרוב / ליד" },
+      { "pt": "em volta", "he": "מסביב" },
+      { "pt": "durante", "he": "במהלך" },
+      { "pt": "via", "he": "דרך" }
+    ]
+  },
+  {
+    "id": "conjunctions",
+    "titleHe": "מילות חיבור",
+    "icon": "🔀",
+    "words": [
+      { "pt": "e", "he": "ו..." },
+      { "pt": "ou", "he": "או" },
+      { "pt": "mas", "he": "אבל" },
+      { "pt": "como", "he": "כמו / כ..." },
+      { "pt": "daí", "he": "אז" },
+      { "pt": "quando", "he": "כאשר" },
+      { "pt": "enquanto", "he": "בזמן ש..." },
+      { "pt": "se", "he": "אם" },
+      { "pt": "ainda que", "he": "למרות ש..." },
+      { "pt": "porque", "he": "כי / בגלל" },
+      { "pt": "que", "he": "ש... / אשר" },
+      { "pt": "para / pra", "he": "בשביל / ל..." },
+      { "pt": "nem... nem", "he": "לא... ולא" },
+      { "pt": "contudo", "he": "למרות זאת / אולם" },
+      { "pt": "contra", "he": "נגד" },
+      { "pt": "exceto", "he": "חוץ מ..." },
+      { "pt": "ambos", "he": "שניהם" },
+      { "pt": "apesar", "he": "למרות" },
+      { "pt": "além disso", "he": "חוץ מזה / יתרה מזאת" }
+    ]
   }
 ]

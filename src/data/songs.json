@@ -505,7 +505,7 @@
       {
         "sentence_pt": "Com seu bonezinho",
         "marked_words": ["bonezinho"],
-        "topic_id": null,
+        "topic_id": "diminutives",
         "label_he": "הקטנה — inho/inha",
         "is_new": true
       },

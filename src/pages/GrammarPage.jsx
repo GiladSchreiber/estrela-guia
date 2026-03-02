@@ -20,7 +20,7 @@ export default function GrammarPage() {
           >
             <span className={styles.icon}>{topic.icon}</span>
             <span className={styles.title}>{topic.titleHe}</span>
-            <span className={styles.tagline}>{topic.taglineHe}</span>
+            <span className={styles.tagline} dir="ltr">{topic.taglineHe}</span>
           </button>
         ))}
       </div>

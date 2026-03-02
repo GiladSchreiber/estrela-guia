@@ -3,6 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom'
 import confetti from 'canvas-confetti'
 import grammarData from '../data/grammar-topics.json'
 import TopicBlock from '../components/grammar/TopicBlock'
+import TenseSelector from '../components/grammar/TenseSelector'
+import VerbSelector from '../components/grammar/VerbSelector'
 import styles from './GrammarTopicPage.module.scss'
 
 const PRAISE_PERFECT = ['מושלם לגמרי!', 'מדהים!', 'פנומנלי!']
@@ -51,6 +53,25 @@ export default function GrammarTopicPage() {
 
   const [phase, setPhase] = useState('learn')
 
+  // ── Tense / verb selection ──────────────────────────────────────
+  const [selectedTenseId, setSelectedTenseId] = useState(null)
+  const [selectedVerbId, setSelectedVerbId]   = useState(null)
+
+  useEffect(() => {
+    if (!topic) return
+    if (topic.type === 'verbs') {
+      setSelectedTenseId(topic.tenses[0].id)
+      setSelectedVerbId(null)
+    } else if (topic.type === 'verbs-irregular') {
+      setSelectedVerbId(topic.verbs[0].id)
+      setSelectedTenseId(topic.verbs[0].tenses[0].id)
+    } else {
+      setSelectedTenseId(null)
+      setSelectedVerbId(null)
+    }
+    setPhase('learn')
+  }, [topicId]) // eslint-disable-line react-hooks/exhaustive-deps
+
   // ── Quiz state ─────────────────────────────────────────────────
   const [quizSentences, setQuizSentences] = useState([])
   const [index, setIndex]               = useState(0)
@@ -87,6 +108,32 @@ export default function GrammarTopicPage() {
     )
   }
 
+  // ── Derive active content ──────────────────────────────────────
+  let activeTenseData = null
+  if (topic.type === 'verbs') {
+    activeTenseData = topic.tenses?.find(t => t.id === selectedTenseId) ?? null
+  } else if (topic.type === 'verbs-irregular') {
+    const activeVerb = topic.verbs?.find(v => v.id === selectedVerbId)
+    activeTenseData = activeVerb?.tenses?.find(t => t.id === selectedTenseId) ?? null
+  }
+
+  const activeSentences  = activeTenseData ? activeTenseData.sentences  : topic.sentences
+  const activeExplanation = activeTenseData ? activeTenseData.explanation : topic.explanation
+  const activeExamples   = activeTenseData ? activeTenseData.examples   : topic.examples
+
+  // ── Selector change handlers ───────────────────────────────────
+  const handleVerbChange = (verbId) => {
+    if (phase !== 'learn') return
+    setSelectedVerbId(verbId)
+    const verb = topic.verbs?.find(v => v.id === verbId)
+    if (verb?.tenses?.length) setSelectedTenseId(verb.tenses[0].id)
+  }
+
+  const handleTenseChange = (tenseId) => {
+    if (phase !== 'learn') return
+    setSelectedTenseId(tenseId)
+  }
+
   // ── Animation helpers ─────────────────────────────────────────
   const animateCard = (onMidpoint) => {
     if (animLock.current) return
@@ -118,7 +165,8 @@ export default function GrammarTopicPage() {
 
   // ── Actions ───────────────────────────────────────────────────
   const startQuiz = () => {
-    const shuffled = shuffle(topic.sentences)
+    const sentences = activeSentences ?? []
+    const shuffled = shuffle(sentences)
     setQuizSentences(shuffled)
     setTotal(shuffled.length)
     setIndex(0)
@@ -170,6 +218,13 @@ export default function GrammarTopicPage() {
 
   // ── Render: learn ─────────────────────────────────────────────
   if (phase === 'learn') {
+    const isVerb = topic.type === 'verbs' || topic.type === 'verbs-irregular'
+    const tenseList = topic.type === 'verbs'
+      ? topic.tenses
+      : topic.type === 'verbs-irregular'
+        ? topic.verbs?.find(v => v.id === selectedVerbId)?.tenses ?? []
+        : []
+
     return (
       <div className="page">
         <div className={styles.header}>
@@ -178,31 +233,55 @@ export default function GrammarTopicPage() {
           <div className={styles.headerSpacer} />
         </div>
 
+        {topic.type === 'verbs-irregular' && (
+          <VerbSelector
+            verbs={topic.verbs}
+            selectedId={selectedVerbId}
+            onChange={handleVerbChange}
+            disabled={false}
+          />
+        )}
+
+        {isVerb && tenseList.length > 0 && (
+          <TenseSelector
+            tenses={tenseList}
+            selectedId={selectedTenseId}
+            onChange={handleTenseChange}
+            disabled={false}
+          />
+        )}
+
         <div className={styles.content}>
-          <section className={styles.section}>
-            <h3 className={styles.sectionTitle}>הסבר</h3>
-            <div className={styles.blocks}>
-              {topic.explanation.map((block, i) => (
-                <TopicBlock key={i} block={block} />
-              ))}
-            </div>
-          </section>
+          {activeExplanation?.length > 0 && (
+            <section className={styles.section}>
+              <h3 className={styles.sectionTitle}>הסבר</h3>
+              <div className={styles.blocks}>
+                {activeExplanation.map((block, i) => (
+                  <TopicBlock key={i} block={block} />
+                ))}
+              </div>
+            </section>
+          )}
 
-          <section className={styles.section}>
-            <h3 className={styles.sectionTitle}>דוגמאות</h3>
-            <div className={styles.examples}>
-              {topic.examples.map((ex, i) => (
-                <div key={i} className={styles.exampleRow}>
-                  <span className={styles.exPt} dir="ltr" lang="pt">{ex.pt}</span>
-                  <span className={styles.exHe} dir="rtl">{ex.he}</span>
-                </div>
-              ))}
-            </div>
-          </section>
+          {activeExamples?.length > 0 && (
+            <section className={styles.section}>
+              <h3 className={styles.sectionTitle}>דוגמאות</h3>
+              <div className={styles.examples}>
+                {activeExamples.map((ex, i) => (
+                  <div key={i} className={styles.exampleRow}>
+                    <span className={styles.exPt} dir="ltr" lang="pt">{ex.pt}</span>
+                    <span className={styles.exHe} dir="rtl">{ex.he}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
-          <button className={styles.startBtn} onClick={startQuiz}>
-            💪 בואו נתרגל
-          </button>
+          {activeSentences?.length > 0 && (
+            <button className={styles.startBtn} onClick={startQuiz}>
+              💪 בואו נתרגל
+            </button>
+          )}
         </div>
       </div>
     )

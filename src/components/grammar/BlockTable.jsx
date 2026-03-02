@@ -25,7 +25,11 @@ export default function BlockTable({ block }) {
                       dir={lang === 'pt' ? 'ltr' : undefined}
                       lang={lang === 'pt' ? 'pt' : undefined}
                     >
-                      {cell}
+                      {cell.includes('\n')
+                        ? cell.split('\n').map((line, i) => (
+                            <div key={i} dir="auto">{line}</div>
+                          ))
+                        : cell}
                     </td>
                   )
                 })}

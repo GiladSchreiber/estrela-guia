@@ -1,0 +1,85 @@
+@use '../../styles/variables' as *;
+
+.wrapper {
+  width: 100%;
+  position: sticky;
+  top: calc(#{$header-height} + 56px); // below topic header
+  background: $bg;
+  z-index: 9;
+  padding: $space-sm 0;
+  border-bottom: 1px solid $border;
+
+  // Fade hint: more tabs exist beyond right edge
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 1px; // stop before border
+    width: 3rem;
+    background: linear-gradient(to left, $bg 20%, transparent);
+    pointer-events: none;
+    z-index: 1;
+  }
+}
+
+.track {
+  display: flex;
+  gap: $space-sm;
+  overflow-x: auto;
+  padding: 0 $space-lg;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar { display: none; }
+}
+
+.tab {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: $space-xs $space-md;
+  border-radius: $radius-sm;
+  border: 1.5px solid $border;
+  background: $surface;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  min-width: 64px;
+
+  &:hover:not(.disabled) {
+    background: rgba(74, 124, 89, 0.07);
+    border-color: $primary;
+  }
+
+  &.active {
+    background: $primary;
+    border-color: $primary;
+
+    .nameHe { color: #fff; }
+    .namePt { color: rgba(255, 255, 255, 0.95); }
+
+    &:hover { background: $primary; }
+  }
+}
+
+.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.nameHe {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: $text;
+}
+
+.namePt {
+  font-size: 0.68rem;
+  color: $muted;
+  font-style: italic;
+  direction: ltr;
+}

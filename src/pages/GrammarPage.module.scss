@@ -22,36 +22,33 @@
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: $space-xs;
   background: $surface;
   border: 1px solid $border;
   border-top: 4px solid $blue;
-  border-radius: $radius-lg;
-  padding: $space-md;
+  border-radius: $radius-md;
+  padding: $space-lg $space-md;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: $space-sm;
   cursor: pointer;
   font-family: inherit;
-  text-align: right;
-  transition: box-shadow 0.15s, transform 0.15s;
+  text-align: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
-    transform: translateY(-2px);
-  }
-
-  &:active {
-    transform: translateY(0);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   }
 }
 
 .icon {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .title {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 700;
   color: $text;
 }
@@ -59,6 +56,5 @@
 .tagline {
   font-size: 0.8rem;
   color: $muted;
-  dir: ltr;
   font-style: italic;
 }
