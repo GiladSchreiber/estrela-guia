@@ -2959,11 +2959,7 @@
           },
           {
             "type": "paragraph",
-            "he": "עתיד מותנה — se / quando"
-          },
-          {
-            "type": "paragraph",
-            "he": "אחרי se ו-quando המייחסים לעתיד, משתמשים בצורת השורש."
+            "he": "אחרי se ו-quando המייחסים לעתיד, משתמשים בצורת השורש (זהה למקור אצל פעלים סדירים)."
           },
           {
             "type": "table",
@@ -2997,8 +2993,34 @@
             ]
           },
           {
-            "type": "note",
-            "he": "שילוב עם עבר מתמשך:\nImperfeito + Subjuntivo Imperfeito — פעולה רגילה/מתמשכת בעבר + תנאי:\n\nMeu pai sempre me dizia, quando eu chegasse tarde, tivesse cuidado.\nאבא שלי תמיד היה אומר לי, אם אני מגיע מאוחר, שאזהר.\n\nEla me avisava se eu entrasse na roda, respeitasse o jogo.\nהיא הזהירה אותי שאם אני נכנס למעגל, שאכבד את המשחק."
+            "type": "paragraph",
+            "he": "שילוב עם עבר מתמשך — Imperfeito + כינוי עבר"
+          },
+          {
+            "type": "paragraph",
+            "he": "צירוף נפוץ: Imperfeito מבטא פעולה רגילה בעבר, וכינוי העבר מבטא את התנאי שבה."
+          },
+          {
+            "type": "table",
+            "caption": "Imperfeito + כינוי עבר",
+            "columnLangs": [
+              "pt",
+              "he"
+            ],
+            "headers": [
+              "דוגמה",
+              "תרגום"
+            ],
+            "rows": [
+              [
+                "Meu pai sempre me dizia, quando eu chegasse tarde, tivesse cuidado.",
+                "אבא שלי תמיד היה אומר לי, אם אני מגיע מאוחר, שאזהר."
+              ],
+              [
+                "Ela me avisava se eu entrasse na roda, respeitasse o jogo.",
+                "היא הזהירה אותי שאם אני נכנס למעגל, שאכבד את המשחק."
+              ]
+            ]
           }
         ],
         "examples": [
