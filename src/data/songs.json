@@ -6109,5 +6109,302 @@
         "he": "אני בן יחיד, יש לי את הבית שלי לשמור עליו"
       }
     ]
+  },
+  {
+    "id": "as-vezes-me-chamam-de-negro",
+    "title": "Às vezes me chamam de negro",
+    "type": "song",
+    "badge": "ladainha",
+    "media_url": "https://www.youtube.com/watch?v=MuIZK_McMiE",
+    "lyrics": [
+      [
+        {
+          "pt": "Às vezes me chamam de negro",
+          "he": "לפעמים הם קוראים לי כושי"
+        },
+        {
+          "pt": "Pensando que vão me humilhar",
+          "he": "הם חושבים שהם ישפילו אותי"
+        },
+        {
+          "pt": "Mas o que eles não sabem",
+          "he": "אבל מה שהם לא יודעים"
+        },
+        {
+          "pt": "É que só me fazem lembrar",
+          "he": "שזה רק גורם לי לזכור"
+        },
+        {
+          "pt": "Que eu venho daquela raça",
+          "he": "שבאתי מהגזע ההוא"
+        },
+        {
+          "pt": "Que lutou pra se libertar",
+          "he": "שנלחם בשביל להיות חופשי"
+        },
+        {
+          "pt": "Que eu venho daquela raça",
+          "he": "שבאתי מהגזע ההוא"
+        },
+        {
+          "pt": "Que lutou pra se libertar",
+          "he": "שנלחם בשביל להיות חופשי"
+        }
+      ],
+      [
+        {
+          "pt": "Que criou o maculelê",
+          "he": "שיצר את המקוללה"
+        },
+        {
+          "pt": "Que acredita no candomblé",
+          "he": "שמאמין בקנדומבלה"
+        },
+        {
+          "pt": "Que tem o sorriso no rosto",
+          "he": "שיש לו חיוך על הפנים"
+        },
+        {
+          "pt": "A ginga no corpo e o samba no pé",
+          "he": "ג׳ינגה בגוף וסמבה ברגליים"
+        },
+        {
+          "pt": "Que tem o sorriso no rosto",
+          "he": "שיש לו חיוך על הפנים"
+        },
+        {
+          "pt": "A ginga no corpo e o samba no pé",
+          "he": "ג׳ינגה בגוף וסמבה ברגליים"
+        }
+      ],
+      [
+        {
+          "pt": "Que fez surgir uma dança",
+          "he": "שהוליד מתוך ריקוד"
+        },
+        {
+          "pt": "Uma luta que pode matar",
+          "he": "קרב שיכול להרוג"
+        },
+        {
+          "pt": "Capoeira, arma poderosa",
+          "he": "קפוארה, נשק מסוכן"
+        },
+        {
+          "pt": "Luta de libertação",
+          "he": "נשק השחרור"
+        },
+        {
+          "pt": "Brancos e negros na roda",
+          "he": "לבנים ושחורים במעגל"
+        },
+        {
+          "pt": "Se abraçam como irmãos",
+          "he": "מחבקים כמו אחים"
+        }
+      ],
+      [
+        {
+          "pt": "Pergunte o camará do que é meu",
+          "he": "שאל את החבר שלי מה שלי"
+        },
+        {
+          "pt": "É meu irmão",
+          "he": "זה אח שלי"
+        },
+        {
+          "pt": "Meu irmão do coração, camará",
+          "he": "אח שלי בלב, חבר"
+        },
+        {
+          "pt": "É meu irmão",
+          "he": "זה אח שלי"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Às vezes me chamam de negro",
+        "marked_words": [
+          "vezes"
+        ],
+        "label_he": "רבים — vez הופכת ל-vezes (ás vezes = לפעמים)",
+        "topic_id": "plurals",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Às vezes me chamam de negro",
+        "marked_words": [
+          "me"
+        ],
+        "label_he": "מושא ישיר — me = אותי (לפני הפועל)",
+        "topic_id": "direct-object",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Pensando que vão me humilhar",
+        "marked_words": [
+          "Pensando",
+          "me"
+        ],
+        "label_he": "גרונדיו + מושא ישיר — pensando = תוך כדי חשיבה, me = אותי",
+        "topic_id": "verbs-regular",
+        "tense_id": "gerundio",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Que eu venho daquela raça",
+        "marked_words": [
+          "daquela"
+        ],
+        "label_he": "כינוי רמז — aquela = אותה, daquela = de + aquela (מאותה גזע)",
+        "topic_id": "demonstratives",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Que lutou pra se libertar",
+        "marked_words": [
+          "se libertar"
+        ],
+        "label_he": "פועל רפלקסיבי — se libertar = להשתחרר",
+        "topic_id": "reflexive",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Se abraçam como irmãos",
+        "marked_words": [
+          "Se abraçam"
+        ],
+        "label_he": "פועל רפלקסיבי — se abraçar = להתחבק (אחד את השני)",
+        "topic_id": "reflexive",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Pergunte o camará",
+        "marked_words": [
+          "Pergunte"
+        ],
+        "label_he": "ציווי — perguntar (לשאול) → pergunte (שאל!)",
+        "topic_id": "verbs-regular",
+        "tense_id": "imperativo",
+        "is_new": true
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "às vezes",
+        "he": "לפעמים"
+      },
+      {
+        "pt": "chamar",
+        "he": "לקרוא, לכנות"
+      },
+      {
+        "pt": "pensar",
+        "he": "לחשוב"
+      },
+      {
+        "pt": "humilhar",
+        "he": "להשפיל"
+      },
+      {
+        "pt": "mas",
+        "he": "אבל"
+      },
+      {
+        "pt": "saber",
+        "he": "לדעת"
+      },
+      {
+        "pt": "perguntar",
+        "he": "לשאול"
+      },
+      {
+        "pt": "fazer",
+        "he": "לעשות"
+      },
+      {
+        "pt": "lembrar",
+        "he": "לזכור"
+      },
+      {
+        "pt": "vir",
+        "he": "לבוא"
+      },
+      {
+        "pt": "raça",
+        "he": "גזע"
+      },
+      {
+        "pt": "lutar",
+        "he": "להילחם"
+      },
+      {
+        "pt": "libertar",
+        "he": "לשחרר"
+      },
+      {
+        "pt": "abraçar",
+        "he": "לחבק"
+      },
+      {
+        "pt": "criar",
+        "he": "ליצור"
+      },
+      {
+        "pt": "acreditar",
+        "he": "להאמין"
+      },
+      {
+        "pt": "surgir",
+        "he": "להוליד, להופיע"
+      },
+      {
+        "pt": "luta",
+        "he": "קרב, מאבק"
+      },
+      {
+        "pt": "arma",
+        "he": "נשק"
+      },
+      {
+        "pt": "poderoso",
+        "he": "עוצמתי, חזק"
+      },
+      {
+        "pt": "sorriso",
+        "he": "חיוך"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Às vezes me chamam de negro",
+        "he": "לפעמים הם קוראים לי כושי"
+      },
+      {
+        "pt": "Pensando que vão me humilhar",
+        "he": "הם חושבים שהם ישפילו אותי"
+      },
+      {
+        "pt": "Mas o que eles não sabem",
+        "he": "אבל מה שהם לא יודעים"
+      },
+      {
+        "pt": "Que eu venho daquela raça",
+        "he": "שבאתי מהגזע ההוא"
+      },
+      {
+        "pt": "Que lutou pra se libertar",
+        "he": "שנלחם בשביל להיות חופשי"
+      },
+      {
+        "pt": "Se abraçam como irmãos",
+        "he": "מחבקים כמו אחים"
+      },
+      {
+        "pt": "Pergunte o camará",
+        "he": "שאל את החבר שלי"
+      }
+    ]
   }
 ]
