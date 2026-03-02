@@ -1,15 +1,44 @@
 @use '../styles/variables' as *;
 
 .header {
-  padding: $space-lg;
+  padding: $space-lg $space-lg $space-md;
   border-bottom: 1px solid $border;
   h2 {
     font-size: 1.4rem;
     font-weight: 700;
     color: $text;
-    margin: 0;
+    margin: 0 0 $space-md;
     text-align: center;
   }
+}
+
+.searchRow {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 100%;
+  max-width: 400px;
+  padding: $space-sm $space-md;
+  border: 1.5px solid $border;
+  border-radius: $radius-sm;
+  background: $surface;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: $text;
+  outline: none;
+  transition: border-color 0.15s;
+
+  &:focus { border-color: $primary; }
+  &::placeholder { color: $muted; }
+}
+
+.empty {
+  text-align: center;
+  color: $muted;
+  font-size: 0.95rem;
+  padding: $space-lg 0;
 }
 
 .list {
