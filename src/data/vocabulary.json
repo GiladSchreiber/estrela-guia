@@ -4,64 +4,238 @@
     "titleHe": "במטבח",
     "icon": "🍳",
     "words": [
-      { "pt": "cozinha", "he": "מטבח" },
-      { "pt": "carne", "he": "בשר" },
-      { "pt": "comer", "he": "לאכול" },
-      { "pt": "bife", "he": "בקר" },
-      { "pt": "beber", "he": "לשתות" },
-      { "pt": "frango / galinha", "he": "עוף" },
-      { "pt": "cozinhar", "he": "לבשל" },
-      { "pt": "peixe", "he": "דג" },
-      { "pt": "prato", "he": "צלחת" },
-      { "pt": "ovo", "he": "ביצה" },
-      { "pt": "faca", "he": "סכין" },
-      { "pt": "porco", "he": "חזיר" },
-      { "pt": "garfo", "he": "מזלג" },
-      { "pt": "sopa", "he": "מרק" },
-      { "pt": "colher", "he": "כף" },
-      { "pt": "salada", "he": "סלט" },
-      { "pt": "bebida", "he": "משקה" },
-      { "pt": "sanduíche", "he": "סנדביץ'" },
-      { "pt": "água", "he": "מים" },
-      { "pt": "lanche", "he": "חטיף" },
-      { "pt": "vinho", "he": "יין" },
-      { "pt": "queijo", "he": "גבינה" },
-      { "pt": "cerveja", "he": "בירה" },
-      { "pt": "manteiga", "he": "חמאה" },
-      { "pt": "leite", "he": "חלב" },
-      { "pt": "pão", "he": "לחם" },
-      { "pt": "café", "he": "קפה" },
-      { "pt": "molho", "he": "רוטב" },
-      { "pt": "chá", "he": "תה" },
-      { "pt": "azeite", "he": "שמן זית" },
-      { "pt": "limonada", "he": "לימונדה" },
-      { "pt": "óleo", "he": "שמן" },
-      { "pt": "suco (de)", "he": "מיץ" },
-      { "pt": "massa", "he": "פסטה" },
-      { "pt": "copo", "he": "כוס" },
-      { "pt": "arroz", "he": "אורז" },
-      { "pt": "xícara", "he": "ספל" },
-      { "pt": "açúcar", "he": "סוכר" },
-      { "pt": "garrafa", "he": "בקבוק" },
-      { "pt": "sal", "he": "מלח" },
-      { "pt": "lata", "he": "קרטון / מיכל" },
-      { "pt": "pimenta", "he": "פלפל" },
-      { "pt": "menu", "he": "תפריט" },
-      { "pt": "chocolate", "he": "שוקולד" },
-      { "pt": "receita", "he": "מתכון" },
-      { "pt": "bolo", "he": "עוגה" },
-      { "pt": "(ficar com) fome", "he": "רעב" },
-      { "pt": "biscoito", "he": "עוגיה" },
-      { "pt": "legume / verdura", "he": "ירק" },
-      { "pt": "cenoura", "he": "גזר" },
-      { "pt": "batata", "he": "תפוח אדמה" },
-      { "pt": "cebola", "he": "בצל" },
-      { "pt": "tomate", "he": "עגבנייה" },
-      { "pt": "pepino", "he": "מלפפון" },
-      { "pt": "maçã", "he": "תפוח" },
-      { "pt": "frito", "he": "מטוגן" },
-      { "pt": "ferve", "he": "רותח" },
-      { "pt": "gelado", "he": "קפוא / קר מאוד" }
+      {
+        "pt": "cozinha",
+        "he": "מטבח"
+      },
+      {
+        "pt": "carne",
+        "he": "בשר"
+      },
+      {
+        "pt": "comer",
+        "he": "לאכול"
+      },
+      {
+        "pt": "bife",
+        "he": "בקר"
+      },
+      {
+        "pt": "beber",
+        "he": "לשתות"
+      },
+      {
+        "pt": "frango / galinha",
+        "he": "עוף"
+      },
+      {
+        "pt": "cozinhar",
+        "he": "לבשל"
+      },
+      {
+        "pt": "peixe",
+        "he": "דג"
+      },
+      {
+        "pt": "prato",
+        "he": "צלחת"
+      },
+      {
+        "pt": "ovo",
+        "he": "ביצה"
+      },
+      {
+        "pt": "faca",
+        "he": "סכין"
+      },
+      {
+        "pt": "porco",
+        "he": "חזיר"
+      },
+      {
+        "pt": "garfo",
+        "he": "מזלג"
+      },
+      {
+        "pt": "sopa",
+        "he": "מרק"
+      },
+      {
+        "pt": "colher",
+        "he": "כף"
+      },
+      {
+        "pt": "salada",
+        "he": "סלט"
+      },
+      {
+        "pt": "bebida",
+        "he": "משקה"
+      },
+      {
+        "pt": "sanduíche",
+        "he": "סנדביץ'"
+      },
+      {
+        "pt": "água",
+        "he": "מים"
+      },
+      {
+        "pt": "lanche",
+        "he": "חטיף"
+      },
+      {
+        "pt": "vinho",
+        "he": "יין"
+      },
+      {
+        "pt": "queijo",
+        "he": "גבינה"
+      },
+      {
+        "pt": "cerveja",
+        "he": "בירה"
+      },
+      {
+        "pt": "manteiga",
+        "he": "חמאה"
+      },
+      {
+        "pt": "leite",
+        "he": "חלב"
+      },
+      {
+        "pt": "pão",
+        "he": "לחם"
+      },
+      {
+        "pt": "café",
+        "he": "קפה"
+      },
+      {
+        "pt": "molho",
+        "he": "רוטב"
+      },
+      {
+        "pt": "chá",
+        "he": "תה"
+      },
+      {
+        "pt": "azeite",
+        "he": "שמן זית"
+      },
+      {
+        "pt": "limonada",
+        "he": "לימונדה"
+      },
+      {
+        "pt": "óleo",
+        "he": "שמן"
+      },
+      {
+        "pt": "suco (de)",
+        "he": "מיץ"
+      },
+      {
+        "pt": "massa",
+        "he": "פסטה"
+      },
+      {
+        "pt": "copo",
+        "he": "כוס"
+      },
+      {
+        "pt": "arroz",
+        "he": "אורז"
+      },
+      {
+        "pt": "xícara",
+        "he": "ספל"
+      },
+      {
+        "pt": "açúcar",
+        "he": "סוכר"
+      },
+      {
+        "pt": "garrafa",
+        "he": "בקבוק"
+      },
+      {
+        "pt": "sal",
+        "he": "מלח"
+      },
+      {
+        "pt": "lata",
+        "he": "קרטון / מיכל"
+      },
+      {
+        "pt": "pimenta",
+        "he": "פלפל"
+      },
+      {
+        "pt": "menu",
+        "he": "תפריט"
+      },
+      {
+        "pt": "chocolate",
+        "he": "שוקולד"
+      },
+      {
+        "pt": "receita",
+        "he": "מתכון"
+      },
+      {
+        "pt": "bolo",
+        "he": "עוגה"
+      },
+      {
+        "pt": "(ficar com) fome",
+        "he": "רעב"
+      },
+      {
+        "pt": "biscoito",
+        "he": "עוגיה"
+      },
+      {
+        "pt": "legume / verdura",
+        "he": "ירק"
+      },
+      {
+        "pt": "cenoura",
+        "he": "גזר"
+      },
+      {
+        "pt": "batata",
+        "he": "תפוח אדמה"
+      },
+      {
+        "pt": "cebola",
+        "he": "בצל"
+      },
+      {
+        "pt": "tomate",
+        "he": "עגבנייה"
+      },
+      {
+        "pt": "pepino",
+        "he": "מלפפון"
+      },
+      {
+        "pt": "maçã",
+        "he": "תפוח"
+      },
+      {
+        "pt": "frito",
+        "he": "מטוגן"
+      },
+      {
+        "pt": "ferve",
+        "he": "רותח"
+      },
+      {
+        "pt": "gelado",
+        "he": "קפוא / קר מאוד"
+      }
     ]
   },
   {
@@ -69,46 +243,166 @@
     "titleHe": "מספרים",
     "icon": "🔢",
     "words": [
-      { "pt": "zero", "he": "0" },
-      { "pt": "um / uma", "he": "1" },
-      { "pt": "dois / duas", "he": "2" },
-      { "pt": "três", "he": "3" },
-      { "pt": "quatro", "he": "4" },
-      { "pt": "cinco", "he": "5" },
-      { "pt": "seis", "he": "6" },
-      { "pt": "sete", "he": "7" },
-      { "pt": "oito", "he": "8" },
-      { "pt": "nove", "he": "9" },
-      { "pt": "dez", "he": "10" },
-      { "pt": "onze", "he": "11" },
-      { "pt": "doze", "he": "12" },
-      { "pt": "treze", "he": "13" },
-      { "pt": "quatorze / catorze", "he": "14" },
-      { "pt": "quinze", "he": "15" },
-      { "pt": "dezesseis", "he": "16" },
-      { "pt": "dezessete", "he": "17" },
-      { "pt": "dezoito", "he": "18" },
-      { "pt": "dezenove", "he": "19" },
-      { "pt": "vinte", "he": "20" },
-      { "pt": "vinte e um", "he": "21" },
-      { "pt": "trinta", "he": "30" },
-      { "pt": "quarenta", "he": "40" },
-      { "pt": "cinquenta", "he": "50" },
-      { "pt": "sessenta", "he": "60" },
-      { "pt": "setenta", "he": "70" },
-      { "pt": "oitenta", "he": "80" },
-      { "pt": "noventa", "he": "90" },
-      { "pt": "cem", "he": "100" },
-      { "pt": "cento e cinco", "he": "105" },
-      { "pt": "duzentos", "he": "200" },
-      { "pt": "trezentos", "he": "300" },
-      { "pt": "quatrocentos", "he": "400" },
-      { "pt": "quinhentos", "he": "500" },
-      { "pt": "seiscentos", "he": "600" },
-      { "pt": "setecentos", "he": "700" },
-      { "pt": "oitocentos", "he": "800" },
-      { "pt": "novecentos", "he": "900" },
-      { "pt": "mil", "he": "1000" }
+      {
+        "pt": "zero",
+        "he": "0"
+      },
+      {
+        "pt": "um / uma",
+        "he": "1"
+      },
+      {
+        "pt": "dois / duas",
+        "he": "2"
+      },
+      {
+        "pt": "três",
+        "he": "3"
+      },
+      {
+        "pt": "quatro",
+        "he": "4"
+      },
+      {
+        "pt": "cinco",
+        "he": "5"
+      },
+      {
+        "pt": "seis",
+        "he": "6"
+      },
+      {
+        "pt": "sete",
+        "he": "7"
+      },
+      {
+        "pt": "oito",
+        "he": "8"
+      },
+      {
+        "pt": "nove",
+        "he": "9"
+      },
+      {
+        "pt": "dez",
+        "he": "10"
+      },
+      {
+        "pt": "onze",
+        "he": "11"
+      },
+      {
+        "pt": "doze",
+        "he": "12"
+      },
+      {
+        "pt": "treze",
+        "he": "13"
+      },
+      {
+        "pt": "quatorze / catorze",
+        "he": "14"
+      },
+      {
+        "pt": "quinze",
+        "he": "15"
+      },
+      {
+        "pt": "dezesseis",
+        "he": "16"
+      },
+      {
+        "pt": "dezessete",
+        "he": "17"
+      },
+      {
+        "pt": "dezoito",
+        "he": "18"
+      },
+      {
+        "pt": "dezenove",
+        "he": "19"
+      },
+      {
+        "pt": "vinte",
+        "he": "20"
+      },
+      {
+        "pt": "vinte e um",
+        "he": "21"
+      },
+      {
+        "pt": "trinta",
+        "he": "30"
+      },
+      {
+        "pt": "quarenta",
+        "he": "40"
+      },
+      {
+        "pt": "cinquenta",
+        "he": "50"
+      },
+      {
+        "pt": "sessenta",
+        "he": "60"
+      },
+      {
+        "pt": "setenta",
+        "he": "70"
+      },
+      {
+        "pt": "oitenta",
+        "he": "80"
+      },
+      {
+        "pt": "noventa",
+        "he": "90"
+      },
+      {
+        "pt": "cem",
+        "he": "100"
+      },
+      {
+        "pt": "cento e cinco",
+        "he": "105"
+      },
+      {
+        "pt": "duzentos",
+        "he": "200"
+      },
+      {
+        "pt": "trezentos",
+        "he": "300"
+      },
+      {
+        "pt": "quatrocentos",
+        "he": "400"
+      },
+      {
+        "pt": "quinhentos",
+        "he": "500"
+      },
+      {
+        "pt": "seiscentos",
+        "he": "600"
+      },
+      {
+        "pt": "setecentos",
+        "he": "700"
+      },
+      {
+        "pt": "oitocentos",
+        "he": "800"
+      },
+      {
+        "pt": "novecentos",
+        "he": "900"
+      },
+      {
+        "pt": "mil",
+        "he": "1000"
+      }
     ]
   },
   {
@@ -116,16 +410,46 @@
     "titleHe": "מספרים סודרים",
     "icon": "🥇",
     "words": [
-      { "pt": "primeiro", "he": "ראשון" },
-      { "pt": "segundo", "he": "שני" },
-      { "pt": "terceiro", "he": "שלישי" },
-      { "pt": "quarto", "he": "רביעי" },
-      { "pt": "quinto", "he": "חמישי" },
-      { "pt": "sexto", "he": "שישי" },
-      { "pt": "sétimo", "he": "שביעי" },
-      { "pt": "oitavo", "he": "שמיני" },
-      { "pt": "nono", "he": "תשיעי" },
-      { "pt": "décimo", "he": "עשירי" }
+      {
+        "pt": "primeiro",
+        "he": "ראשון"
+      },
+      {
+        "pt": "segundo",
+        "he": "שני"
+      },
+      {
+        "pt": "terceiro",
+        "he": "שלישי"
+      },
+      {
+        "pt": "quarto",
+        "he": "רביעי"
+      },
+      {
+        "pt": "quinto",
+        "he": "חמישי"
+      },
+      {
+        "pt": "sexto",
+        "he": "שישי"
+      },
+      {
+        "pt": "sétimo",
+        "he": "שביעי"
+      },
+      {
+        "pt": "oitavo",
+        "he": "שמיני"
+      },
+      {
+        "pt": "nono",
+        "he": "תשיעי"
+      },
+      {
+        "pt": "décimo",
+        "he": "עשירי"
+      }
     ]
   },
   {
@@ -133,17 +457,50 @@
     "titleHe": "צבעים",
     "icon": "🎨",
     "words": [
-      { "pt": "azul", "he": "כחול" },
-      { "pt": "verde", "he": "ירוק" },
-      { "pt": "amarelo", "he": "צהוב" },
-      { "pt": "laranja", "he": "כתום" },
-      { "pt": "marrom", "he": "חום" },
-      { "pt": "rosa", "he": "ורוד" },
-      { "pt": "roxo(a)", "he": "סגול" },
-      { "pt": "preto(a)", "he": "שחור" },
-      { "pt": "branco(a)", "he": "לבן" },
-      { "pt": "dourado", "he": "זהוב" },
-      { "pt": "prateado", "he": "כסוף" }
+      {
+        "pt": "azul",
+        "he": "כחול"
+      },
+      {
+        "pt": "verde",
+        "he": "ירוק"
+      },
+      {
+        "pt": "amarelo",
+        "he": "צהוב"
+      },
+      {
+        "pt": "laranja",
+        "he": "כתום"
+      },
+      {
+        "pt": "marrom",
+        "he": "חום"
+      },
+      {
+        "pt": "rosa",
+        "he": "ורוד"
+      },
+      {
+        "pt": "roxo(a)",
+        "he": "סגול"
+      },
+      {
+        "pt": "preto(a)",
+        "he": "שחור"
+      },
+      {
+        "pt": "branco(a)",
+        "he": "לבן"
+      },
+      {
+        "pt": "dourado",
+        "he": "זהוב"
+      },
+      {
+        "pt": "prateado",
+        "he": "כסוף"
+      }
     ]
   },
   {
@@ -151,28 +508,94 @@
     "titleHe": "משפחה",
     "icon": "👨‍👩‍👧",
     "words": [
-      { "pt": "nome", "he": "שם" },
-      { "pt": "sobrenome", "he": "שם משפחה" },
-      { "pt": "família", "he": "משפחה" },
-      { "pt": "pais", "he": "הורים" },
-      { "pt": "mãe", "he": "אמא" },
-      { "pt": "pai", "he": "אבא" },
-      { "pt": "avó", "he": "סבתא" },
-      { "pt": "avô", "he": "סבא" },
-      { "pt": "esposa", "he": "אישה" },
-      { "pt": "marido", "he": "בעל" },
-      { "pt": "irmão", "he": "אח" },
-      { "pt": "irmã", "he": "אחות" },
-      { "pt": "filho(a)", "he": "בן / בת" },
-      { "pt": "tio(a)", "he": "דוד / דודה" },
-      { "pt": "sobrinho(a)", "he": "אחיין / אחיינית" },
-      { "pt": "primo(a)", "he": "בן דוד / בת דוד" },
-      { "pt": "criança", "he": "ילד" },
-      { "pt": "bebê", "he": "תינוק" },
-      { "pt": "homem", "he": "גבר" },
-      { "pt": "mulher", "he": "אישה" },
-      { "pt": "namorado(a)", "he": "חבר / חברה" },
-      { "pt": "neto(a)", "he": "נכד / נכדה" }
+      {
+        "pt": "nome",
+        "he": "שם"
+      },
+      {
+        "pt": "sobrenome",
+        "he": "שם משפחה"
+      },
+      {
+        "pt": "família",
+        "he": "משפחה"
+      },
+      {
+        "pt": "pais",
+        "he": "הורים"
+      },
+      {
+        "pt": "mãe",
+        "he": "אמא"
+      },
+      {
+        "pt": "pai",
+        "he": "אבא"
+      },
+      {
+        "pt": "avó",
+        "he": "סבתא"
+      },
+      {
+        "pt": "avô",
+        "he": "סבא"
+      },
+      {
+        "pt": "esposa",
+        "he": "אישה"
+      },
+      {
+        "pt": "marido",
+        "he": "בעל"
+      },
+      {
+        "pt": "irmão",
+        "he": "אח"
+      },
+      {
+        "pt": "irmã",
+        "he": "אחות"
+      },
+      {
+        "pt": "filho(a)",
+        "he": "בן / בת"
+      },
+      {
+        "pt": "tio(a)",
+        "he": "דוד / דודה"
+      },
+      {
+        "pt": "sobrinho(a)",
+        "he": "אחיין / אחיינית"
+      },
+      {
+        "pt": "primo(a)",
+        "he": "בן דוד / בת דוד"
+      },
+      {
+        "pt": "criança",
+        "he": "ילד"
+      },
+      {
+        "pt": "bebê",
+        "he": "תינוק"
+      },
+      {
+        "pt": "homem",
+        "he": "גבר"
+      },
+      {
+        "pt": "mulher",
+        "he": "אישה"
+      },
+      {
+        "pt": "namorado(a)",
+        "he": "חבר / חברה"
+      },
+      {
+        "pt": "neto(a)",
+        "he": "נכד / נכדה"
+      }
     ]
   },
   {
@@ -180,74 +603,278 @@
     "titleHe": "מקומות וניווט",
     "icon": "🗺️",
     "words": [
-      { "pt": "local", "he": "מקום" },
-      { "pt": "país", "he": "מדינה" },
-      { "pt": "cidade", "he": "עיר" },
-      { "pt": "hotel", "he": "מלון" },
-      { "pt": "restaurante", "he": "מסעדה" },
-      { "pt": "museu", "he": "מוזיאון" },
-      { "pt": "jardim", "he": "גן" },
-      { "pt": "aeroporto", "he": "שדה תעופה" },
-      { "pt": "teatro", "he": "תיאטרון" },
-      { "pt": "universidade", "he": "אוניברסיטה" },
-      { "pt": "bar", "he": "בר" },
-      { "pt": "rua", "he": "רחוב" },
-      { "pt": "biblioteca", "he": "ספרייה" },
-      { "pt": "distância", "he": "מרחק" },
-      { "pt": "monte", "he": "הר" },
-      { "pt": "chegada", "he": "הגעה" },
-      { "pt": "frente", "he": "חזית / מול" },
-      { "pt": "fundo", "he": "מאחור" },
-      { "pt": "vista", "he": "נוף" },
-      { "pt": "visita", "he": "ביקור" },
-      { "pt": "rodoviária", "he": "תחנה מרכזית" },
-      { "pt": "mercado", "he": "שוק" },
-      { "pt": "supermercado", "he": "סופר" },
-      { "pt": "praia", "he": "חוף" },
-      { "pt": "livraria", "he": "חנות ספרים" },
-      { "pt": "ponte", "he": "גשר" },
-      { "pt": "galeria", "he": "גלריה" },
-      { "pt": "clube", "he": "מועדון" },
-      { "pt": "campo", "he": "שדה" },
-      { "pt": "estádio", "he": "איצטדיון" },
-      { "pt": "centro", "he": "מרכז" },
-      { "pt": "esquina", "he": "פינה" },
-      { "pt": "lado", "he": "צד" },
-      { "pt": "direito", "he": "ימין" },
-      { "pt": "esquerda", "he": "שמאל" },
-      { "pt": "entrada", "he": "כניסה" },
-      { "pt": "saída", "he": "יציאה" },
-      { "pt": "interior", "he": "פנים" },
-      { "pt": "exterior", "he": "חוץ" },
-      { "pt": "viagem", "he": "טיול" },
-      { "pt": "princípio / começo", "he": "התחלה" },
-      { "pt": "fim", "he": "סוף" },
-      { "pt": "busca", "he": "חיפוש" },
-      { "pt": "tráfico", "he": "תנועה" },
-      { "pt": "sinal", "he": "שלט / סימן" },
-      { "pt": "direção", "he": "כיוון" },
-      { "pt": "caminho", "he": "שביל" },
-      { "pt": "rota", "he": "מסלול" },
-      { "pt": "parada", "he": "עצירה" },
-      { "pt": "voo", "he": "טיסה" },
-      { "pt": "barco", "he": "סירה" },
-      { "pt": "trem", "he": "רכבת" },
-      { "pt": "metrô", "he": "רכבת תחתית" },
-      { "pt": "estação", "he": "תחנה" },
-      { "pt": "ônibus", "he": "אוטובוס" },
-      { "pt": "norte", "he": "צפון" },
-      { "pt": "sul", "he": "דרום" },
-      { "pt": "leste", "he": "מזרח" },
-      { "pt": "aqui", "he": "כאן" },
-      { "pt": "aí", "he": "שם (קרוב אליך)" },
-      { "pt": "lá", "he": "שם (רחוק)" },
-      { "pt": "perto", "he": "קרוב" },
-      { "pt": "longe", "he": "רחוק" },
-      { "pt": "em cima", "he": "למעלה" },
-      { "pt": "em baixo", "he": "למטה" },
-      { "pt": "dentro", "he": "בפנים" },
-      { "pt": "fora", "he": "בחוץ" },
-      { "pt": "ao lado", "he": "ליד" }
+      {
+        "pt": "local",
+        "he": "מקום"
+      },
+      {
+        "pt": "país",
+        "he": "מדינה"
+      },
+      {
+        "pt": "cidade",
+        "he": "עיר"
+      },
+      {
+        "pt": "hotel",
+        "he": "מלון"
+      },
+      {
+        "pt": "restaurante",
+        "he": "מסעדה"
+      },
+      {
+        "pt": "museu",
+        "he": "מוזיאון"
+      },
+      {
+        "pt": "jardim",
+        "he": "גן"
+      },
+      {
+        "pt": "aeroporto",
+        "he": "שדה תעופה"
+      },
+      {
+        "pt": "teatro",
+        "he": "תיאטרון"
+      },
+      {
+        "pt": "universidade",
+        "he": "אוניברסיטה"
+      },
+      {
+        "pt": "bar",
+        "he": "בר"
+      },
+      {
+        "pt": "rua",
+        "he": "רחוב"
+      },
+      {
+        "pt": "biblioteca",
+        "he": "ספרייה"
+      },
+      {
+        "pt": "distância",
+        "he": "מרחק"
+      },
+      {
+        "pt": "monte",
+        "he": "הר"
+      },
+      {
+        "pt": "chegada",
+        "he": "הגעה"
+      },
+      {
+        "pt": "frente",
+        "he": "חזית / מול"
+      },
+      {
+        "pt": "fundo",
+        "he": "מאחור"
+      },
+      {
+        "pt": "vista",
+        "he": "נוף"
+      },
+      {
+        "pt": "visita",
+        "he": "ביקור"
+      },
+      {
+        "pt": "rodoviária",
+        "he": "תחנה מרכזית"
+      },
+      {
+        "pt": "mercado",
+        "he": "שוק"
+      },
+      {
+        "pt": "supermercado",
+        "he": "סופר"
+      },
+      {
+        "pt": "praia",
+        "he": "חוף"
+      },
+      {
+        "pt": "livraria",
+        "he": "חנות ספרים"
+      },
+      {
+        "pt": "ponte",
+        "he": "גשר"
+      },
+      {
+        "pt": "galeria",
+        "he": "גלריה"
+      },
+      {
+        "pt": "clube",
+        "he": "מועדון"
+      },
+      {
+        "pt": "campo",
+        "he": "שדה"
+      },
+      {
+        "pt": "estádio",
+        "he": "איצטדיון"
+      },
+      {
+        "pt": "centro",
+        "he": "מרכז"
+      },
+      {
+        "pt": "esquina",
+        "he": "פינה"
+      },
+      {
+        "pt": "lado",
+        "he": "צד"
+      },
+      {
+        "pt": "direito",
+        "he": "ימין"
+      },
+      {
+        "pt": "esquerda",
+        "he": "שמאל"
+      },
+      {
+        "pt": "entrada",
+        "he": "כניסה"
+      },
+      {
+        "pt": "saída",
+        "he": "יציאה"
+      },
+      {
+        "pt": "interior",
+        "he": "פנים"
+      },
+      {
+        "pt": "exterior",
+        "he": "חוץ"
+      },
+      {
+        "pt": "viagem",
+        "he": "טיול"
+      },
+      {
+        "pt": "princípio / começo",
+        "he": "התחלה"
+      },
+      {
+        "pt": "fim",
+        "he": "סוף"
+      },
+      {
+        "pt": "busca",
+        "he": "חיפוש"
+      },
+      {
+        "pt": "tráfico",
+        "he": "תנועה"
+      },
+      {
+        "pt": "sinal",
+        "he": "שלט / סימן"
+      },
+      {
+        "pt": "direção",
+        "he": "כיוון"
+      },
+      {
+        "pt": "caminho",
+        "he": "שביל"
+      },
+      {
+        "pt": "rota",
+        "he": "מסלול"
+      },
+      {
+        "pt": "parada",
+        "he": "עצירה"
+      },
+      {
+        "pt": "voo",
+        "he": "טיסה"
+      },
+      {
+        "pt": "barco",
+        "he": "סירה"
+      },
+      {
+        "pt": "trem",
+        "he": "רכבת"
+      },
+      {
+        "pt": "metrô",
+        "he": "רכבת תחתית"
+      },
+      {
+        "pt": "estação",
+        "he": "תחנה"
+      },
+      {
+        "pt": "ônibus",
+        "he": "אוטובוס"
+      },
+      {
+        "pt": "norte",
+        "he": "צפון"
+      },
+      {
+        "pt": "sul",
+        "he": "דרום"
+      },
+      {
+        "pt": "leste",
+        "he": "מזרח"
+      },
+      {
+        "pt": "aqui",
+        "he": "כאן"
+      },
+      {
+        "pt": "aí",
+        "he": "שם (קרוב אליך)"
+      },
+      {
+        "pt": "lá",
+        "he": "שם (רחוק)"
+      },
+      {
+        "pt": "perto",
+        "he": "קרוב"
+      },
+      {
+        "pt": "longe",
+        "he": "רחוק"
+      },
+      {
+        "pt": "em cima",
+        "he": "למעלה"
+      },
+      {
+        "pt": "em baixo",
+        "he": "למטה"
+      },
+      {
+        "pt": "dentro",
+        "he": "בפנים"
+      },
+      {
+        "pt": "fora",
+        "he": "בחוץ"
+      },
+      {
+        "pt": "ao lado",
+        "he": "ליד"
+      }
     ]
   },
   {
@@ -255,81 +882,306 @@
     "titleHe": "פעלים",
     "icon": "🏃",
     "words": [
-      { "pt": "tocar", "he": "לגעת" },
-      { "pt": "achar", "he": "למצוא / לחשוב" },
-      { "pt": "acontecer", "he": "לקרות" },
-      { "pt": "querer", "he": "לרצות" },
-      { "pt": "dizer", "he": "להגיד" },
-      { "pt": "fazer", "he": "לעשות" },
-      { "pt": "pesar", "he": "לשקול" },
-      { "pt": "precisar", "he": "להצטרך" },
-      { "pt": "pensar", "he": "לחשוב" },
-      { "pt": "ficar", "he": "להישאר" },
-      { "pt": "deixar", "he": "להשאיר" },
-      { "pt": "aceitar", "he": "לקבל" },
-      { "pt": "dar", "he": "לתת" },
-      { "pt": "voltar", "he": "לחזור" },
-      { "pt": "encontrar", "he": "לפגוש" },
-      { "pt": "esperar", "he": "לחכות" },
-      { "pt": "tentar", "he": "לנסות" },
-      { "pt": "sentir", "he": "להרגיש" },
-      { "pt": "chegar", "he": "להגיע" },
-      { "pt": "passar", "he": "לעבור" },
-      { "pt": "sonhar", "he": "לחלום" },
-      { "pt": "pegar", "he": "לקחת" },
-      { "pt": "usar", "he": "להשתמש" },
-      { "pt": "olhar", "he": "להסתכל" },
-      { "pt": "trabalhar", "he": "לעבוד" },
-      { "pt": "entender", "he": "להבין" },
-      { "pt": "ajudar", "he": "לעזור" },
-      { "pt": "parar", "he": "לעצור" },
-      { "pt": "seguir", "he": "לעקוב" },
-      { "pt": "trazer", "he": "להביא" },
-      { "pt": "abrir", "he": "לפתוח" },
-      { "pt": "perder", "he": "לאבד" },
-      { "pt": "mudar", "he": "להשתנות" },
-      { "pt": "colocar", "he": "לשים" },
-      { "pt": "mostrar / apresentar", "he": "להראות" },
-      { "pt": "ganhar", "he": "להרוויח" },
-      { "pt": "amar", "he": "לאהוב" },
-      { "pt": "esquecer", "he": "לשכוח" },
-      { "pt": "manter", "he": "לשמור" },
-      { "pt": "jogar", "he": "לשחק" },
-      { "pt": "partir", "he": "לעזוב" },
-      { "pt": "comprar", "he": "לקנות" },
-      { "pt": "dormir", "he": "לישון" },
-      { "pt": "pagar", "he": "לשלם" },
-      { "pt": "correr", "he": "לרוץ" },
-      { "pt": "cair", "he": "ליפול" },
-      { "pt": "fechar", "he": "לסגור" },
-      { "pt": "enviar", "he": "לשלוח" },
-      { "pt": "virar", "he": "להסתובב" },
-      { "pt": "chamar", "he": "לקרוא" },
-      { "pt": "explicar", "he": "להסביר" },
-      { "pt": "viajar", "he": "לטייל" },
-      { "pt": "mentir", "he": "לשקר" },
-      { "pt": "visitar", "he": "לבקר" },
-      { "pt": "preferir", "he": "להעדיף" },
-      { "pt": "rir", "he": "לצחוק" },
-      { "pt": "construir", "he": "לבנות" },
-      { "pt": "melhorar", "he": "לשפר" },
-      { "pt": "morar / viver", "he": "לחיות" },
-      { "pt": "beijar", "he": "לנשק" },
-      { "pt": "agradecer", "he": "להודות" },
-      { "pt": "observar", "he": "להתבונן" },
-      { "pt": "cantar", "he": "לשיר" },
-      { "pt": "entregar", "he": "למסור" },
-      { "pt": "concordar", "he": "להסכים" },
-      { "pt": "acordar", "he": "להתעורר" },
-      { "pt": "juntar", "he": "להצטרף" },
-      { "pt": "informar", "he": "ליידע" },
-      { "pt": "guardar", "he": "לשמור" },
-      { "pt": "nadar", "he": "לשחות" },
-      { "pt": "chorar", "he": "לבכות" },
-      { "pt": "ensinar", "he": "ללמד" },
-      { "pt": "treinar", "he": "לאמן" },
-      { "pt": "salvar", "he": "להציל" },
-      { "pt": "machucar", "he": "לפגוע / לכאוב" }
+      {
+        "pt": "tocar",
+        "he": "לגעת"
+      },
+      {
+        "pt": "achar",
+        "he": "למצוא / לחשוב"
+      },
+      {
+        "pt": "acontecer",
+        "he": "לקרות"
+      },
+      {
+        "pt": "querer",
+        "he": "לרצות"
+      },
+      {
+        "pt": "dizer",
+        "he": "להגיד"
+      },
+      {
+        "pt": "fazer",
+        "he": "לעשות"
+      },
+      {
+        "pt": "pesar",
+        "he": "לשקול"
+      },
+      {
+        "pt": "precisar",
+        "he": "להצטרך"
+      },
+      {
+        "pt": "pensar",
+        "he": "לחשוב"
+      },
+      {
+        "pt": "ficar",
+        "he": "להישאר"
+      },
+      {
+        "pt": "deixar",
+        "he": "להשאיר"
+      },
+      {
+        "pt": "aceitar",
+        "he": "לקבל"
+      },
+      {
+        "pt": "dar",
+        "he": "לתת"
+      },
+      {
+        "pt": "voltar",
+        "he": "לחזור"
+      },
+      {
+        "pt": "encontrar",
+        "he": "לפגוש"
+      },
+      {
+        "pt": "esperar",
+        "he": "לחכות"
+      },
+      {
+        "pt": "tentar",
+        "he": "לנסות"
+      },
+      {
+        "pt": "sentir",
+        "he": "להרגיש"
+      },
+      {
+        "pt": "chegar",
+        "he": "להגיע"
+      },
+      {
+        "pt": "passar",
+        "he": "לעבור"
+      },
+      {
+        "pt": "sonhar",
+        "he": "לחלום"
+      },
+      {
+        "pt": "pegar",
+        "he": "לקחת"
+      },
+      {
+        "pt": "usar",
+        "he": "להשתמש"
+      },
+      {
+        "pt": "olhar",
+        "he": "להסתכל"
+      },
+      {
+        "pt": "trabalhar",
+        "he": "לעבוד"
+      },
+      {
+        "pt": "entender",
+        "he": "להבין"
+      },
+      {
+        "pt": "ajudar",
+        "he": "לעזור"
+      },
+      {
+        "pt": "parar",
+        "he": "לעצור"
+      },
+      {
+        "pt": "seguir",
+        "he": "לעקוב"
+      },
+      {
+        "pt": "trazer",
+        "he": "להביא"
+      },
+      {
+        "pt": "abrir",
+        "he": "לפתוח"
+      },
+      {
+        "pt": "perder",
+        "he": "לאבד"
+      },
+      {
+        "pt": "mudar",
+        "he": "להשתנות"
+      },
+      {
+        "pt": "colocar",
+        "he": "לשים"
+      },
+      {
+        "pt": "mostrar / apresentar",
+        "he": "להראות"
+      },
+      {
+        "pt": "ganhar",
+        "he": "להרוויח"
+      },
+      {
+        "pt": "amar",
+        "he": "לאהוב"
+      },
+      {
+        "pt": "esquecer",
+        "he": "לשכוח"
+      },
+      {
+        "pt": "manter",
+        "he": "לשמור"
+      },
+      {
+        "pt": "jogar",
+        "he": "לשחק"
+      },
+      {
+        "pt": "partir",
+        "he": "לעזוב"
+      },
+      {
+        "pt": "comprar",
+        "he": "לקנות"
+      },
+      {
+        "pt": "dormir",
+        "he": "לישון"
+      },
+      {
+        "pt": "pagar",
+        "he": "לשלם"
+      },
+      {
+        "pt": "correr",
+        "he": "לרוץ"
+      },
+      {
+        "pt": "cair",
+        "he": "ליפול"
+      },
+      {
+        "pt": "fechar",
+        "he": "לסגור"
+      },
+      {
+        "pt": "enviar",
+        "he": "לשלוח"
+      },
+      {
+        "pt": "virar",
+        "he": "להסתובב"
+      },
+      {
+        "pt": "chamar",
+        "he": "לקרוא"
+      },
+      {
+        "pt": "explicar",
+        "he": "להסביר"
+      },
+      {
+        "pt": "viajar",
+        "he": "לטייל"
+      },
+      {
+        "pt": "mentir",
+        "he": "לשקר"
+      },
+      {
+        "pt": "visitar",
+        "he": "לבקר"
+      },
+      {
+        "pt": "preferir",
+        "he": "להעדיף"
+      },
+      {
+        "pt": "rir",
+        "he": "לצחוק"
+      },
+      {
+        "pt": "construir",
+        "he": "לבנות"
+      },
+      {
+        "pt": "melhorar",
+        "he": "לשפר"
+      },
+      {
+        "pt": "morar / viver",
+        "he": "לחיות"
+      },
+      {
+        "pt": "beijar",
+        "he": "לנשק"
+      },
+      {
+        "pt": "agradecer",
+        "he": "להודות"
+      },
+      {
+        "pt": "observar",
+        "he": "להתבונן"
+      },
+      {
+        "pt": "cantar",
+        "he": "לשיר"
+      },
+      {
+        "pt": "entregar",
+        "he": "למסור"
+      },
+      {
+        "pt": "concordar",
+        "he": "להסכים"
+      },
+      {
+        "pt": "acordar",
+        "he": "להתעורר"
+      },
+      {
+        "pt": "juntar",
+        "he": "להצטרף"
+      },
+      {
+        "pt": "informar",
+        "he": "ליידע"
+      },
+      {
+        "pt": "guardar",
+        "he": "לשמור"
+      },
+      {
+        "pt": "nadar",
+        "he": "לשחות"
+      },
+      {
+        "pt": "chorar",
+        "he": "לבכות"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "treinar",
+        "he": "לאמן"
+      },
+      {
+        "pt": "salvar",
+        "he": "להציל"
+      },
+      {
+        "pt": "machucar",
+        "he": "לפגוע / לכאוב"
+      }
     ]
   },
   {
@@ -337,24 +1189,78 @@
     "titleHe": "זמנים ומועדים",
     "icon": "⏰",
     "words": [
-      { "pt": "dia", "he": "יום" },
-      { "pt": "noite", "he": "לילה" },
-      { "pt": "manhã", "he": "בוקר" },
-      { "pt": "tarde", "he": "אחר הצהריים / מאוחר" },
-      { "pt": "hoje", "he": "היום" },
-      { "pt": "ontem", "he": "אתמול" },
-      { "pt": "amanhã", "he": "מחר" },
-      { "pt": "agora", "he": "עכשיו" },
-      { "pt": "antes", "he": "לפני" },
-      { "pt": "depois", "he": "אחרי" },
-      { "pt": "sempre", "he": "תמיד" },
-      { "pt": "nunca", "he": "אף פעם" },
-      { "pt": "às vezes", "he": "לפעמים" },
-      { "pt": "de repente", "he": "פתאום" },
-      { "pt": "já", "he": "כבר" },
-      { "pt": "ainda", "he": "עדיין" },
-      { "pt": "logo", "he": "בקרוב" },
-      { "pt": "cedo", "he": "מוקדם" }
+      {
+        "pt": "dia",
+        "he": "יום"
+      },
+      {
+        "pt": "noite",
+        "he": "לילה"
+      },
+      {
+        "pt": "manhã",
+        "he": "בוקר"
+      },
+      {
+        "pt": "tarde",
+        "he": "אחר הצהריים / מאוחר"
+      },
+      {
+        "pt": "hoje",
+        "he": "היום"
+      },
+      {
+        "pt": "ontem",
+        "he": "אתמול"
+      },
+      {
+        "pt": "amanhã",
+        "he": "מחר"
+      },
+      {
+        "pt": "agora",
+        "he": "עכשיו"
+      },
+      {
+        "pt": "antes",
+        "he": "לפני"
+      },
+      {
+        "pt": "depois",
+        "he": "אחרי"
+      },
+      {
+        "pt": "sempre",
+        "he": "תמיד"
+      },
+      {
+        "pt": "nunca",
+        "he": "אף פעם"
+      },
+      {
+        "pt": "às vezes",
+        "he": "לפעמים"
+      },
+      {
+        "pt": "de repente",
+        "he": "פתאום"
+      },
+      {
+        "pt": "já",
+        "he": "כבר"
+      },
+      {
+        "pt": "ainda",
+        "he": "עדיין"
+      },
+      {
+        "pt": "logo",
+        "he": "בקרוב"
+      },
+      {
+        "pt": "cedo",
+        "he": "מוקדם"
+      }
     ]
   },
   {
@@ -362,13 +1268,34 @@
     "titleHe": "ימות השבוע",
     "icon": "📅",
     "words": [
-      { "pt": "segunda-feira", "he": "יום שני" },
-      { "pt": "terça-feira", "he": "יום שלישי" },
-      { "pt": "quarta-feira", "he": "יום רביעי" },
-      { "pt": "quinta-feira", "he": "יום חמישי" },
-      { "pt": "sexta-feira", "he": "יום שישי" },
-      { "pt": "sábado", "he": "שבת" },
-      { "pt": "domingo", "he": "יום ראשון" }
+      {
+        "pt": "segunda-feira",
+        "he": "יום שני"
+      },
+      {
+        "pt": "terça-feira",
+        "he": "יום שלישי"
+      },
+      {
+        "pt": "quarta-feira",
+        "he": "יום רביעי"
+      },
+      {
+        "pt": "quinta-feira",
+        "he": "יום חמישי"
+      },
+      {
+        "pt": "sexta-feira",
+        "he": "יום שישי"
+      },
+      {
+        "pt": "sábado",
+        "he": "שבת"
+      },
+      {
+        "pt": "domingo",
+        "he": "יום ראשון"
+      }
     ]
   },
   {
@@ -376,18 +1303,54 @@
     "titleHe": "חודשים",
     "icon": "🗓️",
     "words": [
-      { "pt": "janeiro", "he": "ינואר" },
-      { "pt": "fevereiro", "he": "פברואר" },
-      { "pt": "março", "he": "מרץ" },
-      { "pt": "abril", "he": "אפריל" },
-      { "pt": "maio", "he": "מאי" },
-      { "pt": "junho", "he": "יוני" },
-      { "pt": "julho", "he": "יולי" },
-      { "pt": "agosto", "he": "אוגוסט" },
-      { "pt": "setembro", "he": "ספטמבר" },
-      { "pt": "outubro", "he": "אוקטובר" },
-      { "pt": "novembro", "he": "נובמבר" },
-      { "pt": "dezembro", "he": "דצמבר" }
+      {
+        "pt": "janeiro",
+        "he": "ינואר"
+      },
+      {
+        "pt": "fevereiro",
+        "he": "פברואר"
+      },
+      {
+        "pt": "março",
+        "he": "מרץ"
+      },
+      {
+        "pt": "abril",
+        "he": "אפריל"
+      },
+      {
+        "pt": "maio",
+        "he": "מאי"
+      },
+      {
+        "pt": "junho",
+        "he": "יוני"
+      },
+      {
+        "pt": "julho",
+        "he": "יולי"
+      },
+      {
+        "pt": "agosto",
+        "he": "אוגוסט"
+      },
+      {
+        "pt": "setembro",
+        "he": "ספטמבר"
+      },
+      {
+        "pt": "outubro",
+        "he": "אוקטובר"
+      },
+      {
+        "pt": "novembro",
+        "he": "נובמבר"
+      },
+      {
+        "pt": "dezembro",
+        "he": "דצמבר"
+      }
     ]
   },
   {
@@ -395,10 +1358,22 @@
     "titleHe": "עונות השנה",
     "icon": "🌸",
     "words": [
-      { "pt": "primavera", "he": "אביב" },
-      { "pt": "verão", "he": "קיץ" },
-      { "pt": "outono", "he": "סתיו" },
-      { "pt": "inverno", "he": "חורף" }
+      {
+        "pt": "primavera",
+        "he": "אביב"
+      },
+      {
+        "pt": "verão",
+        "he": "קיץ"
+      },
+      {
+        "pt": "outono",
+        "he": "סתיו"
+      },
+      {
+        "pt": "inverno",
+        "he": "חורף"
+      }
     ]
   },
   {
@@ -406,16 +1381,46 @@
     "titleHe": "חיות",
     "icon": "🐾",
     "words": [
-      { "pt": "cachorro", "he": "כלב" },
-      { "pt": "gato", "he": "חתול" },
-      { "pt": "cobra", "he": "נחש" },
-      { "pt": "galo", "he": "תרנגול" },
-      { "pt": "galinha", "he": "תרנגולת" },
-      { "pt": "marimbondo", "he": "צרעה" },
-      { "pt": "pássaro", "he": "ציפור" },
-      { "pt": "peixe", "he": "דג" },
-      { "pt": "cavalo", "he": "סוס" },
-      { "pt": "vaca", "he": "פרה" }
+      {
+        "pt": "cachorro",
+        "he": "כלב"
+      },
+      {
+        "pt": "gato",
+        "he": "חתול"
+      },
+      {
+        "pt": "cobra",
+        "he": "נחש"
+      },
+      {
+        "pt": "galo",
+        "he": "תרנגול"
+      },
+      {
+        "pt": "galinha",
+        "he": "תרנגולת"
+      },
+      {
+        "pt": "marimbondo",
+        "he": "צרעה"
+      },
+      {
+        "pt": "pássaro",
+        "he": "ציפור"
+      },
+      {
+        "pt": "peixe",
+        "he": "דג"
+      },
+      {
+        "pt": "cavalo",
+        "he": "סוס"
+      },
+      {
+        "pt": "vaca",
+        "he": "פרה"
+      }
     ]
   },
   {
@@ -423,16 +1428,46 @@
     "titleHe": "צמחים ועצים",
     "icon": "🌳",
     "words": [
-      { "pt": "árvore", "he": "עץ" },
-      { "pt": "flor", "he": "פרח" },
-      { "pt": "folha", "he": "עלה" },
-      { "pt": "raiz", "he": "שורש" },
-      { "pt": "fruta", "he": "פרי" },
-      { "pt": "semente", "he": "זרע" },
-      { "pt": "grama", "he": "דשא" },
-      { "pt": "mata", "he": "יער" },
-      { "pt": "floresta", "he": "יער" },
-      { "pt": "laranjeira", "he": "עץ תפוז" }
+      {
+        "pt": "árvore",
+        "he": "עץ"
+      },
+      {
+        "pt": "flor",
+        "he": "פרח"
+      },
+      {
+        "pt": "folha",
+        "he": "עלה"
+      },
+      {
+        "pt": "raiz",
+        "he": "שורש"
+      },
+      {
+        "pt": "fruta",
+        "he": "פרי"
+      },
+      {
+        "pt": "semente",
+        "he": "זרע"
+      },
+      {
+        "pt": "grama",
+        "he": "דשא"
+      },
+      {
+        "pt": "mata",
+        "he": "יער"
+      },
+      {
+        "pt": "floresta",
+        "he": "יער"
+      },
+      {
+        "pt": "laranjeira",
+        "he": "עץ תפוז"
+      }
     ]
   },
   {
@@ -440,15 +1475,42 @@
     "titleHe": "פירות",
     "icon": "🍎",
     "words": [
-      { "pt": "maçã", "he": "תפוח" },
-      { "pt": "banana", "he": "בננה" },
-      { "pt": "laranja", "he": "תפוז" },
-      { "pt": "limão", "he": "לימון" },
-      { "pt": "uva", "he": "ענב" },
-      { "pt": "manga", "he": "מנגו" },
-      { "pt": "abacate", "he": "אבוקדו" },
-      { "pt": "melancia", "he": "אבטיח" },
-      { "pt": "coco", "he": "קוקוס" }
+      {
+        "pt": "maçã",
+        "he": "תפוח"
+      },
+      {
+        "pt": "banana",
+        "he": "בננה"
+      },
+      {
+        "pt": "laranja",
+        "he": "תפוז"
+      },
+      {
+        "pt": "limão",
+        "he": "לימון"
+      },
+      {
+        "pt": "uva",
+        "he": "ענב"
+      },
+      {
+        "pt": "manga",
+        "he": "מנגו"
+      },
+      {
+        "pt": "abacate",
+        "he": "אבוקדו"
+      },
+      {
+        "pt": "melancia",
+        "he": "אבטיח"
+      },
+      {
+        "pt": "coco",
+        "he": "קוקוס"
+      }
     ]
   },
   {
@@ -456,20 +1518,62 @@
     "titleHe": "טבע ומזג אוויר",
     "icon": "🌿",
     "words": [
-      { "pt": "sol", "he": "שמש" },
-      { "pt": "lua", "he": "ירח" },
-      { "pt": "estrela", "he": "כוכב" },
-      { "pt": "céu", "he": "שמיים" },
-      { "pt": "mar", "he": "ים" },
-      { "pt": "rio", "he": "נהר" },
-      { "pt": "montanha", "he": "הר" },
-      { "pt": "areia", "he": "חול" },
-      { "pt": "vento", "he": "רוח" },
-      { "pt": "chuva", "he": "גשם" },
-      { "pt": "nuvem", "he": "ענן" },
-      { "pt": "tempestade", "he": "סערה" },
-      { "pt": "calor", "he": "חום" },
-      { "pt": "frio", "he": "קור" }
+      {
+        "pt": "sol",
+        "he": "שמש"
+      },
+      {
+        "pt": "lua",
+        "he": "ירח"
+      },
+      {
+        "pt": "estrela",
+        "he": "כוכב"
+      },
+      {
+        "pt": "céu",
+        "he": "שמיים"
+      },
+      {
+        "pt": "mar",
+        "he": "ים"
+      },
+      {
+        "pt": "rio",
+        "he": "נהר"
+      },
+      {
+        "pt": "montanha",
+        "he": "הר"
+      },
+      {
+        "pt": "areia",
+        "he": "חול"
+      },
+      {
+        "pt": "vento",
+        "he": "רוח"
+      },
+      {
+        "pt": "chuva",
+        "he": "גשם"
+      },
+      {
+        "pt": "nuvem",
+        "he": "ענן"
+      },
+      {
+        "pt": "tempestade",
+        "he": "סערה"
+      },
+      {
+        "pt": "calor",
+        "he": "חום"
+      },
+      {
+        "pt": "frio",
+        "he": "קור"
+      }
     ]
   },
   {
@@ -477,28 +1581,94 @@
     "titleHe": "רגשות",
     "icon": "❤️",
     "words": [
-      { "pt": "amor", "he": "אהבה" },
-      { "pt": "paixão", "he": "תשוקה" },
-      { "pt": "saudade", "he": "געגוע" },
-      { "pt": "alegria", "he": "שמחה" },
-      { "pt": "tristeza", "he": "עצב" },
-      { "pt": "raiva", "he": "כעס" },
-      { "pt": "medo", "he": "פחד" },
-      { "pt": "orgulho", "he": "גאווה" },
-      { "pt": "esperança", "he": "תקווה" },
-      { "pt": "ciúme", "he": "קנאה" },
-      { "pt": "felicidade", "he": "אושר" },
-      { "pt": "calma", "he": "רוגע" },
-      { "pt": "ansiedade", "he": "חרדה" },
-      { "pt": "cansado", "he": "עייף" },
-      { "pt": "feliz", "he": "שמח" },
-      { "pt": "triste", "he": "עצוב" },
-      { "pt": "ocupado", "he": "עסוק" },
-      { "pt": "livre", "he": "חופשי" },
-      { "pt": "doente", "he": "חולה" },
-      { "pt": "pronto", "he": "מוכן" },
-      { "pt": "certo", "he": "נכון" },
-      { "pt": "errado", "he": "לא נכון" }
+      {
+        "pt": "amor",
+        "he": "אהבה"
+      },
+      {
+        "pt": "paixão",
+        "he": "תשוקה"
+      },
+      {
+        "pt": "saudade",
+        "he": "געגוע"
+      },
+      {
+        "pt": "alegria",
+        "he": "שמחה"
+      },
+      {
+        "pt": "tristeza",
+        "he": "עצב"
+      },
+      {
+        "pt": "raiva",
+        "he": "כעס"
+      },
+      {
+        "pt": "medo",
+        "he": "פחד"
+      },
+      {
+        "pt": "orgulho",
+        "he": "גאווה"
+      },
+      {
+        "pt": "esperança",
+        "he": "תקווה"
+      },
+      {
+        "pt": "ciúme",
+        "he": "קנאה"
+      },
+      {
+        "pt": "felicidade",
+        "he": "אושר"
+      },
+      {
+        "pt": "calma",
+        "he": "רוגע"
+      },
+      {
+        "pt": "ansiedade",
+        "he": "חרדה"
+      },
+      {
+        "pt": "cansado",
+        "he": "עייף"
+      },
+      {
+        "pt": "feliz",
+        "he": "שמח"
+      },
+      {
+        "pt": "triste",
+        "he": "עצוב"
+      },
+      {
+        "pt": "ocupado",
+        "he": "עסוק"
+      },
+      {
+        "pt": "livre",
+        "he": "חופשי"
+      },
+      {
+        "pt": "doente",
+        "he": "חולה"
+      },
+      {
+        "pt": "pronto",
+        "he": "מוכן"
+      },
+      {
+        "pt": "certo",
+        "he": "נכון"
+      },
+      {
+        "pt": "errado",
+        "he": "לא נכון"
+      }
     ]
   },
   {
@@ -506,13 +1676,34 @@
     "titleHe": "בגדים",
     "icon": "👕",
     "words": [
-      { "pt": "camisa", "he": "חולצה" },
-      { "pt": "calça", "he": "מכנסיים" },
-      { "pt": "vestido", "he": "שמלה" },
-      { "pt": "sapato", "he": "נעל" },
-      { "pt": "boné", "he": "כובע" },
-      { "pt": "jaqueta", "he": "ז׳קט" },
-      { "pt": "meia", "he": "גרב" }
+      {
+        "pt": "camisa",
+        "he": "חולצה"
+      },
+      {
+        "pt": "calça",
+        "he": "מכנסיים"
+      },
+      {
+        "pt": "vestido",
+        "he": "שמלה"
+      },
+      {
+        "pt": "sapato",
+        "he": "נעל"
+      },
+      {
+        "pt": "boné",
+        "he": "כובע"
+      },
+      {
+        "pt": "jaqueta",
+        "he": "ז׳קט"
+      },
+      {
+        "pt": "meia",
+        "he": "גרב"
+      }
     ]
   },
   {
@@ -520,22 +1711,70 @@
     "titleHe": "תקשורת יומיומית",
     "icon": "💬",
     "words": [
-      { "pt": "oi", "he": "היי" },
-      { "pt": "tchau", "he": "ביי" },
-      { "pt": "por favor", "he": "בבקשה" },
-      { "pt": "obrigado / obrigada", "he": "תודה" },
-      { "pt": "desculpa", "he": "סליחה" },
-      { "pt": "com licença", "he": "ברשותך" },
-      { "pt": "sim", "he": "כן" },
-      { "pt": "não", "he": "לא" },
-      { "pt": "talvez", "he": "אולי" },
-      { "pt": "claro", "he": "ברור" },
-      { "pt": "tudo bem?", "he": "הכל בסדר?" },
-      { "pt": "como você está?", "he": "מה שלומך?" },
-      { "pt": "quanto custa?", "he": "כמה זה עולה?" },
-      { "pt": "onde fica…?", "he": "איפה נמצא…?" },
-      { "pt": "eu não entendi", "he": "לא הבנתי" },
-      { "pt": "pode repetir?", "he": "אפשר לחזור?" }
+      {
+        "pt": "oi",
+        "he": "היי"
+      },
+      {
+        "pt": "tchau",
+        "he": "ביי"
+      },
+      {
+        "pt": "por favor",
+        "he": "בבקשה"
+      },
+      {
+        "pt": "obrigado / obrigada",
+        "he": "תודה"
+      },
+      {
+        "pt": "desculpa",
+        "he": "סליחה"
+      },
+      {
+        "pt": "com licença",
+        "he": "ברשותך"
+      },
+      {
+        "pt": "sim",
+        "he": "כן"
+      },
+      {
+        "pt": "não",
+        "he": "לא"
+      },
+      {
+        "pt": "talvez",
+        "he": "אולי"
+      },
+      {
+        "pt": "claro",
+        "he": "ברור"
+      },
+      {
+        "pt": "tudo bem?",
+        "he": "הכל בסדר?"
+      },
+      {
+        "pt": "como você está?",
+        "he": "מה שלומך?"
+      },
+      {
+        "pt": "quanto custa?",
+        "he": "כמה זה עולה?"
+      },
+      {
+        "pt": "onde fica…?",
+        "he": "איפה נמצא…?"
+      },
+      {
+        "pt": "eu não entendi",
+        "he": "לא הבנתי"
+      },
+      {
+        "pt": "pode repetir?",
+        "he": "אפשר לחזור?"
+      }
     ]
   },
   {
@@ -543,16 +1782,46 @@
     "titleHe": "בית",
     "icon": "🏠",
     "words": [
-      { "pt": "porta", "he": "דלת" },
-      { "pt": "janela", "he": "חלון" },
-      { "pt": "mesa", "he": "שולחן" },
-      { "pt": "cadeira", "he": "כיסא" },
-      { "pt": "cama", "he": "מיטה" },
-      { "pt": "quarto", "he": "חדר" },
-      { "pt": "cozinha", "he": "מטבח" },
-      { "pt": "banheiro", "he": "שירותים" },
-      { "pt": "chão", "he": "רצפה" },
-      { "pt": "parede", "he": "קיר" }
+      {
+        "pt": "porta",
+        "he": "דלת"
+      },
+      {
+        "pt": "janela",
+        "he": "חלון"
+      },
+      {
+        "pt": "mesa",
+        "he": "שולחן"
+      },
+      {
+        "pt": "cadeira",
+        "he": "כיסא"
+      },
+      {
+        "pt": "cama",
+        "he": "מיטה"
+      },
+      {
+        "pt": "quarto",
+        "he": "חדר"
+      },
+      {
+        "pt": "cozinha",
+        "he": "מטבח"
+      },
+      {
+        "pt": "banheiro",
+        "he": "שירותים"
+      },
+      {
+        "pt": "chão",
+        "he": "רצפה"
+      },
+      {
+        "pt": "parede",
+        "he": "קיר"
+      }
     ]
   },
   {
@@ -560,17 +1829,50 @@
     "titleHe": "מילות שאלה",
     "icon": "❓",
     "words": [
-      { "pt": "onde", "he": "איפה" },
-      { "pt": "de onde", "he": "מאיפה" },
-      { "pt": "quando", "he": "מתי" },
-      { "pt": "o que / que", "he": "מה" },
-      { "pt": "quanto / quanta", "he": "כמה" },
-      { "pt": "quantos / quantas", "he": "כמה (רבים)" },
-      { "pt": "quem", "he": "מי" },
-      { "pt": "de quem", "he": "של מי" },
-      { "pt": "porque", "he": "למה" },
-      { "pt": "qual", "he": "איזה" },
-      { "pt": "quais", "he": "אילו (רבים)" }
+      {
+        "pt": "onde",
+        "he": "איפה"
+      },
+      {
+        "pt": "de onde",
+        "he": "מאיפה"
+      },
+      {
+        "pt": "quando",
+        "he": "מתי"
+      },
+      {
+        "pt": "o que / que",
+        "he": "מה"
+      },
+      {
+        "pt": "quanto / quanta",
+        "he": "כמה"
+      },
+      {
+        "pt": "quantos / quantas",
+        "he": "כמה (רבים)"
+      },
+      {
+        "pt": "quem",
+        "he": "מי"
+      },
+      {
+        "pt": "de quem",
+        "he": "של מי"
+      },
+      {
+        "pt": "porque",
+        "he": "למה"
+      },
+      {
+        "pt": "qual",
+        "he": "איזה"
+      },
+      {
+        "pt": "quais",
+        "he": "אילו (רבים)"
+      }
     ]
   },
   {
@@ -578,28 +1880,94 @@
     "titleHe": "מילות יחס",
     "icon": "📍",
     "words": [
-      { "pt": "antes de", "he": "לפני" },
-      { "pt": "depois de", "he": "אחרי" },
-      { "pt": "até", "he": "עד" },
-      { "pt": "desde", "he": "מ... / מאז..." },
-      { "pt": "através de", "he": "דרך / מעבר" },
-      { "pt": "sobre", "he": "מעל / לגבי" },
-      { "pt": "ao lado de", "he": "לצד" },
-      { "pt": "acima", "he": "מעל" },
-      { "pt": "baixo", "he": "מתחת" },
-      { "pt": "entre", "he": "בין" },
-      { "pt": "perto", "he": "ליד" },
-      { "pt": "dentro", "he": "בתוך" },
-      { "pt": "além de", "he": "מעבר ל..." },
-      { "pt": "em frente", "he": "מול / לפנים" },
-      { "pt": "de longe", "he": "מרחוק" },
-      { "pt": "em vez de", "he": "במקום" },
-      { "pt": "atrás", "he": "מאחור" },
-      { "pt": "fora", "he": "בחוץ" },
-      { "pt": "próximo", "he": "קרוב / ליד" },
-      { "pt": "em volta", "he": "מסביב" },
-      { "pt": "durante", "he": "במהלך" },
-      { "pt": "via", "he": "דרך" }
+      {
+        "pt": "antes de",
+        "he": "לפני"
+      },
+      {
+        "pt": "depois de",
+        "he": "אחרי"
+      },
+      {
+        "pt": "até",
+        "he": "עד"
+      },
+      {
+        "pt": "desde",
+        "he": "מ... / מאז..."
+      },
+      {
+        "pt": "através de",
+        "he": "דרך / מעבר"
+      },
+      {
+        "pt": "sobre",
+        "he": "מעל / לגבי"
+      },
+      {
+        "pt": "ao lado de",
+        "he": "לצד"
+      },
+      {
+        "pt": "acima",
+        "he": "מעל"
+      },
+      {
+        "pt": "baixo",
+        "he": "מתחת"
+      },
+      {
+        "pt": "entre",
+        "he": "בין"
+      },
+      {
+        "pt": "perto",
+        "he": "ליד"
+      },
+      {
+        "pt": "dentro",
+        "he": "בתוך"
+      },
+      {
+        "pt": "além de",
+        "he": "מעבר ל..."
+      },
+      {
+        "pt": "em frente",
+        "he": "מול / לפנים"
+      },
+      {
+        "pt": "de longe",
+        "he": "מרחוק"
+      },
+      {
+        "pt": "em vez de",
+        "he": "במקום"
+      },
+      {
+        "pt": "atrás",
+        "he": "מאחור"
+      },
+      {
+        "pt": "fora",
+        "he": "בחוץ"
+      },
+      {
+        "pt": "próximo",
+        "he": "קרוב / ליד"
+      },
+      {
+        "pt": "em volta",
+        "he": "מסביב"
+      },
+      {
+        "pt": "durante",
+        "he": "במהלך"
+      },
+      {
+        "pt": "via",
+        "he": "דרך"
+      }
     ]
   },
   {
@@ -607,25 +1975,173 @@
     "titleHe": "מילות חיבור",
     "icon": "🔀",
     "words": [
-      { "pt": "e", "he": "ו..." },
-      { "pt": "ou", "he": "או" },
-      { "pt": "mas", "he": "אבל" },
-      { "pt": "como", "he": "כמו / כ..." },
-      { "pt": "daí", "he": "אז" },
-      { "pt": "quando", "he": "כאשר" },
-      { "pt": "enquanto", "he": "בזמן ש..." },
-      { "pt": "se", "he": "אם" },
-      { "pt": "ainda que", "he": "למרות ש..." },
-      { "pt": "porque", "he": "כי / בגלל" },
-      { "pt": "que", "he": "ש... / אשר" },
-      { "pt": "para / pra", "he": "בשביל / ל..." },
-      { "pt": "nem... nem", "he": "לא... ולא" },
-      { "pt": "contudo", "he": "למרות זאת / אולם" },
-      { "pt": "contra", "he": "נגד" },
-      { "pt": "exceto", "he": "חוץ מ..." },
-      { "pt": "ambos", "he": "שניהם" },
-      { "pt": "apesar", "he": "למרות" },
-      { "pt": "além disso", "he": "חוץ מזה / יתרה מזאת" }
+      {
+        "pt": "e",
+        "he": "ו..."
+      },
+      {
+        "pt": "ou",
+        "he": "או"
+      },
+      {
+        "pt": "mas",
+        "he": "אבל"
+      },
+      {
+        "pt": "como",
+        "he": "כמו / כ..."
+      },
+      {
+        "pt": "daí",
+        "he": "אז"
+      },
+      {
+        "pt": "quando",
+        "he": "כאשר"
+      },
+      {
+        "pt": "enquanto",
+        "he": "בזמן ש..."
+      },
+      {
+        "pt": "se",
+        "he": "אם"
+      },
+      {
+        "pt": "ainda que",
+        "he": "למרות ש..."
+      },
+      {
+        "pt": "porque",
+        "he": "כי / בגלל"
+      },
+      {
+        "pt": "que",
+        "he": "ש... / אשר"
+      },
+      {
+        "pt": "para / pra",
+        "he": "בשביל / ל..."
+      },
+      {
+        "pt": "nem... nem",
+        "he": "לא... ולא"
+      },
+      {
+        "pt": "contudo",
+        "he": "למרות זאת / אולם"
+      },
+      {
+        "pt": "contra",
+        "he": "נגד"
+      },
+      {
+        "pt": "exceto",
+        "he": "חוץ מ..."
+      },
+      {
+        "pt": "ambos",
+        "he": "שניהם"
+      },
+      {
+        "pt": "apesar",
+        "he": "למרות"
+      },
+      {
+        "pt": "além disso",
+        "he": "חוץ מזה / יתרה מזאת"
+      }
+    ]
+  },
+  {
+    "id": "body",
+    "titleHe": "חלקי גוף",
+    "icon": "🫀",
+    "words": [
+      {
+        "pt": "cabeça",
+        "he": "ראש"
+      },
+      {
+        "pt": "rosto",
+        "he": "פנים"
+      },
+      {
+        "pt": "olhos",
+        "he": "עיניים"
+      },
+      {
+        "pt": "ouvidos",
+        "he": "אוזניים"
+      },
+      {
+        "pt": "nariz",
+        "he": "אף"
+      },
+      {
+        "pt": "boca",
+        "he": "פה"
+      },
+      {
+        "pt": "queixo",
+        "he": "סנטר"
+      },
+      {
+        "pt": "pescoço",
+        "he": "צוואר"
+      },
+      {
+        "pt": "ombros",
+        "he": "כתפיים"
+      },
+      {
+        "pt": "braços",
+        "he": "זרועות"
+      },
+      {
+        "pt": "mãos",
+        "he": "ידיים"
+      },
+      {
+        "pt": "palmeiras",
+        "he": "כפות ידיים"
+      },
+      {
+        "pt": "cotovelos",
+        "he": "מרפקים"
+      },
+      {
+        "pt": "dedo",
+        "he": "אצבע"
+      },
+      {
+        "pt": "corpo",
+        "he": "גוף"
+      },
+      {
+        "pt": "perna",
+        "he": "רגל"
+      },
+      {
+        "pt": "joelho",
+        "he": "ברך"
+      },
+      {
+        "pt": "pé",
+        "he": "כף רגל"
+      },
+      {
+        "pt": "costas",
+        "he": "גב"
+      },
+      {
+        "pt": "peito",
+        "he": "חזה"
+      },
+      {
+        "pt": "barriga",
+        "he": "בטן"
+      }
     ]
   }
 ]
