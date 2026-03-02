@@ -3970,8 +3970,12 @@
             ],
             "examples": [
               {
-                "pt": "dê!",
-                "he": "!"
+                "pt": "Dê uma chance para mim!",
+                "he": "תן לי הזדמנות!"
+              },
+              {
+                "pt": "Deem o melhor de vocês!",
+                "he": "תנו את המיטב!"
               }
             ],
             "sentences": [
@@ -4505,8 +4509,12 @@
             ],
             "examples": [
               {
-                "pt": "diga!",
-                "he": "!"
+                "pt": "Diga a verdade!",
+                "he": "אמור את האמת!"
+              },
+              {
+                "pt": "Digam o que pensam.",
+                "he": "אמרו מה שאתם חושבים."
               }
             ],
             "sentences": [
@@ -5040,8 +5048,12 @@
             ],
             "examples": [
               {
-                "pt": "faça!",
-                "he": "!"
+                "pt": "Faça silêncio, por favor.",
+                "he": "תעשה שקט, בבקשה."
+              },
+              {
+                "pt": "Façam a lição agora.",
+                "he": "עשו את השיעור עכשיו."
               }
             ],
             "sentences": [
@@ -5535,8 +5547,12 @@
             ],
             "examples": [
               {
-                "pt": "haja!",
-                "he": "!"
+                "pt": "Haja respeito aqui!",
+                "he": "שיהיה כבוד כאן!"
+              },
+              {
+                "pt": "Haja paz entre vocês.",
+                "he": "שיהיה שלום ביניכם."
               }
             ],
             "sentences": [
@@ -6066,8 +6082,12 @@
             ],
             "examples": [
               {
-                "pt": "leia!",
-                "he": "!"
+                "pt": "Leia com atenção.",
+                "he": "קרא בתשומת לב."
+              },
+              {
+                "pt": "Leiam a letra da música.",
+                "he": "קראו את מילות השיר."
               }
             ],
             "sentences": [
@@ -6597,8 +6617,12 @@
             ],
             "examples": [
               {
-                "pt": "queira!",
-                "he": "!"
+                "pt": "Queira o melhor para você.",
+                "he": "רצה את הטוב ביותר עבורך."
+              },
+              {
+                "pt": "Queiram com força e vai acontecer!",
+                "he": "רצו בחוזקה וזה יקרה!"
               }
             ],
             "sentences": [
@@ -7128,8 +7152,12 @@
             ],
             "examples": [
               {
-                "pt": "possa!",
-                "he": "!"
+                "pt": "Possa entrar à vontade.",
+                "he": "תוכל להיכנס בנוחות."
+              },
+              {
+                "pt": "Possam contar comigo sempre.",
+                "he": "תוכלו לסמוך עליי תמיד."
               }
             ],
             "sentences": [
@@ -7670,8 +7698,12 @@
             ],
             "examples": [
               {
-                "pt": "tenha!",
-                "he": "!"
+                "pt": "Tenha cuidado no caminho!",
+                "he": "היזהר בדרך!"
+              },
+              {
+                "pt": "Tenham paciência, por favor.",
+                "he": "היו סבלניים, בבקשה."
               }
             ],
             "sentences": [
@@ -8205,8 +8237,12 @@
             ],
             "examples": [
               {
-                "pt": "traga!",
-                "he": "!"
+                "pt": "Traga o berimbau para o treino.",
+                "he": "הבא את הברימבאו לאימון."
+              },
+              {
+                "pt": "Tragam as crianças também.",
+                "he": "הביאו גם את הילדים."
               }
             ],
             "sentences": [
@@ -8743,8 +8779,12 @@
             ],
             "examples": [
               {
-                "pt": "veja!",
-                "he": "!"
+                "pt": "Veja como ela dança bem!",
+                "he": "ראה כמה היא רוקדת טוב!"
+              },
+              {
+                "pt": "Vejam com os próprios olhos.",
+                "he": "ראו בעיניים שלכם."
               }
             ],
             "sentences": [
@@ -9274,8 +9314,12 @@
             ],
             "examples": [
               {
-                "pt": "durma!",
-                "he": "!"
+                "pt": "Durma cedo para descansar.",
+                "he": "ישן מוקדם כדי לנוח."
+              },
+              {
+                "pt": "Durmam bem esta noite.",
+                "he": "ישנו טוב הלילה."
               }
             ],
             "sentences": [
@@ -9805,8 +9849,12 @@
             ],
             "examples": [
               {
-                "pt": "ouça!",
-                "he": "!"
+                "pt": "Ouça o mestre com atenção.",
+                "he": "הקשב למאסטר בתשומת לב."
+              },
+              {
+                "pt": "Ouçam a música antes de cantar.",
+                "he": "הקשיבו למוסיקה לפני שרים."
               }
             ],
             "sentences": [
@@ -10347,8 +10395,12 @@
             ],
             "examples": [
               {
-                "pt": "venha!",
-                "he": "!"
+                "pt": "Venha aqui agora!",
+                "he": "בוא לכאן עכשיו!"
+              },
+              {
+                "pt": "Venham todos para a roda!",
+                "he": "בואו כולם לבטה!"
               }
             ],
             "sentences": [
