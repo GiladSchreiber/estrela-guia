@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import confetti from 'canvas-confetti'
 import grammarData from '../data/grammar-topics.json'
 import TopicBlock from '../components/grammar/TopicBlock'
@@ -49,6 +49,7 @@ function renderBlankParts(blank_pt, answer, revealed) {
 export default function GrammarTopicPage() {
   const { topicId } = useParams()
   const navigate = useNavigate()
+  const [searchParams] = useSearchParams()
   const topic = grammarData.find(t => t.id === topicId)
 
   const [phase, setPhase] = useState('learn')
@@ -59,12 +60,17 @@ export default function GrammarTopicPage() {
 
   useEffect(() => {
     if (!topic) return
+    const paramTense = searchParams.get('tense')
+    const paramVerb  = searchParams.get('verb')
     if (topic.type === 'verbs') {
-      setSelectedTenseId(topic.tenses[0].id)
+      const tense = topic.tenses.find(t => t.id === paramTense) ?? topic.tenses[0]
+      setSelectedTenseId(tense.id)
       setSelectedVerbId(null)
     } else if (topic.type === 'verbs-irregular') {
-      setSelectedVerbId(topic.verbs[0].id)
-      setSelectedTenseId(topic.verbs[0].tenses[0].id)
+      const verb  = topic.verbs.find(v => v.id === paramVerb)  ?? topic.verbs[0]
+      const tense = verb.tenses.find(t => t.id === paramTense) ?? verb.tenses[0]
+      setSelectedVerbId(verb.id)
+      setSelectedTenseId(tense.id)
     } else {
       setSelectedTenseId(null)
       setSelectedVerbId(null)

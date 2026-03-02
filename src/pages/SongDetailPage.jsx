@@ -241,7 +241,13 @@ export default function SongDetailPage() {
                     <div className={styles.noteFooter}>
                       <span className={styles.noteLabel}>{note.label_he}</span>
                       {note.topic_id
-                        ? <button className={styles.noteLink} onClick={() => navigate(`/grammar/${note.topic_id}`)}>קרא עוד ←</button>
+                        ? <button className={styles.noteLink} onClick={() => {
+                            const p = new URLSearchParams()
+                            if (note.tense_id) p.set('tense', note.tense_id)
+                            if (note.verb_id)  p.set('verb',  note.verb_id)
+                            const qs = p.toString()
+                            navigate(`/grammar/${note.topic_id}${qs ? '?' + qs : ''}`)
+                          }}>קרא עוד ←</button>
                         : <span className={styles.noteSoon}>בקרוב</span>
                       }
                     </div>
@@ -260,7 +266,13 @@ export default function SongDetailPage() {
                     <div className={styles.noteFooter}>
                       <span className={styles.noteLabel}>{note.label_he}</span>
                       {note.topic_id
-                        ? <button className={styles.noteLink} onClick={() => navigate(`/grammar/${note.topic_id}`)}>קרא עוד ←</button>
+                        ? <button className={styles.noteLink} onClick={() => {
+                            const p = new URLSearchParams()
+                            if (note.tense_id) p.set('tense', note.tense_id)
+                            if (note.verb_id)  p.set('verb',  note.verb_id)
+                            const qs = p.toString()
+                            navigate(`/grammar/${note.topic_id}${qs ? '?' + qs : ''}`)
+                          }}>קרא עוד ←</button>
                         : <span className={styles.noteSoon}>בקרוב</span>
                       }
                     </div>
