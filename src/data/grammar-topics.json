@@ -3740,6 +3740,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + dar",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + dar"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou dar"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai dar"
+                  ],
+                  [
+                    "Nós",
+                    "vamos dar"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão dar"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou dar agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dar-fut-1",
+                "blank_pt": "Amanhã eu ___ um presente para ela",
+                "answer": "vou dar",
+                "translation": "מחר אני אתן לה מתנה"
+              },
+              {
+                "id": "vi-dar-fut-2",
+                "blank_pt": "Nós ___ uma festa no fim de semana",
+                "answer": "vamos dar",
+                "translation": "אנחנו נעשה מסיבה בסוף שבוע"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — dar",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "daria"
+                  ],
+                  [
+                    "Nós",
+                    "daríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "dariam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu daria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dar-cond-1",
+                "blank_pt": "Eu ___ tudo por você",
+                "answer": "daria",
+                "translation": "אני הייתי נותן הכל בשבילך"
+              },
+              {
+                "id": "vi-dar-cond-2",
+                "blank_pt": "Eles ___ uma resposta amanhã",
+                "answer": "dariam",
+                "translation": "הם היו נותנים תשובה מחר"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — dar",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "desse"
+                  ],
+                  [
+                    "Nós",
+                    "déssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "dessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu desse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dar-subj-1",
+                "blank_pt": "Se ele ___ atenção, aprenderia mais",
+                "answer": "desse",
+                "translation": "אם הוא היה שם לב, הוא היה לומד יותר"
+              },
+              {
+                "id": "vi-dar-subj-2",
+                "blank_pt": "Ela queria que nós ___ um exemplo",
+                "answer": "déssemos",
+                "translation": "היא רצתה שנביא דוגמה"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — dar",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "dê"
+                  ],
+                  [
+                    "Vocês",
+                    "deem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "dê!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dar-imper-1",
+                "blank_pt": "___ uma chance para mim!",
+                "answer": "Dê",
+                "translation": "תן לי צ'אנס!"
+              },
+              {
+                "id": "vi-dar-imper-2",
+                "blank_pt": "___ o melhor de vocês!",
+                "answer": "Deem",
+                "translation": "תנו את המיטב שלכם!"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -4039,6 +4267,238 @@
                 "answer": "dizíamos",
                 "base": "dizer",
                 "translation": "תמיד אמרנו את האמת"
+              }
+            ]
+          },
+          {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + dizer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + dizer"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou dizer"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai dizer"
+                  ],
+                  [
+                    "Nós",
+                    "vamos dizer"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão dizer"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou dizer agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dizer-fut-1",
+                "blank_pt": "Eu ___ a verdade",
+                "answer": "vou dizer",
+                "translation": "אני אגיד את האמת"
+              },
+              {
+                "id": "vi-dizer-fut-2",
+                "blank_pt": "Ela ___ o que pensa",
+                "answer": "vai dizer",
+                "translation": "היא תגיד מה שהיא חושבת"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "note",
+                "he": "גזע בלתי סדיר: dizer → dir-"
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — dizer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "diria"
+                  ],
+                  [
+                    "Nós",
+                    "diríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "diriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu diria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dizer-cond-1",
+                "blank_pt": "Eu ___ a mesma coisa",
+                "answer": "diria",
+                "translation": "אני הייתי אומר את אותו הדבר"
+              },
+              {
+                "id": "vi-dizer-cond-2",
+                "blank_pt": "Eles ___ que não",
+                "answer": "diriam",
+                "translation": "הם היו אומרים שלא"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — dizer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "dissesse"
+                  ],
+                  [
+                    "Nós",
+                    "disséssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "dissessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu dissesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dizer-subj-1",
+                "blank_pt": "Se ela ___ a verdade, eu acreditaria",
+                "answer": "dissesse",
+                "translation": "אם היא הייתה אומרת את האמת, הייתי מאמין"
+              },
+              {
+                "id": "vi-dizer-subj-2",
+                "blank_pt": "Ele queria que eu ___ tudo",
+                "answer": "dissesse",
+                "translation": "הוא רצה שאומר הכל"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — dizer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "diga"
+                  ],
+                  [
+                    "Vocês",
+                    "digam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "diga!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dizer-imper-1",
+                "blank_pt": "___ a verdade!",
+                "answer": "Diga",
+                "translation": "אמור את האמת!"
+              },
+              {
+                "id": "vi-dizer-imper-2",
+                "blank_pt": "___ o que vocês sabem",
+                "answer": "Digam",
+                "translation": "אמרו מה שאתם יודעים"
               }
             ]
           },
@@ -4346,6 +4806,238 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + fazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + fazer"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou fazer"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai fazer"
+                  ],
+                  [
+                    "Nós",
+                    "vamos fazer"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão fazer"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou fazer agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-fazer-fut-1",
+                "blank_pt": "Eu ___ o dever de casa",
+                "answer": "vou fazer",
+                "translation": "אני אעשה שיעורי בית"
+              },
+              {
+                "id": "vi-fazer-fut-2",
+                "blank_pt": "Nós ___ capoeira amanhã",
+                "answer": "vamos fazer",
+                "translation": "אנחנו נעשה קפוארה מחר"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "note",
+                "he": "גזע בלתי סדיר: fazer → far-"
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — fazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "faria"
+                  ],
+                  [
+                    "Nós",
+                    "faríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "fariam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu faria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-fazer-cond-1",
+                "blank_pt": "Eu ___ isso de novo",
+                "answer": "faria",
+                "translation": "אני הייתי עושה את זה שוב"
+              },
+              {
+                "id": "vi-fazer-cond-2",
+                "blank_pt": "Ela ___ tudo diferente",
+                "answer": "faria",
+                "translation": "היא הייתה עושה הכל אחרת"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — fazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "fizesse"
+                  ],
+                  [
+                    "Nós",
+                    "fizéssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "fizessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu fizesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-fazer-subj-1",
+                "blank_pt": "Se eu ___ isso, seria melhor",
+                "answer": "fizesse",
+                "translation": "אם הייתי עושה את זה, היה טוב יותר"
+              },
+              {
+                "id": "vi-fazer-subj-2",
+                "blank_pt": "Queria que você ___ mais esforço",
+                "answer": "fizesse",
+                "translation": "רציתי שתשקיע יותר מאמץ"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — fazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "faça"
+                  ],
+                  [
+                    "Vocês",
+                    "façam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "faça!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-fazer-imper-1",
+                "blank_pt": "___ silêncio, por favor",
+                "answer": "Faça",
+                "translation": "תעשה שקט, בבקשה"
+              },
+              {
+                "id": "vi-fazer-imper-2",
+                "blank_pt": "___ a lição agora",
+                "answer": "Façam",
+                "translation": "עשו את השיעור עכשיו"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -4609,6 +5301,234 @@
                 "answer": "Havia",
                 "base": "haver",
                 "translation": "היה כאן מאסטר מפורסם"
+              }
+            ]
+          },
+          {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + haver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + haver"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou haver"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai haver"
+                  ],
+                  [
+                    "Nós",
+                    "vamos haver"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão haver"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou haver agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-haver-fut-1",
+                "blank_pt": "Vai ___ uma festa amanhã",
+                "answer": "haver",
+                "translation": "תהיה מסיבה מחר"
+              },
+              {
+                "id": "vi-haver-fut-2",
+                "blank_pt": "Vai ___ muita gente lá",
+                "answer": "haver",
+                "translation": "יהיו שם הרבה אנשים"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — haver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "haveria"
+                  ],
+                  [
+                    "Nós",
+                    "haveríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "haveriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu haveria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-haver-cond-1",
+                "blank_pt": "___ uma solução para tudo",
+                "answer": "Haveria",
+                "translation": "היה פתרון לכל דבר"
+              },
+              {
+                "id": "vi-haver-cond-2",
+                "blank_pt": "Não ___ problema nenhum",
+                "answer": "haveria",
+                "translation": "לא היה שום בעיה"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — haver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "houvesse"
+                  ],
+                  [
+                    "Nós",
+                    "houvéssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "houvessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu houvesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-haver-subj-1",
+                "blank_pt": "Se ___ mais tempo, aprenderíamos mais",
+                "answer": "houvesse",
+                "translation": "אם היה יותר זמן, היינו לומדים יותר"
+              },
+              {
+                "id": "vi-haver-subj-2",
+                "blank_pt": "Se ___ paz, tudo seria melhor",
+                "answer": "houvesse",
+                "translation": "אם היה שלום, הכל היה טוב יותר"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — haver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "haja"
+                  ],
+                  [
+                    "Vocês",
+                    "hajam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "haja!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-haver-imper-1",
+                "blank_pt": "___ respeito aqui!",
+                "answer": "Haja",
+                "translation": "שיהיה כבוד כאן!"
+              },
+              {
+                "id": "vi-haver-imper-2",
+                "blank_pt": "___ silêncio na roda",
+                "answer": "Haja",
+                "translation": "שיהיה שקט בבטה"
               }
             ]
           },
@@ -4916,6 +5836,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + ler",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + ler"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou ler"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai ler"
+                  ],
+                  [
+                    "Nós",
+                    "vamos ler"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão ler"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou ler agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ler-fut-1",
+                "blank_pt": "Eu ___ esse livro hoje",
+                "answer": "vou ler",
+                "translation": "אני אקרא את הספר הזה היום"
+              },
+              {
+                "id": "vi-ler-fut-2",
+                "blank_pt": "Ela ___ a letra da música",
+                "answer": "vai ler",
+                "translation": "היא תקרא את המילים של השיר"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — ler",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "leria"
+                  ],
+                  [
+                    "Nós",
+                    "leríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "leriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu leria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ler-cond-1",
+                "blank_pt": "Eu ___ mais se tivesse tempo",
+                "answer": "leria",
+                "translation": "הייתי קורא יותר אם היה לי זמן"
+              },
+              {
+                "id": "vi-ler-cond-2",
+                "blank_pt": "Eles ___ o livro juntos",
+                "answer": "leriam",
+                "translation": "הם היו קוראים את הספר ביחד"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — ler",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "lesse"
+                  ],
+                  [
+                    "Nós",
+                    "léssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "lessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu lesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ler-subj-1",
+                "blank_pt": "Se eu ___ mais, saberia mais",
+                "answer": "lesse",
+                "translation": "אם הייתי קורא יותר, הייתי יודע יותר"
+              },
+              {
+                "id": "vi-ler-subj-2",
+                "blank_pt": "Ela queria que eu ___ a carta",
+                "answer": "lesse",
+                "translation": "היא רצתה שאקרא את המכתב"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — ler",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "leia"
+                  ],
+                  [
+                    "Vocês",
+                    "leiam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "leia!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ler-imper-1",
+                "blank_pt": "___ com atenção",
+                "answer": "Leia",
+                "translation": "קרא בתשומת לב"
+              },
+              {
+                "id": "vi-ler-imper-2",
+                "blank_pt": "___ a história em voz alta",
+                "answer": "Leiam",
+                "translation": "קראו את הסיפור בקול רם"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -5219,6 +6367,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + querer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + querer"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou querer"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai querer"
+                  ],
+                  [
+                    "Nós",
+                    "vamos querer"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão querer"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou querer agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-querer-fut-1",
+                "blank_pt": "Eu ___ aprender mais",
+                "answer": "vou querer",
+                "translation": "אני ארצה ללמוד יותר"
+              },
+              {
+                "id": "vi-querer-fut-2",
+                "blank_pt": "Ela ___ ir à festa",
+                "answer": "vai querer",
+                "translation": "היא תרצה ללכת למסיבה"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — querer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "quereria"
+                  ],
+                  [
+                    "Nós",
+                    "quereríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "quereriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu quereria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-querer-cond-1",
+                "blank_pt": "Eu ___ café, por favor",
+                "answer": "quereria",
+                "translation": "הייתי רוצה קפה, בבקשה"
+              },
+              {
+                "id": "vi-querer-cond-2",
+                "blank_pt": "Eles ___ mais tempo",
+                "answer": "quereriam",
+                "translation": "הם היו רוצים יותר זמן"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — querer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "quisesse"
+                  ],
+                  [
+                    "Nós",
+                    "quiséssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "quisessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu quisesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-querer-subj-1",
+                "blank_pt": "Se ela ___ ajuda, eu ajudaria",
+                "answer": "quisesse",
+                "translation": "אם היא הייתה רוצה עזרה, הייתי עוזר"
+              },
+              {
+                "id": "vi-querer-subj-2",
+                "blank_pt": "Faria isso se você ___",
+                "answer": "quisesse",
+                "translation": "הייתי עושה את זה אם היית רוצה"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — querer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "queira"
+                  ],
+                  [
+                    "Vocês",
+                    "queiram"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "queira!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-querer-imper-1",
+                "blank_pt": "___ o melhor para você",
+                "answer": "Queira",
+                "translation": "רצה את הטוב ביותר עבורך"
+              },
+              {
+                "id": "vi-querer-imper-2",
+                "blank_pt": "___ o melhor para vocês",
+                "answer": "Queiram",
+                "translation": "רצו את הטוב ביותר עבורכם"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -5518,6 +6894,234 @@
                 "answer": "podíamos",
                 "base": "poder",
                 "translation": "יכולנו ללכת מתי שרצינו"
+              }
+            ]
+          },
+          {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + poder",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + poder"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou poder"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai poder"
+                  ],
+                  [
+                    "Nós",
+                    "vamos poder"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão poder"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou poder agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-poder-fut-1",
+                "blank_pt": "Amanhã eu ___ ajudar",
+                "answer": "vou poder",
+                "translation": "מחר אני אוכל לעזור"
+              },
+              {
+                "id": "vi-poder-fut-2",
+                "blank_pt": "Você ___ vir mais tarde",
+                "answer": "vai poder",
+                "translation": "תוכל לבוא מאוחר יותר"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — poder",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "poderia"
+                  ],
+                  [
+                    "Nós",
+                    "poderíamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "poderiam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu poderia mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-poder-cond-1",
+                "blank_pt": "Eu ___ ir se quisesse",
+                "answer": "poderia",
+                "translation": "הייתי יכול ללכת אם הייתי רוצה"
+              },
+              {
+                "id": "vi-poder-cond-2",
+                "blank_pt": "Eles ___ ajudar mais",
+                "answer": "poderiam",
+                "translation": "הם היו יכולים לעזור יותר"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — poder",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "pudesse"
+                  ],
+                  [
+                    "Nós",
+                    "pudéssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "pudessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu pudesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-poder-subj-1",
+                "blank_pt": "Se eu ___ ir, iria",
+                "answer": "pudesse",
+                "translation": "אם יכולתי ללכת, הייתי הולך"
+              },
+              {
+                "id": "vi-poder-subj-2",
+                "blank_pt": "Queria que você ___ ficar",
+                "answer": "pudesse",
+                "translation": "רציתי שתוכל להישאר"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — poder",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "possa"
+                  ],
+                  [
+                    "Vocês",
+                    "possam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "possa!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-poder-imper-1",
+                "blank_pt": "___ entrar, se quiser",
+                "answer": "Possa",
+                "translation": "תוכל להיכנס אם תרצה"
+              },
+              {
+                "id": "vi-poder-imper-2",
+                "blank_pt": "___ contar comigo",
+                "answer": "Possam",
+                "translation": "תוכלו לסמוך עליי"
               }
             ]
           },
@@ -5836,6 +7440,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + ter",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + ter"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou ter"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai ter"
+                  ],
+                  [
+                    "Nós",
+                    "vamos ter"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão ter"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou ter agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ter-fut-1",
+                "blank_pt": "Eu ___ mais paciência",
+                "answer": "vou ter",
+                "translation": "אני אהיה יותר סבלני"
+              },
+              {
+                "id": "vi-ter-fut-2",
+                "blank_pt": "Nós ___ uma reunião amanhã",
+                "answer": "vamos ter",
+                "translation": "תהיה לנו פגישה מחר"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — ter",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "teria"
+                  ],
+                  [
+                    "Nós",
+                    "teríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "teriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu teria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ter-cond-1",
+                "blank_pt": "Eu ___ mais cuidado",
+                "answer": "teria",
+                "translation": "הייתי יותר זהיר"
+              },
+              {
+                "id": "vi-ter-cond-2",
+                "blank_pt": "Eles ___ mais sorte",
+                "answer": "teriam",
+                "translation": "היה להם יותר מזל"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — ter",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "tivesse"
+                  ],
+                  [
+                    "Nós",
+                    "tivéssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "tivessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu tivesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ter-subj-1",
+                "blank_pt": "Se eu ___ dinheiro, viajaria",
+                "answer": "tivesse",
+                "translation": "אם היה לי כסף, הייתי נוסע"
+              },
+              {
+                "id": "vi-ter-subj-2",
+                "blank_pt": "Queria que você ___ cuidado",
+                "answer": "tivesse",
+                "translation": "רציתי שתזהר"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — ter",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "tenha"
+                  ],
+                  [
+                    "Vocês",
+                    "tenham"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "tenha!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ter-imper-1",
+                "blank_pt": "___ cuidado no caminho",
+                "answer": "Tenha",
+                "translation": "היזהר בדרך"
+              },
+              {
+                "id": "vi-ter-imper-2",
+                "blank_pt": "___ paciência, por favor",
+                "answer": "Tenham",
+                "translation": "היו סבלניים, בבקשה"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -6135,6 +7967,238 @@
                 "answer": "trazíamos",
                 "base": "trazer",
                 "translation": "הבאנו נשנוש לקבוצה"
+              }
+            ]
+          },
+          {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + trazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + trazer"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou trazer"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai trazer"
+                  ],
+                  [
+                    "Nós",
+                    "vamos trazer"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão trazer"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou trazer agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-trazer-fut-1",
+                "blank_pt": "Eu ___ o livro amanhã",
+                "answer": "vou trazer",
+                "translation": "אני אביא את הספר מחר"
+              },
+              {
+                "id": "vi-trazer-fut-2",
+                "blank_pt": "Ela ___ comida para a festa",
+                "answer": "vai trazer",
+                "translation": "היא תביא אוכל למסיבה"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "note",
+                "he": "גזע בלתי סדיר: trazer → trar-"
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — trazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "traria"
+                  ],
+                  [
+                    "Nós",
+                    "traríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "trariam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu traria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-trazer-cond-1",
+                "blank_pt": "Eu ___ mais se soubesse",
+                "answer": "traria",
+                "translation": "הייתי מביא יותר אם ידעתי"
+              },
+              {
+                "id": "vi-trazer-cond-2",
+                "blank_pt": "Eles ___ os instrumentos",
+                "answer": "trariam",
+                "translation": "הם היו מביאים את הכלים"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — trazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "trouxesse"
+                  ],
+                  [
+                    "Nós",
+                    "trouxéssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "trouxessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu trouxesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-trazer-subj-1",
+                "blank_pt": "Se você ___ o berimbau, tocaria",
+                "answer": "trouxesse",
+                "translation": "אם היית מביא את הברימבאו, היית מנגן"
+              },
+              {
+                "id": "vi-trazer-subj-2",
+                "blank_pt": "Queria que ela ___ notícias",
+                "answer": "trouxesse",
+                "translation": "רציתי שתביא חדשות"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — trazer",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "traga"
+                  ],
+                  [
+                    "Vocês",
+                    "tragam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "traga!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-trazer-imper-1",
+                "blank_pt": "___ o seu material",
+                "answer": "Traga",
+                "translation": "הבא את החומרים שלך"
+              },
+              {
+                "id": "vi-trazer-imper-2",
+                "blank_pt": "___ as crianças também",
+                "answer": "Tragam",
+                "translation": "הביאו גם את הילדים"
               }
             ]
           },
@@ -6449,6 +8513,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + ver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + ver"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou ver"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai ver"
+                  ],
+                  [
+                    "Nós",
+                    "vamos ver"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão ver"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou ver agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ver-fut-1",
+                "blank_pt": "Eu ___ esse filme hoje",
+                "answer": "vou ver",
+                "translation": "אני אראה את הסרט הזה היום"
+              },
+              {
+                "id": "vi-ver-fut-2",
+                "blank_pt": "Você ___ o que acontece",
+                "answer": "vai ver",
+                "translation": "תראה מה יקרה"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — ver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "veria"
+                  ],
+                  [
+                    "Nós",
+                    "veríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "veriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu veria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ver-cond-1",
+                "blank_pt": "Eu ___ isso diferente",
+                "answer": "veria",
+                "translation": "הייתי רואה את זה אחרת"
+              },
+              {
+                "id": "vi-ver-cond-2",
+                "blank_pt": "Eles ___ a beleza disso",
+                "answer": "veriam",
+                "translation": "הם היו רואים את היופי בזה"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — ver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "visse"
+                  ],
+                  [
+                    "Nós",
+                    "víssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vissem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu visse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ver-subj-1",
+                "blank_pt": "Se você ___ o que vi, entenderia",
+                "answer": "visse",
+                "translation": "אם היית רואה מה שראיתי, היית מבין"
+              },
+              {
+                "id": "vi-ver-subj-2",
+                "blank_pt": "Queria que ela ___ meu trabalho",
+                "answer": "visse",
+                "translation": "רציתי שהיא תראה את העבודה שלי"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — ver",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "veja"
+                  ],
+                  [
+                    "Vocês",
+                    "vejam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "veja!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ver-imper-1",
+                "blank_pt": "___ como é bonito!",
+                "answer": "Veja",
+                "translation": "ראה כמה זה יפה!"
+              },
+              {
+                "id": "vi-ver-imper-2",
+                "blank_pt": "___ com seus próprios olhos",
+                "answer": "Vejam",
+                "translation": "ראו בעיניים שלכם"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -6752,6 +9044,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + dormir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + dormir"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou dormir"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai dormir"
+                  ],
+                  [
+                    "Nós",
+                    "vamos dormir"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão dormir"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou dormir agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dormir-fut-1",
+                "blank_pt": "Eu ___ mais cedo hoje",
+                "answer": "vou dormir",
+                "translation": "אני אישן מוקדם יותר היום"
+              },
+              {
+                "id": "vi-dormir-fut-2",
+                "blank_pt": "Ele ___ na casa do amigo",
+                "answer": "vai dormir",
+                "translation": "הוא יישן בבית של החבר"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — dormir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "dormiria"
+                  ],
+                  [
+                    "Nós",
+                    "dormiríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "dormiriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu dormiria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dormir-cond-1",
+                "blank_pt": "Eu ___ melhor com silêncio",
+                "answer": "dormiria",
+                "translation": "הייתי ישן טוב יותר בשקט"
+              },
+              {
+                "id": "vi-dormir-cond-2",
+                "blank_pt": "Eles ___ mais se não houvesse barulho",
+                "answer": "dormiriam",
+                "translation": "הם היו ישנים יותר אם לא היה רעש"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — dormir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "dormisse"
+                  ],
+                  [
+                    "Nós",
+                    "dormíssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "dormissem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu dormisse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dormir-subj-1",
+                "blank_pt": "Se eu ___ bem, estaria mais descansado",
+                "answer": "dormisse",
+                "translation": "אם הייתי ישן טוב, הייתי יותר נוח"
+              },
+              {
+                "id": "vi-dormir-subj-2",
+                "blank_pt": "Queria que o bebê ___ logo",
+                "answer": "dormisse",
+                "translation": "רציתי שהתינוק ירדם מהר"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — dormir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "durma"
+                  ],
+                  [
+                    "Vocês",
+                    "durmam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "durma!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-dormir-imper-1",
+                "blank_pt": "___ cedo para descansar",
+                "answer": "Durma",
+                "translation": "ישן מוקדם כדי לנוח"
+              },
+              {
+                "id": "vi-dormir-imper-2",
+                "blank_pt": "___ bem esta noite",
+                "answer": "Durmam",
+                "translation": "ישנו טוב הלילה"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -7051,6 +9571,234 @@
                 "answer": "ouvíamos",
                 "base": "ouvir",
                 "translation": "הקשבנו לסיפורים של המאסטר"
+              }
+            ]
+          },
+          {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + ouvir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + ouvir"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou ouvir"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai ouvir"
+                  ],
+                  [
+                    "Nós",
+                    "vamos ouvir"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão ouvir"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou ouvir agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ouvir-fut-1",
+                "blank_pt": "Eu ___ essa música mais tarde",
+                "answer": "vou ouvir",
+                "translation": "אני אשמע את השיר הזה מאוחר יותר"
+              },
+              {
+                "id": "vi-ouvir-fut-2",
+                "blank_pt": "Ela ___ o que você tem a dizer",
+                "answer": "vai ouvir",
+                "translation": "היא תשמע מה שיש לך לומר"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — ouvir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "ouviria"
+                  ],
+                  [
+                    "Nós",
+                    "ouviríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "ouviriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu ouviria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ouvir-cond-1",
+                "blank_pt": "Eu ___ mais se você falasse mais baixo",
+                "answer": "ouviria",
+                "translation": "הייתי שומע יותר אם היית מדבר יותר בשקט"
+              },
+              {
+                "id": "vi-ouvir-cond-2",
+                "blank_pt": "Eles ___ de longe",
+                "answer": "ouviriam",
+                "translation": "הם היו שומעים מרחוק"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — ouvir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "ouvisse"
+                  ],
+                  [
+                    "Nós",
+                    "ouvíssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "ouvissem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu ouvisse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ouvir-subj-1",
+                "blank_pt": "Se você ___ o berimbau, entenderia",
+                "answer": "ouvisse",
+                "translation": "אם היית שומע את הברימבאו, היית מבין"
+              },
+              {
+                "id": "vi-ouvir-subj-2",
+                "blank_pt": "Queria que ela ___ minha história",
+                "answer": "ouvisse",
+                "translation": "רציתי שהיא תשמע את הסיפור שלי"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — ouvir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "ouça"
+                  ],
+                  [
+                    "Vocês",
+                    "ouçam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "ouça!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ouvir-imper-1",
+                "blank_pt": "___ o mestre falar",
+                "answer": "Ouça",
+                "translation": "הקשב למאסטר מדבר"
+              },
+              {
+                "id": "vi-ouvir-imper-2",
+                "blank_pt": "___ a música com atenção",
+                "answer": "Ouçam",
+                "translation": "הקשיבו למוסיקה בתשומת לב"
               }
             ]
           },
@@ -7369,6 +10117,234 @@
             ]
           },
           {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + vir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + vir"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou vir"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai vir"
+                  ],
+                  [
+                    "Nós",
+                    "vamos vir"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão vir"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou vir agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-vir-fut-1",
+                "blank_pt": "Eu ___ amanhã cedo",
+                "answer": "vou vir",
+                "translation": "אני אבוא מחר בבוקר"
+              },
+              {
+                "id": "vi-vir-fut-2",
+                "blank_pt": "Ela ___ com a família",
+                "answer": "vai vir",
+                "translation": "היא תבוא עם המשפחה"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — vir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "viria"
+                  ],
+                  [
+                    "Nós",
+                    "viríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "viriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu viria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-vir-cond-1",
+                "blank_pt": "Eu ___ se pudesse",
+                "answer": "viria",
+                "translation": "הייתי בא אם יכולתי"
+              },
+              {
+                "id": "vi-vir-cond-2",
+                "blank_pt": "Eles ___ mas não podiam",
+                "answer": "viriam",
+                "translation": "הם היו באים אבל לא יכלו"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — vir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "viesse"
+                  ],
+                  [
+                    "Nós",
+                    "viéssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "viessem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu viesse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-vir-subj-1",
+                "blank_pt": "Se você ___ ontem, teria me visto",
+                "answer": "viesse",
+                "translation": "אם היית בא אתמול, היית רואה אותי"
+              },
+              {
+                "id": "vi-vir-subj-2",
+                "blank_pt": "Queria que ela ___ à festa",
+                "answer": "viesse",
+                "translation": "רציתי שהיא תבוא למסיבה"
+              }
+            ]
+          },
+          {
+            "id": "imperativo",
+            "nameHe": "ציווי",
+            "namePt": "Imperativo",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "הציווי נגזר מהסובז'ונטיבו הווה — צורה בלתי סדירה."
+              },
+              {
+                "type": "table",
+                "caption": "ציווי — vir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ציווי"
+                ],
+                "rows": [
+                  [
+                    "Você",
+                    "venha"
+                  ],
+                  [
+                    "Vocês",
+                    "venham"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "venha!",
+                "he": "!"
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-vir-imper-1",
+                "blank_pt": "___ aqui agora!",
+                "answer": "Venha",
+                "translation": "בוא לכאן עכשיו!"
+              },
+              {
+                "id": "vi-vir-imper-2",
+                "blank_pt": "___ todos para a roda!",
+                "answer": "Venham",
+                "translation": "בואו כולם לבטה!"
+              }
+            ]
+          },
+          {
             "id": "gerundio",
             "nameHe": "בינוני פועל",
             "namePt": "Gerúndio",
@@ -7679,6 +10655,181 @@
                 "answer": "íamos",
                 "base": "ir",
                 "translation": "הלכנו לחוף כל קיץ"
+              }
+            ]
+          },
+          {
+            "id": "futuro",
+            "nameHe": "עתיד",
+            "namePt": "Futuro",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "בדיוק כמו פעלים סדירים: ir בהווה + מקור הפועל."
+              },
+              {
+                "type": "table",
+                "caption": "עתיד — ir + ir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "ir + ir"
+                ],
+                "rows": [
+                  [
+                    "Eu",
+                    "vou ir"
+                  ],
+                  [
+                    "Você/Ele/Ela",
+                    "vai ir"
+                  ],
+                  [
+                    "Nós",
+                    "vamos ir"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "vão ir"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu vou ir agora.",
+                "he": "אני הולך/עומד עכשיו."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ir-fut-1",
+                "blank_pt": "Eu ___ ao treino amanhã",
+                "answer": "vou ir",
+                "translation": "אני אלך לאימון מחר"
+              },
+              {
+                "id": "vi-ir-fut-2",
+                "blank_pt": "Eles ___ à festa juntos",
+                "answer": "vão ir",
+                "translation": "הם ילכו למסיבה ביחד"
+              }
+            ]
+          },
+          {
+            "id": "condicional",
+            "nameHe": "מותנה",
+            "namePt": "Condicional",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "משמש לפעולה היפותטית, בקשה מנומסת, ורצון עדין."
+              },
+              {
+                "type": "table",
+                "caption": "מותנה — ir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "מותנה"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "iria"
+                  ],
+                  [
+                    "Nós",
+                    "iríamos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "iriam"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Eu iria mais.",
+                "he": "הייתי עושה יותר."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ir-cond-1",
+                "blank_pt": "Eu ___ mas estou cansado",
+                "answer": "iria",
+                "translation": "הייתי הולך אבל אני עייף"
+              },
+              {
+                "id": "vi-ir-cond-2",
+                "blank_pt": "Eles ___ se tivessem tempo",
+                "answer": "iriam",
+                "translation": "הם היו הולכים אם היה להם זמן"
+              }
+            ]
+          },
+          {
+            "id": "subjuntivo",
+            "nameHe": "כינוי עבר",
+            "namePt": "Subjuntivo Imperfeito",
+            "explanation": [
+              {
+                "type": "paragraph",
+                "he": "מבטא תנאי דמיוני — אחרי se ועם פועל מותנה בתגובה."
+              },
+              {
+                "type": "table",
+                "caption": "סובז'ונטיבו אימפרפקטו — ir",
+                "columnLangs": [
+                  "label",
+                  "pt"
+                ],
+                "headers": [
+                  "גוף",
+                  "סובז'ונטיבו"
+                ],
+                "rows": [
+                  [
+                    "Eu/Você/Ele/Ela",
+                    "fosse"
+                  ],
+                  [
+                    "Nós",
+                    "fôssemos"
+                  ],
+                  [
+                    "Vocês/Eles/Elas",
+                    "fossem"
+                  ]
+                ]
+              }
+            ],
+            "examples": [
+              {
+                "pt": "Se eu fosse...",
+                "he": "אם הייתי..."
+              }
+            ],
+            "sentences": [
+              {
+                "id": "vi-ir-subj-1",
+                "blank_pt": "Se eu ___ lá, te encontraria",
+                "answer": "fosse",
+                "translation": "אם הייתי הולך שם, הייתי פוגש אותך"
+              },
+              {
+                "id": "vi-ir-subj-2",
+                "blank_pt": "Ela queria que nós ___ juntos",
+                "answer": "fôssemos",
+                "translation": "היא רצתה שנלך ביחד"
               }
             ]
           },

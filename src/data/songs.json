@@ -4067,7 +4067,7 @@
         "topic_id": "verbs-regular",
         "label_he": "תנאי בלתי אפשרי — se + subjuntivo imperfeito (אם היה כאן... אבל הוא לא)",
         "is_new": true,
-        "tense_id": "preterito-imperfeito"
+        "tense_id": "subjuntivo"
       },
       {
         "sentence_pt": "Eu entrava agora na mata",
@@ -5700,7 +5700,7 @@
         "topic_id": "verbs-regular",
         "label_he": "subjuntivo imperfeito — quando andasse = כשהיה הולך (אחרי quando בהקשר עבר)",
         "is_new": true,
-        "tense_id": "preterito-imperfeito"
+        "tense_id": "subjuntivo"
       },
       {
         "sentence_pt": "não vá meter sua mão",
