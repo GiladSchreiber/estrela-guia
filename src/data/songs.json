@@ -6722,5 +6722,252 @@
         "he": "יום אחד ניפגש"
       }
     ]
+  },
+  {
+    "id": "sereno-eu-caio",
+    "title": "Sereno Eu Caio",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=dCZt7IvMquw",
+    "lyrics": [
+      [
+        {
+          "pt": "Sereno eu caio",
+          "he": "בשלווה אני נופל"
+        },
+        {
+          "pt": "Sereno eu caio",
+          "he": "בשלווה אני נופל"
+        },
+        {
+          "pt": "Ralo tanto no cumbuco do balaio",
+          "he": "אני חורק כל כך על הערסל"
+        }
+      ],
+      [
+        {
+          "pt": "Quero papai, quero mamãe, quero dindinha",
+          "he": "רוצה אבא, רוצה אמא, רוצה סנדקית"
+        },
+        {
+          "pt": "Quero agulha, quero dedo, quero linha",
+          "he": "רוצה מחט, רוצה אצבע, רוצה חוט"
+        }
+      ],
+      [
+        {
+          "pt": "O rapaz que tenha dinheiro",
+          "he": "הבחור שיהיה לו כסף"
+        },
+        {
+          "pt": "A moças que garante os cabelos",
+          "he": "הנערה שדואגת לשיערה"
+        }
+      ],
+      [
+        {
+          "pt": "Cascavel de vareta",
+          "he": "נחש צלצלן על מקל"
+        },
+        {
+          "pt": "É danado pra bater chocalho",
+          "he": "הוא יודע היטב לשקשק ברעשן"
+        }
+      ],
+      [
+        {
+          "pt": "Papai só roça caminho",
+          "he": "אבא רק מנקה את השביל"
+        },
+        {
+          "pt": "Quando é tempo de orvalho",
+          "he": "כשזה עת הטל"
+        }
+      ],
+      [
+        {
+          "pt": "aê aê aê aô",
+          "he": "אה אה אה או"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Quero papai, quero mamãe, quero dindinha",
+        "marked_words": ["Quero"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — querer (eu quero)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "querer"
+      },
+      {
+        "sentence_pt": "O rapaz que tenha dinheiro",
+        "marked_words": ["tenha"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ter באימפרטיבו (que tenha = שיהיה לו)",
+        "is_new": false,
+        "tense_id": "imperativo",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "Há moça que garante os cabelos",
+        "marked_words": ["Há"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל haver — Há = יש",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "haver"
+      },
+      {
+        "sentence_pt": "É danado pra bater chocalho",
+        "marked_words": ["É"],
+        "topic_id": "ser-estar",
+        "label_he": "ser — תיאור תכונה",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Eu ralo tanto no cumbuco do balaio",
+        "marked_words": ["no", "do"],
+        "topic_id": "contractions",
+        "label_he": "מילית יחס + יידוע (em+o=no, de+o=do)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "sereno",
+        "he": "שליו, רגוע"
+      },
+      {
+        "pt": "caio (cair)",
+        "he": "נופל (ליפול)"
+      },
+      {
+        "pt": "ralo (ralar)",
+        "he": "חורק, מגרד (לחרוק)"
+      },
+      {
+        "pt": "tanto",
+        "he": "כל כך, כל כך הרבה"
+      },
+      {
+        "pt": "cumbuco",
+        "he": "קערה קטנה"
+      },
+      {
+        "pt": "balaio",
+        "he": "סל"
+      },
+      {
+        "pt": "dindinha",
+        "he": "סנדקית (כינוי חיבה)"
+      },
+      {
+        "pt": "agulha",
+        "he": "מחט"
+      },
+      {
+        "pt": "dedo",
+        "he": "אצבע"
+      },
+      {
+        "pt": "linha",
+        "he": "חוט"
+      },
+      {
+        "pt": "rapaz",
+        "he": "בחור, צעיר"
+      },
+      {
+        "pt": "moça",
+        "he": "נערה, בחורה"
+      },
+      {
+        "pt": "garante (garantir)",
+        "he": "דואג ל, מבטיח"
+      },
+      {
+        "pt": "cabelos",
+        "he": "שיער"
+      },
+      {
+        "pt": "dinheiro",
+        "he": "כסף"
+      },
+      {
+        "pt": "cascavel",
+        "he": "נחש צלצלן"
+      },
+      {
+        "pt": "vareta",
+        "he": "מקל דק, שפוד"
+      },
+      {
+        "pt": "danado",
+        "he": "זריז, מיומן, שובב"
+      },
+      {
+        "pt": "bater",
+        "he": "להכות, לנגן"
+      },
+      {
+        "pt": "chocalho",
+        "he": "רעשן"
+      },
+      {
+        "pt": "roçar",
+        "he": "לנקות שיחים, לגעת בקלות"
+      },
+      {
+        "pt": "caminho",
+        "he": "שביל, דרך"
+      },
+      {
+        "pt": "tempo",
+        "he": "זמן, מזג אוויר"
+      },
+      {
+        "pt": "orvalho",
+        "he": "טל"
+      },
+      {
+        "pt": "há (haver)",
+        "he": "יש"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Sereno eu caio",
+        "he": "בשלווה אני נופל"
+      },
+      {
+        "pt": "Eu ralo tanto no cumbuco do balaio",
+        "he": "אני חורק כל כך על הערסל"
+      },
+      {
+        "pt": "Quero papai, quero mamãe, quero dindinha",
+        "he": "רוצה אבא, רוצה אמא, רוצה סנדקית"
+      },
+      {
+        "pt": "Quero agulha, quero dedo, quero linha",
+        "he": "רוצה מחט, רוצה אצבע, רוצה חוט"
+      },
+      {
+        "pt": "Rapaz, oi, que tenha dinheiro",
+        "he": "בחור, היי, שיהיה לו כסף"
+      },
+      {
+        "pt": "Há moça que garante os cabelos",
+        "he": "יש נערה שדואגת לשיערה"
+      },
+      {
+        "pt": "Cascavel de vareta É danado pra bater chocalho",
+        "he": "נחש צלצלן על מקל — הוא יודע היטב לשקשק ברעשן"
+      },
+      {
+        "pt": "Papai só roça caminho Quando é tempo de orvalho",
+        "he": "אבא רק מנקה את השביל כשזה עת הטל"
+      }
+    ]
   }
 ]
