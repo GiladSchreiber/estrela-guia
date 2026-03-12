@@ -129,14 +129,14 @@ export default function SongDetailPage() {
   }
 
   const startWordQuiz = () => {
-    const cards = shuffle(song.vocab).map(w => ({ ...w, dir: Math.random() < 0.5 ? 'pt' : 'he' }))
+    const cards = shuffle(song.vocab ?? []).map(w => ({ ...w, dir: Math.random() < 0.5 ? 'pt' : 'he' }))
     setQuizCards(cards); setTotal(cards.length); setQuizIndex(0)
     setQuizRevealed(false); setCorrectCount(0); setWrongCards([])
     setQuizType('word'); setPhase('quiz'); window.scrollTo(0, 0)
   }
 
   const startSentenceQuiz = () => {
-    const cards = shuffle(song.sentences)
+    const cards = shuffle(song.sentences ?? [])
     setQuizCards(cards); setTotal(cards.length); setQuizIndex(0)
     setQuizRevealed(false); setCorrectCount(0); setWrongCards([])
     setQuizType('sentence'); setPhase('quiz'); window.scrollTo(0, 0)
@@ -169,8 +169,8 @@ export default function SongDetailPage() {
 
   // ── detail ────────────────────────────────────────────────────────
   if (phase === 'detail') {
-    const newNotes = song.grammar_notes.filter(n => n.is_new)
-    const reminderNotes = song.grammar_notes.filter(n => !n.is_new)
+    const newNotes = (song.grammar_notes ?? []).filter(n => n.is_new)
+    const reminderNotes = (song.grammar_notes ?? []).filter(n => !n.is_new)
     const hasBoth = newNotes.length > 0 && reminderNotes.length > 0
 
     return (
@@ -296,10 +296,10 @@ export default function SongDetailPage() {
             <h3 className={styles.sectionTitle}>תרגול</h3>
             <div className={styles.quizBtns}>
               <button className={styles.quizWordBtn} onClick={startWordQuiz}>
-                💬 מילים ({song.vocab.length})
+                💬 מילים ({(song.vocab ?? []).length})
               </button>
               <button className={styles.quizSentenceBtn} onClick={startSentenceQuiz}>
-                📝 משפטים ({song.sentences.length})
+                📝 משפטים ({(song.sentences ?? []).length})
               </button>
             </div>
           </section>

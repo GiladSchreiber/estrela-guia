@@ -6406,5 +6406,321 @@
         "he": "שאל את החבר שלי"
       }
     ]
+  },
+  {
+    "id": "saudade-de-eziquiel",
+    "title": "Saudade de Eziquiel",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=mdw2ynIZjag",
+    "lyrics": [
+      [
+        {
+          "pt": "Ele veio da Ilha de Maré",
+          "he": "הוא בא מאי דה מארה"
+        },
+        {
+          "pt": "no saveiro do Mestre João",
+          "he": "בסירה של מסטרה ז'ואו"
+        },
+        {
+          "pt": "Levantou a capoeira",
+          "he": "הרים את הקפואירה"
+        },
+        {
+          "pt": "Encantou com a sua maneira",
+          "he": "הקסים עם הסגנון שלו"
+        },
+        {
+          "pt": "de cantar com coração",
+          "he": "לשיר עם לב"
+        }
+      ],
+      [
+        {
+          "pt": "Mestre você fez história",
+          "he": "מסטרה, עשית היסטוריה"
+        },
+        {
+          "pt": "Quem te conheceu têm você na memória",
+          "he": "מי שהכיר אותך זוכר אותך"
+        },
+        {
+          "pt": "Saudade se chama Eziquiel",
+          "he": "לגעגוע קוראים אזיקיאל"
+        },
+        {
+          "pt": "é um amigo de fé",
+          "he": "הוא חבר נאמן"
+        },
+        {
+          "pt": "E é para homem e mulher",
+          "he": "והוא לגבר ולאישה"
+        }
+      ],
+      [
+        {
+          "pt": "Foi morar lá na Preguiça",
+          "he": "הלך לגור בפרגויסה"
+        },
+        {
+          "pt": "se criou na Conceição",
+          "he": "גדל בקונסייסאו"
+        },
+        {
+          "pt": "Mas viveu lá no Cabula",
+          "he": "אבל חי שם בקאבולה"
+        },
+        {
+          "pt": "até hoje me encabula",
+          "he": "עד היום מביך אותי"
+        },
+        {
+          "pt": "Ter apertado a sua mão",
+          "he": "שלחצתי את ידך"
+        }
+      ],
+      [
+        {
+          "pt": "A lua branca vai iluminar",
+          "he": "הירח הלבן יאיר"
+        },
+        {
+          "pt": "novos caminhos pra você",
+          "he": "דרכים חדשות עבורך"
+        },
+        {
+          "pt": "Vai em paz guerreiro amigo",
+          "he": "לך בשלום, חבר לוחם"
+        },
+        {
+          "pt": "Um abraço ao Mestre Bimba",
+          "he": "חיבוק למסטרה בימבה"
+        },
+        {
+          "pt": "Um dia gente se vê",
+          "he": "יום אחד ניפגש"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Ele veio da Ilha de Maré",
+        "marked_words": ["veio"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — vir",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "vir"
+      },
+      {
+        "sentence_pt": "Encantou com a sua maneira de cantar com coração",
+        "marked_words": ["sua"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Mestre você fez história",
+        "marked_words": ["fez"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — fazer",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "fazer"
+      },
+      {
+        "sentence_pt": "Quem te conheceu têm você na memória",
+        "marked_words": ["te"],
+        "topic_id": "direct-object",
+        "label_he": "כינוי גוף — מושא",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Saudade se chama Eziquiel",
+        "marked_words": ["se chama"],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי — chamar-se (להיקרא)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "se criou na Conceição",
+        "marked_words": ["se criou"],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי — criar-se (לגדול)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "até hoje me encabula",
+        "marked_words": ["me"],
+        "topic_id": "direct-object",
+        "label_he": "כינוי גוף — מושא",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Ter apertado a sua mão",
+        "marked_words": ["sua"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Um abraço ao Mestre Bimba",
+        "marked_words": ["ao"],
+        "topic_id": "contractions",
+        "label_he": "מילית יחס + יידוע (a+o=ao)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Um dia gente se vê",
+        "marked_words": ["se vê"],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי — ver-se (להתראות)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "saveiro",
+        "he": "סירת מפרש, סירת דייגים"
+      },
+      {
+        "pt": "levantar",
+        "he": "להרים"
+      },
+      {
+        "pt": "encantar",
+        "he": "לקסום, להקסים"
+      },
+      {
+        "pt": "maneira",
+        "he": "דרך, סגנון"
+      },
+      {
+        "pt": "fez (fazer)",
+        "he": "עשה (לעשות)"
+      },
+      {
+        "pt": "conhecer",
+        "he": "להכיר"
+      },
+      {
+        "pt": "memória",
+        "he": "זיכרון"
+      },
+      {
+        "pt": "saudade",
+        "he": "געגוע, ערגה"
+      },
+      {
+        "pt": "fé",
+        "he": "אמונה, נאמנות"
+      },
+      {
+        "pt": "homem",
+        "he": "גבר, איש"
+      },
+      {
+        "pt": "mulher",
+        "he": "אישה"
+      },
+      {
+        "pt": "morar",
+        "he": "לגור, להתגורר"
+      },
+      {
+        "pt": "criar-se",
+        "he": "לגדול, להתחנך"
+      },
+      {
+        "pt": "até",
+        "he": "עד, אפילו"
+      },
+      {
+        "pt": "encabular",
+        "he": "לבייש, להביך"
+      },
+      {
+        "pt": "apertado",
+        "he": "לחוץ, הדוק"
+      },
+      {
+        "pt": "mão",
+        "he": "יד"
+      },
+      {
+        "pt": "branco / branca",
+        "he": "לבן / לבנה"
+      },
+      {
+        "pt": "iluminar",
+        "he": "להאיר"
+      },
+      {
+        "pt": "novo / nova",
+        "he": "חדש / חדשה"
+      },
+      {
+        "pt": "caminho",
+        "he": "דרך, שביל"
+      },
+      {
+        "pt": "paz",
+        "he": "שלום"
+      },
+      {
+        "pt": "guerreiro",
+        "he": "לוחם"
+      },
+      {
+        "pt": "abraço",
+        "he": "חיבוק"
+      },
+      {
+        "pt": "gente",
+        "he": "אנשים, אנחנו (מדובר)"
+      },
+      {
+        "pt": "ver-se",
+        "he": "להתראות, להיפגש"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Ele veio da Ilha de Maré",
+        "he": "הוא בא מאי דה מארה"
+      },
+      {
+        "pt": "Encantou com a sua maneira de cantar com coração",
+        "he": "הקסים עם הסגנון שלו לשיר עם לב"
+      },
+      {
+        "pt": "Mestre você fez história",
+        "he": "מסטרה, עשית היסטוריה"
+      },
+      {
+        "pt": "Quem te conheceu têm você na memória",
+        "he": "מי שהכיר אותך זוכר אותך"
+      },
+      {
+        "pt": "é um amigo de fé",
+        "he": "הוא חבר נאמן"
+      },
+      {
+        "pt": "até hoje me encabula Ter apertado a sua mão",
+        "he": "עד היום מביך אותי שלחצתי את ידך"
+      },
+      {
+        "pt": "A lua branca vai iluminar novos caminhos pra você",
+        "he": "הירח הלבן יאיר דרכים חדשות עבורך"
+      },
+      {
+        "pt": "Vai em paz guerreiro amigo",
+        "he": "לך בשלום, חבר לוחם"
+      },
+      {
+        "pt": "Um dia gente se vê",
+        "he": "יום אחד ניפגש"
+      }
+    ]
   }
 ]
