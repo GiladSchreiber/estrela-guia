@@ -6505,7 +6505,9 @@
     "grammar_notes": [
       {
         "sentence_pt": "Ele veio da Ilha de Maré",
-        "marked_words": ["veio"],
+        "marked_words": [
+          "veio"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — vir",
         "is_new": false,
@@ -6514,14 +6516,18 @@
       },
       {
         "sentence_pt": "Encantou com a sua maneira de cantar com coração",
-        "marked_words": ["sua"],
+        "marked_words": [
+          "sua"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות",
         "is_new": false
       },
       {
         "sentence_pt": "Mestre você fez história",
-        "marked_words": ["fez"],
+        "marked_words": [
+          "fez"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — fazer",
         "is_new": false,
@@ -6530,49 +6536,63 @@
       },
       {
         "sentence_pt": "Quem te conheceu têm você na memória",
-        "marked_words": ["te"],
+        "marked_words": [
+          "te"
+        ],
         "topic_id": "direct-object",
         "label_he": "כינוי גוף — מושא",
         "is_new": false
       },
       {
         "sentence_pt": "Saudade se chama Eziquiel",
-        "marked_words": ["se chama"],
+        "marked_words": [
+          "se chama"
+        ],
         "topic_id": "reflexive",
         "label_he": "פועל רפלקסיבי — chamar-se (להיקרא)",
         "is_new": false
       },
       {
         "sentence_pt": "se criou na Conceição",
-        "marked_words": ["se criou"],
+        "marked_words": [
+          "se criou"
+        ],
         "topic_id": "reflexive",
         "label_he": "פועל רפלקסיבי — criar-se (לגדול)",
         "is_new": false
       },
       {
         "sentence_pt": "até hoje me encabula",
-        "marked_words": ["me"],
+        "marked_words": [
+          "me"
+        ],
         "topic_id": "direct-object",
         "label_he": "כינוי גוף — מושא",
         "is_new": false
       },
       {
         "sentence_pt": "Ter apertado a sua mão",
-        "marked_words": ["sua"],
+        "marked_words": [
+          "sua"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות",
         "is_new": false
       },
       {
         "sentence_pt": "Um abraço ao Mestre Bimba",
-        "marked_words": ["ao"],
+        "marked_words": [
+          "ao"
+        ],
         "topic_id": "contractions",
         "label_he": "מילית יחס + יידוע (a+o=ao)",
         "is_new": false
       },
       {
         "sentence_pt": "Um dia gente se vê",
-        "marked_words": ["se vê"],
+        "marked_words": [
+          "se vê"
+        ],
         "topic_id": "reflexive",
         "label_he": "פועל רפלקסיבי — ver-se (להתראות)",
         "is_new": false
@@ -6793,7 +6813,9 @@
     "grammar_notes": [
       {
         "sentence_pt": "Quero papai, quero mamãe, quero dindinha",
-        "marked_words": ["Quero"],
+        "marked_words": [
+          "Quero"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — querer (eu quero)",
         "is_new": false,
@@ -6802,7 +6824,9 @@
       },
       {
         "sentence_pt": "O rapaz que tenha dinheiro",
-        "marked_words": ["tenha"],
+        "marked_words": [
+          "tenha"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — ter באימפרטיבו (que tenha = שיהיה לו)",
         "is_new": false,
@@ -6811,7 +6835,9 @@
       },
       {
         "sentence_pt": "Há moça que garante os cabelos",
-        "marked_words": ["Há"],
+        "marked_words": [
+          "Há"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל haver — Há = יש",
         "is_new": false,
@@ -6820,14 +6846,19 @@
       },
       {
         "sentence_pt": "É danado pra bater chocalho",
-        "marked_words": ["É"],
+        "marked_words": [
+          "É"
+        ],
         "topic_id": "ser-estar",
         "label_he": "ser — תיאור תכונה",
         "is_new": false
       },
       {
         "sentence_pt": "Eu ralo tanto no cumbuco do balaio",
-        "marked_words": ["no", "do"],
+        "marked_words": [
+          "no",
+          "do"
+        ],
         "topic_id": "contractions",
         "label_he": "מילית יחס + יידוע (em+o=no, de+o=do)",
         "is_new": false
@@ -6967,6 +6998,597 @@
       {
         "pt": "Papai só roça caminho Quando é tempo de orvalho",
         "he": "אבא רק מנקה את השביל כשזה עת הטל"
+      }
+    ]
+  },
+  {
+    "id": "vou-navegando",
+    "title": "Vou Navegando",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=HBwpz4jkRXA",
+    "lyrics": [
+      [
+        {
+          "pt": "Vou navegando pelo mundo eu vou",
+          "he": "אני מפליג בעולם, אני הולך"
+        },
+        {
+          "pt": "A capoeira foi quem me chamou",
+          "he": "הקפוארה הייתה זו שקראה לי"
+        },
+        {
+          "pt": "Vou navegando pelo mundo eu vou",
+          "he": "אני מפליג בעולם, אני הולך"
+        },
+        {
+          "pt": "A capoeira foi quem me levou",
+          "he": "הקפוארה הייתה זו שלקחה אותי"
+        }
+      ],
+      [
+        {
+          "pt": "Num barco a vela ao sabor do vento",
+          "he": "בסירת מפרש לפי חסד הרוח"
+        },
+        {
+          "pt": "Não tenho pressa mas não perco tempo",
+          "he": "אין לי חיפזון, אבל לא מבזבז זמן"
+        },
+        {
+          "pt": "A capoeira me ensinou",
+          "he": "הקפוארה לימדה אותי"
+        }
+      ],
+      [
+        {
+          "pt": "A capoeira foi quem me criou",
+          "he": "הקפוארה הייתה זו שגידלה אותי"
+        },
+        {
+          "pt": "Me deu o norte neste meu caminho",
+          "he": "נתנה לי את הכיוון בדרכי"
+        },
+        {
+          "pt": "Me deu a sorte de não andar sozinho",
+          "he": "נתנה לי את המזל שלא ללכת לבד"
+        },
+        {
+          "pt": "Levo comigo berimbau maneiro",
+          "he": "לוקח איתי בירימבאו קל"
+        },
+        {
+          "pt": "Um patuá benzido,",
+          "he": "קמיע מבורך,"
+        },
+        {
+          "pt": "forte e mandingueiro",
+          "he": "חזק ומנדינגיירו"
+        },
+        {
+          "pt": "Num barco a vela em direção do norte",
+          "he": "בסירת מפרש לכיוון צפון"
+        },
+        {
+          "pt": "Vento da vida me leva ligeiro",
+          "he": "רוח החיים לוקחת אותי מהר"
+        }
+      ],
+      [
+        {
+          "pt": "Oh leva eu, oh leva eu camará",
+          "he": "אה, קח אותי, אה, קח אותי, חבר"
+        },
+        {
+          "pt": "Berimbau maneiro, é meu companheiro",
+          "he": "בירימבאו קל, הוא חברי"
+        },
+        {
+          "pt": "no meu caminhar...",
+          "he": "בהליכתי שלי..."
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Vou navegando pelo mundo eu vou",
+        "marked_words": [
+          "navegando"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "גרונדיו — ir + gerúndio (פועל בהתקדמות)",
+        "is_new": true,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "A capoeira foi quem me chamou",
+        "marked_words": [
+          "foi"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "זמן עבר של ser — foi",
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Vou navegando pelo mundo eu vou",
+        "marked_words": [
+          "pelo"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — pelo = por + o"
+      },
+      {
+        "sentence_pt": "Não tenho pressa mas não perco tempo",
+        "marked_words": [
+          "Não"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה עם não"
+      },
+      {
+        "sentence_pt": "Me deu o norte neste meu caminho",
+        "marked_words": [
+          "Me",
+          "deu"
+        ],
+        "topic_id": "verbs-irregular",
+        "verb_id": "dar",
+        "label_he": "זמן עבר — deu (dar), עם כינוי עקיף me",
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Levo comigo berimbau maneiro",
+        "marked_words": [
+          "comigo"
+        ],
+        "topic_id": "prepositional-pronouns",
+        "label_he": "כינוי אחרי מילת יחס — comigo (= com + eu)"
+      },
+      {
+        "sentence_pt": "Berimbau maneiro, é meu companheiro",
+        "marked_words": [
+          "meu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "navegar",
+        "he": "לשוט, לנווט"
+      },
+      {
+        "pt": "mundo",
+        "he": "עולם"
+      },
+      {
+        "pt": "chamar",
+        "he": "לקרוא, לזמן"
+      },
+      {
+        "pt": "levar",
+        "he": "לקחת, להוביל"
+      },
+      {
+        "pt": "barco",
+        "he": "סירה"
+      },
+      {
+        "pt": "vela",
+        "he": "מפרש (גם: נר)"
+      },
+      {
+        "pt": "sabor",
+        "he": "טעם"
+      },
+      {
+        "pt": "vento",
+        "he": "רוח"
+      },
+      {
+        "pt": "pressa",
+        "he": "חיפזון"
+      },
+      {
+        "pt": "perder",
+        "he": "לאבד, להפסיד"
+      },
+      {
+        "pt": "tempo",
+        "he": "זמן (גם: מזג אוויר)"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "criar",
+        "he": "ליצור, לגדל"
+      },
+      {
+        "pt": "norte",
+        "he": "צפון"
+      },
+      {
+        "pt": "caminho",
+        "he": "דרך, מסלול"
+      },
+      {
+        "pt": "sorte",
+        "he": "מזל"
+      },
+      {
+        "pt": "andar",
+        "he": "ללכת, להסתובב"
+      },
+      {
+        "pt": "sozinho",
+        "he": "לבד"
+      },
+      {
+        "pt": "maneiro",
+        "he": "קל, נינוח (סלנג: מגניב)"
+      },
+      {
+        "pt": "patuá",
+        "he": "קמיע"
+      },
+      {
+        "pt": "benzido",
+        "he": "מבורך"
+      },
+      {
+        "pt": "direção",
+        "he": "כיוון"
+      },
+      {
+        "pt": "ligeiro",
+        "he": "מהיר, קל"
+      },
+      {
+        "pt": "companheiro",
+        "he": "חבר, שותף"
+      },
+      {
+        "pt": "caminhar",
+        "he": "ללכת, הליכה"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Vou navegando pelo mundo eu vou",
+        "he": "אני מפליג בעולם, אני הולך"
+      },
+      {
+        "pt": "A capoeira foi quem me chamou",
+        "he": "הקפוארה הייתה זו שקראה לי"
+      },
+      {
+        "pt": "Num barco a vela ao sabor do vento",
+        "he": "בסירת מפרש לפי חסד הרוח"
+      },
+      {
+        "pt": "Não tenho pressa mas não perco tempo",
+        "he": "אין לי חיפזון, אבל לא מבזבז זמן"
+      },
+      {
+        "pt": "Me deu o norte neste meu caminho",
+        "he": "נתנה לי את הכיוון בדרכי"
+      },
+      {
+        "pt": "Me deu a sorte de não andar sozinho",
+        "he": "נתנה לי את המזל שלא ללכת לבד"
+      },
+      {
+        "pt": "Levo comigo berimbau maneiro",
+        "he": "לוקח איתי בירימבאו קל"
+      },
+      {
+        "pt": "Vento da vida me leva ligeiro",
+        "he": "רוח החיים לוקחת אותי מהר"
+      },
+      {
+        "pt": "Berimbau maneiro, é meu companheiro",
+        "he": "בירימבאו קל, הוא חברי"
+      }
+    ]
+  },
+  {
+    "id": "quilombola-mandingueiro",
+    "title": "Quilombola Mandingueiro",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=S4O0m702t9Q",
+    "lyrics": [
+      [
+        {
+          "pt": "Quilombola mandigueiro jogador de capoeira",
+          "he": "קילומבולה מנדינגיירו, שחקן קפוארה"
+        },
+        {
+          "pt": "Mestre Bimba era o rei, da Pituba a Ribeira",
+          "he": "מסטרה בימבה היה המלך, מפיטובה עד ריביירה"
+        },
+        {
+          "pt": "Quilombola mandigueiro jogador de capoeira",
+          "he": "קילומבולה מנדינגיירו, שחקן קפוארה"
+        },
+        {
+          "pt": "Jogava duro e manhoso, nossa arte verdadeira",
+          "he": "שיחק קשה ומתוחכם — האמנות האמיתית שלנו"
+        }
+      ],
+      [
+        {
+          "pt": "Brincadeira tem hora",
+          "he": "לשעשוע יש זמן ומקום"
+        },
+        {
+          "pt": "Joga com garra e mandinga",
+          "he": "שחק עם עוצמה ומנדינגה"
+        },
+        {
+          "pt": "Esse jogo é tinhoso não é angola",
+          "he": "המשחק הזה עקשן, זו לא אנגולה"
+        },
+        {
+          "pt": "É capoeira de Bimba",
+          "he": "זוהי קפוארה של בימבה"
+        }
+      ],
+      [
+        {
+          "pt": "Joga com garra e mandinga",
+          "he": "שחק עם עוצמה ומנדינגה"
+        },
+        {
+          "pt": "Esse jogo é tinhoso não é angola",
+          "he": "המשחק הזה עקשן, זו לא אנגולה"
+        },
+        {
+          "pt": "É capoeira de Bimba",
+          "he": "זוהי קפוארה של בימבה"
+        }
+      ],
+      [
+        {
+          "pt": "Hoje em dia me espanto",
+          "he": "כיום אני נדהם"
+        },
+        {
+          "pt": "Com tanto papo furado",
+          "he": "מכל כך הרבה שטויות"
+        },
+        {
+          "pt": "Se dizer que capoeira",
+          "he": "כשאומרים שקפוארה"
+        },
+        {
+          "pt": "É somente brincadeira",
+          "he": "היא רק שעשוע"
+        },
+        {
+          "pt": "Esquecendo a sua história",
+          "he": "שוכחים את ההיסטוריה שלה"
+        },
+        {
+          "pt": "O seu passado de glória",
+          "he": "את עברה המפואר"
+        },
+        {
+          "pt": "Como luta verdadeira",
+          "he": "כאמנות לחימה אמיתית"
+        }
+      ],
+      [
+        {
+          "pt": "Capoeira é uma arte",
+          "he": "קפוארה היא אמנות"
+        },
+        {
+          "pt": "Do Africano de valor",
+          "he": "של האפריקאי האמיץ"
+        },
+        {
+          "pt": "Que usava a cabeçada",
+          "he": "שהשתמש בנגיחת ראש"
+        },
+        {
+          "pt": "Pra se livrar do feitor",
+          "he": "כדי להשתחרר מהמפקח"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Mestre Bimba era o rei, da Pituba a Ribeira",
+        "marked_words": [
+          "era"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "זמן עבר רחוק של ser — era (imperfeito)",
+        "is_new": true,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Jogava duro e manhoso, nossa arte verdadeira",
+        "marked_words": [
+          "Jogava"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "זמן עבר רחוק — imperfeito (פעולה חוזרת בעבר)",
+        "is_new": true,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Jogava duro e manhoso, nossa arte verdadeira",
+        "marked_words": [
+          "nossa"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — nossa (שלנו)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Esse jogo é tinhoso não é angola",
+        "marked_words": [
+          "não"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה עם não"
+      },
+      {
+        "sentence_pt": "Pra se livrar do feitor",
+        "marked_words": [
+          "se livrar"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי — se livrar (להשתחרר)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Esquecendo a sua história",
+        "marked_words": [
+          "Esquecendo"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "גרונדיו — esquecendo (שוכחים)",
+        "tense_id": "gerundio"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "quilombola",
+        "he": "קילומבולה (עבד שברח לכפר חופשי)"
+      },
+      {
+        "pt": "jogador",
+        "he": "שחקן"
+      },
+      {
+        "pt": "rei",
+        "he": "מלך"
+      },
+      {
+        "pt": "jogar",
+        "he": "לשחק"
+      },
+      {
+        "pt": "duro",
+        "he": "קשה, נוקשה"
+      },
+      {
+        "pt": "manhoso",
+        "he": "ערמומי, מתוחכם"
+      },
+      {
+        "pt": "verdadeiro",
+        "he": "אמיתי"
+      },
+      {
+        "pt": "brincadeira",
+        "he": "שעשוע, משחק"
+      },
+      {
+        "pt": "hora",
+        "he": "שעה, זמן"
+      },
+      {
+        "pt": "garra",
+        "he": "עוצמה, אחיזה, תשוקה"
+      },
+      {
+        "pt": "tinhoso",
+        "he": "עקשן, קשוח"
+      },
+      {
+        "pt": "espantar",
+        "he": "להדהים, להפתיע"
+      },
+      {
+        "pt": "papo furado",
+        "he": "שטויות, בלוף"
+      },
+      {
+        "pt": "somente",
+        "he": "רק"
+      },
+      {
+        "pt": "esquecer",
+        "he": "לשכוח"
+      },
+      {
+        "pt": "história",
+        "he": "היסטוריה, סיפור"
+      },
+      {
+        "pt": "passado",
+        "he": "עבר"
+      },
+      {
+        "pt": "glória",
+        "he": "תהילה, כבוד"
+      },
+      {
+        "pt": "luta",
+        "he": "מאבק, לחימה"
+      },
+      {
+        "pt": "arte",
+        "he": "אמנות"
+      },
+      {
+        "pt": "valor",
+        "he": "ערך, אומץ"
+      },
+      {
+        "pt": "cabeçada",
+        "he": "נגיחת ראש"
+      },
+      {
+        "pt": "livrar",
+        "he": "לשחרר"
+      },
+      {
+        "pt": "feitor",
+        "he": "מפקח (על עבדים)"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Mestre Bimba era o rei, da Pituba a Ribeira",
+        "he": "מסטרה בימבה היה המלך, מפיטובה עד ריביירה"
+      },
+      {
+        "pt": "Jogava duro e manhoso, nossa arte verdadeira",
+        "he": "שיחק קשה ומתוחכם — האמנות האמיתית שלנו"
+      },
+      {
+        "pt": "Brincadeira tem hora",
+        "he": "לשעשוע יש זמן ומקום"
+      },
+      {
+        "pt": "Esse jogo é tinhoso não é angola",
+        "he": "המשחק הזה עקשן, זו לא אנגולה"
+      },
+      {
+        "pt": "Hoje em dia me espanto com tanto papo furado",
+        "he": "כיום אני נדהם מכל כך הרבה שטויות"
+      },
+      {
+        "pt": "É somente brincadeira",
+        "he": "היא רק שעשוע"
+      },
+      {
+        "pt": "Esquecendo a sua história",
+        "he": "שוכחים את ההיסטוריה שלה"
+      },
+      {
+        "pt": "Capoeira é uma arte",
+        "he": "קפוארה היא אמנות"
+      },
+      {
+        "pt": "Que usava a cabeçada pra se livrar do feitor",
+        "he": "שהשתמש בנגיחת ראש כדי להשתחרר מהמפקח"
       }
     ]
   }

@@ -344,6 +344,20 @@
         "answer": "nos",
         "instruction": "em, זכר רבים",
         "translation": "הילדים משחקים בפארקים."
+      },
+      {
+        "id": "con13",
+        "blank_pt": "Num barco a vela ___ sabor do vento",
+        "answer": "ao",
+        "instruction": "a + o, זכר יחיד",
+        "translation": "בסירת מפרש לפי חסד הרוח"
+      },
+      {
+        "id": "con14",
+        "blank_pt": "Vento ___ vida me leva ligeiro",
+        "answer": "da",
+        "instruction": "de + a, נקבה יחיד",
+        "translation": "רוח החיים לוקחת אותי מהר"
       }
     ]
   },
@@ -1285,6 +1299,13 @@
         "answer": "meus",
         "instruction": "זכר רבים, שלי",
         "translation": "אלה החברים שלי"
+      },
+      {
+        "id": "pos12",
+        "blank_pt": "___ arte é verdadeira",
+        "answer": "Nossa",
+        "instruction": "שייכות — גוף ראשון רבים, נקבה",
+        "translation": "האמנות שלנו אמיתית"
       }
     ]
   },
@@ -1905,6 +1926,20 @@
         "answer": "Ninguém",
         "instruction": "אף אחד, לפני הפועל",
         "translation": "אף אחד לא בא למעגל."
+      },
+      {
+        "id": "neg11",
+        "blank_pt": "___ tenho pressa",
+        "answer": "Não",
+        "instruction": "שלילה",
+        "translation": "אין לי חיפזון"
+      },
+      {
+        "id": "neg12",
+        "blank_pt": "Me deu a sorte de ___ andar sozinho",
+        "answer": "não",
+        "instruction": "שלילה",
+        "translation": "נתן לי את המזל שלא ללכת לבד"
       }
     ]
   },
@@ -2625,6 +2660,13 @@
             "answer": "treinava",
             "base": "treinar",
             "translation": "הקבוצה התאמנה קפוארה כל שבת"
+          },
+          {
+            "id": "vr-imp-11",
+            "blank_pt": "Ele ___ duro e manhoso na roda",
+            "answer": "jogava",
+            "instruction": "imperfeito של jogar, ele",
+            "translation": "הוא שיחק קשה ומתוחכם במעגל"
           }
         ]
       },
@@ -3386,6 +3428,13 @@
             "answer": "bebendo",
             "base": "beber",
             "translation": "היא שותה יותר מים ביום"
+          },
+          {
+            "id": "vr-ger-11",
+            "blank_pt": "Vou ___ pelo mundo",
+            "answer": "navegando",
+            "instruction": "גרונדיו של navegar",
+            "translation": "אני מפליג בעולם"
           }
         ]
       },
@@ -3684,6 +3733,20 @@
                 "answer": "deram",
                 "base": "dar",
                 "translation": "הם נתנו לו מסיבה"
+              },
+              {
+                "id": "vi-dar-pp-4",
+                "blank_pt": "A capoeira me ___ o norte no caminho",
+                "answer": "deu",
+                "instruction": "dar, זמן עבר, ela",
+                "translation": "הקפוארה נתנה לי את הכיוון בדרך"
+              },
+              {
+                "id": "vi-dar-pp-5",
+                "blank_pt": "A capoeira me ___ a sorte de não andar sozinho",
+                "answer": "deu",
+                "instruction": "dar, זמן עבר, ela",
+                "translation": "הקפוארה נתנה לי את המזל שלא ללכת לבד"
               }
             ]
           },
@@ -11385,6 +11448,13 @@
             "answer": "estavam",
             "base": "estar",
             "translation": "הם היו מאושרים ביחד"
+          },
+          {
+            "id": "se-imp-5",
+            "blank_pt": "Mestre Bimba ___ o rei da capoeira",
+            "answer": "era",
+            "instruction": "ser, imperfeito, ele",
+            "translation": "מסטרה בימבה היה המלך של הקפוארה"
           }
         ]
       },
@@ -12241,6 +12311,13 @@
         "answer": "nós",
         "instruction": "nós →",
         "translation": "בינינו הכל אפשרי"
+      },
+      {
+        "id": "pp-9",
+        "blank_pt": "Levo ___ meu berimbau maneiro",
+        "answer": "comigo",
+        "instruction": "com + eu",
+        "translation": "אני לוקח איתי את הבירימבאו הקל שלי"
       }
     ],
     "examples": [
@@ -12395,6 +12472,13 @@
         "answer": "se",
         "instruction": "você",
         "translation": "אתה/את מרגיש/ה טוב היום?"
+      },
+      {
+        "id": "ref-11",
+        "blank_pt": "Ele usava a cabeçada pra ___ do feitor",
+        "answer": "se livrar",
+        "instruction": "פועל רפלקסיבי — livrar-se",
+        "translation": "הוא השתמש בנגיחת ראש כדי להשתחרר מהמפקח"
       }
     ]
   }
