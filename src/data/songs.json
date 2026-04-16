@@ -7595,5 +7595,592 @@
         "he": "שהשתמש בנגיחת ראש כדי להשתחרר מהמפקח"
       }
     ]
+  },
+  {
+    "id": "por-favor-nao-maltrate",
+    "title": "Por favor não maltrate esse nego",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=-Ksqiz0awCY",
+    "lyrics": [
+      [
+        {
+          "pt": "Por favor não maltrate esse nego",
+          "he": "בבקשה אל תתעלל בבחור הזה"
+        },
+        {
+          "pt": "Esse nego foi quem me ensinou",
+          "he": "הבחור הזה הוא שלימד אותי"
+        },
+        {
+          "pt": "Esse nego da calça rasgada, camisa furada",
+          "he": "הבחור הזה עם המכנסיים הקרועים, החולצה עם החורים"
+        },
+        {
+          "pt": "Ele é meu professor",
+          "he": "הוא המורה שלי"
+        }
+      ],
+      [
+        {
+          "pt": "Olha lá o nego",
+          "he": "תסתכל שם על הבחור"
+        },
+        {
+          "pt": "Olha o nego sinha",
+          "he": "תסתכלי על הבחור, גברת"
+        },
+        {
+          "pt": "Olha lá o nego",
+          "he": "תסתכל שם על הבחור"
+        },
+        {
+          "pt": "Olha o nego sinha",
+          "he": "תסתכלי על הבחור, גברת"
+        }
+      ],
+      [
+        {
+          "pt": "Ele usava uma calça rasgada",
+          "he": "הוא נהג ללבוש מכנסיים קרועים"
+        },
+        {
+          "pt": "Hoje usa um terno de linho",
+          "he": "היום הוא לובש חליפת פשתן"
+        },
+        {
+          "pt": "Chapeu de Panama importado",
+          "he": "כובע פנמה מיובא"
+        },
+        {
+          "pt": "Sapato de couro bico cor de vinho",
+          "he": "נעל עור עם חרטום בצבע יין"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Por favor não maltrate esse nego",
+        "marked_words": ["não", "maltrate"],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי שלילי — não + ציווי",
+        "is_new": true,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Esse nego foi quem me ensinou",
+        "marked_words": ["Esse"],
+        "topic_id": "demonstratives",
+        "label_he": "כינוי הרמז — esse (זה, זכר)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Esse nego foi quem me ensinou",
+        "marked_words": ["ensinou"],
+        "topic_id": "verbs-regular",
+        "label_he": "זמן עבר — ensinou (לימד)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Ele é meu professor",
+        "marked_words": ["meu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu (שלי, זכר)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Ele usava uma calça rasgada",
+        "marked_words": ["usava"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר ממושך — usava (נהג ללבוש)",
+        "is_new": true,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Hoje usa um terno de linho",
+        "marked_words": ["usa"],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — usa (לובש)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Sapato de couro bico cor de vinho",
+        "marked_words": ["cor de vinho"],
+        "topic_id": "adjectives",
+        "label_he": "ביטוי צבע — cor de (בצבע של)",
+        "is_new": true
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "por favor",
+        "he": "בבקשה"
+      },
+      {
+        "pt": "maltratar",
+        "he": "להתעלל, להתעמר"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "calça",
+        "he": "מכנסיים"
+      },
+      {
+        "pt": "rasgado / rasgada",
+        "he": "קרוע / קרועה"
+      },
+      {
+        "pt": "camisa",
+        "he": "חולצה"
+      },
+      {
+        "pt": "furado / furada",
+        "he": "מחורר / עם חורים"
+      },
+      {
+        "pt": "professor",
+        "he": "מורה"
+      },
+      {
+        "pt": "olhar",
+        "he": "להסתכל, לראות"
+      },
+      {
+        "pt": "usar",
+        "he": "ללבוש, להשתמש"
+      },
+      {
+        "pt": "hoje",
+        "he": "היום"
+      },
+      {
+        "pt": "terno",
+        "he": "חליפה"
+      },
+      {
+        "pt": "linho",
+        "he": "פשתן"
+      },
+      {
+        "pt": "chapéu",
+        "he": "כובע"
+      },
+      {
+        "pt": "importado",
+        "he": "מיובא"
+      },
+      {
+        "pt": "sapato",
+        "he": "נעל"
+      },
+      {
+        "pt": "couro",
+        "he": "עור (חומר)"
+      },
+      {
+        "pt": "bico",
+        "he": "חרטום, קצה (של נעל)"
+      },
+      {
+        "pt": "cor",
+        "he": "צבע"
+      },
+      {
+        "pt": "vinho",
+        "he": "יין; (כצבע) בורדו"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Por favor não maltrate esse nego",
+        "he": "בבקשה אל תתעלל בבחור הזה"
+      },
+      {
+        "pt": "Esse nego foi quem me ensinou",
+        "he": "הבחור הזה הוא שלימד אותי"
+      },
+      {
+        "pt": "Esse nego da calça rasgada, camisa furada",
+        "he": "הבחור הזה עם המכנסיים הקרועים, החולצה עם החורים"
+      },
+      {
+        "pt": "Ele é meu professor",
+        "he": "הוא המורה שלי"
+      },
+      {
+        "pt": "Ele usava uma calça rasgada",
+        "he": "הוא נהג ללבוש מכנסיים קרועים"
+      },
+      {
+        "pt": "Hoje usa um terno de linho",
+        "he": "היום הוא לובש חליפת פשתן"
+      },
+      {
+        "pt": "Sapato de couro bico cor de vinho",
+        "he": "נעל עור עם חרטום בצבע יין"
+      }
+    ]
+  },
+  {
+    "id": "dangola-e-camara",
+    "title": "D'Angola Ê, Camará",
+    "type": "popular",
+    "badge": "traditional",
+    "media_url": "https://www.youtube.com/watch?v=r4Un8MKZeZQ",
+    "lyrics": [
+      [
+        {
+          "pt": "Camará, donde é que vem? Camará",
+          "he": "חבר, מאיפה בא? חבר"
+        },
+        {
+          "pt": "D'Angola ê, D'Angola ê Camará",
+          "he": "מאנגולה, מאנגולה, חבר"
+        }
+      ],
+      [
+        {
+          "pt": "Ô de lá... de onde vem?",
+          "he": "הו, משם... מאיפה בא?"
+        },
+        {
+          "pt": "Vim de Angola, camará",
+          "he": "באתי מאנגולה, חבר"
+        },
+        {
+          "pt": "De mar-além",
+          "he": "מעבר לים"
+        },
+        {
+          "pt": "Trago o batuque",
+          "he": "אני מביא את הבאטוקי"
+        },
+        {
+          "pt": "E o Candomblé",
+          "he": "ואת הקנדומבלה"
+        }
+      ],
+      [
+        {
+          "pt": "Capoeira da ginga, do corpo ou da sorte",
+          "he": "קפוארה של הגינגה, של הגוף או של המזל"
+        },
+        {
+          "pt": "Na luta de vida ou de morte",
+          "he": "במאבק של חיים או מוות"
+        },
+        {
+          "pt": "Que é luta de nêgo valente",
+          "he": "שהוא מאבק של לוחם אמיץ"
+        },
+        {
+          "pt": "Que eu trago de Angola pra cá",
+          "he": "שאני מביא מאנגולה לכאן"
+        }
+      ],
+      [
+        {
+          "pt": "E trago de Angola os costumes",
+          "he": "ואני מביא מאנגולה את המנהגים"
+        },
+        {
+          "pt": "Do sonho um sorriso de Obá",
+          "he": "מהחלום חיוך של אובה"
+        },
+        {
+          "pt": "Que o samba nasceu do batuque",
+          "he": "שהסמבה נולדה מהבאטוקי"
+        },
+        {
+          "pt": "Que eu trouxe do lado de lá",
+          "he": "שהבאתי מהצד ההוא"
+        }
+      ],
+      [
+        {
+          "pt": "E trago no peito a esperança",
+          "he": "ואני נושא בחזה את התקווה"
+        },
+        {
+          "pt": "E trago comigo o perdão",
+          "he": "ואני נושא עמי את הסליחה"
+        },
+        {
+          "pt": "E trago essa cor que me orgulha",
+          "he": "ואני נושא את הצבע הזה שגורם לי גאווה"
+        },
+        {
+          "pt": "Quer você goste quer não",
+          "he": "בין אם תרצה בין אם לא"
+        }
+      ],
+      [
+        {
+          "pt": "Mas, ô de lá, de onde vem?",
+          "he": "אבל, הו שם, מאיפה בא?"
+        },
+        {
+          "pt": "Vim de Angola, camará",
+          "he": "באתי מאנגולה, חבר"
+        },
+        {
+          "pt": "De mar além",
+          "he": "מעבר לים"
+        },
+        {
+          "pt": "Por mar-caminho de esperança",
+          "he": "על דרך ים של תקווה"
+        }
+      ],
+      [
+        {
+          "pt": "Pelourinho, chicote me corta profundo",
+          "he": "פלורייו, שוט חותך אותי עמוק"
+        },
+        {
+          "pt": "Lá pra trás, de ódio bem fundo",
+          "he": "שם בעבר, מתוך שנאה עמוקה"
+        },
+        {
+          "pt": "Eu vim pra ficar nesse mundo",
+          "he": "באתי כדי להישאר בעולם הזה"
+        },
+        {
+          "pt": "O preço meu sangue pagou",
+          "he": "המחיר שילם הדם שלי"
+        }
+      ],
+      [
+        {
+          "pt": "Dei vida e suor pela terra",
+          "he": "נתתי חיים וזיעה על האדמה"
+        },
+        {
+          "pt": "Sofri mil tormentos de quem",
+          "he": "סבלתי אלף יסורים מידי"
+        },
+        {
+          "pt": "Juntei, me lutei, liberdade",
+          "he": "התאחדתי, נלחמתי, חירות"
+        },
+        {
+          "pt": "E agora ela é minha também",
+          "he": "ועכשיו היא שלי גם כן"
+        }
+      ],
+      [
+        {
+          "pt": "E a luta é maior nesse instante",
+          "he": "והמאבק גדול יותר ברגע הזה"
+        },
+        {
+          "pt": "Guerreiro constante",
+          "he": "לוחם מתמיד"
+        },
+        {
+          "pt": "Há muito que já começou",
+          "he": "יש הרבה שכבר התחיל"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Vim de Angola, camará",
+        "marked_words": ["Vim"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — vir (לבוא): vim = באתי",
+        "is_new": true,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "vir"
+      },
+      {
+        "sentence_pt": "Trago o batuque",
+        "marked_words": ["Trago"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — trazer (להביא): trago = אני מביא",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "trazer"
+      },
+      {
+        "sentence_pt": "Que eu trouxe do lado de lá",
+        "marked_words": ["trouxe"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — trazer בעבר: trouxe = הבאתי",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "trazer"
+      },
+      {
+        "sentence_pt": "Que o samba nasceu do batuque",
+        "marked_words": ["nasceu"],
+        "topic_id": "verbs-regular",
+        "label_he": "זמן עבר — nasceu (נולד/ה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Quer você goste quer não",
+        "marked_words": ["Quer", "quer"],
+        "topic_id": "conjunctions",
+        "label_he": "ביטוי — quer...quer (בין אם...בין אם)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "E agora ela é minha também",
+        "marked_words": ["minha"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — minha (שלי, נקבה)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "camará",
+        "he": "חבר"
+      },
+      {
+        "pt": "de onde / donde",
+        "he": "מאיפה"
+      },
+      {
+        "pt": "vir / vim",
+        "he": "לבוא / באתי"
+      },
+      {
+        "pt": "trazer / trago / trouxe",
+        "he": "להביא / אני מביא / הבאתי"
+      },
+      {
+        "pt": "batuque",
+        "he": "באטוקי (ריקוד אפרו-ברזילאי)"
+      },
+      {
+        "pt": "ginga",
+        "he": "גינגה (תנועה בסיסית בקפוארה)"
+      },
+      {
+        "pt": "sorte",
+        "he": "מזל"
+      },
+      {
+        "pt": "luta",
+        "he": "מאבק, קרב"
+      },
+      {
+        "pt": "valente",
+        "he": "אמיץ, גיבור"
+      },
+      {
+        "pt": "costume",
+        "he": "מנהג, מסורת"
+      },
+      {
+        "pt": "sorriso",
+        "he": "חיוך"
+      },
+      {
+        "pt": "nascer",
+        "he": "להיוולד"
+      },
+      {
+        "pt": "peito",
+        "he": "חזה"
+      },
+      {
+        "pt": "esperança",
+        "he": "תקווה"
+      },
+      {
+        "pt": "perdão",
+        "he": "סליחה"
+      },
+      {
+        "pt": "orgulhar",
+        "he": "לגרום גאווה"
+      },
+      {
+        "pt": "Pelourinho",
+        "he": "פלורייו (עמוד הבושת; שכונה בסלבדור)"
+      },
+      {
+        "pt": "chicote",
+        "he": "שוט"
+      },
+      {
+        "pt": "profundo",
+        "he": "עמוק"
+      },
+      {
+        "pt": "ódio",
+        "he": "שנאה"
+      },
+      {
+        "pt": "sangue",
+        "he": "דם"
+      },
+      {
+        "pt": "suor",
+        "he": "זיעה"
+      },
+      {
+        "pt": "sofrer",
+        "he": "לסבול"
+      },
+      {
+        "pt": "liberdade",
+        "he": "חירות, חופש"
+      },
+      {
+        "pt": "guerreiro",
+        "he": "לוחם"
+      },
+      {
+        "pt": "constante",
+        "he": "מתמיד, קבוע"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Camará, donde é que vem?",
+        "he": "חבר, מאיפה בא?"
+      },
+      {
+        "pt": "Vim de Angola, camará",
+        "he": "באתי מאנגולה, חבר"
+      },
+      {
+        "pt": "Trago o batuque e o Candomblé",
+        "he": "אני מביא את הבאטוקי ואת הקנדומבלה"
+      },
+      {
+        "pt": "Na luta de vida ou de morte",
+        "he": "במאבק של חיים או מוות"
+      },
+      {
+        "pt": "Que o samba nasceu do batuque",
+        "he": "שהסמבה נולדה מהבאטוקי"
+      },
+      {
+        "pt": "E trago essa cor que me orgulha",
+        "he": "ואני נושא את הצבע הזה שגורם לי גאווה"
+      },
+      {
+        "pt": "Quer você goste quer não",
+        "he": "בין אם תרצה בין אם לא"
+      },
+      {
+        "pt": "O preço meu sangue pagou",
+        "he": "המחיר שילם הדם שלי"
+      },
+      {
+        "pt": "E agora ela é minha também",
+        "he": "ועכשיו היא שלי גם כן"
+      }
+    ]
   }
 ]
