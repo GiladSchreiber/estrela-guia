@@ -8182,5 +8182,381 @@
         "he": "ועכשיו היא שלי גם כן"
       }
     ]
+  },
+  {
+    "id": "amanha-dia-santo",
+    "title": "Amanhã é dia santo",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=zU0OL_53Mqk",
+    "lyrics": [
+      [
+        { "pt": "Amanhã é dia santo", "he": "מחר יום קדוש" },
+        { "pt": "Um dois três", "he": "אחד, שתיים, שלוש" }
+      ],
+      [
+        { "pt": "Dia de povo de Deus", "he": "יום של אנשי האל" },
+        { "pt": "Três e três: Seis", "he": "שלוש ושלוש: שש" }
+      ],
+      [
+        { "pt": "Quem tem roupa vai na missa", "he": "מי שיש לו בגדים הולך למיסה" },
+        { "pt": "Seis e três: Nove", "he": "שש ושלוש: תשע" }
+      ],
+      [
+        { "pt": "Quem não tem faz como eu", "he": "מי שאין לו עושה כמוני" },
+        { "pt": "Nove e três: Doze", "he": "תשע ושלוש: שתים-עשרה" }
+      ],
+      [
+        { "pt": "Um dois três", "he": "אחד, שתיים, שלוש" },
+        { "pt": "Três e três: Seis", "he": "שלוש ושלוש: שש" },
+        { "pt": "Seis e três: Nove", "he": "שש ושלוש: תשע" },
+        { "pt": "Nove e três: Doze", "he": "תשע ושלוש: שתים-עשרה" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Quem tem roupa vai na missa",
+        "marked_words": ["tem"],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — ter (יש לו)",
+        "is_new": true,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Quem tem roupa vai na missa",
+        "marked_words": ["vai", "na"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — na = em + a (ב + ה)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Quem não tem faz como eu",
+        "marked_words": ["não"],
+        "topic_id": "negation",
+        "label_he": "שלילה — não לפני הפועל",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Quem não tem faz como eu",
+        "marked_words": ["faz"],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — fazer (לעשות), פועל לא-סדיר",
+        "is_new": true,
+        "tense_id": "presente"
+      }
+    ],
+    "vocab": [
+      { "pt": "amanhã", "he": "מחר" },
+      { "pt": "dia", "he": "יום" },
+      { "pt": "santo", "he": "קדוש" },
+      { "pt": "povo", "he": "עם" },
+      { "pt": "Deus", "he": "אלוהים" },
+      { "pt": "roupa", "he": "בגד, בגדים" },
+      { "pt": "missa", "he": "מיסה (תפילת כנסייה)" },
+      { "pt": "como", "he": "כמו" }
+    ],
+    "sentences": [
+      { "pt": "Amanhã é dia santo", "he": "מחר יום קדוש" },
+      { "pt": "Dia de povo de Deus", "he": "יום של אנשי האל" },
+      { "pt": "Quem tem roupa vai na missa", "he": "מי שיש לו בגדים הולך למיסה" },
+      { "pt": "Quem não tem faz como eu", "he": "מי שאין לו עושה כמוני" }
+    ]
+  },
+  {
+    "id": "e-de-manha-idalina",
+    "title": "É de manhã, Idalina",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=PysV55kyvXU",
+    "lyrics": [
+      [
+        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+      ],
+      [
+        { "pt": "Idalina tem o costume", "he": "לאידלינה יש הרגל" },
+        { "pt": "de chamar e vai andando", "he": "לקרוא וללכת בדרכה" },
+        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+      ],
+      [
+        { "pt": "O Idalina meu amor", "he": "הו אידלינה, אהובתי" },
+        { "pt": "Idalina tà me esperando", "he": "אידלינה מחכה לי" },
+        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+      ],
+      [
+        { "pt": "Idalina tem o costume", "he": "לאידלינה יש הרגל" },
+        { "pt": "Danado de falar de homem", "he": "להרבות לדבר על גברים" },
+        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "É de manhã, Idalina tà me chamando",
+        "marked_words": ["tà", "chamando"],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה מתמשך — tà (= está) + gerúndio: está me chamando",
+        "is_new": true,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Idalina tem o costume",
+        "marked_words": ["tem"],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — ter (יש ל-)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "de chamar e vai andando",
+        "marked_words": ["vai", "andando"],
+        "topic_id": "gerundio",
+        "label_he": "תנועה מתמשכת — ir + gerúndio",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "O Idalina meu amor",
+        "marked_words": ["meu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu (שלי, זכר)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      { "pt": "manhã", "he": "בוקר" },
+      { "pt": "chamar", "he": "לקרוא (ל-), לזמן" },
+      { "pt": "costume", "he": "הרגל, מנהג" },
+      { "pt": "andar", "he": "ללכת, להתהלך" },
+      { "pt": "esperar", "he": "לחכות, לצפות" },
+      { "pt": "danado", "he": "שובב; (כאן) מי שנוהג להרבות" },
+      { "pt": "falar", "he": "לדבר" },
+      { "pt": "homem", "he": "גבר, איש" },
+      { "pt": "amor", "he": "אהבה; אהוב / אהובה" }
+    ],
+    "sentences": [
+      { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" },
+      { "pt": "Idalina tem o costume de chamar e vai andando", "he": "לאידלינה יש הרגל לקרוא וללכת בדרכה" },
+      { "pt": "Idalina tà me esperando", "he": "אידלינה מחכה לי" },
+      { "pt": "Danado de falar de homem", "he": "נוהגת להרבות לדבר על גברים" }
+    ]
+  },
+  {
+    "id": "quando-meu-filho-nascer",
+    "title": "Quando meu filho nascer",
+    "type": "capoeira",
+    "media_url": "https://youtu.be/_7Wbr2H4dho?t=42",
+    "lyrics": [
+      [
+        { "pt": "Quando meu filho nascer", "he": "כשבני ייוולד" },
+        { "pt": "Vou perguntar pra parteira", "he": "אשאל את המיילדת" },
+        { "pt": "O que é que meu filho vai ser", "he": "מה בני הולך להיות" },
+        { "pt": "Meu filho vai ser capoeira", "he": "בני הולך להיות קפואירה" }
+      ],
+      [
+        { "pt": "Capoeira capú", "he": "קפואירה קפו" },
+        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+      ],
+      [
+        { "pt": "Não é karaté nem também kung-fu", "he": "זה לא קראטה וגם לא קונג-פו" },
+        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+      ],
+      [
+        { "pt": "Fui na bahia comer caruru", "he": "הלכתי לבאהיה לאכול קרורו" },
+        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+      ],
+      [
+        { "pt": "Vim comer caru e não como angu", "he": "באתי לאכול קרו ואני לא אוכל אנגו" },
+        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Quando meu filho nascer",
+        "marked_words": ["nascer"],
+        "topic_id": "verbs-regular",
+        "label_he": "עתיד נסתר — futuro do subjuntivo (כש...ייוולד)",
+        "is_new": true,
+        "tense_id": "futuro-subjuntivo"
+      },
+      {
+        "sentence_pt": "Vou perguntar pra parteira",
+        "marked_words": ["Vou", "perguntar"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עתיד קרוב — ir + infinitivo (עומד לשאול)",
+        "is_new": true,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Vou perguntar pra parteira",
+        "marked_words": ["pra"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ דיבורי — pra = para (ל-, בשביל)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Não é karaté nem também kung-fu",
+        "marked_words": ["Não", "nem"],
+        "topic_id": "negation",
+        "label_he": "שלילה מורחבת — não...nem (לא...וגם לא)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Fui na bahia comer caruru",
+        "marked_words": ["Fui"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר — fui (הלכתי), עבר של ir",
+        "is_new": true,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Vim comer caru e não como angu",
+        "marked_words": ["Vim"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר — vim (באתי), עבר של vir",
+        "is_new": true,
+        "tense_id": "preterito-perfeito"
+      }
+    ],
+    "vocab": [
+      { "pt": "filho", "he": "בן" },
+      { "pt": "nascer", "he": "להיוולד" },
+      { "pt": "perguntar", "he": "לשאול" },
+      { "pt": "parteira", "he": "מיילדת" },
+      { "pt": "maculelê", "he": "מקולולה (אמנות לחימה ברזילאית)" },
+      { "pt": "maracatu", "he": "מרקטו (ז׳אנר מוזיקה ברזילאי)" },
+      { "pt": "karaté", "he": "קראטה" },
+      { "pt": "kung-fu", "he": "קונג-פו" },
+      { "pt": "bahia", "he": "באהיה (מדינה בברזיל)" },
+      { "pt": "caruru", "he": "קרורו (תבשיל מסורתי מבאהיה)" },
+      { "pt": "angu", "he": "אנגו (דייסת תירס ברזילאית)" }
+    ],
+    "sentences": [
+      { "pt": "Quando meu filho nascer", "he": "כשבני ייוולד" },
+      { "pt": "Vou perguntar pra parteira", "he": "אשאל את המיילדת" },
+      { "pt": "O que é que meu filho vai ser", "he": "מה בני הולך להיות" },
+      { "pt": "Meu filho vai ser capoeira", "he": "בני הולך להיות קפואירה" },
+      { "pt": "Não é karaté nem também kung-fu", "he": "זה לא קראטה וגם לא קונג-פו" },
+      { "pt": "Fui na bahia comer caruru", "he": "הלכתי לבאהיה לאכול קרורו" },
+      { "pt": "Vim comer caru e não como angu", "he": "באתי לאכול קרו ואני לא אוכל אנגו" }
+    ]
+  },
+  {
+    "id": "o-nego-ta-vadiando",
+    "title": "O Nego Tá Vadiando",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=Onl7ZLmBsDE",
+    "lyrics": [
+      [
+        { "pt": "Nego que veio de Angola e passou na Bahia", "he": "הנגו שבא מאנגולה ועבר בבאהיה" },
+        { "pt": "Trouxe um batuque gostoso pra gente dançar", "he": "הביא באטוקי נהדר בשבילנו לרקוד" },
+        { "pt": "Trouxe o samba de roda e o maculelê", "he": "הביא את הסמבה דה רודה ואת המקולולה" },
+        { "pt": "Trouxe também capoeira pra gente jogar", "he": "הביא גם קפוארה בשבילנו לשחק" }
+      ],
+      [
+        { "pt": "Nego tá vadiando", "he": "הנגו משוטט" },
+        { "pt": "Deixa o nego vadiar", "he": "תן לנגו לשוטט" },
+        { "pt": "O Nego tá vadiando", "he": "הנגו משוטט" },
+        { "pt": "Deixa o nego vadiar", "he": "תן לנגו לשוטט" }
+      ],
+      [
+        { "pt": "Vadeia, vadeia, vadeia, nego", "he": "שוטט, שוטט, שוטט, נגו" },
+        { "pt": "Deixa vadiar", "he": "תן לשוטט" },
+        { "pt": "Oi, vadeia, vadeia, vadeia, nego", "he": "הו, שוטט, שוטט, שוטט, נגו" },
+        { "pt": "Deixa vadiar", "he": "תן לשוטט" }
+      ],
+      [
+        { "pt": "Nego que vem de Angola", "he": "נגו שבא מאנגולה" },
+        { "pt": "Nego que vem da Guiné", "he": "נגו שבא מגינאה" },
+        { "pt": "Nego que é de Moçambique", "he": "נגו שהוא ממוזמביק" },
+        { "pt": "Nego sabe como é", "he": "הנגו יודע איך זה" }
+      ],
+      [
+        { "pt": "E na bagagem do nego", "he": "ובמטען של הנגו" },
+        { "pt": "Ele trouxe o seu patuá", "he": "הוא הביא את הפטואה שלו" },
+        { "pt": "Pra ele usar no pescoço", "he": "כדי שישתמש בו בצוואר" },
+        { "pt": "Na hora de vadiar", "he": "בשעה שמשוטט" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Nego que veio de Angola e passou na Bahia",
+        "marked_words": ["veio"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — vir (לבוא): veio = הוא בא",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "vir"
+      },
+      {
+        "sentence_pt": "Trouxe um batuque gostoso pra gente dançar",
+        "marked_words": ["Trouxe"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — trazer בעבר: trouxe = הביא",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "trazer"
+      },
+      {
+        "sentence_pt": "Trouxe um batuque gostoso pra gente dançar",
+        "marked_words": ["pra gente"],
+        "topic_id": "pronouns",
+        "label_he": "pra gente — ביטוי דיבורי: בשבילנו / אנחנו",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Deixa o nego vadiar",
+        "marked_words": ["Deixa", "vadiar"],
+        "topic_id": "verbs-regular",
+        "label_he": "deixar + infinitivo — תן ל... לעשות",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Nego que vem de Angola",
+        "marked_words": ["vem"],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — vir (לבוא): vem = הוא בא",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "vir"
+      },
+      {
+        "sentence_pt": "Pra ele usar no pescoço",
+        "marked_words": ["Pra"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ דיבורי — pra = para (ל-, כדי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Na hora de vadiar",
+        "marked_words": ["Na"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — na = em + a (ב + ה)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      { "pt": "vadiar / vadeia", "he": "לשוטט, לנדוד חופשי" },
+      { "pt": "deixar / deixa", "he": "לאפשר, להניח / תן ל..." },
+      { "pt": "vir / veio / vem", "he": "לבוא / בא (עבר) / בא (הווה)" },
+      { "pt": "trouxe", "he": "הביא (עבר של trazer)" },
+      { "pt": "batuque", "he": "באטוקי (ריקוד אפרו-ברזילאי)" },
+      { "pt": "gostoso", "he": "טעים, נהדר" },
+      { "pt": "pra gente", "he": "בשבילנו / אנחנו (ביטוי דיבורי)" },
+      { "pt": "dançar", "he": "לרקוד" },
+      { "pt": "samba de roda", "he": "סמבה דה רודה (סמבה מסורתית במעגל)" },
+      { "pt": "passar / passou", "he": "לעבור / עבר" },
+      { "pt": "Guiné", "he": "גינאה (מדינה באפריקה)" },
+      { "pt": "Moçambique", "he": "מוזמביק (מדינה באפריקה)" },
+      { "pt": "sabe", "he": "יודע (מ-saber)" },
+      { "pt": "bagagem", "he": "מטען, כבודה" },
+      { "pt": "patuá", "he": "פטואה (קמיע, שק קסמים)" },
+      { "pt": "pescoço", "he": "צוואר" },
+      { "pt": "hora", "he": "שעה, זמן" }
+    ],
+    "sentences": [
+      { "pt": "Nego que veio de Angola e passou na Bahia", "he": "הנגו שבא מאנגולה ועבר בבאהיה" },
+      { "pt": "Trouxe um batuque gostoso pra gente dançar", "he": "הביא באטוקי נהדר בשבילנו לרקוד" },
+      { "pt": "Trouxe também capoeira pra gente jogar", "he": "הביא גם קפוארה בשבילנו לשחק" },
+      { "pt": "Deixa o nego vadiar", "he": "תן לנגו לשוטט" },
+      { "pt": "Nego sabe como é", "he": "הנגו יודע איך זה" },
+      { "pt": "Ele trouxe o seu patuá", "he": "הוא הביא את הפטואה שלו" },
+      { "pt": "Pra ele usar no pescoço", "he": "כדי שישתמש בו בצוואר" }
+    ]
   }
 ]
