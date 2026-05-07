@@ -8558,5 +8558,128 @@
       { "pt": "Ele trouxe o seu patuá", "he": "הוא הביא את הפטואה שלו" },
       { "pt": "Pra ele usar no pescoço", "he": "כדי שישתמש בו בצוואר" }
     ]
+  },
+  {
+    "id": "cordao-de-ouro-besouro-manganga",
+    "title": "Cordão de Ouro É Besouro Manganga",
+    "type": "capoeira",
+    "media_url": "https://youtu.be/1hRaHFiOxUw",
+    "lyrics": [
+      [
+        { "pt": "Quebrou pra São Caetano", "he": "הגיע לסאו קאיטנו" },
+        { "pt": "Um caso que sucedeu", "he": "סיפור שהתרחש" },
+        { "pt": "Besouro de manganga", "he": "ביזורו מנגנגה" },
+        { "pt": "Que trabalhou e não recebeu", "he": "שעבד ולא קיבל (תשלום)" }
+      ],
+      [
+        { "pt": "Não queria estar não", "he": "לא הייתי רוצה להיות שם לא" },
+        { "pt": "Na pele do patrão", "he": "בעורו של הבוס" },
+        { "pt": "Nem ver o que Besouro faz", "he": "אף ולא לראות מה ביזורו עושה" },
+        { "pt": "Com a cabeça, os pés e as mãos", "he": "עם הראש, הרגליים והידיים" }
+      ],
+      [
+        { "pt": "Cordão de ouro é Besouro Manganga", "he": "קורדאו ג'י אורו הוא ביזורו מנגנגה" }
+      ],
+      [
+        { "pt": "Na fazenda Maracangalha", "he": "בחווה מרקנגליה" },
+        { "pt": "Teve um dia de azar", "he": "היה יום של מזל רע" },
+        { "pt": "Teve a morte encomendada", "he": "היה מוות בהזמנה" },
+        { "pt": "Por um tal de Baltazar", "he": "על ידי אחד בשם בלתזאר" }
+      ],
+      [
+        { "pt": "Foi por uma desavença", "he": "היה בגלל מריבה" },
+        { "pt": "Na usina que trabalhou", "he": "במפעל שבו עבד" },
+        { "pt": "Doutor Zeca mandou uma carta", "he": "דוקטור זקה שלח מכתב" },
+        { "pt": "Pra que se matasse o portador", "he": "בשביל שהשליח יהרג" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Que trabalhou e não recebeu",
+        "marked_words": ["trabalhou", "recebeu"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר — פועל -AR: trabalhou; פועל -ER: recebeu",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Não queria estar não",
+        "marked_words": ["queria"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר מתמשך — querer: queria (רצה)",
+        "is_new": true,
+        "tense_id": "preterito-imperfeito",
+        "verb_id": "querer"
+      },
+      {
+        "sentence_pt": "Não queria estar não",
+        "marked_words": ["Não", "não"],
+        "topic_id": "negation",
+        "label_he": "שלילה כפולה לחיזוק — não...não",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Na pele do patrão",
+        "marked_words": ["do"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — do = de + o (של ה-, זכר)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Teve a morte encomendada",
+        "marked_words": ["Teve"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר — ter: teve (היה לו, קיבל)",
+        "is_new": true,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "Teve a morte encomendada",
+        "marked_words": ["encomendada"],
+        "topic_id": "passive",
+        "label_he": "פועל סביל — particípio passado",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Pra que se matasse o portador",
+        "marked_words": ["matasse"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מותנה — pra que + subjuntivo imperfeito: matasse (שיהרגו)",
+        "is_new": true,
+        "tense_id": "imperfeito-subjuntivo"
+      }
+    ],
+    "vocab": [
+      { "pt": "cordão", "he": "שרשרת, חבל" },
+      { "pt": "quebrar / quebrou", "he": "לשבור; (סלנג) לפנות, ללכת" },
+      { "pt": "suceder / sucedeu", "he": "לקרות, להתרחש / קרה" },
+      { "pt": "trabalhar / trabalhou", "he": "לעבוד / עבד" },
+      { "pt": "receber / recebeu", "he": "לקבל / קיבל" },
+      { "pt": "querer / queria", "he": "לרצות / רצה (עבר מתמשך)" },
+      { "pt": "pele", "he": "עור" },
+      { "pt": "patrão", "he": "בוס, מעביד" },
+      { "pt": "cabeça", "he": "ראש" },
+      { "pt": "pé / pés", "he": "רגל / רגליים" },
+      { "pt": "mão / mãos", "he": "יד / ידיים" },
+      { "pt": "fazenda", "he": "חווה, אחוזה" },
+      { "pt": "azar", "he": "מזל רע" },
+      { "pt": "morte", "he": "מוות" },
+      { "pt": "encomendado/a", "he": "מוזמן/ת, הוכן מראש" },
+      { "pt": "desavença", "he": "מריבה, סכסוך" },
+      { "pt": "usina", "he": "מפעל, בית חרושת" },
+      { "pt": "carta", "he": "מכתב" },
+      { "pt": "portador", "he": "נושא, שליח" },
+      { "pt": "um tal de", "he": "אחד בשם..., מישהו ששמו..." }
+    ],
+    "sentences": [
+      { "pt": "Um caso que sucedeu", "he": "סיפור שהתרחש" },
+      { "pt": "Que trabalhou e não recebeu", "he": "שעבד ולא קיבל (תשלום)" },
+      { "pt": "Não queria estar na pele do patrão", "he": "לא רצה להיות בעורו של הבוס" },
+      { "pt": "Teve um dia de azar", "he": "היה יום של מזל רע" },
+      { "pt": "Teve a morte encomendada", "he": "היה מוות בהזמנה" },
+      { "pt": "Doutor Zeca mandou uma carta", "he": "דוקטור זקה שלח מכתב" },
+      { "pt": "Pra que se matasse o portador", "he": "בשביל שהשליח יהרג" }
+    ]
   }
 ]
