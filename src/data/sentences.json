@@ -1,0 +1,124 @@
+[
+  {
+    "id": "roda-yesterday",
+    "he": "שיחקתי אתמול במעגל, והייתי הכי טוב",
+    "pt": "Ontem joguei na roda e fui o melhor",
+    "words": [
+      { "he": "לשחק", "pt": "jogar" },
+      { "he": "שיחקתי", "pt": "joguei" },
+      { "he": "אתמול", "pt": "ontem" },
+      { "he": "מעגל", "pt": "roda" },
+      { "he": "להיות", "pt": "ser" },
+      { "he": "הייתי", "pt": "fui" },
+      { "he": "הכי טוב", "pt": "o melhor" }
+    ]
+  },
+  {
+    "id": "student-years",
+    "he": "אני תלמיד בבית ספר כבר 4 שנים",
+    "pt": "Sou aluno na escola há 4 anos",
+    "words": [
+      { "he": "להיות", "pt": "ser" },
+      { "he": "אני", "pt": "sou" },
+      { "he": "תלמיד", "pt": "aluno" },
+      { "he": "בית ספר", "pt": "escola" },
+      { "he": "שנה", "pt": "ano" },
+      { "he": "כבר / מזה", "pt": "há" }
+    ]
+  },
+  {
+    "id": "red-shirt",
+    "he": "היא לובשת את החולצה האדומה שלה כל יום שני",
+    "pt": "Ela usa a camisa vermelha dela toda segunda-feira",
+    "words": [
+      { "he": "ללבוש", "pt": "usar" },
+      { "he": "לובשת", "pt": "usa" },
+      { "he": "חולצה", "pt": "camisa" },
+      { "he": "אדום/ה", "pt": "vermelho/a" },
+      { "he": "שלה", "pt": "dela" },
+      { "he": "כל", "pt": "toda" },
+      { "he": "יום שני", "pt": "segunda-feira" }
+    ]
+  },
+  {
+    "id": "time-now",
+    "he": "השעה עכשיו היא 17:30 אחר הצהריים",
+    "pt": "Agora são dezessete e meia da tarde",
+    "words": [
+      { "he": "עכשיו", "pt": "agora" },
+      { "he": "שבע עשרה", "pt": "dezessete" },
+      { "he": "וחצי", "pt": "e meia" },
+      { "he": "אחר הצהריים", "pt": "da tarde" }
+    ]
+  },
+  {
+    "id": "good-morning-drink",
+    "he": "בוקר טוב, מה תרצה לשתות?",
+    "pt": "Bom dia, o que você quer beber?",
+    "words": [
+      { "he": "בוקר טוב", "pt": "bom dia" },
+      { "he": "לרצות", "pt": "querer" },
+      { "he": "רוצה", "pt": "quer" },
+      { "he": "לשתות", "pt": "beber" }
+    ]
+  },
+  {
+    "id": "excuse-exit",
+    "he": "סליחה, אתה יודע אולי איפה היציאה?",
+    "pt": "Com licença, você sabe onde fica a saída?",
+    "words": [
+      { "he": "סליחה", "pt": "com licença" },
+      { "he": "לדעת", "pt": "saber" },
+      { "he": "יודע", "pt": "sabe" },
+      { "he": "איפה", "pt": "onde" },
+      { "he": "יציאה", "pt": "saída" }
+    ]
+  },
+  {
+    "id": "lost-book",
+    "he": "אני לא מוצא את הספר הזה כבר שבוע",
+    "pt": "Não acho esse livro há uma semana",
+    "words": [
+      { "he": "למצוא", "pt": "achar" },
+      { "he": "מוצא", "pt": "acho" },
+      { "he": "ספר", "pt": "livro" },
+      { "he": "שבוע", "pt": "semana" }
+    ]
+  },
+  {
+    "id": "great-song",
+    "he": "השיר הזה ממש טוב! אני אוהב אותו",
+    "pt": "Essa música é muito boa! Eu adoro",
+    "words": [
+      { "he": "שיר", "pt": "música" },
+      { "he": "ממש / מאוד", "pt": "muito" },
+      { "he": "טוב/ה", "pt": "bom/boa" },
+      { "he": "לאהוב", "pt": "adorar" },
+      { "he": "אוהב", "pt": "adoro" }
+    ]
+  },
+  {
+    "id": "brother-visit",
+    "he": "אח שלי יגיע מחר לביקור",
+    "pt": "Meu irmão vai chegar amanhã para uma visita",
+    "words": [
+      { "he": "אח", "pt": "irmão" },
+      { "he": "להגיע", "pt": "chegar" },
+      { "he": "יגיע", "pt": "vai chegar" },
+      { "he": "מחר", "pt": "amanhã" },
+      { "he": "ביקור", "pt": "visita" }
+    ]
+  },
+  {
+    "id": "walk-fast",
+    "he": "אני הולך ממש מהר, גם כשאין סיבה",
+    "pt": "Eu ando muito rápido, mesmo quando não há motivo",
+    "words": [
+      { "he": "ללכת", "pt": "andar" },
+      { "he": "הולך", "pt": "ando" },
+      { "he": "מהר", "pt": "rápido" },
+      { "he": "גם כש-", "pt": "mesmo quando" },
+      { "he": "סיבה", "pt": "motivo" }
+    ]
+  }
+]

@@ -21,7 +21,6 @@
     "id": "sentences",
     "title": "משפטים",
     "icon": "💬",
-    "path": "/sentences",
-    "comingSoon": true
+    "path": "/sentences"
   }
 ]

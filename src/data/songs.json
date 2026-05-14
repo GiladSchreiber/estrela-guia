@@ -8681,5 +8681,114 @@
       { "pt": "Doutor Zeca mandou uma carta", "he": "דוקטור זקה שלח מכתב" },
       { "pt": "Pra que se matasse o portador", "he": "בשביל שהשליח יהרג" }
     ]
+  },
+  {
+    "id": "abalou-capoeira",
+    "title": "Abalou Capoeira",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=IHjxwRtTz2c",
+    "lyrics": [
+      [
+        { "pt": "No tempo que a capoeira era um jogo pesado", "he": "בתקופה שהקפואירה הייתה משחק קשה" },
+        { "pt": "Menino que entrava em roda, saia de braço quebrado", "he": "ילד שנכנס לרודה, יצא עם זרוע שבורה" }
+      ],
+      [
+        { "pt": "Eu dava nele uma rasteira, coice de mula e uma queixada", "he": "הייתי נותן לו רסטיירה, בעיטת פרד וקישאדה" },
+        { "pt": "Rabo de arraia e uma benção pulada, jogava ele na calçada", "he": "ראבו דה אראיה ובנסאו קופץ, הייתי זורק אותו על המדרכה" }
+      ],
+      [
+        { "pt": "Menino que entrava em roda e não sabia dar pernada", "he": "ילד שנכנס לרודה ולא ידע לתת בעיטה" },
+        { "pt": "Abalou capoeira, abalou, abalou, deixa abalar", "he": "הקפוארה רעדה, רעדה, רעדה, תן לה לרעוד" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "No tempo que a capoeira era um jogo pesado",
+        "marked_words": ["era"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר מתמשך — ser: era (הייתה)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito",
+        "verb_id": "ser"
+      },
+      {
+        "sentence_pt": "Menino que entrava em roda, saia de braço quebrado",
+        "marked_words": ["entrava", "saia"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מתמשך — entrar: entrava; sair: saía (הרגל בעבר)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Eu dava nele uma rasteira",
+        "marked_words": ["dava"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר מתמשך — dar: dava (הייתי נותן)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito",
+        "verb_id": "dar"
+      },
+      {
+        "sentence_pt": "Eu dava nele uma rasteira",
+        "marked_words": ["nele"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — nele = em + ele (בו, לו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "jogava ele na calçada",
+        "marked_words": ["jogava"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מתמשך — jogar: jogava (הייתי זורק)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "não sabia dar pernada",
+        "marked_words": ["sabia"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר מתמשך — saber: sabia (ידע)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito",
+        "verb_id": "saber"
+      },
+      {
+        "sentence_pt": "Abalou capoeira, abalou, abalou, deixa abalar",
+        "marked_words": ["Abalou"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — abalar: abalou (רעדה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Abalou capoeira, abalou, abalou, deixa abalar",
+        "marked_words": ["deixa", "abalar"],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי + שם-פועל — deixa abalar (תן לה לרעוד)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      { "pt": "tempo", "he": "זמן, תקופה" },
+      { "pt": "jogo pesado", "he": "משחק קשה, קרב מסוכן" },
+      { "pt": "roda", "he": "רודה (מעגל הקפואירה)" },
+      { "pt": "braço", "he": "זרוע" },
+      { "pt": "quebrado/a", "he": "שבור/ה" },
+      { "pt": "rasteira", "he": "רסטיירה (מכת רגל סוחפת)" },
+      { "pt": "coice de mula", "he": "בעיטת פרד" },
+      { "pt": "queixada", "he": "קישאדה (מכת סנטר סיבובית)" },
+      { "pt": "rabo de arraia", "he": "ראבו דה אראיה (זנב הנשר)" },
+      { "pt": "benção pulada", "he": "בנסאו קופץ" },
+      { "pt": "calçada", "he": "מדרכה, רחוב" },
+      { "pt": "pernada", "he": "בעיטה" },
+      { "pt": "abalou / abalar", "he": "לנענע, לזעזע / נענע" }
+    ],
+    "sentences": [
+      { "pt": "No tempo que a capoeira era um jogo pesado", "he": "בתקופה שהקפואירה הייתה משחק קשה" },
+      { "pt": "Menino que entrava em roda, saia de braço quebrado", "he": "ילד שנכנס לרודה, יצא עם זרוע שבורה" },
+      { "pt": "Eu dava nele uma rasteira", "he": "הייתי נותן לו רסטיירה" },
+      { "pt": "não sabia dar pernada", "he": "לא ידע לתת בעיטה" },
+      { "pt": "Abalou capoeira, deixa abalar", "he": "הקפוארה רעדה, תן לה לרעוד" }
+    ]
   }
 ]

@@ -1,0 +1,65 @@
+@use '../styles/variables' as *;
+
+.header {
+  padding: $space-lg $space-lg $space-md;
+  border-bottom: 1px solid $border;
+  text-align: center;
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: $text;
+    margin: 0 0 $space-sm;
+  }
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: $muted;
+  margin: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+  padding: $space-lg;
+  max-width: 640px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: $space-md;
+  background: $surface;
+  border: 1px solid $border;
+  border-right: 4px solid $primary;
+  border-radius: $radius-md;
+  padding: $space-md $space-lg;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: right;
+  direction: rtl;
+  transition: background 0.15s, transform 0.1s;
+
+  &:hover { background: rgba(0, 0, 0, 0.02); transform: translateX(-2px); }
+  &:active { transform: translateX(0); }
+}
+
+.num {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: $muted;
+  min-width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.he {
+  font-size: 1rem;
+  font-weight: 500;
+  color: $text;
+  line-height: 1.5;
+}
