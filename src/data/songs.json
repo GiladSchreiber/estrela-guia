@@ -8790,5 +8790,249 @@
       { "pt": "não sabia dar pernada", "he": "לא ידע לתת בעיטה" },
       { "pt": "Abalou capoeira, deixa abalar", "he": "הקפוארה רעדה, תן לה לרעוד" }
     ]
+  },
+  {
+    "id": "cajue",
+    "title": "Cajuê",
+    "type": "capoeira",
+    "media_url": "https://youtu.be/YRe9t2OFaXU?t=596",
+    "lyrics": [
+      [
+        { "pt": "Seu Capoeira, que aconteceu", "he": "אדון קפוארה, מה קרה" },
+        { "pt": "Naquela roda em noite de lua", "he": "באותה רודה, בליל ירח" },
+        { "pt": "Deu meia-lua, levou cabeçada", "he": "נתן מיאה־לואה, חטף קבסאדה" },
+        { "pt": "Meu camarada, pode acreditar", "he": "חברי, אתה יכול להאמין" },
+        { "pt": "Pois nessa roda foi uma beleza", "he": "כי באותה רודה זה היה יופי" },
+        { "pt": "Na certeza que eu vim de lá", "he": "בוודאות שמשם באתי" },
+        { "pt": "Daquela terra muito abençoada", "he": "מאותה ארץ מבורכת מאוד" },
+        { "pt": "É da Bahia que eu vou falar", "he": "על באיה אני הולך לדבר" }
+      ],
+      [
+        { "pt": "É de manda lecô", "he": "(שלח את) לקו" },
+        { "pt": "Cajuê", "he": "קז'ואה" },
+        { "pt": "Vou manda loiá", "he": "אני הולך לשלוח להסתכל" },
+        { "pt": "Cajuê", "he": "קז'ואה" },
+        { "pt": "Ô, Lecô", "he": "הו, לקו" },
+        { "pt": "Cajuê", "he": "קז'ואה" },
+        { "pt": "Vou manda loiá", "he": "אני הולך לשלוח להסתכל" },
+        { "pt": "Cajuê", "he": "קז'ואה" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Seu Capoeira, que aconteceu",
+        "marked_words": ["aconteceu"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — acontecer: aconteceu (קרה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Naquela roda em noite de lua",
+        "marked_words": ["Naquela"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — naquela = em + aquela (באותה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Deu meia-lua, levou cabeçada",
+        "marked_words": ["Deu"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר שלם — dar: deu (נתן)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "dar"
+      },
+      {
+        "sentence_pt": "Meu camarada, pode acreditar",
+        "marked_words": ["Meu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu (שלי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Meu camarada, pode acreditar",
+        "marked_words": ["pode"],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — poder: pode (יכול)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "poder"
+      },
+      {
+        "sentence_pt": "Pois nessa roda foi uma beleza",
+        "marked_words": ["nessa"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — nessa = em + essa (באותה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Pois nessa roda foi uma beleza",
+        "marked_words": ["foi"],
+        "topic_id": "ser-estar",
+        "label_he": "עבר שלם — ser: foi (היה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Na certeza que eu vim de lá",
+        "marked_words": ["vim"],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר שלם — vir: vim (באתי)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "vir"
+      },
+      {
+        "sentence_pt": "Daquela terra muito abençoada",
+        "marked_words": ["Daquela"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — daquela = de + aquela (מאותה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "É da Bahia que eu vou falar",
+        "marked_words": ["vou falar"],
+        "topic_id": "verbs-regular",
+        "label_he": "עתיד קרוב — ir + פועל (vou falar = אני הולך לדבר)",
+        "is_new": false,
+        "tense_id": "futuro"
+      }
+    ],
+    "vocab": [
+      { "pt": "acontecer", "he": "לקרות" },
+      { "pt": "roda", "he": "רודה (מעגל הקפואירה)" },
+      { "pt": "noite", "he": "לילה" },
+      { "pt": "lua", "he": "ירח" },
+      { "pt": "meia-lua", "he": "מיאה־לואה (בעיטת חצי־ירח)" },
+      { "pt": "cabeçada", "he": "קבסאדה (מכת ראש)" },
+      { "pt": "levar", "he": "לקחת, לחטוף (מכה)" },
+      { "pt": "camarada", "he": "חבר" },
+      { "pt": "poder", "he": "להיות יכול" },
+      { "pt": "acreditar", "he": "להאמין" },
+      { "pt": "beleza", "he": "יופי" },
+      { "pt": "certeza", "he": "ודאות, ביטחון" },
+      { "pt": "vir", "he": "לבוא" },
+      { "pt": "terra", "he": "ארץ, אדמה" },
+      { "pt": "abençoado/a", "he": "מבורך/ת" },
+      { "pt": "falar", "he": "לדבר" },
+      { "pt": "mandar", "he": "לשלוח, לצוות" },
+      { "pt": "olhar", "he": "להסתכל" }
+    ],
+    "sentences": [
+      { "pt": "Seu Capoeira, que aconteceu", "he": "אדון קפוארה, מה קרה" },
+      { "pt": "Naquela roda em noite de lua", "he": "באותה רודה, בליל ירח" },
+      { "pt": "Meu camarada, pode acreditar", "he": "חברי, אתה יכול להאמין" },
+      { "pt": "Pois nessa roda foi uma beleza", "he": "כי באותה רודה זה היה יופי" },
+      { "pt": "Na certeza que eu vim de lá", "he": "בוודאות שמשם באתי" },
+      { "pt": "Daquela terra muito abençoada", "he": "מאותה ארץ מבורכת מאוד" },
+      { "pt": "É da Bahia que eu vou falar", "he": "על באיה אני הולך לדבר" }
+    ]
+  },
+  {
+    "id": "e-defesa-ataque",
+    "title": "É defesa, ataque",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=9Iwxyxg4ACg",
+    "lyrics": [
+      [
+        { "pt": "O maculelê, a dança do pau", "he": "המקוללה, ריקוד המקלות" },
+        { "pt": "Na roda de capoeira, quem comanda é o berimbau", "he": "במעגל הקפוארה, מי שמפקד הוא הברימבאו" }
+      ],
+      [
+        { "pt": "Capoeira,", "he": "קפוארה," },
+        { "pt": "É defesa, ataque", "he": "(זה) הגנה, התקפה" },
+        { "pt": "A ginga do corpo e a malandragem", "he": "הג'ינגה של הגוף והמלנדראז'ם" }
+      ],
+      [
+        { "pt": "São Francisco Nunes, preto velho meu avô", "he": "סאו פרנסיסקו נונס, שחור זקן, סבא שלי" },
+        { "pt": "Ensinou para o meu pai, mas meu pai não me ensinou", "he": "לימד את אבא שלי, אבל אבא שלי לא לימד אותי" }
+      ],
+      [
+        { "pt": "Capoeira,", "he": "קפוארה," },
+        { "pt": "É defesa, ataque", "he": "(זה) הגנה, התקפה" },
+        { "pt": "A ginga do corpo e a malandragem", "he": "הג'ינגה של הגוף והמלנדראז'ם" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Na roda de capoeira, quem comanda é o berimbau",
+        "marked_words": ["Na"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — na = em + a (ב־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Na roda de capoeira, quem comanda é o berimbau",
+        "marked_words": ["é"],
+        "topic_id": "ser-estar",
+        "label_he": "ser בהווה — é (הוא/היא)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "A ginga do corpo e a malandragem",
+        "marked_words": ["do"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — do = de + o (של ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "São Francisco Nunes, preto velho meu avô",
+        "marked_words": ["meu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu (שלי, זכר)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Ensinou para o meu pai",
+        "marked_words": ["Ensinou"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — ensinar: ensinou (לימד)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "mas meu pai não me ensinou",
+        "marked_words": ["não"],
+        "topic_id": "negation",
+        "label_he": "שלילה — não (לא) לפני הפועל",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "mas meu pai não me ensinou",
+        "marked_words": ["me"],
+        "topic_id": "indirect-object",
+        "label_he": "מושא עקיף — me (לי, אותי)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      { "pt": "maculelê", "he": "מאקולה־לה (ריקוד אפרו־ברזילאי עם מקלות)" },
+      { "pt": "dança", "he": "ריקוד" },
+      { "pt": "pau", "he": "מקל, עץ" },
+      { "pt": "roda", "he": "רודה (מעגל הקפואירה)" },
+      { "pt": "comandar", "he": "לפקד, להוביל" },
+      { "pt": "berimbau", "he": "ברימבאו (כלי הנגינה של הקפואירה)" },
+      { "pt": "defesa", "he": "הגנה" },
+      { "pt": "ataque", "he": "התקפה" },
+      { "pt": "ginga", "he": "ג'ינגה (תנועת היסוד בקפואירה)" },
+      { "pt": "corpo", "he": "גוף" },
+      { "pt": "malandragem", "he": "מלנדראז'ם (ערמומיות, חוכמת רחוב)" },
+      { "pt": "preto velho", "he": "שחור זקן (דמות הזקן החכם במסורות אפרו־ברזילאיות)" },
+      { "pt": "avô", "he": "סבא" },
+      { "pt": "ensinar", "he": "ללמד" },
+      { "pt": "pai", "he": "אבא" },
+      { "pt": "mas", "he": "אבל" }
+    ],
+    "sentences": [
+      { "pt": "O maculelê, a dança do pau", "he": "המקוללה, ריקוד המקלות" },
+      { "pt": "Na roda de capoeira, quem comanda é o berimbau", "he": "במעגל הקפוארה, מי שמפקד הוא הברימבאו" },
+      { "pt": "É defesa, ataque", "he": "(זה) הגנה, התקפה" },
+      { "pt": "A ginga do corpo e a malandragem", "he": "הג'ינגה של הגוף והמלנדראז'ם" },
+      { "pt": "São Francisco Nunes, preto velho meu avô", "he": "סאו פרנסיסקו נונס, שחור זקן, סבא שלי" },
+      { "pt": "Ensinou para o meu pai", "he": "לימד את אבא שלי" },
+      { "pt": "mas meu pai não me ensinou", "he": "אבל אבא שלי לא לימד אותי" }
+    ]
   }
 ]
