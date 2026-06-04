@@ -9034,5 +9034,221 @@
       { "pt": "Ensinou para o meu pai", "he": "לימד את אבא שלי" },
       { "pt": "mas meu pai não me ensinou", "he": "אבל אבא שלי לא לימד אותי" }
     ]
+  },
+  {
+    "id": "no-tempo-do-cativeiro",
+    "title": "No tempo do cativeiro",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=oFHR1ZmTSQU",
+    "images": [
+      {
+        "file": "natural-sisal-fiber.jpeg",
+        "label_pt": "Sisal",
+        "label_he": "סיזל (סיב טבעי לחבלים ושטיחים)"
+      }
+    ],
+    "lyrics": [
+      [
+        { "pt": "No tempo do cativeiro", "he": "בתקופת העבדות" },
+        { "pt": "Quando o Senhor me batia", "he": "כשהאדון היה מכה אותי" },
+        { "pt": "Eu rezava pra Nossa Senhora, meu Deus", "he": "התפללתי לגבירתנו, אלוהיי" },
+        { "pt": "Como a pancada doía", "he": "כמה שהמכה כאבה" }
+      ],
+      [
+        { "pt": "No tempo do cativeiro", "he": "בתקופת העבדות" },
+        { "pt": "Quando o Senhor me batia", "he": "כשהאדון היה מכה אותי" },
+        { "pt": "Eu rezava por Nossa Senhora, meu Deus", "he": "התפללתי בשם גבירתנו, אלוהיי" },
+        { "pt": "Como a pancada doía", "he": "כמה שהמכה כאבה" }
+      ],
+      [
+        { "pt": "Trabalhava na lavoura", "he": "הייתי עובד בשדות" },
+        { "pt": "No açúcar e no sisal", "he": "בקני הסוכר ובסיזל" },
+        { "pt": "Nego era chicoteado", "he": "השחור היה מולקה" },
+        { "pt": "No velho tronco de pau", "he": "על גזע העץ הישן" }
+      ],
+      [
+        { "pt": "Quando cheguei na Bahia", "he": "כשהגעתי לבאהיה" },
+        { "pt": "A capoeira me libertou", "he": "הקפוארה שחררה אותי" },
+        { "pt": "E até hoje ainda me lembro", "he": "ועד היום אני עוד זוכר" },
+        { "pt": "Das ordens do meu Senhor", "he": "את הפקודות של האדון שלי" }
+      ],
+      [
+        { "pt": "Trabalha negro, negro trabalha", "he": "עבוד שחור, שחור עובד" },
+        { "pt": "Trabalha negro pra não apanhar", "he": "עבוד שחור כדי לא לחטוף מכות" }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Quando o Senhor me batia",
+        "marked_words": ["batia"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מתמשך — bater: batia (היה מכה)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Quando o Senhor me batia",
+        "marked_words": ["me"],
+        "topic_id": "direct-object",
+        "label_he": "כינוי גוף — מושא (me = אותי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Eu rezava pra Nossa Senhora, meu Deus",
+        "marked_words": ["rezava"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מתמשך — rezar: rezava (היה מתפלל)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Eu rezava pra Nossa Senhora, meu Deus",
+        "marked_words": ["meu"],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu (שלי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Como a pancada doía",
+        "marked_words": ["doía"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מתמשך — doer: doía (כאב/ה)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Trabalhava na lavoura",
+        "marked_words": ["Trabalhava"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר מתמשך — trabalhar: trabalhava (היה עובד)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Trabalhava na lavoura",
+        "marked_words": ["na"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — na = em + a (ב־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "No açúcar e no sisal",
+        "marked_words": ["no"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — no = em + o (ב־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Nego era chicoteado",
+        "marked_words": ["era"],
+        "topic_id": "ser-estar",
+        "label_he": "עבר מתמשך — ser: era (היה)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Nego era chicoteado",
+        "marked_words": ["chicoteado"],
+        "topic_id": "passive",
+        "label_he": "סביל — ser + particípio (chicoteado = מולקה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Quando cheguei na Bahia",
+        "marked_words": ["cheguei"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — chegar: cheguei (הגעתי, c→gu לפני e)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "A capoeira me libertou",
+        "marked_words": ["libertou"],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — libertar: libertou (שחרר/ה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "E até hoje ainda me lembro",
+        "marked_words": ["me lembro"],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי — lembrar-se: me lembro (אני זוכר)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Das ordens do meu Senhor",
+        "marked_words": ["Das"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — das = de + as (של ה־, רבים נקבה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Das ordens do meu Senhor",
+        "marked_words": ["do"],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — do = de + o (של ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Trabalha negro pra não apanhar",
+        "marked_words": ["Trabalha"],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — trabalhar: trabalha (עבוד!)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Trabalha negro pra não apanhar",
+        "marked_words": ["não"],
+        "topic_id": "negation",
+        "label_he": "שלילה — não (לא) לפני הפועל",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      { "pt": "tempo", "he": "זמן, תקופה" },
+      { "pt": "cativeiro", "he": "עבדות" },
+      { "pt": "Senhor", "he": "אדון, אדוני" },
+      { "pt": "bater / batia", "he": "להכות / היה מכה" },
+      { "pt": "rezar / rezava", "he": "להתפלל / היה מתפלל" },
+      { "pt": "Nossa Senhora", "he": "גבירתנו (הבתולה מריה)" },
+      { "pt": "Deus", "he": "אלוהים" },
+      { "pt": "pancada", "he": "מכה, חבטה" },
+      { "pt": "doer / doía", "he": "לכאוב / כאב" },
+      { "pt": "dor", "he": "כאב" },
+      { "pt": "trabalhar / trabalhava", "he": "לעבוד / היה עובד" },
+      { "pt": "lavoura", "he": "שדה חקלאי, חקלאות" },
+      { "pt": "açúcar", "he": "סוכר (קני סוכר)" },
+      { "pt": "sisal", "he": "סיזל (צמח סיב לחבלים)" },
+      { "pt": "nego", "he": "כינוי עממי לשחור (negro)" },
+      { "pt": "chicotear / chicoteado", "he": "להלקות / מולקה" },
+      { "pt": "velho", "he": "זקן, ישן" },
+      { "pt": "tronco", "he": "גזע, סד עינויים" },
+      { "pt": "pau", "he": "עץ, מקל" },
+      { "pt": "chegar / cheguei", "he": "להגיע / הגעתי" },
+      { "pt": "libertar / libertou", "he": "לשחרר / שחרר" },
+      { "pt": "ainda", "he": "עדיין, עוד" },
+      { "pt": "lembrar-se / me lembro", "he": "לזכור / אני זוכר" },
+      { "pt": "ordem", "he": "פקודה, הוראה" },
+      { "pt": "apanhar", "he": "לחטוף מכות, לספוג" },
+      { "pt": "negro", "he": "שחור" },
+      { "pt": "pra", "he": "כדי, ל־ (עממי, מ־para)" }
+    ],
+    "sentences": [
+      { "pt": "No tempo do cativeiro", "he": "בתקופת העבדות" },
+      { "pt": "Quando o Senhor me batia", "he": "כשהאדון היה מכה אותי" },
+      { "pt": "Eu rezava pra Nossa Senhora", "he": "התפללתי לגבירתנו" },
+      { "pt": "Como a pancada doía", "he": "כמה שהמכה כאבה" },
+      { "pt": "Trabalhava na lavoura", "he": "הייתי עובד בשדות" },
+      { "pt": "No açúcar e no sisal", "he": "בקני הסוכר ובסיזל" },
+      { "pt": "Nego era chicoteado", "he": "השחור היה מולקה" },
+      { "pt": "No velho tronco de pau", "he": "על גזע העץ הישן" },
+      { "pt": "Quando cheguei na Bahia", "he": "כשהגעתי לבאהיה" },
+      { "pt": "A capoeira me libertou", "he": "הקפוארה שחררה אותי" },
+      { "pt": "E até hoje ainda me lembro", "he": "ועד היום אני עוד זוכר" },
+      { "pt": "Das ordens do meu Senhor", "he": "את הפקודות של האדון שלי" },
+      { "pt": "Trabalha negro pra não apanhar", "he": "עבוד שחור כדי לא לחטוף מכות" }
+    ]
   }
 ]
