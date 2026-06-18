@@ -7660,7 +7660,10 @@
     "grammar_notes": [
       {
         "sentence_pt": "Por favor não maltrate esse nego",
-        "marked_words": ["não", "maltrate"],
+        "marked_words": [
+          "não",
+          "maltrate"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "ציווי שלילי — não + ציווי",
         "is_new": true,
@@ -7668,14 +7671,18 @@
       },
       {
         "sentence_pt": "Esse nego foi quem me ensinou",
-        "marked_words": ["Esse"],
+        "marked_words": [
+          "Esse"
+        ],
         "topic_id": "demonstratives",
         "label_he": "כינוי הרמז — esse (זה, זכר)",
         "is_new": true
       },
       {
         "sentence_pt": "Esse nego foi quem me ensinou",
-        "marked_words": ["ensinou"],
+        "marked_words": [
+          "ensinou"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "זמן עבר — ensinou (לימד)",
         "is_new": false,
@@ -7683,14 +7690,18 @@
       },
       {
         "sentence_pt": "Ele é meu professor",
-        "marked_words": ["meu"],
+        "marked_words": [
+          "meu"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות — meu (שלי, זכר)",
         "is_new": false
       },
       {
         "sentence_pt": "Ele usava uma calça rasgada",
-        "marked_words": ["usava"],
+        "marked_words": [
+          "usava"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר ממושך — usava (נהג ללבוש)",
         "is_new": true,
@@ -7698,7 +7709,9 @@
       },
       {
         "sentence_pt": "Hoje usa um terno de linho",
-        "marked_words": ["usa"],
+        "marked_words": [
+          "usa"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "הווה — usa (לובש)",
         "is_new": false,
@@ -7706,7 +7719,9 @@
       },
       {
         "sentence_pt": "Sapato de couro bico cor de vinho",
-        "marked_words": ["cor de vinho"],
+        "marked_words": [
+          "cor de vinho"
+        ],
         "topic_id": "adjectives",
         "label_he": "ביטוי צבע — cor de (בצבע של)",
         "is_new": true
@@ -7990,7 +8005,9 @@
     "grammar_notes": [
       {
         "sentence_pt": "Vim de Angola, camará",
-        "marked_words": ["Vim"],
+        "marked_words": [
+          "Vim"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — vir (לבוא): vim = באתי",
         "is_new": true,
@@ -7999,7 +8016,9 @@
       },
       {
         "sentence_pt": "Trago o batuque",
-        "marked_words": ["Trago"],
+        "marked_words": [
+          "Trago"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — trazer (להביא): trago = אני מביא",
         "is_new": true,
@@ -8008,7 +8027,9 @@
       },
       {
         "sentence_pt": "Que eu trouxe do lado de lá",
-        "marked_words": ["trouxe"],
+        "marked_words": [
+          "trouxe"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — trazer בעבר: trouxe = הבאתי",
         "is_new": false,
@@ -8017,7 +8038,9 @@
       },
       {
         "sentence_pt": "Que o samba nasceu do batuque",
-        "marked_words": ["nasceu"],
+        "marked_words": [
+          "nasceu"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "זמן עבר — nasceu (נולד/ה)",
         "is_new": false,
@@ -8025,14 +8048,19 @@
       },
       {
         "sentence_pt": "Quer você goste quer não",
-        "marked_words": ["Quer", "quer"],
+        "marked_words": [
+          "Quer",
+          "quer"
+        ],
         "topic_id": "conjunctions",
         "label_he": "ביטוי — quer...quer (בין אם...בין אם)",
         "is_new": true
       },
       {
         "sentence_pt": "E agora ela é minha também",
-        "marked_words": ["minha"],
+        "marked_words": [
+          "minha"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות — minha (שלי, נקבה)",
         "is_new": false
@@ -8190,32 +8218,70 @@
     "media_url": "https://www.youtube.com/watch?v=zU0OL_53Mqk",
     "lyrics": [
       [
-        { "pt": "Amanhã é dia santo", "he": "מחר יום קדוש" },
-        { "pt": "Um dois três", "he": "אחד, שתיים, שלוש" }
+        {
+          "pt": "Amanhã é dia santo",
+          "he": "מחר יום קדוש"
+        },
+        {
+          "pt": "Um dois três",
+          "he": "אחד, שתיים, שלוש"
+        }
       ],
       [
-        { "pt": "Dia de povo de Deus", "he": "יום של אנשי האל" },
-        { "pt": "Três e três: Seis", "he": "שלוש ושלוש: שש" }
+        {
+          "pt": "Dia de povo de Deus",
+          "he": "יום של אנשי האל"
+        },
+        {
+          "pt": "Três e três: Seis",
+          "he": "שלוש ושלוש: שש"
+        }
       ],
       [
-        { "pt": "Quem tem roupa vai na missa", "he": "מי שיש לו בגדים הולך למיסה" },
-        { "pt": "Seis e três: Nove", "he": "שש ושלוש: תשע" }
+        {
+          "pt": "Quem tem roupa vai na missa",
+          "he": "מי שיש לו בגדים הולך למיסה"
+        },
+        {
+          "pt": "Seis e três: Nove",
+          "he": "שש ושלוש: תשע"
+        }
       ],
       [
-        { "pt": "Quem não tem faz como eu", "he": "מי שאין לו עושה כמוני" },
-        { "pt": "Nove e três: Doze", "he": "תשע ושלוש: שתים-עשרה" }
+        {
+          "pt": "Quem não tem faz como eu",
+          "he": "מי שאין לו עושה כמוני"
+        },
+        {
+          "pt": "Nove e três: Doze",
+          "he": "תשע ושלוש: שתים-עשרה"
+        }
       ],
       [
-        { "pt": "Um dois três", "he": "אחד, שתיים, שלוש" },
-        { "pt": "Três e três: Seis", "he": "שלוש ושלוש: שש" },
-        { "pt": "Seis e três: Nove", "he": "שש ושלוש: תשע" },
-        { "pt": "Nove e três: Doze", "he": "תשע ושלוש: שתים-עשרה" }
+        {
+          "pt": "Um dois três",
+          "he": "אחד, שתיים, שלוש"
+        },
+        {
+          "pt": "Três e três: Seis",
+          "he": "שלוש ושלוש: שש"
+        },
+        {
+          "pt": "Seis e três: Nove",
+          "he": "שש ושלוש: תשע"
+        },
+        {
+          "pt": "Nove e três: Doze",
+          "he": "תשע ושלוש: שתים-עשרה"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Quem tem roupa vai na missa",
-        "marked_words": ["tem"],
+        "marked_words": [
+          "tem"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "הווה — ter (יש לו)",
         "is_new": true,
@@ -8223,21 +8289,28 @@
       },
       {
         "sentence_pt": "Quem tem roupa vai na missa",
-        "marked_words": ["vai", "na"],
+        "marked_words": [
+          "vai",
+          "na"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — na = em + a (ב + ה)",
         "is_new": true
       },
       {
         "sentence_pt": "Quem não tem faz como eu",
-        "marked_words": ["não"],
+        "marked_words": [
+          "não"
+        ],
         "topic_id": "negation",
         "label_he": "שלילה — não לפני הפועל",
         "is_new": true
       },
       {
         "sentence_pt": "Quem não tem faz como eu",
-        "marked_words": ["faz"],
+        "marked_words": [
+          "faz"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "הווה — fazer (לעשות), פועל לא-סדיר",
         "is_new": true,
@@ -8245,20 +8318,56 @@
       }
     ],
     "vocab": [
-      { "pt": "amanhã", "he": "מחר" },
-      { "pt": "dia", "he": "יום" },
-      { "pt": "santo", "he": "קדוש" },
-      { "pt": "povo", "he": "עם" },
-      { "pt": "Deus", "he": "אלוהים" },
-      { "pt": "roupa", "he": "בגד, בגדים" },
-      { "pt": "missa", "he": "מיסה (תפילת כנסייה)" },
-      { "pt": "como", "he": "כמו" }
+      {
+        "pt": "amanhã",
+        "he": "מחר"
+      },
+      {
+        "pt": "dia",
+        "he": "יום"
+      },
+      {
+        "pt": "santo",
+        "he": "קדוש"
+      },
+      {
+        "pt": "povo",
+        "he": "עם"
+      },
+      {
+        "pt": "Deus",
+        "he": "אלוהים"
+      },
+      {
+        "pt": "roupa",
+        "he": "בגד, בגדים"
+      },
+      {
+        "pt": "missa",
+        "he": "מיסה (תפילת כנסייה)"
+      },
+      {
+        "pt": "como",
+        "he": "כמו"
+      }
     ],
     "sentences": [
-      { "pt": "Amanhã é dia santo", "he": "מחר יום קדוש" },
-      { "pt": "Dia de povo de Deus", "he": "יום של אנשי האל" },
-      { "pt": "Quem tem roupa vai na missa", "he": "מי שיש לו בגדים הולך למיסה" },
-      { "pt": "Quem não tem faz como eu", "he": "מי שאין לו עושה כמוני" }
+      {
+        "pt": "Amanhã é dia santo",
+        "he": "מחר יום קדוש"
+      },
+      {
+        "pt": "Dia de povo de Deus",
+        "he": "יום של אנשי האל"
+      },
+      {
+        "pt": "Quem tem roupa vai na missa",
+        "he": "מי שיש לו בגדים הולך למיסה"
+      },
+      {
+        "pt": "Quem não tem faz como eu",
+        "he": "מי שאין לו עושה כמוני"
+      }
     ]
   },
   {
@@ -8268,28 +8377,61 @@
     "media_url": "https://www.youtube.com/watch?v=PysV55kyvXU",
     "lyrics": [
       [
-        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+        {
+          "pt": "É de manhã, Idalina tà me chamando",
+          "he": "זה בבוקר, אידלינה קוראת לי"
+        }
       ],
       [
-        { "pt": "Idalina tem o costume", "he": "לאידלינה יש הרגל" },
-        { "pt": "de chamar e vai andando", "he": "לקרוא וללכת בדרכה" },
-        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+        {
+          "pt": "Idalina tem o costume",
+          "he": "לאידלינה יש הרגל"
+        },
+        {
+          "pt": "de chamar e vai andando",
+          "he": "לקרוא וללכת בדרכה"
+        },
+        {
+          "pt": "É de manhã, Idalina tà me chamando",
+          "he": "זה בבוקר, אידלינה קוראת לי"
+        }
       ],
       [
-        { "pt": "O Idalina meu amor", "he": "הו אידלינה, אהובתי" },
-        { "pt": "Idalina tà me esperando", "he": "אידלינה מחכה לי" },
-        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+        {
+          "pt": "O Idalina meu amor",
+          "he": "הו אידלינה, אהובתי"
+        },
+        {
+          "pt": "Idalina tà me esperando",
+          "he": "אידלינה מחכה לי"
+        },
+        {
+          "pt": "É de manhã, Idalina tà me chamando",
+          "he": "זה בבוקר, אידלינה קוראת לי"
+        }
       ],
       [
-        { "pt": "Idalina tem o costume", "he": "לאידלינה יש הרגל" },
-        { "pt": "Danado de falar de homem", "he": "להרבות לדבר על גברים" },
-        { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" }
+        {
+          "pt": "Idalina tem o costume",
+          "he": "לאידלינה יש הרגל"
+        },
+        {
+          "pt": "Danado de falar de homem",
+          "he": "להרבות לדבר על גברים"
+        },
+        {
+          "pt": "É de manhã, Idalina tà me chamando",
+          "he": "זה בבוקר, אידלינה קוראת לי"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "É de manhã, Idalina tà me chamando",
-        "marked_words": ["tà", "chamando"],
+        "marked_words": [
+          "tà",
+          "chamando"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "הווה מתמשך — tà (= está) + gerúndio: está me chamando",
         "is_new": true,
@@ -8297,7 +8439,9 @@
       },
       {
         "sentence_pt": "Idalina tem o costume",
-        "marked_words": ["tem"],
+        "marked_words": [
+          "tem"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "הווה — ter (יש ל-)",
         "is_new": false,
@@ -8305,35 +8449,79 @@
       },
       {
         "sentence_pt": "de chamar e vai andando",
-        "marked_words": ["vai", "andando"],
+        "marked_words": [
+          "vai",
+          "andando"
+        ],
         "topic_id": "gerundio",
         "label_he": "תנועה מתמשכת — ir + gerúndio",
         "is_new": true
       },
       {
         "sentence_pt": "O Idalina meu amor",
-        "marked_words": ["meu"],
+        "marked_words": [
+          "meu"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות — meu (שלי, זכר)",
         "is_new": false
       }
     ],
     "vocab": [
-      { "pt": "manhã", "he": "בוקר" },
-      { "pt": "chamar", "he": "לקרוא (ל-), לזמן" },
-      { "pt": "costume", "he": "הרגל, מנהג" },
-      { "pt": "andar", "he": "ללכת, להתהלך" },
-      { "pt": "esperar", "he": "לחכות, לצפות" },
-      { "pt": "danado", "he": "שובב; (כאן) מי שנוהג להרבות" },
-      { "pt": "falar", "he": "לדבר" },
-      { "pt": "homem", "he": "גבר, איש" },
-      { "pt": "amor", "he": "אהבה; אהוב / אהובה" }
+      {
+        "pt": "manhã",
+        "he": "בוקר"
+      },
+      {
+        "pt": "chamar",
+        "he": "לקרוא (ל-), לזמן"
+      },
+      {
+        "pt": "costume",
+        "he": "הרגל, מנהג"
+      },
+      {
+        "pt": "andar",
+        "he": "ללכת, להתהלך"
+      },
+      {
+        "pt": "esperar",
+        "he": "לחכות, לצפות"
+      },
+      {
+        "pt": "danado",
+        "he": "שובב; (כאן) מי שנוהג להרבות"
+      },
+      {
+        "pt": "falar",
+        "he": "לדבר"
+      },
+      {
+        "pt": "homem",
+        "he": "גבר, איש"
+      },
+      {
+        "pt": "amor",
+        "he": "אהבה; אהוב / אהובה"
+      }
     ],
     "sentences": [
-      { "pt": "É de manhã, Idalina tà me chamando", "he": "זה בבוקר, אידלינה קוראת לי" },
-      { "pt": "Idalina tem o costume de chamar e vai andando", "he": "לאידלינה יש הרגל לקרוא וללכת בדרכה" },
-      { "pt": "Idalina tà me esperando", "he": "אידלינה מחכה לי" },
-      { "pt": "Danado de falar de homem", "he": "נוהגת להרבות לדבר על גברים" }
+      {
+        "pt": "É de manhã, Idalina tà me chamando",
+        "he": "זה בבוקר, אידלינה קוראת לי"
+      },
+      {
+        "pt": "Idalina tem o costume de chamar e vai andando",
+        "he": "לאידלינה יש הרגל לקרוא וללכת בדרכה"
+      },
+      {
+        "pt": "Idalina tà me esperando",
+        "he": "אידלינה מחכה לי"
+      },
+      {
+        "pt": "Danado de falar de homem",
+        "he": "נוהגת להרבות לדבר על גברים"
+      }
     ]
   },
   {
@@ -8343,32 +8531,70 @@
     "media_url": "https://youtu.be/_7Wbr2H4dho?t=42",
     "lyrics": [
       [
-        { "pt": "Quando meu filho nascer", "he": "כשבני ייוולד" },
-        { "pt": "Vou perguntar pra parteira", "he": "אשאל את המיילדת" },
-        { "pt": "O que é que meu filho vai ser", "he": "מה בני הולך להיות" },
-        { "pt": "Meu filho vai ser capoeira", "he": "בני הולך להיות קפואירה" }
+        {
+          "pt": "Quando meu filho nascer",
+          "he": "כשבני ייוולד"
+        },
+        {
+          "pt": "Vou perguntar pra parteira",
+          "he": "אשאל את המיילדת"
+        },
+        {
+          "pt": "O que é que meu filho vai ser",
+          "he": "מה בני הולך להיות"
+        },
+        {
+          "pt": "Meu filho vai ser capoeira",
+          "he": "בני הולך להיות קפואירה"
+        }
       ],
       [
-        { "pt": "Capoeira capú", "he": "קפואירה קפו" },
-        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+        {
+          "pt": "Capoeira capú",
+          "he": "קפואירה קפו"
+        },
+        {
+          "pt": "Maculelê, maracatu",
+          "he": "מקולולה, מרקטו"
+        }
       ],
       [
-        { "pt": "Não é karaté nem também kung-fu", "he": "זה לא קראטה וגם לא קונג-פו" },
-        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+        {
+          "pt": "Não é karaté nem também kung-fu",
+          "he": "זה לא קראטה וגם לא קונג-פו"
+        },
+        {
+          "pt": "Maculelê, maracatu",
+          "he": "מקולולה, מרקטו"
+        }
       ],
       [
-        { "pt": "Fui na bahia comer caruru", "he": "הלכתי לבאהיה לאכול קרורו" },
-        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+        {
+          "pt": "Fui na bahia comer caruru",
+          "he": "הלכתי לבאהיה לאכול קרורו"
+        },
+        {
+          "pt": "Maculelê, maracatu",
+          "he": "מקולולה, מרקטו"
+        }
       ],
       [
-        { "pt": "Vim comer caru e não como angu", "he": "באתי לאכול קרו ואני לא אוכל אנגו" },
-        { "pt": "Maculelê, maracatu", "he": "מקולולה, מרקטו" }
+        {
+          "pt": "Vim comer caru e não como angu",
+          "he": "באתי לאכול קרו ואני לא אוכל אנגו"
+        },
+        {
+          "pt": "Maculelê, maracatu",
+          "he": "מקולולה, מרקטו"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Quando meu filho nascer",
-        "marked_words": ["nascer"],
+        "marked_words": [
+          "nascer"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עתיד נסתר — futuro do subjuntivo (כש...ייוולד)",
         "is_new": true,
@@ -8376,7 +8602,10 @@
       },
       {
         "sentence_pt": "Vou perguntar pra parteira",
-        "marked_words": ["Vou", "perguntar"],
+        "marked_words": [
+          "Vou",
+          "perguntar"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עתיד קרוב — ir + infinitivo (עומד לשאול)",
         "is_new": true,
@@ -8384,21 +8613,28 @@
       },
       {
         "sentence_pt": "Vou perguntar pra parteira",
-        "marked_words": ["pra"],
+        "marked_words": [
+          "pra"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ דיבורי — pra = para (ל-, בשביל)",
         "is_new": true
       },
       {
         "sentence_pt": "Não é karaté nem também kung-fu",
-        "marked_words": ["Não", "nem"],
+        "marked_words": [
+          "Não",
+          "nem"
+        ],
         "topic_id": "negation",
         "label_he": "שלילה מורחבת — não...nem (לא...וגם לא)",
         "is_new": true
       },
       {
         "sentence_pt": "Fui na bahia comer caruru",
-        "marked_words": ["Fui"],
+        "marked_words": [
+          "Fui"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר — fui (הלכתי), עבר של ir",
         "is_new": true,
@@ -8406,7 +8642,9 @@
       },
       {
         "sentence_pt": "Vim comer caru e não como angu",
-        "marked_words": ["Vim"],
+        "marked_words": [
+          "Vim"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר — vim (באתי), עבר של vir",
         "is_new": true,
@@ -8414,26 +8652,80 @@
       }
     ],
     "vocab": [
-      { "pt": "filho", "he": "בן" },
-      { "pt": "nascer", "he": "להיוולד" },
-      { "pt": "perguntar", "he": "לשאול" },
-      { "pt": "parteira", "he": "מיילדת" },
-      { "pt": "maculelê", "he": "מקולולה (אמנות לחימה ברזילאית)" },
-      { "pt": "maracatu", "he": "מרקטו (ז׳אנר מוזיקה ברזילאי)" },
-      { "pt": "karaté", "he": "קראטה" },
-      { "pt": "kung-fu", "he": "קונג-פו" },
-      { "pt": "bahia", "he": "באהיה (מדינה בברזיל)" },
-      { "pt": "caruru", "he": "קרורו (תבשיל מסורתי מבאהיה)" },
-      { "pt": "angu", "he": "אנגו (דייסת תירס ברזילאית)" }
+      {
+        "pt": "filho",
+        "he": "בן"
+      },
+      {
+        "pt": "nascer",
+        "he": "להיוולד"
+      },
+      {
+        "pt": "perguntar",
+        "he": "לשאול"
+      },
+      {
+        "pt": "parteira",
+        "he": "מיילדת"
+      },
+      {
+        "pt": "maculelê",
+        "he": "מקולולה (אמנות לחימה ברזילאית)"
+      },
+      {
+        "pt": "maracatu",
+        "he": "מרקטו (ז׳אנר מוזיקה ברזילאי)"
+      },
+      {
+        "pt": "karaté",
+        "he": "קראטה"
+      },
+      {
+        "pt": "kung-fu",
+        "he": "קונג-פו"
+      },
+      {
+        "pt": "bahia",
+        "he": "באהיה (מדינה בברזיל)"
+      },
+      {
+        "pt": "caruru",
+        "he": "קרורו (תבשיל מסורתי מבאהיה)"
+      },
+      {
+        "pt": "angu",
+        "he": "אנגו (דייסת תירס ברזילאית)"
+      }
     ],
     "sentences": [
-      { "pt": "Quando meu filho nascer", "he": "כשבני ייוולד" },
-      { "pt": "Vou perguntar pra parteira", "he": "אשאל את המיילדת" },
-      { "pt": "O que é que meu filho vai ser", "he": "מה בני הולך להיות" },
-      { "pt": "Meu filho vai ser capoeira", "he": "בני הולך להיות קפואירה" },
-      { "pt": "Não é karaté nem também kung-fu", "he": "זה לא קראטה וגם לא קונג-פו" },
-      { "pt": "Fui na bahia comer caruru", "he": "הלכתי לבאהיה לאכול קרורו" },
-      { "pt": "Vim comer caru e não como angu", "he": "באתי לאכול קרו ואני לא אוכל אנגו" }
+      {
+        "pt": "Quando meu filho nascer",
+        "he": "כשבני ייוולד"
+      },
+      {
+        "pt": "Vou perguntar pra parteira",
+        "he": "אשאל את המיילדת"
+      },
+      {
+        "pt": "O que é que meu filho vai ser",
+        "he": "מה בני הולך להיות"
+      },
+      {
+        "pt": "Meu filho vai ser capoeira",
+        "he": "בני הולך להיות קפואירה"
+      },
+      {
+        "pt": "Não é karaté nem também kung-fu",
+        "he": "זה לא קראטה וגם לא קונג-פו"
+      },
+      {
+        "pt": "Fui na bahia comer caruru",
+        "he": "הלכתי לבאהיה לאכול קרורו"
+      },
+      {
+        "pt": "Vim comer caru e não como angu",
+        "he": "באתי לאכול קרו ואני לא אוכל אנגו"
+      }
     ]
   },
   {
@@ -8443,40 +8735,102 @@
     "media_url": "https://www.youtube.com/watch?v=Onl7ZLmBsDE",
     "lyrics": [
       [
-        { "pt": "Nego que veio de Angola e passou na Bahia", "he": "הנגו שבא מאנגולה ועבר בבאהיה" },
-        { "pt": "Trouxe um batuque gostoso pra gente dançar", "he": "הביא באטוקי נהדר בשבילנו לרקוד" },
-        { "pt": "Trouxe o samba de roda e o maculelê", "he": "הביא את הסמבה דה רודה ואת המקולולה" },
-        { "pt": "Trouxe também capoeira pra gente jogar", "he": "הביא גם קפוארה בשבילנו לשחק" }
+        {
+          "pt": "Nego que veio de Angola e passou na Bahia",
+          "he": "הנגו שבא מאנגולה ועבר בבאהיה"
+        },
+        {
+          "pt": "Trouxe um batuque gostoso pra gente dançar",
+          "he": "הביא באטוקי נהדר בשבילנו לרקוד"
+        },
+        {
+          "pt": "Trouxe o samba de roda e o maculelê",
+          "he": "הביא את הסמבה דה רודה ואת המקולולה"
+        },
+        {
+          "pt": "Trouxe também capoeira pra gente jogar",
+          "he": "הביא גם קפוארה בשבילנו לשחק"
+        }
       ],
       [
-        { "pt": "Nego tá vadiando", "he": "הנגו משוטט" },
-        { "pt": "Deixa o nego vadiar", "he": "תן לנגו לשוטט" },
-        { "pt": "O Nego tá vadiando", "he": "הנגו משוטט" },
-        { "pt": "Deixa o nego vadiar", "he": "תן לנגו לשוטט" }
+        {
+          "pt": "Nego tá vadiando",
+          "he": "הנגו משוטט"
+        },
+        {
+          "pt": "Deixa o nego vadiar",
+          "he": "תן לנגו לשוטט"
+        },
+        {
+          "pt": "O Nego tá vadiando",
+          "he": "הנגו משוטט"
+        },
+        {
+          "pt": "Deixa o nego vadiar",
+          "he": "תן לנגו לשוטט"
+        }
       ],
       [
-        { "pt": "Vadeia, vadeia, vadeia, nego", "he": "שוטט, שוטט, שוטט, נגו" },
-        { "pt": "Deixa vadiar", "he": "תן לשוטט" },
-        { "pt": "Oi, vadeia, vadeia, vadeia, nego", "he": "הו, שוטט, שוטט, שוטט, נגו" },
-        { "pt": "Deixa vadiar", "he": "תן לשוטט" }
+        {
+          "pt": "Vadeia, vadeia, vadeia, nego",
+          "he": "שוטט, שוטט, שוטט, נגו"
+        },
+        {
+          "pt": "Deixa vadiar",
+          "he": "תן לשוטט"
+        },
+        {
+          "pt": "Oi, vadeia, vadeia, vadeia, nego",
+          "he": "הו, שוטט, שוטט, שוטט, נגו"
+        },
+        {
+          "pt": "Deixa vadiar",
+          "he": "תן לשוטט"
+        }
       ],
       [
-        { "pt": "Nego que vem de Angola", "he": "נגו שבא מאנגולה" },
-        { "pt": "Nego que vem da Guiné", "he": "נגו שבא מגינאה" },
-        { "pt": "Nego que é de Moçambique", "he": "נגו שהוא ממוזמביק" },
-        { "pt": "Nego sabe como é", "he": "הנגו יודע איך זה" }
+        {
+          "pt": "Nego que vem de Angola",
+          "he": "נגו שבא מאנגולה"
+        },
+        {
+          "pt": "Nego que vem da Guiné",
+          "he": "נגו שבא מגינאה"
+        },
+        {
+          "pt": "Nego que é de Moçambique",
+          "he": "נגו שהוא ממוזמביק"
+        },
+        {
+          "pt": "Nego sabe como é",
+          "he": "הנגו יודע איך זה"
+        }
       ],
       [
-        { "pt": "E na bagagem do nego", "he": "ובמטען של הנגו" },
-        { "pt": "Ele trouxe o seu patuá", "he": "הוא הביא את הפטואה שלו" },
-        { "pt": "Pra ele usar no pescoço", "he": "כדי שישתמש בו בצוואר" },
-        { "pt": "Na hora de vadiar", "he": "בשעה שמשוטט" }
+        {
+          "pt": "E na bagagem do nego",
+          "he": "ובמטען של הנגו"
+        },
+        {
+          "pt": "Ele trouxe o seu patuá",
+          "he": "הוא הביא את הפטואה שלו"
+        },
+        {
+          "pt": "Pra ele usar no pescoço",
+          "he": "כדי שישתמש בו בצוואר"
+        },
+        {
+          "pt": "Na hora de vadiar",
+          "he": "בשעה שמשוטט"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Nego que veio de Angola e passou na Bahia",
-        "marked_words": ["veio"],
+        "marked_words": [
+          "veio"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — vir (לבוא): veio = הוא בא",
         "is_new": false,
@@ -8485,7 +8839,9 @@
       },
       {
         "sentence_pt": "Trouxe um batuque gostoso pra gente dançar",
-        "marked_words": ["Trouxe"],
+        "marked_words": [
+          "Trouxe"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — trazer בעבר: trouxe = הביא",
         "is_new": false,
@@ -8494,21 +8850,28 @@
       },
       {
         "sentence_pt": "Trouxe um batuque gostoso pra gente dançar",
-        "marked_words": ["pra gente"],
+        "marked_words": [
+          "pra gente"
+        ],
         "topic_id": "pronouns",
         "label_he": "pra gente — ביטוי דיבורי: בשבילנו / אנחנו",
         "is_new": true
       },
       {
         "sentence_pt": "Deixa o nego vadiar",
-        "marked_words": ["Deixa", "vadiar"],
+        "marked_words": [
+          "Deixa",
+          "vadiar"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "deixar + infinitivo — תן ל... לעשות",
         "is_new": true
       },
       {
         "sentence_pt": "Nego que vem de Angola",
-        "marked_words": ["vem"],
+        "marked_words": [
+          "vem"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "הווה — vir (לבוא): vem = הוא בא",
         "is_new": false,
@@ -8517,46 +8880,122 @@
       },
       {
         "sentence_pt": "Pra ele usar no pescoço",
-        "marked_words": ["Pra"],
+        "marked_words": [
+          "Pra"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ דיבורי — pra = para (ל-, כדי)",
         "is_new": false
       },
       {
         "sentence_pt": "Na hora de vadiar",
-        "marked_words": ["Na"],
+        "marked_words": [
+          "Na"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — na = em + a (ב + ה)",
         "is_new": false
       }
     ],
     "vocab": [
-      { "pt": "vadiar / vadeia", "he": "לשוטט, לנדוד חופשי" },
-      { "pt": "deixar / deixa", "he": "לאפשר, להניח / תן ל..." },
-      { "pt": "vir / veio / vem", "he": "לבוא / בא (עבר) / בא (הווה)" },
-      { "pt": "trouxe", "he": "הביא (עבר של trazer)" },
-      { "pt": "batuque", "he": "באטוקי (ריקוד אפרו-ברזילאי)" },
-      { "pt": "gostoso", "he": "טעים, נהדר" },
-      { "pt": "pra gente", "he": "בשבילנו / אנחנו (ביטוי דיבורי)" },
-      { "pt": "dançar", "he": "לרקוד" },
-      { "pt": "samba de roda", "he": "סמבה דה רודה (סמבה מסורתית במעגל)" },
-      { "pt": "passar / passou", "he": "לעבור / עבר" },
-      { "pt": "Guiné", "he": "גינאה (מדינה באפריקה)" },
-      { "pt": "Moçambique", "he": "מוזמביק (מדינה באפריקה)" },
-      { "pt": "sabe", "he": "יודע (מ-saber)" },
-      { "pt": "bagagem", "he": "מטען, כבודה" },
-      { "pt": "patuá", "he": "פטואה (קמיע, שק קסמים)" },
-      { "pt": "pescoço", "he": "צוואר" },
-      { "pt": "hora", "he": "שעה, זמן" }
+      {
+        "pt": "vadiar / vadeia",
+        "he": "לשוטט, לנדוד חופשי"
+      },
+      {
+        "pt": "deixar / deixa",
+        "he": "לאפשר, להניח / תן ל..."
+      },
+      {
+        "pt": "vir / veio / vem",
+        "he": "לבוא / בא (עבר) / בא (הווה)"
+      },
+      {
+        "pt": "trouxe",
+        "he": "הביא (עבר של trazer)"
+      },
+      {
+        "pt": "batuque",
+        "he": "באטוקי (ריקוד אפרו-ברזילאי)"
+      },
+      {
+        "pt": "gostoso",
+        "he": "טעים, נהדר"
+      },
+      {
+        "pt": "pra gente",
+        "he": "בשבילנו / אנחנו (ביטוי דיבורי)"
+      },
+      {
+        "pt": "dançar",
+        "he": "לרקוד"
+      },
+      {
+        "pt": "samba de roda",
+        "he": "סמבה דה רודה (סמבה מסורתית במעגל)"
+      },
+      {
+        "pt": "passar / passou",
+        "he": "לעבור / עבר"
+      },
+      {
+        "pt": "Guiné",
+        "he": "גינאה (מדינה באפריקה)"
+      },
+      {
+        "pt": "Moçambique",
+        "he": "מוזמביק (מדינה באפריקה)"
+      },
+      {
+        "pt": "sabe",
+        "he": "יודע (מ-saber)"
+      },
+      {
+        "pt": "bagagem",
+        "he": "מטען, כבודה"
+      },
+      {
+        "pt": "patuá",
+        "he": "פטואה (קמיע, שק קסמים)"
+      },
+      {
+        "pt": "pescoço",
+        "he": "צוואר"
+      },
+      {
+        "pt": "hora",
+        "he": "שעה, זמן"
+      }
     ],
     "sentences": [
-      { "pt": "Nego que veio de Angola e passou na Bahia", "he": "הנגו שבא מאנגולה ועבר בבאהיה" },
-      { "pt": "Trouxe um batuque gostoso pra gente dançar", "he": "הביא באטוקי נהדר בשבילנו לרקוד" },
-      { "pt": "Trouxe também capoeira pra gente jogar", "he": "הביא גם קפוארה בשבילנו לשחק" },
-      { "pt": "Deixa o nego vadiar", "he": "תן לנגו לשוטט" },
-      { "pt": "Nego sabe como é", "he": "הנגו יודע איך זה" },
-      { "pt": "Ele trouxe o seu patuá", "he": "הוא הביא את הפטואה שלו" },
-      { "pt": "Pra ele usar no pescoço", "he": "כדי שישתמש בו בצוואר" }
+      {
+        "pt": "Nego que veio de Angola e passou na Bahia",
+        "he": "הנגו שבא מאנגולה ועבר בבאהיה"
+      },
+      {
+        "pt": "Trouxe um batuque gostoso pra gente dançar",
+        "he": "הביא באטוקי נהדר בשבילנו לרקוד"
+      },
+      {
+        "pt": "Trouxe também capoeira pra gente jogar",
+        "he": "הביא גם קפוארה בשבילנו לשחק"
+      },
+      {
+        "pt": "Deixa o nego vadiar",
+        "he": "תן לנגו לשוטט"
+      },
+      {
+        "pt": "Nego sabe como é",
+        "he": "הנגו יודע איך זה"
+      },
+      {
+        "pt": "Ele trouxe o seu patuá",
+        "he": "הוא הביא את הפטואה שלו"
+      },
+      {
+        "pt": "Pra ele usar no pescoço",
+        "he": "כדי שישתמש בו בצוואר"
+      }
     ]
   },
   {
@@ -8566,37 +9005,91 @@
     "media_url": "https://youtu.be/1hRaHFiOxUw",
     "lyrics": [
       [
-        { "pt": "Quebrou pra São Caetano", "he": "הגיע לסאו קאיטנו" },
-        { "pt": "Um caso que sucedeu", "he": "סיפור שהתרחש" },
-        { "pt": "Besouro de manganga", "he": "ביזורו מנגנגה" },
-        { "pt": "Que trabalhou e não recebeu", "he": "שעבד ולא קיבל (תשלום)" }
+        {
+          "pt": "Quebrou pra São Caetano",
+          "he": "הגיע לסאו קאיטנו"
+        },
+        {
+          "pt": "Um caso que sucedeu",
+          "he": "סיפור שהתרחש"
+        },
+        {
+          "pt": "Besouro de manganga",
+          "he": "ביזורו מנגנגה"
+        },
+        {
+          "pt": "Que trabalhou e não recebeu",
+          "he": "שעבד ולא קיבל (תשלום)"
+        }
       ],
       [
-        { "pt": "Não queria estar não", "he": "לא הייתי רוצה להיות שם לא" },
-        { "pt": "Na pele do patrão", "he": "בעורו של הבוס" },
-        { "pt": "Nem ver o que Besouro faz", "he": "אף ולא לראות מה ביזורו עושה" },
-        { "pt": "Com a cabeça, os pés e as mãos", "he": "עם הראש, הרגליים והידיים" }
+        {
+          "pt": "Não queria estar não",
+          "he": "לא הייתי רוצה להיות שם לא"
+        },
+        {
+          "pt": "Na pele do patrão",
+          "he": "בעורו של הבוס"
+        },
+        {
+          "pt": "Nem ver o que Besouro faz",
+          "he": "אף ולא לראות מה ביזורו עושה"
+        },
+        {
+          "pt": "Com a cabeça, os pés e as mãos",
+          "he": "עם הראש, הרגליים והידיים"
+        }
       ],
       [
-        { "pt": "Cordão de ouro é Besouro Manganga", "he": "קורדאו ג'י אורו הוא ביזורו מנגנגה" }
+        {
+          "pt": "Cordão de ouro é Besouro Manganga",
+          "he": "קורדאו ג'י אורו הוא ביזורו מנגנגה"
+        }
       ],
       [
-        { "pt": "Na fazenda Maracangalha", "he": "בחווה מרקנגליה" },
-        { "pt": "Teve um dia de azar", "he": "היה יום של מזל רע" },
-        { "pt": "Teve a morte encomendada", "he": "היה מוות בהזמנה" },
-        { "pt": "Por um tal de Baltazar", "he": "על ידי אחד בשם בלתזאר" }
+        {
+          "pt": "Na fazenda Maracangalha",
+          "he": "בחווה מרקנגליה"
+        },
+        {
+          "pt": "Teve um dia de azar",
+          "he": "היה יום של מזל רע"
+        },
+        {
+          "pt": "Teve a morte encomendada",
+          "he": "היה מוות בהזמנה"
+        },
+        {
+          "pt": "Por um tal de Baltazar",
+          "he": "על ידי אחד בשם בלתזאר"
+        }
       ],
       [
-        { "pt": "Foi por uma desavença", "he": "היה בגלל מריבה" },
-        { "pt": "Na usina que trabalhou", "he": "במפעל שבו עבד" },
-        { "pt": "Doutor Zeca mandou uma carta", "he": "דוקטור זקה שלח מכתב" },
-        { "pt": "Pra que se matasse o portador", "he": "בשביל שהשליח יהרג" }
+        {
+          "pt": "Foi por uma desavença",
+          "he": "היה בגלל מריבה"
+        },
+        {
+          "pt": "Na usina que trabalhou",
+          "he": "במפעל שבו עבד"
+        },
+        {
+          "pt": "Doutor Zeca mandou uma carta",
+          "he": "דוקטור זקה שלח מכתב"
+        },
+        {
+          "pt": "Pra que se matasse o portador",
+          "he": "בשביל שהשליח יהרג"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Que trabalhou e não recebeu",
-        "marked_words": ["trabalhou", "recebeu"],
+        "marked_words": [
+          "trabalhou",
+          "recebeu"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר — פועל -AR: trabalhou; פועל -ER: recebeu",
         "is_new": false,
@@ -8604,7 +9097,9 @@
       },
       {
         "sentence_pt": "Não queria estar não",
-        "marked_words": ["queria"],
+        "marked_words": [
+          "queria"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר מתמשך — querer: queria (רצה)",
         "is_new": true,
@@ -8613,21 +9108,28 @@
       },
       {
         "sentence_pt": "Não queria estar não",
-        "marked_words": ["Não", "não"],
+        "marked_words": [
+          "Não",
+          "não"
+        ],
         "topic_id": "negation",
         "label_he": "שלילה כפולה לחיזוק — não...não",
         "is_new": true
       },
       {
         "sentence_pt": "Na pele do patrão",
-        "marked_words": ["do"],
+        "marked_words": [
+          "do"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — do = de + o (של ה-, זכר)",
         "is_new": true
       },
       {
         "sentence_pt": "Teve a morte encomendada",
-        "marked_words": ["Teve"],
+        "marked_words": [
+          "Teve"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר — ter: teve (היה לו, קיבל)",
         "is_new": true,
@@ -8636,14 +9138,18 @@
       },
       {
         "sentence_pt": "Teve a morte encomendada",
-        "marked_words": ["encomendada"],
+        "marked_words": [
+          "encomendada"
+        ],
         "topic_id": "passive",
         "label_he": "פועל סביל — particípio passado",
         "is_new": false
       },
       {
         "sentence_pt": "Pra que se matasse o portador",
-        "marked_words": ["matasse"],
+        "marked_words": [
+          "matasse"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מותנה — pra que + subjuntivo imperfeito: matasse (שיהרגו)",
         "is_new": true,
@@ -8651,35 +9157,116 @@
       }
     ],
     "vocab": [
-      { "pt": "cordão", "he": "שרשרת, חבל" },
-      { "pt": "quebrar / quebrou", "he": "לשבור; (סלנג) לפנות, ללכת" },
-      { "pt": "suceder / sucedeu", "he": "לקרות, להתרחש / קרה" },
-      { "pt": "trabalhar / trabalhou", "he": "לעבוד / עבד" },
-      { "pt": "receber / recebeu", "he": "לקבל / קיבל" },
-      { "pt": "querer / queria", "he": "לרצות / רצה (עבר מתמשך)" },
-      { "pt": "pele", "he": "עור" },
-      { "pt": "patrão", "he": "בוס, מעביד" },
-      { "pt": "cabeça", "he": "ראש" },
-      { "pt": "pé / pés", "he": "רגל / רגליים" },
-      { "pt": "mão / mãos", "he": "יד / ידיים" },
-      { "pt": "fazenda", "he": "חווה, אחוזה" },
-      { "pt": "azar", "he": "מזל רע" },
-      { "pt": "morte", "he": "מוות" },
-      { "pt": "encomendado/a", "he": "מוזמן/ת, הוכן מראש" },
-      { "pt": "desavença", "he": "מריבה, סכסוך" },
-      { "pt": "usina", "he": "מפעל, בית חרושת" },
-      { "pt": "carta", "he": "מכתב" },
-      { "pt": "portador", "he": "נושא, שליח" },
-      { "pt": "um tal de", "he": "אחד בשם..., מישהו ששמו..." }
+      {
+        "pt": "cordão",
+        "he": "שרשרת, חבל"
+      },
+      {
+        "pt": "quebrar / quebrou",
+        "he": "לשבור; (סלנג) לפנות, ללכת"
+      },
+      {
+        "pt": "suceder / sucedeu",
+        "he": "לקרות, להתרחש / קרה"
+      },
+      {
+        "pt": "trabalhar / trabalhou",
+        "he": "לעבוד / עבד"
+      },
+      {
+        "pt": "receber / recebeu",
+        "he": "לקבל / קיבל"
+      },
+      {
+        "pt": "querer / queria",
+        "he": "לרצות / רצה (עבר מתמשך)"
+      },
+      {
+        "pt": "pele",
+        "he": "עור"
+      },
+      {
+        "pt": "patrão",
+        "he": "בוס, מעביד"
+      },
+      {
+        "pt": "cabeça",
+        "he": "ראש"
+      },
+      {
+        "pt": "pé / pés",
+        "he": "רגל / רגליים"
+      },
+      {
+        "pt": "mão / mãos",
+        "he": "יד / ידיים"
+      },
+      {
+        "pt": "fazenda",
+        "he": "חווה, אחוזה"
+      },
+      {
+        "pt": "azar",
+        "he": "מזל רע"
+      },
+      {
+        "pt": "morte",
+        "he": "מוות"
+      },
+      {
+        "pt": "encomendado/a",
+        "he": "מוזמן/ת, הוכן מראש"
+      },
+      {
+        "pt": "desavença",
+        "he": "מריבה, סכסוך"
+      },
+      {
+        "pt": "usina",
+        "he": "מפעל, בית חרושת"
+      },
+      {
+        "pt": "carta",
+        "he": "מכתב"
+      },
+      {
+        "pt": "portador",
+        "he": "נושא, שליח"
+      },
+      {
+        "pt": "um tal de",
+        "he": "אחד בשם..., מישהו ששמו..."
+      }
     ],
     "sentences": [
-      { "pt": "Um caso que sucedeu", "he": "סיפור שהתרחש" },
-      { "pt": "Que trabalhou e não recebeu", "he": "שעבד ולא קיבל (תשלום)" },
-      { "pt": "Não queria estar na pele do patrão", "he": "לא רצה להיות בעורו של הבוס" },
-      { "pt": "Teve um dia de azar", "he": "היה יום של מזל רע" },
-      { "pt": "Teve a morte encomendada", "he": "היה מוות בהזמנה" },
-      { "pt": "Doutor Zeca mandou uma carta", "he": "דוקטור זקה שלח מכתב" },
-      { "pt": "Pra que se matasse o portador", "he": "בשביל שהשליח יהרג" }
+      {
+        "pt": "Um caso que sucedeu",
+        "he": "סיפור שהתרחש"
+      },
+      {
+        "pt": "Que trabalhou e não recebeu",
+        "he": "שעבד ולא קיבל (תשלום)"
+      },
+      {
+        "pt": "Não queria estar na pele do patrão",
+        "he": "לא רצה להיות בעורו של הבוס"
+      },
+      {
+        "pt": "Teve um dia de azar",
+        "he": "היה יום של מזל רע"
+      },
+      {
+        "pt": "Teve a morte encomendada",
+        "he": "היה מוות בהזמנה"
+      },
+      {
+        "pt": "Doutor Zeca mandou uma carta",
+        "he": "דוקטור זקה שלח מכתב"
+      },
+      {
+        "pt": "Pra que se matasse o portador",
+        "he": "בשביל שהשליח יהרג"
+      }
     ]
   },
   {
@@ -8689,22 +9276,42 @@
     "media_url": "https://www.youtube.com/watch?v=IHjxwRtTz2c",
     "lyrics": [
       [
-        { "pt": "No tempo que a capoeira era um jogo pesado", "he": "בתקופה שהקפואירה הייתה משחק קשה" },
-        { "pt": "Menino que entrava em roda, saia de braço quebrado", "he": "ילד שנכנס לרודה, יצא עם זרוע שבורה" }
+        {
+          "pt": "No tempo que a capoeira era um jogo pesado",
+          "he": "בתקופה שהקפואירה הייתה משחק קשה"
+        },
+        {
+          "pt": "Menino que entrava em roda, saia de braço quebrado",
+          "he": "ילד שנכנס לרודה, יצא עם זרוע שבורה"
+        }
       ],
       [
-        { "pt": "Eu dava nele uma rasteira, coice de mula e uma queixada", "he": "הייתי נותן לו רסטיירה, בעיטת פרד וקישאדה" },
-        { "pt": "Rabo de arraia e uma benção pulada, jogava ele na calçada", "he": "ראבו דה אראיה ובנסאו קופץ, הייתי זורק אותו על המדרכה" }
+        {
+          "pt": "Eu dava nele uma rasteira, coice de mula e uma queixada",
+          "he": "הייתי נותן לו רסטיירה, בעיטת פרד וקישאדה"
+        },
+        {
+          "pt": "Rabo de arraia e uma benção pulada, jogava ele na calçada",
+          "he": "ראבו דה אראיה ובנסאו קופץ, הייתי זורק אותו על המדרכה"
+        }
       ],
       [
-        { "pt": "Menino que entrava em roda e não sabia dar pernada", "he": "ילד שנכנס לרודה ולא ידע לתת בעיטה" },
-        { "pt": "Abalou capoeira, abalou, abalou, deixa abalar", "he": "הקפוארה רעדה, רעדה, רעדה, תן לה לרעוד" }
+        {
+          "pt": "Menino que entrava em roda e não sabia dar pernada",
+          "he": "ילד שנכנס לרודה ולא ידע לתת בעיטה"
+        },
+        {
+          "pt": "Abalou capoeira, abalou, abalou, deixa abalar",
+          "he": "הקפוארה רעדה, רעדה, רעדה, תן לה לרעוד"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "No tempo que a capoeira era um jogo pesado",
-        "marked_words": ["era"],
+        "marked_words": [
+          "era"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר מתמשך — ser: era (הייתה)",
         "is_new": false,
@@ -8713,7 +9320,10 @@
       },
       {
         "sentence_pt": "Menino que entrava em roda, saia de braço quebrado",
-        "marked_words": ["entrava", "saia"],
+        "marked_words": [
+          "entrava",
+          "saia"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מתמשך — entrar: entrava; sair: saía (הרגל בעבר)",
         "is_new": false,
@@ -8721,7 +9331,9 @@
       },
       {
         "sentence_pt": "Eu dava nele uma rasteira",
-        "marked_words": ["dava"],
+        "marked_words": [
+          "dava"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר מתמשך — dar: dava (הייתי נותן)",
         "is_new": false,
@@ -8730,14 +9342,18 @@
       },
       {
         "sentence_pt": "Eu dava nele uma rasteira",
-        "marked_words": ["nele"],
+        "marked_words": [
+          "nele"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — nele = em + ele (בו, לו)",
         "is_new": false
       },
       {
         "sentence_pt": "jogava ele na calçada",
-        "marked_words": ["jogava"],
+        "marked_words": [
+          "jogava"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מתמשך — jogar: jogava (הייתי זורק)",
         "is_new": false,
@@ -8745,7 +9361,9 @@
       },
       {
         "sentence_pt": "não sabia dar pernada",
-        "marked_words": ["sabia"],
+        "marked_words": [
+          "sabia"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר מתמשך — saber: sabia (ידע)",
         "is_new": false,
@@ -8754,7 +9372,9 @@
       },
       {
         "sentence_pt": "Abalou capoeira, abalou, abalou, deixa abalar",
-        "marked_words": ["Abalou"],
+        "marked_words": [
+          "Abalou"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר שלם — abalar: abalou (רעדה)",
         "is_new": false,
@@ -8762,33 +9382,90 @@
       },
       {
         "sentence_pt": "Abalou capoeira, abalou, abalou, deixa abalar",
-        "marked_words": ["deixa", "abalar"],
+        "marked_words": [
+          "deixa",
+          "abalar"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "ציווי + שם-פועל — deixa abalar (תן לה לרעוד)",
         "is_new": false
       }
     ],
     "vocab": [
-      { "pt": "tempo", "he": "זמן, תקופה" },
-      { "pt": "jogo pesado", "he": "משחק קשה, קרב מסוכן" },
-      { "pt": "roda", "he": "רודה (מעגל הקפואירה)" },
-      { "pt": "braço", "he": "זרוע" },
-      { "pt": "quebrado/a", "he": "שבור/ה" },
-      { "pt": "rasteira", "he": "רסטיירה (מכת רגל סוחפת)" },
-      { "pt": "coice de mula", "he": "בעיטת פרד" },
-      { "pt": "queixada", "he": "קישאדה (מכת סנטר סיבובית)" },
-      { "pt": "rabo de arraia", "he": "ראבו דה אראיה (זנב הנשר)" },
-      { "pt": "benção pulada", "he": "בנסאו קופץ" },
-      { "pt": "calçada", "he": "מדרכה, רחוב" },
-      { "pt": "pernada", "he": "בעיטה" },
-      { "pt": "abalou / abalar", "he": "לנענע, לזעזע / נענע" }
+      {
+        "pt": "tempo",
+        "he": "זמן, תקופה"
+      },
+      {
+        "pt": "jogo pesado",
+        "he": "משחק קשה, קרב מסוכן"
+      },
+      {
+        "pt": "roda",
+        "he": "רודה (מעגל הקפואירה)"
+      },
+      {
+        "pt": "braço",
+        "he": "זרוע"
+      },
+      {
+        "pt": "quebrado/a",
+        "he": "שבור/ה"
+      },
+      {
+        "pt": "rasteira",
+        "he": "רסטיירה (מכת רגל סוחפת)"
+      },
+      {
+        "pt": "coice de mula",
+        "he": "בעיטת פרד"
+      },
+      {
+        "pt": "queixada",
+        "he": "קישאדה (מכת סנטר סיבובית)"
+      },
+      {
+        "pt": "rabo de arraia",
+        "he": "ראבו דה אראיה (זנב הנשר)"
+      },
+      {
+        "pt": "benção pulada",
+        "he": "בנסאו קופץ"
+      },
+      {
+        "pt": "calçada",
+        "he": "מדרכה, רחוב"
+      },
+      {
+        "pt": "pernada",
+        "he": "בעיטה"
+      },
+      {
+        "pt": "abalou / abalar",
+        "he": "לנענע, לזעזע / נענע"
+      }
     ],
     "sentences": [
-      { "pt": "No tempo que a capoeira era um jogo pesado", "he": "בתקופה שהקפואירה הייתה משחק קשה" },
-      { "pt": "Menino que entrava em roda, saia de braço quebrado", "he": "ילד שנכנס לרודה, יצא עם זרוע שבורה" },
-      { "pt": "Eu dava nele uma rasteira", "he": "הייתי נותן לו רסטיירה" },
-      { "pt": "não sabia dar pernada", "he": "לא ידע לתת בעיטה" },
-      { "pt": "Abalou capoeira, deixa abalar", "he": "הקפוארה רעדה, תן לה לרעוד" }
+      {
+        "pt": "No tempo que a capoeira era um jogo pesado",
+        "he": "בתקופה שהקפואירה הייתה משחק קשה"
+      },
+      {
+        "pt": "Menino que entrava em roda, saia de braço quebrado",
+        "he": "ילד שנכנס לרודה, יצא עם זרוע שבורה"
+      },
+      {
+        "pt": "Eu dava nele uma rasteira",
+        "he": "הייתי נותן לו רסטיירה"
+      },
+      {
+        "pt": "não sabia dar pernada",
+        "he": "לא ידע לתת בעיטה"
+      },
+      {
+        "pt": "Abalou capoeira, deixa abalar",
+        "he": "הקפוארה רעדה, תן לה לרעוד"
+      }
     ]
   },
   {
@@ -8798,30 +9475,80 @@
     "media_url": "https://youtu.be/YRe9t2OFaXU?t=596",
     "lyrics": [
       [
-        { "pt": "Seu Capoeira, que aconteceu", "he": "אדון קפוארה, מה קרה" },
-        { "pt": "Naquela roda em noite de lua", "he": "באותה רודה, בליל ירח" },
-        { "pt": "Deu meia-lua, levou cabeçada", "he": "נתן מיאה־לואה, חטף קבסאדה" },
-        { "pt": "Meu camarada, pode acreditar", "he": "חברי, אתה יכול להאמין" },
-        { "pt": "Pois nessa roda foi uma beleza", "he": "כי באותה רודה זה היה יופי" },
-        { "pt": "Na certeza que eu vim de lá", "he": "בוודאות שמשם באתי" },
-        { "pt": "Daquela terra muito abençoada", "he": "מאותה ארץ מבורכת מאוד" },
-        { "pt": "É da Bahia que eu vou falar", "he": "על באיה אני הולך לדבר" }
+        {
+          "pt": "Seu Capoeira, que aconteceu",
+          "he": "אדון קפוארה, מה קרה"
+        },
+        {
+          "pt": "Naquela roda em noite de lua",
+          "he": "באותה רודה, בליל ירח"
+        },
+        {
+          "pt": "Deu meia-lua, levou cabeçada",
+          "he": "נתן מיאה־לואה, חטף קבסאדה"
+        },
+        {
+          "pt": "Meu camarada, pode acreditar",
+          "he": "חברי, אתה יכול להאמין"
+        },
+        {
+          "pt": "Pois nessa roda foi uma beleza",
+          "he": "כי באותה רודה זה היה יופי"
+        },
+        {
+          "pt": "Na certeza que eu vim de lá",
+          "he": "בוודאות שמשם באתי"
+        },
+        {
+          "pt": "Daquela terra muito abençoada",
+          "he": "מאותה ארץ מבורכת מאוד"
+        },
+        {
+          "pt": "É da Bahia que eu vou falar",
+          "he": "על באיה אני הולך לדבר"
+        }
       ],
       [
-        { "pt": "É de manda lecô", "he": "(שלח את) לקו" },
-        { "pt": "Cajuê", "he": "קז'ואה" },
-        { "pt": "Vou manda loiá", "he": "אני הולך לשלוח להסתכל" },
-        { "pt": "Cajuê", "he": "קז'ואה" },
-        { "pt": "Ô, Lecô", "he": "הו, לקו" },
-        { "pt": "Cajuê", "he": "קז'ואה" },
-        { "pt": "Vou manda loiá", "he": "אני הולך לשלוח להסתכל" },
-        { "pt": "Cajuê", "he": "קז'ואה" }
+        {
+          "pt": "É de manda lecô",
+          "he": "(שלח את) לקו"
+        },
+        {
+          "pt": "Cajuê",
+          "he": "קז'ואה"
+        },
+        {
+          "pt": "Vou manda loiá",
+          "he": "אני הולך לשלוח להסתכל"
+        },
+        {
+          "pt": "Cajuê",
+          "he": "קז'ואה"
+        },
+        {
+          "pt": "Ô, Lecô",
+          "he": "הו, לקו"
+        },
+        {
+          "pt": "Cajuê",
+          "he": "קז'ואה"
+        },
+        {
+          "pt": "Vou manda loiá",
+          "he": "אני הולך לשלוח להסתכל"
+        },
+        {
+          "pt": "Cajuê",
+          "he": "קז'ואה"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Seu Capoeira, que aconteceu",
-        "marked_words": ["aconteceu"],
+        "marked_words": [
+          "aconteceu"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר שלם — acontecer: aconteceu (קרה)",
         "is_new": false,
@@ -8829,14 +9556,18 @@
       },
       {
         "sentence_pt": "Naquela roda em noite de lua",
-        "marked_words": ["Naquela"],
+        "marked_words": [
+          "Naquela"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — naquela = em + aquela (באותה)",
         "is_new": false
       },
       {
         "sentence_pt": "Deu meia-lua, levou cabeçada",
-        "marked_words": ["Deu"],
+        "marked_words": [
+          "Deu"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר שלם — dar: deu (נתן)",
         "is_new": false,
@@ -8845,14 +9576,18 @@
       },
       {
         "sentence_pt": "Meu camarada, pode acreditar",
-        "marked_words": ["Meu"],
+        "marked_words": [
+          "Meu"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות — meu (שלי)",
         "is_new": false
       },
       {
         "sentence_pt": "Meu camarada, pode acreditar",
-        "marked_words": ["pode"],
+        "marked_words": [
+          "pode"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "פועל חריג — poder: pode (יכול)",
         "is_new": false,
@@ -8861,14 +9596,18 @@
       },
       {
         "sentence_pt": "Pois nessa roda foi uma beleza",
-        "marked_words": ["nessa"],
+        "marked_words": [
+          "nessa"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — nessa = em + essa (באותה)",
         "is_new": false
       },
       {
         "sentence_pt": "Pois nessa roda foi uma beleza",
-        "marked_words": ["foi"],
+        "marked_words": [
+          "foi"
+        ],
         "topic_id": "ser-estar",
         "label_he": "עבר שלם — ser: foi (היה)",
         "is_new": false,
@@ -8876,7 +9615,9 @@
       },
       {
         "sentence_pt": "Na certeza que eu vim de lá",
-        "marked_words": ["vim"],
+        "marked_words": [
+          "vim"
+        ],
         "topic_id": "verbs-irregular",
         "label_he": "עבר שלם — vir: vim (באתי)",
         "is_new": false,
@@ -8885,14 +9626,18 @@
       },
       {
         "sentence_pt": "Daquela terra muito abençoada",
-        "marked_words": ["Daquela"],
+        "marked_words": [
+          "Daquela"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — daquela = de + aquela (מאותה)",
         "is_new": false
       },
       {
         "sentence_pt": "É da Bahia que eu vou falar",
-        "marked_words": ["vou falar"],
+        "marked_words": [
+          "vou falar"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עתיד קרוב — ir + פועל (vou falar = אני הולך לדבר)",
         "is_new": false,
@@ -8900,33 +9645,108 @@
       }
     ],
     "vocab": [
-      { "pt": "acontecer", "he": "לקרות" },
-      { "pt": "roda", "he": "רודה (מעגל הקפואירה)" },
-      { "pt": "noite", "he": "לילה" },
-      { "pt": "lua", "he": "ירח" },
-      { "pt": "meia-lua", "he": "מיאה־לואה (בעיטת חצי־ירח)" },
-      { "pt": "cabeçada", "he": "קבסאדה (מכת ראש)" },
-      { "pt": "levar", "he": "לקחת, לחטוף (מכה)" },
-      { "pt": "camarada", "he": "חבר" },
-      { "pt": "poder", "he": "להיות יכול" },
-      { "pt": "acreditar", "he": "להאמין" },
-      { "pt": "beleza", "he": "יופי" },
-      { "pt": "certeza", "he": "ודאות, ביטחון" },
-      { "pt": "vir", "he": "לבוא" },
-      { "pt": "terra", "he": "ארץ, אדמה" },
-      { "pt": "abençoado/a", "he": "מבורך/ת" },
-      { "pt": "falar", "he": "לדבר" },
-      { "pt": "mandar", "he": "לשלוח, לצוות" },
-      { "pt": "olhar", "he": "להסתכל" }
+      {
+        "pt": "acontecer",
+        "he": "לקרות"
+      },
+      {
+        "pt": "roda",
+        "he": "רודה (מעגל הקפואירה)"
+      },
+      {
+        "pt": "noite",
+        "he": "לילה"
+      },
+      {
+        "pt": "lua",
+        "he": "ירח"
+      },
+      {
+        "pt": "meia-lua",
+        "he": "מיאה־לואה (בעיטת חצי־ירח)"
+      },
+      {
+        "pt": "cabeçada",
+        "he": "קבסאדה (מכת ראש)"
+      },
+      {
+        "pt": "levar",
+        "he": "לקחת, לחטוף (מכה)"
+      },
+      {
+        "pt": "camarada",
+        "he": "חבר"
+      },
+      {
+        "pt": "poder",
+        "he": "להיות יכול"
+      },
+      {
+        "pt": "acreditar",
+        "he": "להאמין"
+      },
+      {
+        "pt": "beleza",
+        "he": "יופי"
+      },
+      {
+        "pt": "certeza",
+        "he": "ודאות, ביטחון"
+      },
+      {
+        "pt": "vir",
+        "he": "לבוא"
+      },
+      {
+        "pt": "terra",
+        "he": "ארץ, אדמה"
+      },
+      {
+        "pt": "abençoado/a",
+        "he": "מבורך/ת"
+      },
+      {
+        "pt": "falar",
+        "he": "לדבר"
+      },
+      {
+        "pt": "mandar",
+        "he": "לשלוח, לצוות"
+      },
+      {
+        "pt": "olhar",
+        "he": "להסתכל"
+      }
     ],
     "sentences": [
-      { "pt": "Seu Capoeira, que aconteceu", "he": "אדון קפוארה, מה קרה" },
-      { "pt": "Naquela roda em noite de lua", "he": "באותה רודה, בליל ירח" },
-      { "pt": "Meu camarada, pode acreditar", "he": "חברי, אתה יכול להאמין" },
-      { "pt": "Pois nessa roda foi uma beleza", "he": "כי באותה רודה זה היה יופי" },
-      { "pt": "Na certeza que eu vim de lá", "he": "בוודאות שמשם באתי" },
-      { "pt": "Daquela terra muito abençoada", "he": "מאותה ארץ מבורכת מאוד" },
-      { "pt": "É da Bahia que eu vou falar", "he": "על באיה אני הולך לדבר" }
+      {
+        "pt": "Seu Capoeira, que aconteceu",
+        "he": "אדון קפוארה, מה קרה"
+      },
+      {
+        "pt": "Naquela roda em noite de lua",
+        "he": "באותה רודה, בליל ירח"
+      },
+      {
+        "pt": "Meu camarada, pode acreditar",
+        "he": "חברי, אתה יכול להאמין"
+      },
+      {
+        "pt": "Pois nessa roda foi uma beleza",
+        "he": "כי באותה רודה זה היה יופי"
+      },
+      {
+        "pt": "Na certeza que eu vim de lá",
+        "he": "בוודאות שמשם באתי"
+      },
+      {
+        "pt": "Daquela terra muito abençoada",
+        "he": "מאותה ארץ מבורכת מאוד"
+      },
+      {
+        "pt": "É da Bahia que eu vou falar",
+        "he": "על באיה אני הולך לדבר"
+      }
     ]
   },
   {
@@ -8936,35 +9756,69 @@
     "media_url": "https://www.youtube.com/watch?v=9Iwxyxg4ACg",
     "lyrics": [
       [
-        { "pt": "O maculelê, a dança do pau", "he": "המקוללה, ריקוד המקלות" },
-        { "pt": "Na roda de capoeira, quem comanda é o berimbau", "he": "במעגל הקפוארה, מי שמפקד הוא הברימבאו" }
+        {
+          "pt": "O maculelê, a dança do pau",
+          "he": "המקוללה, ריקוד המקלות"
+        },
+        {
+          "pt": "Na roda de capoeira, quem comanda é o berimbau",
+          "he": "במעגל הקפוארה, מי שמפקד הוא הברימבאו"
+        }
       ],
       [
-        { "pt": "Capoeira,", "he": "קפוארה," },
-        { "pt": "É defesa, ataque", "he": "(זה) הגנה, התקפה" },
-        { "pt": "A ginga do corpo e a malandragem", "he": "הג'ינגה של הגוף והמלנדראז'ם" }
+        {
+          "pt": "Capoeira,",
+          "he": "קפוארה,"
+        },
+        {
+          "pt": "É defesa, ataque",
+          "he": "(זה) הגנה, התקפה"
+        },
+        {
+          "pt": "A ginga do corpo e a malandragem",
+          "he": "הג'ינגה של הגוף והמלנדראז'ם"
+        }
       ],
       [
-        { "pt": "São Francisco Nunes, preto velho meu avô", "he": "סאו פרנסיסקו נונס, שחור זקן, סבא שלי" },
-        { "pt": "Ensinou para o meu pai, mas meu pai não me ensinou", "he": "לימד את אבא שלי, אבל אבא שלי לא לימד אותי" }
+        {
+          "pt": "São Francisco Nunes, preto velho meu avô",
+          "he": "סאו פרנסיסקו נונס, שחור זקן, סבא שלי"
+        },
+        {
+          "pt": "Ensinou para o meu pai, mas meu pai não me ensinou",
+          "he": "לימד את אבא שלי, אבל אבא שלי לא לימד אותי"
+        }
       ],
       [
-        { "pt": "Capoeira,", "he": "קפוארה," },
-        { "pt": "É defesa, ataque", "he": "(זה) הגנה, התקפה" },
-        { "pt": "A ginga do corpo e a malandragem", "he": "הג'ינגה של הגוף והמלנדראז'ם" }
+        {
+          "pt": "Capoeira,",
+          "he": "קפוארה,"
+        },
+        {
+          "pt": "É defesa, ataque",
+          "he": "(זה) הגנה, התקפה"
+        },
+        {
+          "pt": "A ginga do corpo e a malandragem",
+          "he": "הג'ינגה של הגוף והמלנדראז'ם"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Na roda de capoeira, quem comanda é o berimbau",
-        "marked_words": ["Na"],
+        "marked_words": [
+          "Na"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — na = em + a (ב־)",
         "is_new": false
       },
       {
         "sentence_pt": "Na roda de capoeira, quem comanda é o berimbau",
-        "marked_words": ["é"],
+        "marked_words": [
+          "é"
+        ],
         "topic_id": "ser-estar",
         "label_he": "ser בהווה — é (הוא/היא)",
         "is_new": false,
@@ -8972,21 +9826,27 @@
       },
       {
         "sentence_pt": "A ginga do corpo e a malandragem",
-        "marked_words": ["do"],
+        "marked_words": [
+          "do"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — do = de + o (של ה־)",
         "is_new": false
       },
       {
         "sentence_pt": "São Francisco Nunes, preto velho meu avô",
-        "marked_words": ["meu"],
+        "marked_words": [
+          "meu"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות — meu (שלי, זכר)",
         "is_new": false
       },
       {
         "sentence_pt": "Ensinou para o meu pai",
-        "marked_words": ["Ensinou"],
+        "marked_words": [
+          "Ensinou"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר שלם — ensinar: ensinou (לימד)",
         "is_new": false,
@@ -8994,45 +9854,118 @@
       },
       {
         "sentence_pt": "mas meu pai não me ensinou",
-        "marked_words": ["não"],
+        "marked_words": [
+          "não"
+        ],
         "topic_id": "negation",
         "label_he": "שלילה — não (לא) לפני הפועל",
         "is_new": false
       },
       {
         "sentence_pt": "mas meu pai não me ensinou",
-        "marked_words": ["me"],
+        "marked_words": [
+          "me"
+        ],
         "topic_id": "indirect-object",
         "label_he": "מושא עקיף — me (לי, אותי)",
         "is_new": false
       }
     ],
     "vocab": [
-      { "pt": "maculelê", "he": "מאקולה־לה (ריקוד אפרו־ברזילאי עם מקלות)" },
-      { "pt": "dança", "he": "ריקוד" },
-      { "pt": "pau", "he": "מקל, עץ" },
-      { "pt": "roda", "he": "רודה (מעגל הקפואירה)" },
-      { "pt": "comandar", "he": "לפקד, להוביל" },
-      { "pt": "berimbau", "he": "ברימבאו (כלי הנגינה של הקפואירה)" },
-      { "pt": "defesa", "he": "הגנה" },
-      { "pt": "ataque", "he": "התקפה" },
-      { "pt": "ginga", "he": "ג'ינגה (תנועת היסוד בקפואירה)" },
-      { "pt": "corpo", "he": "גוף" },
-      { "pt": "malandragem", "he": "מלנדראז'ם (ערמומיות, חוכמת רחוב)" },
-      { "pt": "preto velho", "he": "שחור זקן (דמות הזקן החכם במסורות אפרו־ברזילאיות)" },
-      { "pt": "avô", "he": "סבא" },
-      { "pt": "ensinar", "he": "ללמד" },
-      { "pt": "pai", "he": "אבא" },
-      { "pt": "mas", "he": "אבל" }
+      {
+        "pt": "maculelê",
+        "he": "מאקולה־לה (ריקוד אפרו־ברזילאי עם מקלות)"
+      },
+      {
+        "pt": "dança",
+        "he": "ריקוד"
+      },
+      {
+        "pt": "pau",
+        "he": "מקל, עץ"
+      },
+      {
+        "pt": "roda",
+        "he": "רודה (מעגל הקפואירה)"
+      },
+      {
+        "pt": "comandar",
+        "he": "לפקד, להוביל"
+      },
+      {
+        "pt": "berimbau",
+        "he": "ברימבאו (כלי הנגינה של הקפואירה)"
+      },
+      {
+        "pt": "defesa",
+        "he": "הגנה"
+      },
+      {
+        "pt": "ataque",
+        "he": "התקפה"
+      },
+      {
+        "pt": "ginga",
+        "he": "ג'ינגה (תנועת היסוד בקפואירה)"
+      },
+      {
+        "pt": "corpo",
+        "he": "גוף"
+      },
+      {
+        "pt": "malandragem",
+        "he": "מלנדראז'ם (ערמומיות, חוכמת רחוב)"
+      },
+      {
+        "pt": "preto velho",
+        "he": "שחור זקן (דמות הזקן החכם במסורות אפרו־ברזילאיות)"
+      },
+      {
+        "pt": "avô",
+        "he": "סבא"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "pai",
+        "he": "אבא"
+      },
+      {
+        "pt": "mas",
+        "he": "אבל"
+      }
     ],
     "sentences": [
-      { "pt": "O maculelê, a dança do pau", "he": "המקוללה, ריקוד המקלות" },
-      { "pt": "Na roda de capoeira, quem comanda é o berimbau", "he": "במעגל הקפוארה, מי שמפקד הוא הברימבאו" },
-      { "pt": "É defesa, ataque", "he": "(זה) הגנה, התקפה" },
-      { "pt": "A ginga do corpo e a malandragem", "he": "הג'ינגה של הגוף והמלנדראז'ם" },
-      { "pt": "São Francisco Nunes, preto velho meu avô", "he": "סאו פרנסיסקו נונס, שחור זקן, סבא שלי" },
-      { "pt": "Ensinou para o meu pai", "he": "לימד את אבא שלי" },
-      { "pt": "mas meu pai não me ensinou", "he": "אבל אבא שלי לא לימד אותי" }
+      {
+        "pt": "O maculelê, a dança do pau",
+        "he": "המקוללה, ריקוד המקלות"
+      },
+      {
+        "pt": "Na roda de capoeira, quem comanda é o berimbau",
+        "he": "במעגל הקפוארה, מי שמפקד הוא הברימבאו"
+      },
+      {
+        "pt": "É defesa, ataque",
+        "he": "(זה) הגנה, התקפה"
+      },
+      {
+        "pt": "A ginga do corpo e a malandragem",
+        "he": "הג'ינגה של הגוף והמלנדראז'ם"
+      },
+      {
+        "pt": "São Francisco Nunes, preto velho meu avô",
+        "he": "סאו פרנסיסקו נונס, שחור זקן, סבא שלי"
+      },
+      {
+        "pt": "Ensinou para o meu pai",
+        "he": "לימד את אבא שלי"
+      },
+      {
+        "pt": "mas meu pai não me ensinou",
+        "he": "אבל אבא שלי לא לימד אותי"
+      }
     ]
   },
   {
@@ -9049,38 +9982,94 @@
     ],
     "lyrics": [
       [
-        { "pt": "No tempo do cativeiro", "he": "בתקופת העבדות" },
-        { "pt": "Quando o Senhor me batia", "he": "כשהאדון היה מכה אותי" },
-        { "pt": "Eu rezava pra Nossa Senhora, meu Deus", "he": "התפללתי לגבירתנו, אלוהיי" },
-        { "pt": "Como a pancada doía", "he": "כמה שהמכה כאבה" }
+        {
+          "pt": "No tempo do cativeiro",
+          "he": "בתקופת העבדות"
+        },
+        {
+          "pt": "Quando o Senhor me batia",
+          "he": "כשהאדון היה מכה אותי"
+        },
+        {
+          "pt": "Eu rezava pra Nossa Senhora, meu Deus",
+          "he": "התפללתי לגבירתנו, אלוהיי"
+        },
+        {
+          "pt": "Como a pancada doía",
+          "he": "כמה שהמכה כאבה"
+        }
       ],
       [
-        { "pt": "No tempo do cativeiro", "he": "בתקופת העבדות" },
-        { "pt": "Quando o Senhor me batia", "he": "כשהאדון היה מכה אותי" },
-        { "pt": "Eu rezava por Nossa Senhora, meu Deus", "he": "התפללתי בשם גבירתנו, אלוהיי" },
-        { "pt": "Como a pancada doía", "he": "כמה שהמכה כאבה" }
+        {
+          "pt": "No tempo do cativeiro",
+          "he": "בתקופת העבדות"
+        },
+        {
+          "pt": "Quando o Senhor me batia",
+          "he": "כשהאדון היה מכה אותי"
+        },
+        {
+          "pt": "Eu rezava por Nossa Senhora, meu Deus",
+          "he": "התפללתי בשם גבירתנו, אלוהיי"
+        },
+        {
+          "pt": "Como a pancada doía",
+          "he": "כמה שהמכה כאבה"
+        }
       ],
       [
-        { "pt": "Trabalhava na lavoura", "he": "הייתי עובד בשדות" },
-        { "pt": "No açúcar e no sisal", "he": "בקני הסוכר ובסיזל" },
-        { "pt": "Nego era chicoteado", "he": "השחור היה מולקה" },
-        { "pt": "No velho tronco de pau", "he": "על גזע העץ הישן" }
+        {
+          "pt": "Trabalhava na lavoura",
+          "he": "הייתי עובד בשדות"
+        },
+        {
+          "pt": "No açúcar e no sisal",
+          "he": "בקני הסוכר ובסיזל"
+        },
+        {
+          "pt": "Nego era chicoteado",
+          "he": "השחור היה מולקה"
+        },
+        {
+          "pt": "No velho tronco de pau",
+          "he": "על גזע העץ הישן"
+        }
       ],
       [
-        { "pt": "Quando cheguei na Bahia", "he": "כשהגעתי לבאהיה" },
-        { "pt": "A capoeira me libertou", "he": "הקפוארה שחררה אותי" },
-        { "pt": "E até hoje ainda me lembro", "he": "ועד היום אני עוד זוכר" },
-        { "pt": "Das ordens do meu Senhor", "he": "את הפקודות של האדון שלי" }
+        {
+          "pt": "Quando cheguei na Bahia",
+          "he": "כשהגעתי לבאהיה"
+        },
+        {
+          "pt": "A capoeira me libertou",
+          "he": "הקפוארה שחררה אותי"
+        },
+        {
+          "pt": "E até hoje ainda me lembro",
+          "he": "ועד היום אני עוד זוכר"
+        },
+        {
+          "pt": "Das ordens do meu Senhor",
+          "he": "את הפקודות של האדון שלי"
+        }
       ],
       [
-        { "pt": "Trabalha negro, negro trabalha", "he": "עבוד שחור, שחור עובד" },
-        { "pt": "Trabalha negro pra não apanhar", "he": "עבוד שחור כדי לא לחטוף מכות" }
+        {
+          "pt": "Trabalha negro, negro trabalha",
+          "he": "עבוד שחור, שחור עובד"
+        },
+        {
+          "pt": "Trabalha negro pra não apanhar",
+          "he": "עבוד שחור כדי לא לחטוף מכות"
+        }
       ]
     ],
     "grammar_notes": [
       {
         "sentence_pt": "Quando o Senhor me batia",
-        "marked_words": ["batia"],
+        "marked_words": [
+          "batia"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מתמשך — bater: batia (היה מכה)",
         "is_new": false,
@@ -9088,14 +10077,18 @@
       },
       {
         "sentence_pt": "Quando o Senhor me batia",
-        "marked_words": ["me"],
+        "marked_words": [
+          "me"
+        ],
         "topic_id": "direct-object",
         "label_he": "כינוי גוף — מושא (me = אותי)",
         "is_new": false
       },
       {
         "sentence_pt": "Eu rezava pra Nossa Senhora, meu Deus",
-        "marked_words": ["rezava"],
+        "marked_words": [
+          "rezava"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מתמשך — rezar: rezava (היה מתפלל)",
         "is_new": false,
@@ -9103,14 +10096,18 @@
       },
       {
         "sentence_pt": "Eu rezava pra Nossa Senhora, meu Deus",
-        "marked_words": ["meu"],
+        "marked_words": [
+          "meu"
+        ],
         "topic_id": "possession",
         "label_he": "כינוי שייכות — meu (שלי)",
         "is_new": false
       },
       {
         "sentence_pt": "Como a pancada doía",
-        "marked_words": ["doía"],
+        "marked_words": [
+          "doía"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מתמשך — doer: doía (כאב/ה)",
         "is_new": false,
@@ -9118,7 +10115,9 @@
       },
       {
         "sentence_pt": "Trabalhava na lavoura",
-        "marked_words": ["Trabalhava"],
+        "marked_words": [
+          "Trabalhava"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר מתמשך — trabalhar: trabalhava (היה עובד)",
         "is_new": false,
@@ -9126,21 +10125,27 @@
       },
       {
         "sentence_pt": "Trabalhava na lavoura",
-        "marked_words": ["na"],
+        "marked_words": [
+          "na"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — na = em + a (ב־)",
         "is_new": false
       },
       {
         "sentence_pt": "No açúcar e no sisal",
-        "marked_words": ["no"],
+        "marked_words": [
+          "no"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — no = em + o (ב־)",
         "is_new": false
       },
       {
         "sentence_pt": "Nego era chicoteado",
-        "marked_words": ["era"],
+        "marked_words": [
+          "era"
+        ],
         "topic_id": "ser-estar",
         "label_he": "עבר מתמשך — ser: era (היה)",
         "is_new": false,
@@ -9148,14 +10153,18 @@
       },
       {
         "sentence_pt": "Nego era chicoteado",
-        "marked_words": ["chicoteado"],
+        "marked_words": [
+          "chicoteado"
+        ],
         "topic_id": "passive",
         "label_he": "סביל — ser + particípio (chicoteado = מולקה)",
         "is_new": false
       },
       {
         "sentence_pt": "Quando cheguei na Bahia",
-        "marked_words": ["cheguei"],
+        "marked_words": [
+          "cheguei"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר שלם — chegar: cheguei (הגעתי, c→gu לפני e)",
         "is_new": false,
@@ -9163,7 +10172,9 @@
       },
       {
         "sentence_pt": "A capoeira me libertou",
-        "marked_words": ["libertou"],
+        "marked_words": [
+          "libertou"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "עבר שלם — libertar: libertou (שחרר/ה)",
         "is_new": false,
@@ -9171,28 +10182,36 @@
       },
       {
         "sentence_pt": "E até hoje ainda me lembro",
-        "marked_words": ["me lembro"],
+        "marked_words": [
+          "me lembro"
+        ],
         "topic_id": "reflexive",
         "label_he": "פועל רפלקסיבי — lembrar-se: me lembro (אני זוכר)",
         "is_new": false
       },
       {
         "sentence_pt": "Das ordens do meu Senhor",
-        "marked_words": ["Das"],
+        "marked_words": [
+          "Das"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — das = de + as (של ה־, רבים נקבה)",
         "is_new": false
       },
       {
         "sentence_pt": "Das ordens do meu Senhor",
-        "marked_words": ["do"],
+        "marked_words": [
+          "do"
+        ],
         "topic_id": "contractions",
         "label_he": "כיווץ — do = de + o (של ה־)",
         "is_new": false
       },
       {
         "sentence_pt": "Trabalha negro pra não apanhar",
-        "marked_words": ["Trabalha"],
+        "marked_words": [
+          "Trabalha"
+        ],
         "topic_id": "verbs-regular",
         "label_he": "ציווי — trabalhar: trabalha (עבוד!)",
         "is_new": false,
@@ -9200,55 +10219,1606 @@
       },
       {
         "sentence_pt": "Trabalha negro pra não apanhar",
-        "marked_words": ["não"],
+        "marked_words": [
+          "não"
+        ],
         "topic_id": "negation",
         "label_he": "שלילה — não (לא) לפני הפועל",
         "is_new": false
       }
     ],
     "vocab": [
-      { "pt": "tempo", "he": "זמן, תקופה" },
-      { "pt": "cativeiro", "he": "עבדות" },
-      { "pt": "Senhor", "he": "אדון, אדוני" },
-      { "pt": "bater / batia", "he": "להכות / היה מכה" },
-      { "pt": "rezar / rezava", "he": "להתפלל / היה מתפלל" },
-      { "pt": "Nossa Senhora", "he": "גבירתנו (הבתולה מריה)" },
-      { "pt": "Deus", "he": "אלוהים" },
-      { "pt": "pancada", "he": "מכה, חבטה" },
-      { "pt": "doer / doía", "he": "לכאוב / כאב" },
-      { "pt": "dor", "he": "כאב" },
-      { "pt": "trabalhar / trabalhava", "he": "לעבוד / היה עובד" },
-      { "pt": "lavoura", "he": "שדה חקלאי, חקלאות" },
-      { "pt": "açúcar", "he": "סוכר (קני סוכר)" },
-      { "pt": "sisal", "he": "סיזל (צמח סיב לחבלים)" },
-      { "pt": "nego", "he": "כינוי עממי לשחור (negro)" },
-      { "pt": "chicotear / chicoteado", "he": "להלקות / מולקה" },
-      { "pt": "velho", "he": "זקן, ישן" },
-      { "pt": "tronco", "he": "גזע, סד עינויים" },
-      { "pt": "pau", "he": "עץ, מקל" },
-      { "pt": "chegar / cheguei", "he": "להגיע / הגעתי" },
-      { "pt": "libertar / libertou", "he": "לשחרר / שחרר" },
-      { "pt": "ainda", "he": "עדיין, עוד" },
-      { "pt": "lembrar-se / me lembro", "he": "לזכור / אני זוכר" },
-      { "pt": "ordem", "he": "פקודה, הוראה" },
-      { "pt": "apanhar", "he": "לחטוף מכות, לספוג" },
-      { "pt": "negro", "he": "שחור" },
-      { "pt": "pra", "he": "כדי, ל־ (עממי, מ־para)" }
+      {
+        "pt": "tempo",
+        "he": "זמן, תקופה"
+      },
+      {
+        "pt": "cativeiro",
+        "he": "עבדות"
+      },
+      {
+        "pt": "Senhor",
+        "he": "אדון, אדוני"
+      },
+      {
+        "pt": "bater / batia",
+        "he": "להכות / היה מכה"
+      },
+      {
+        "pt": "rezar / rezava",
+        "he": "להתפלל / היה מתפלל"
+      },
+      {
+        "pt": "Nossa Senhora",
+        "he": "גבירתנו (הבתולה מריה)"
+      },
+      {
+        "pt": "Deus",
+        "he": "אלוהים"
+      },
+      {
+        "pt": "pancada",
+        "he": "מכה, חבטה"
+      },
+      {
+        "pt": "doer / doía",
+        "he": "לכאוב / כאב"
+      },
+      {
+        "pt": "dor",
+        "he": "כאב"
+      },
+      {
+        "pt": "trabalhar / trabalhava",
+        "he": "לעבוד / היה עובד"
+      },
+      {
+        "pt": "lavoura",
+        "he": "שדה חקלאי, חקלאות"
+      },
+      {
+        "pt": "açúcar",
+        "he": "סוכר (קני סוכר)"
+      },
+      {
+        "pt": "sisal",
+        "he": "סיזל (צמח סיב לחבלים)"
+      },
+      {
+        "pt": "nego",
+        "he": "כינוי עממי לשחור (negro)"
+      },
+      {
+        "pt": "chicotear / chicoteado",
+        "he": "להלקות / מולקה"
+      },
+      {
+        "pt": "velho",
+        "he": "זקן, ישן"
+      },
+      {
+        "pt": "tronco",
+        "he": "גזע, סד עינויים"
+      },
+      {
+        "pt": "pau",
+        "he": "עץ, מקל"
+      },
+      {
+        "pt": "chegar / cheguei",
+        "he": "להגיע / הגעתי"
+      },
+      {
+        "pt": "libertar / libertou",
+        "he": "לשחרר / שחרר"
+      },
+      {
+        "pt": "ainda",
+        "he": "עדיין, עוד"
+      },
+      {
+        "pt": "lembrar-se / me lembro",
+        "he": "לזכור / אני זוכר"
+      },
+      {
+        "pt": "ordem",
+        "he": "פקודה, הוראה"
+      },
+      {
+        "pt": "apanhar",
+        "he": "לחטוף מכות, לספוג"
+      },
+      {
+        "pt": "negro",
+        "he": "שחור"
+      },
+      {
+        "pt": "pra",
+        "he": "כדי, ל־ (עממי, מ־para)"
+      }
     ],
     "sentences": [
-      { "pt": "No tempo do cativeiro", "he": "בתקופת העבדות" },
-      { "pt": "Quando o Senhor me batia", "he": "כשהאדון היה מכה אותי" },
-      { "pt": "Eu rezava pra Nossa Senhora", "he": "התפללתי לגבירתנו" },
-      { "pt": "Como a pancada doía", "he": "כמה שהמכה כאבה" },
-      { "pt": "Trabalhava na lavoura", "he": "הייתי עובד בשדות" },
-      { "pt": "No açúcar e no sisal", "he": "בקני הסוכר ובסיזל" },
-      { "pt": "Nego era chicoteado", "he": "השחור היה מולקה" },
-      { "pt": "No velho tronco de pau", "he": "על גזע העץ הישן" },
-      { "pt": "Quando cheguei na Bahia", "he": "כשהגעתי לבאהיה" },
-      { "pt": "A capoeira me libertou", "he": "הקפוארה שחררה אותי" },
-      { "pt": "E até hoje ainda me lembro", "he": "ועד היום אני עוד זוכר" },
-      { "pt": "Das ordens do meu Senhor", "he": "את הפקודות של האדון שלי" },
-      { "pt": "Trabalha negro pra não apanhar", "he": "עבוד שחור כדי לא לחטוף מכות" }
+      {
+        "pt": "No tempo do cativeiro",
+        "he": "בתקופת העבדות"
+      },
+      {
+        "pt": "Quando o Senhor me batia",
+        "he": "כשהאדון היה מכה אותי"
+      },
+      {
+        "pt": "Eu rezava pra Nossa Senhora",
+        "he": "התפללתי לגבירתנו"
+      },
+      {
+        "pt": "Como a pancada doía",
+        "he": "כמה שהמכה כאבה"
+      },
+      {
+        "pt": "Trabalhava na lavoura",
+        "he": "הייתי עובד בשדות"
+      },
+      {
+        "pt": "No açúcar e no sisal",
+        "he": "בקני הסוכר ובסיזל"
+      },
+      {
+        "pt": "Nego era chicoteado",
+        "he": "השחור היה מולקה"
+      },
+      {
+        "pt": "No velho tronco de pau",
+        "he": "על גזע העץ הישן"
+      },
+      {
+        "pt": "Quando cheguei na Bahia",
+        "he": "כשהגעתי לבאהיה"
+      },
+      {
+        "pt": "A capoeira me libertou",
+        "he": "הקפוארה שחררה אותי"
+      },
+      {
+        "pt": "E até hoje ainda me lembro",
+        "he": "ועד היום אני עוד זוכר"
+      },
+      {
+        "pt": "Das ordens do meu Senhor",
+        "he": "את הפקודות של האדון שלי"
+      },
+      {
+        "pt": "Trabalha negro pra não apanhar",
+        "he": "עבוד שחור כדי לא לחטוף מכות"
+      }
+    ]
+  },
+  {
+    "id": "palavras-no-corpo",
+    "title": "Palavras no Corpo",
+    "type": "popular",
+    "badge": "popular",
+    "media_url": "https://www.youtube.com/watch?v=vEVSQy1VUH0",
+    "lyrics": [
+      [
+        {
+          "pt": "Fomos felizes e felizes fomos",
+          "he": "היינו מאושרים ומאושרים היינו"
+        },
+        {
+          "pt": "E se já não somos, meu amor",
+          "he": "ואם כבר איננו, אהובי"
+        },
+        {
+          "pt": "Não se preocupe não",
+          "he": "אל תדאג"
+        },
+        {
+          "pt": "Aperte a minha mão",
+          "he": "לחץ את ידי"
+        },
+        {
+          "pt": "Até a luz sumir em meio à escuridão",
+          "he": "עד שהאור ייעלם בתוך החשכה"
+        }
+      ],
+      [
+        {
+          "pt": "Você vai confiar em mim",
+          "he": "אתה תבטח בי"
+        },
+        {
+          "pt": "Guarde um pedaço de mim",
+          "he": "שמור חתיכה ממני"
+        },
+        {
+          "pt": "Um cheiro no lado da cama",
+          "he": "ריח בצד המיטה"
+        },
+        {
+          "pt": "Seu gosto na ponta do queixo",
+          "he": "הטעם שלך בקצה הסנטר"
+        },
+        {
+          "pt": "Meu sangue escorrendo no seu peito",
+          "he": "הדם שלי זולג על החזה שלך"
+        }
+      ],
+      [
+        {
+          "pt": "Vejo no tato sua pele",
+          "he": "אני רואה במגע את עורך"
+        },
+        {
+          "pt": "Tatuo com o dedo seu gosto",
+          "he": "אני מקעקע באצבע את טעמך"
+        },
+        {
+          "pt": "Não sigo mapas, desejo",
+          "he": "איני הולך אחרי מפות, חושק"
+        },
+        {
+          "pt": "Segredo e contato",
+          "he": "סוד ומגע"
+        },
+        {
+          "pt": "Quero o brilho cortante",
+          "he": "אני רוצה את הברק החותך"
+        },
+        {
+          "pt": "Desses cacos de vidro",
+          "he": "של רסיסי הזכוכית האלה"
+        }
+      ],
+      [
+        {
+          "pt": "Palavras no corpo",
+          "he": "מילים על הגוף"
+        },
+        {
+          "pt": "Respostas ao vento",
+          "he": "תשובות לרוח"
+        },
+        {
+          "pt": "Você diz pra não falar de amor",
+          "he": "אתה אומר לא לדבר על אהבה"
+        },
+        {
+          "pt": "E me pede pra fechar os olhos",
+          "he": "ומבקש ממני לעצום את העיניים"
+        },
+        {
+          "pt": "Esquecer, amor",
+          "he": "לשכוח, אהובי"
+        }
+      ],
+      [
+        {
+          "pt": "Poucos versos são precisos",
+          "he": "מעט שורות נדרשות"
+        },
+        {
+          "pt": "Ninguém diz eu te amo",
+          "he": "אף אחד לא אומר אני אוהב אותך"
+        },
+        {
+          "pt": "Ninguém diz eu te amo",
+          "he": "אף אחד לא אומר אני אוהב אותך"
+        },
+        {
+          "pt": "Ninguém diz eu te amo como eu",
+          "he": "אף אחד לא אומר אני אוהב אותך כמוני"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Fomos felizes e felizes fomos",
+        "marked_words": [
+          "Fomos"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "עבר שלם — ser: fomos (היינו)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "E se já não somos, meu amor",
+        "marked_words": [
+          "somos"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "הווה — ser: somos (אנחנו / כאן: איננו עם não)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "E se já não somos, meu amor",
+        "marked_words": [
+          "meu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu (שלי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Não se preocupe não",
+        "marked_words": [
+          "se preocupe"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "ציווי רפלקסיבי שלילי — preocupar-se: não se preocupe (אל תדאג)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Não se preocupe não",
+        "marked_words": [
+          "Não",
+          "não"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה כפולה — não... não (הדגשה, עממי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Aperte a minha mão",
+        "marked_words": [
+          "Aperte"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — apertar: aperte (לחץ!)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Até a luz sumir em meio à escuridão",
+        "marked_words": [
+          "sumir"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "שם פועל אישי — até a luz sumir (עד שהאור ייעלם)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Até a luz sumir em meio à escuridão",
+        "marked_words": [
+          "à"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — à = a + a (אל ה־, נקבה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Você vai confiar em mim",
+        "marked_words": [
+          "vai confiar"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "עתיד קרוב — ir + שם פועל: vai confiar (תבטח)",
+        "is_new": true,
+        "tense_id": "futuro",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Você vai confiar em mim",
+        "marked_words": [
+          "mim"
+        ],
+        "topic_id": "prepositional-pronouns",
+        "label_he": "כינוי אחרי מילת יחס — em mim (בי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Guarde um pedaço de mim",
+        "marked_words": [
+          "Guarde"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — guardar: guarde (שמור!)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Um cheiro no lado da cama",
+        "marked_words": [
+          "no",
+          "da"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — no = em + o, da = de + a",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Seu gosto na ponta do queixo",
+        "marked_words": [
+          "Seu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — seu (שלך)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Meu sangue escorrendo no seu peito",
+        "marked_words": [
+          "escorrendo"
+        ],
+        "topic_id": "gerundio",
+        "label_he": "גרונד — escorrer: escorrendo (זולג)",
+        "is_new": true,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "Vejo no tato sua pele",
+        "marked_words": [
+          "Vejo"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — ver: vejo (אני רואה)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ver"
+      },
+      {
+        "sentence_pt": "Vejo no tato sua pele",
+        "marked_words": [
+          "sua"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — sua (שלך, נקבה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Tatuo com o dedo seu gosto",
+        "marked_words": [
+          "Tatuo"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — tatuar: tatuo (אני מקעקע)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Não sigo mapas, desejo",
+        "marked_words": [
+          "sigo"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — seguir: sigo (אני עוקב/הולך אחרי)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Não sigo mapas, desejo",
+        "marked_words": [
+          "Não"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה — não (לא) לפני הפועל",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Quero o brilho cortante",
+        "marked_words": [
+          "Quero"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — querer: quero (אני רוצה)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "querer"
+      },
+      {
+        "sentence_pt": "Desses cacos de vidro",
+        "marked_words": [
+          "Desses"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כיווץ עם רומז — desses = de + esses (של אלה)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Respostas ao vento",
+        "marked_words": [
+          "ao"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — ao = a + o (אל ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Você diz pra não falar de amor",
+        "marked_words": [
+          "diz"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — dizer: diz (אומר)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "dizer"
+      },
+      {
+        "sentence_pt": "E me pede pra fechar os olhos",
+        "marked_words": [
+          "pede"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "הווה — pedir: pede (מבקש)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "E me pede pra fechar os olhos",
+        "marked_words": [
+          "me"
+        ],
+        "topic_id": "indirect-object",
+        "label_he": "מושא עקיף — me pede (מבקש ממני)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Poucos versos são precisos",
+        "marked_words": [
+          "são precisos"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "ser preciso — são precisos (נדרשים / נחוצים)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Ninguém diz eu te amo",
+        "marked_words": [
+          "Ninguém"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה — ninguém (אף אחד לא)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Ninguém diz eu te amo",
+        "marked_words": [
+          "te"
+        ],
+        "topic_id": "direct-object",
+        "label_he": "כינוי מושא — te amo (אוהב אותך)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Ninguém diz eu te amo como eu",
+        "marked_words": [
+          "como"
+        ],
+        "topic_id": "comparative",
+        "label_he": "השוואה — como eu (כמוני)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "feliz",
+        "he": "מאושר, שמח"
+      },
+      {
+        "pt": "ser / fomos",
+        "he": "להיות / היינו"
+      },
+      {
+        "pt": "já",
+        "he": "כבר"
+      },
+      {
+        "pt": "amor",
+        "he": "אהבה, אהוב/ה"
+      },
+      {
+        "pt": "preocupar-se / se preocupe",
+        "he": "לדאוג / (אל) תדאג"
+      },
+      {
+        "pt": "apertar / aperte",
+        "he": "ללחוץ / לחץ"
+      },
+      {
+        "pt": "mão",
+        "he": "יד"
+      },
+      {
+        "pt": "luz",
+        "he": "אור"
+      },
+      {
+        "pt": "sumir",
+        "he": "להיעלם"
+      },
+      {
+        "pt": "escuridão",
+        "he": "חשכה, אפלה"
+      },
+      {
+        "pt": "confiar",
+        "he": "לבטוח"
+      },
+      {
+        "pt": "guardar / guarde",
+        "he": "לשמור / שמור"
+      },
+      {
+        "pt": "pedaço",
+        "he": "חתיכה, פיסה"
+      },
+      {
+        "pt": "cheiro",
+        "he": "ריח"
+      },
+      {
+        "pt": "lado",
+        "he": "צד"
+      },
+      {
+        "pt": "cama",
+        "he": "מיטה"
+      },
+      {
+        "pt": "gosto",
+        "he": "טעם"
+      },
+      {
+        "pt": "ponta",
+        "he": "קצה, חוד"
+      },
+      {
+        "pt": "queixo",
+        "he": "סנטר"
+      },
+      {
+        "pt": "sangue",
+        "he": "דם"
+      },
+      {
+        "pt": "escorrer / escorrendo",
+        "he": "לזלוג, לטפטף / זולג"
+      },
+      {
+        "pt": "peito",
+        "he": "חזה"
+      },
+      {
+        "pt": "ver / vejo",
+        "he": "לראות / אני רואה"
+      },
+      {
+        "pt": "tato",
+        "he": "מגע, חוש המישוש"
+      },
+      {
+        "pt": "pele",
+        "he": "עור"
+      },
+      {
+        "pt": "tatuar / tatuo",
+        "he": "לקעקע / אני מקעקע"
+      },
+      {
+        "pt": "dedo",
+        "he": "אצבע"
+      },
+      {
+        "pt": "seguir / sigo",
+        "he": "לעקוב, ללכת אחרי / אני עוקב"
+      },
+      {
+        "pt": "mapa",
+        "he": "מפה"
+      },
+      {
+        "pt": "desejo / desejar",
+        "he": "תשוקה / לחשוק"
+      },
+      {
+        "pt": "segredo",
+        "he": "סוד"
+      },
+      {
+        "pt": "contato",
+        "he": "מגע, קשר"
+      },
+      {
+        "pt": "querer / quero",
+        "he": "לרצות / אני רוצה"
+      },
+      {
+        "pt": "brilho",
+        "he": "ברק, נצנוץ"
+      },
+      {
+        "pt": "cortante",
+        "he": "חד, חותך"
+      },
+      {
+        "pt": "caco",
+        "he": "רסיס, שבר"
+      },
+      {
+        "pt": "vidro",
+        "he": "זכוכית"
+      },
+      {
+        "pt": "palavra",
+        "he": "מילה"
+      },
+      {
+        "pt": "corpo",
+        "he": "גוף"
+      },
+      {
+        "pt": "resposta",
+        "he": "תשובה"
+      },
+      {
+        "pt": "vento",
+        "he": "רוח"
+      },
+      {
+        "pt": "dizer / diz",
+        "he": "לומר / אומר"
+      },
+      {
+        "pt": "falar",
+        "he": "לדבר"
+      },
+      {
+        "pt": "pedir / pede",
+        "he": "לבקש / מבקש"
+      },
+      {
+        "pt": "fechar",
+        "he": "לסגור, לעצום"
+      },
+      {
+        "pt": "olho",
+        "he": "עין"
+      },
+      {
+        "pt": "esquecer",
+        "he": "לשכוח"
+      },
+      {
+        "pt": "verso",
+        "he": "שורה (בשיר), פסוק"
+      },
+      {
+        "pt": "preciso (ser preciso)",
+        "he": "נדרש, נחוץ"
+      },
+      {
+        "pt": "ninguém",
+        "he": "אף אחד"
+      },
+      {
+        "pt": "amar / amo",
+        "he": "לאהוב / אני אוהב"
+      },
+      {
+        "pt": "como",
+        "he": "כמו, כפי ש"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Fomos felizes e felizes fomos",
+        "he": "היינו מאושרים ומאושרים היינו"
+      },
+      {
+        "pt": "E se já não somos, meu amor",
+        "he": "ואם כבר איננו, אהובי"
+      },
+      {
+        "pt": "Não se preocupe não",
+        "he": "אל תדאג"
+      },
+      {
+        "pt": "Aperte a minha mão",
+        "he": "לחץ את ידי"
+      },
+      {
+        "pt": "Até a luz sumir em meio à escuridão",
+        "he": "עד שהאור ייעלם בתוך החשכה"
+      },
+      {
+        "pt": "Você vai confiar em mim",
+        "he": "אתה תבטח בי"
+      },
+      {
+        "pt": "Guarde um pedaço de mim",
+        "he": "שמור חתיכה ממני"
+      },
+      {
+        "pt": "Meu sangue escorrendo no seu peito",
+        "he": "הדם שלי זולג על החזה שלך"
+      },
+      {
+        "pt": "Vejo no tato sua pele",
+        "he": "אני רואה במגע את עורך"
+      },
+      {
+        "pt": "Quero o brilho cortante desses cacos de vidro",
+        "he": "אני רוצה את הברק החותך של רסיסי הזכוכית האלה"
+      },
+      {
+        "pt": "Você diz pra não falar de amor",
+        "he": "אתה אומר לא לדבר על אהבה"
+      },
+      {
+        "pt": "E me pede pra fechar os olhos",
+        "he": "ומבקש ממני לעצום את העיניים"
+      },
+      {
+        "pt": "Ninguém diz eu te amo como eu",
+        "he": "אף אחד לא אומר אני אוהב אותך כמוני"
+      }
+    ]
+  },
+  {
+    "id": "um-pe-bateu-meia-lua-passou",
+    "title": "Um pé bateu, meia lua passou",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=tlnPq9kzy_U&t=178",
+    "lyrics": [
+      [
+        {
+          "pt": "Um pé bateu, meia lua passou",
+          "he": "רגל אחת הכתה, מאיה־לואה חלפה"
+        },
+        {
+          "pt": "Pra entrar nessa roda, menino ligeiro tem que ter valor",
+          "he": "כדי להיכנס לרודה הזאת, ילד זריז צריך שיהיה לו אומץ"
+        }
+      ],
+      [
+        {
+          "pt": "Toca o berimbau, ie-ie",
+          "he": "נַגֵּן בברימבאו, איֵה־איֵה"
+        },
+        {
+          "pt": "que eu vou lhe ensinar, ia-ia",
+          "he": "שאני אלמד אותך, איָה־איָה"
+        },
+        {
+          "pt": "Solte meia lua, fica de perna pro ar",
+          "he": "שחרר מאיה־לואה, ותישאר עם הרגל באוויר"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Um pé bateu, meia lua passou",
+        "marked_words": [
+          "bateu"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — bater: bateu (הכה / בעט)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Um pé bateu, meia lua passou",
+        "marked_words": [
+          "passou"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — passar: passou (חלף / עבר)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Pra entrar nessa roda, menino ligeiro tem que ter valor",
+        "marked_words": [
+          "nessa"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — nessa = em + essa (בזאת)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Pra entrar nessa roda, menino ligeiro tem que ter valor",
+        "marked_words": [
+          "tem que ter"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "חובה — ter que + שם פועל: tem que ter (חייב שיהיה לו)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "Toca o berimbau, ie-ie",
+        "marked_words": [
+          "Toca"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — tocar: toca (נַגֵּן!)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "que eu vou lhe ensinar, ia-ia",
+        "marked_words": [
+          "vou",
+          "ensinar"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עתיד קרוב — ir + שם פועל: vou ensinar (אני עומד ללמד)",
+        "is_new": false,
+        "tense_id": "futuro"
+      },
+      {
+        "sentence_pt": "que eu vou lhe ensinar, ia-ia",
+        "marked_words": [
+          "lhe"
+        ],
+        "topic_id": "indirect-object",
+        "label_he": "מושא עקיף — lhe (לך / לו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Solte meia lua, fica de perna pro ar",
+        "marked_words": [
+          "Solte"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — soltar: solte (שחרר!)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Solte meia lua, fica de perna pro ar",
+        "marked_words": [
+          "fica"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — ficar: fica (תישאר!)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Solte meia lua, fica de perna pro ar",
+        "marked_words": [
+          "pro"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ (דיבורי) — pro = para o (ל־ה)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "pé",
+        "he": "רגל, כף רגל"
+      },
+      {
+        "pt": "bater",
+        "he": "להכות, לבעוט"
+      },
+      {
+        "pt": "meia lua",
+        "he": "מאיה־לואה (בעיטה מסתובבת בקפואירה, מילולית 'חצי ירח')"
+      },
+      {
+        "pt": "passar",
+        "he": "לעבור, לחלוף"
+      },
+      {
+        "pt": "entrar",
+        "he": "להיכנס"
+      },
+      {
+        "pt": "roda",
+        "he": "רודה (מעגל הקפואירה)"
+      },
+      {
+        "pt": "menino",
+        "he": "ילד, נער"
+      },
+      {
+        "pt": "ligeiro",
+        "he": "זריז, מהיר"
+      },
+      {
+        "pt": "ter que",
+        "he": "להיות חייב, צריך"
+      },
+      {
+        "pt": "valor",
+        "he": "אומץ, ערך"
+      },
+      {
+        "pt": "tocar",
+        "he": "לנגן, לגעת"
+      },
+      {
+        "pt": "berimbau",
+        "he": "ברימבאו (כלי הנגינה של הקפואירה)"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "soltar",
+        "he": "לשחרר, לשלח"
+      },
+      {
+        "pt": "ficar",
+        "he": "להישאר, להיות"
+      },
+      {
+        "pt": "perna",
+        "he": "רגל (החלק שמהירך ומטה)"
+      },
+      {
+        "pt": "ar",
+        "he": "אוויר"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Um pé bateu, meia lua passou",
+        "he": "רגל אחת הכתה, מאיה־לואה חלפה"
+      },
+      {
+        "pt": "Pra entrar nessa roda, menino ligeiro tem que ter valor",
+        "he": "כדי להיכנס לרודה הזאת, ילד זריז צריך שיהיה לו אומץ"
+      },
+      {
+        "pt": "Toca o berimbau",
+        "he": "נַגֵּן בברימבאו"
+      },
+      {
+        "pt": "que eu vou lhe ensinar",
+        "he": "שאני אלמד אותך"
+      },
+      {
+        "pt": "Solte meia lua, fica de perna pro ar",
+        "he": "שחרר מאיה־לואה, ותישאר עם הרגל באוויר"
+      }
+    ]
+  },
+  {
+    "id": "toda-bahia-chorou",
+    "title": "Toda Bahia chorou",
+    "type": "capoeira",
+    "badge": "ladainha",
+    "media_url": "https://www.youtube.com/watch?v=czd946hs-3M",
+    "lyrics": [
+      [
+        {
+          "pt": "Toda Bahia chorou",
+          "he": "כל באהיה בכתה"
+        },
+        {
+          "pt": "Toda Bahia chorou",
+          "he": "כל באהיה בכתה"
+        },
+        {
+          "pt": "No dia em que a capoeira Angola",
+          "he": "ביום שבו הקפואירה אנגולה"
+        },
+        {
+          "pt": "Perdeu seu protetor",
+          "he": "איבדה את מגינהּ"
+        }
+      ],
+      [
+        {
+          "pt": "Mestre Pastinha foi embora",
+          "he": "מסטרה פסטיניה הלך לעולמו"
+        },
+        {
+          "pt": "Oxalá quem o levou",
+          "he": "אוֹשָׁלָא הוא זה שלקח אותו"
+        },
+        {
+          "pt": "Lá pras terras de Aruanda",
+          "he": "לשם, אל אדמות ארואנדה"
+        },
+        {
+          "pt": "Mas ninguém se conformou",
+          "he": "אבל אף אחד לא השלים עם זה"
+        }
+      ],
+      [
+        {
+          "pt": "Chorou general, menino",
+          "he": "בכה גנרל, ילד"
+        },
+        {
+          "pt": "Chorou mocinha, doutor",
+          "he": "בכתה עלמה, דוקטור"
+        },
+        {
+          "pt": "Pretas velhas, feiticeiros",
+          "he": "זקנות שחורות, מכשפים"
+        },
+        {
+          "pt": "Ogãs e Babalôs",
+          "he": "אוֹגָאנים ובָּבָּלָאוּאים (כוהני הדת האפרו־ברזילאית)"
+        }
+      ],
+      [
+        {
+          "pt": "Berimbau tocou iúna",
+          "he": "הברימבאו ניגן איוּנה"
+        },
+        {
+          "pt": "Num toque triste de morte",
+          "he": "במקצב עצוב של מוות"
+        },
+        {
+          "pt": "E a capoeira foi jogada",
+          "he": "והקפואירה שוחקה"
+        },
+        {
+          "pt": "Ao som da triste canção",
+          "he": "לצלילי השיר העצוב"
+        }
+      ],
+      [
+        {
+          "pt": "Da boca do mandingueiro",
+          "he": "מפיו של המנדינגֵיירו"
+        },
+        {
+          "pt": "De dentro do coração",
+          "he": "מתוך הלב"
+        },
+        {
+          "pt": "E não houve na Bahia",
+          "he": "ולא היה בבאהיה"
+        },
+        {
+          "pt": "Quem não cantasse esse refrão",
+          "he": "מי שלא שר את הפזמון הזה"
+        }
+      ],
+      [
+        {
+          "pt": "Iê, vai lá menino",
+          "he": "אִיֵה, לך לשם ילד"
+        },
+        {
+          "pt": "Mostra o que o mestre ensinou",
+          "he": "הראה את מה שהמסטרה לימד"
+        },
+        {
+          "pt": "Mostra que arrancaram a planta",
+          "he": "הראה שעקרו את הצמח"
+        },
+        {
+          "pt": "Mas a semente brotou",
+          "he": "אבל הזרע נבט"
+        },
+        {
+          "pt": "E se for bem cultivada",
+          "he": "ואם יטופח היטב"
+        },
+        {
+          "pt": "Dará bom fruto e bela flor",
+          "he": "ייתן פרי טוב ופרח יפה"
+        }
+      ],
+      [
+        {
+          "pt": "Iê, vai lá menino",
+          "he": "אִיֵה, לך לשם ילד"
+        },
+        {
+          "pt": "Mostra o que o mestre ensinou",
+          "he": "הראה את מה שהמסטרה לימד"
+        },
+        {
+          "pt": "Mostra que arrancaram a planta",
+          "he": "הראה שעקרו את הצמח"
+        },
+        {
+          "pt": "Mas a semente brotou",
+          "he": "אבל הזרע נבט"
+        },
+        {
+          "pt": "E se for bem cultivada",
+          "he": "ואם יטופח היטב"
+        },
+        {
+          "pt": "Dará bom fruto e bela flor",
+          "he": "ייתן פרי טוב ופרח יפה"
+        }
+      ],
+      [
+        {
+          "pt": "Ai, ai, aidê, joga bonito que eu quero ver",
+          "he": "אַי, אַי, אַיְדֵה, שחק יפה כי אני רוצה לראות"
+        },
+        {
+          "pt": "Ai, ai, aidê, esse jogo de Angola que eu quero aprender",
+          "he": "אַי, אַי, אַיְדֵה, את משחק האנגולה הזה אני רוצה ללמוד"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Toda Bahia chorou",
+        "marked_words": [
+          "chorou"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — chorar: chorou (בכה / בכתה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "No dia em que a capoeira Angola",
+        "marked_words": [
+          "No"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — no = em + o (ב־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Perdeu seu protetor",
+        "marked_words": [
+          "seu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — seu (שלו / שלה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Mestre Pastinha foi embora",
+        "marked_words": [
+          "foi embora"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר שלם — ir embora: foi embora (הלך לו / הסתלק)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Oxalá quem o levou",
+        "marked_words": [
+          "o"
+        ],
+        "topic_id": "direct-object",
+        "label_he": "כינוי מושא ישיר — o levou (לקח אותו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Mas ninguém se conformou",
+        "marked_words": [
+          "ninguém"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה — ninguém (אף אחד לא)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Mas ninguém se conformou",
+        "marked_words": [
+          "se conformou"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי בעבר — conformar-se: se conformou (השלים עם זה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Num toque triste de morte",
+        "marked_words": [
+          "Num"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — num = em + um (ב־ אחד)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "E a capoeira foi jogada",
+        "marked_words": [
+          "foi jogada"
+        ],
+        "topic_id": "passive",
+        "label_he": "סביל — ser + בינוני: foi jogada (שוחקה / נוגנה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "E não houve na Bahia",
+        "marked_words": [
+          "não houve"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "עבר — haver: não houve (לא היה / לא נמצא)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "haver"
+      },
+      {
+        "sentence_pt": "Quem não cantasse esse refrão",
+        "marked_words": [
+          "cantasse"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר של הסוביונטיבו — cantar: cantasse (שישיר / שהיה שר)",
+        "is_new": false,
+        "tense_id": "imperfeito-subjuntivo"
+      },
+      {
+        "sentence_pt": "E se for bem cultivada",
+        "marked_words": [
+          "for"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "עתיד הסוביונטיבו — ser: se for (אם יהיה / אם תהיה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Dará bom fruto e bela flor",
+        "marked_words": [
+          "Dará"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "עתיד — dar: dará (ייתן)",
+        "is_new": false,
+        "tense_id": "futuro",
+        "verb_id": "dar"
+      },
+      {
+        "sentence_pt": "Ai, ai, aidê, joga bonito que eu quero ver",
+        "marked_words": [
+          "quero",
+          "ver"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "querer + שם פועל — quero ver (אני רוצה לראות)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "querer"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "todo / toda",
+        "he": "כל, כולו / כולה"
+      },
+      {
+        "pt": "Bahia",
+        "he": "באהיה (מדינה בברזיל, ערש הקפואירה)"
+      },
+      {
+        "pt": "chorar",
+        "he": "לבכות"
+      },
+      {
+        "pt": "dia",
+        "he": "יום"
+      },
+      {
+        "pt": "perder",
+        "he": "לאבד, להפסיד"
+      },
+      {
+        "pt": "protetor",
+        "he": "מגן, פטרון"
+      },
+      {
+        "pt": "ir embora",
+        "he": "ללכת, להסתלק, לעזוב"
+      },
+      {
+        "pt": "levar",
+        "he": "לקחת, לשאת"
+      },
+      {
+        "pt": "terra",
+        "he": "אדמה, ארץ"
+      },
+      {
+        "pt": "ninguém",
+        "he": "אף אחד"
+      },
+      {
+        "pt": "conformar-se",
+        "he": "להשלים עם, להסתפק"
+      },
+      {
+        "pt": "menino",
+        "he": "ילד, נער"
+      },
+      {
+        "pt": "mocinha",
+        "he": "עלמה, נערה צעירה"
+      },
+      {
+        "pt": "doutor",
+        "he": "דוקטור"
+      },
+      {
+        "pt": "preta velha",
+        "he": "זקנה שחורה (דמות זקנה חכמה במסורת האפרו־ברזילאית)"
+      },
+      {
+        "pt": "feiticeiro",
+        "he": "מכשף"
+      },
+      {
+        "pt": "tocar",
+        "he": "לנגן, לגעת"
+      },
+      {
+        "pt": "toque",
+        "he": "מקצב, נגיעה"
+      },
+      {
+        "pt": "triste",
+        "he": "עצוב"
+      },
+      {
+        "pt": "morte",
+        "he": "מוות"
+      },
+      {
+        "pt": "jogar",
+        "he": "לשחק, לשחק קפואירה"
+      },
+      {
+        "pt": "som",
+        "he": "צליל, קול"
+      },
+      {
+        "pt": "canção",
+        "he": "שיר"
+      },
+      {
+        "pt": "boca",
+        "he": "פה"
+      },
+      {
+        "pt": "mandingueiro",
+        "he": "מנדינגֵיירו (אמן קפואירה ערמומי)"
+      },
+      {
+        "pt": "dentro",
+        "he": "בתוך, בפנים"
+      },
+      {
+        "pt": "coração",
+        "he": "לב"
+      },
+      {
+        "pt": "haver / houve",
+        "he": "להתקיים, להיות / היה, נמצא"
+      },
+      {
+        "pt": "cantar",
+        "he": "לשיר"
+      },
+      {
+        "pt": "refrão",
+        "he": "פזמון"
+      },
+      {
+        "pt": "mostrar",
+        "he": "להראות"
+      },
+      {
+        "pt": "mestre",
+        "he": "מסטרה, מורה"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "arrancar",
+        "he": "לעקור, לתלוש"
+      },
+      {
+        "pt": "planta",
+        "he": "צמח"
+      },
+      {
+        "pt": "semente",
+        "he": "זרע"
+      },
+      {
+        "pt": "brotar",
+        "he": "לנבוט, לבצבץ"
+      },
+      {
+        "pt": "cultivar",
+        "he": "לטפח, לעבד אדמה"
+      },
+      {
+        "pt": "fruto",
+        "he": "פרי"
+      },
+      {
+        "pt": "belo / bela",
+        "he": "יפה, יפהפה"
+      },
+      {
+        "pt": "flor",
+        "he": "פרח"
+      },
+      {
+        "pt": "dar",
+        "he": "לתת"
+      },
+      {
+        "pt": "bonito",
+        "he": "יפה, נאה"
+      },
+      {
+        "pt": "querer",
+        "he": "לרצות"
+      },
+      {
+        "pt": "ver",
+        "he": "לראות"
+      },
+      {
+        "pt": "jogo",
+        "he": "משחק"
+      },
+      {
+        "pt": "aprender",
+        "he": "ללמוד"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Toda Bahia chorou",
+        "he": "כל באהיה בכתה"
+      },
+      {
+        "pt": "No dia em que a capoeira Angola perdeu seu protetor",
+        "he": "ביום שבו הקפואירה אנגולה איבדה את מגינהּ"
+      },
+      {
+        "pt": "Mestre Pastinha foi embora",
+        "he": "מסטרה פסטיניה הלך לעולמו"
+      },
+      {
+        "pt": "Mas ninguém se conformou",
+        "he": "אבל אף אחד לא השלים עם זה"
+      },
+      {
+        "pt": "E a capoeira foi jogada ao som da triste canção",
+        "he": "והקפואירה שוחקה לצלילי השיר העצוב"
+      },
+      {
+        "pt": "E não houve na Bahia quem não cantasse esse refrão",
+        "he": "ולא היה בבאהיה מי שלא שר את הפזמון הזה"
+      },
+      {
+        "pt": "Mostra o que o mestre ensinou",
+        "he": "הראה את מה שהמסטרה לימד"
+      },
+      {
+        "pt": "Mostra que arrancaram a planta, mas a semente brotou",
+        "he": "הראה שעקרו את הצמח, אבל הזרע נבט"
+      },
+      {
+        "pt": "E se for bem cultivada, dará bom fruto e bela flor",
+        "he": "ואם יטופח היטב, ייתן פרי טוב ופרח יפה"
+      },
+      {
+        "pt": "Joga bonito que eu quero ver",
+        "he": "שחק יפה כי אני רוצה לראות"
+      },
+      {
+        "pt": "Esse jogo de Angola que eu quero aprender",
+        "he": "את משחק האנגולה הזה אני רוצה ללמוד"
+      }
     ]
   }
 ]
