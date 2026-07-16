@@ -11820,5 +11820,769 @@
         "he": "את משחק האנגולה הזה אני רוצה ללמוד"
       }
     ]
+  },
+  {
+    "id": "luz-de-candeiro",
+    "title": "Luz de Candeiro",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=EjdIcNuCWVk",
+    "images": [
+      {
+        "file": "cobra_coral.webp",
+        "label_pt": "Cobra coral",
+        "label_he": "נחש הקורל"
+      },
+      {
+        "file": "Capitao-mato.jpg",
+        "label_pt": "Capitão do mato",
+        "label_he": "צייד העבדים הנמלטים"
+      },
+      {
+        "file": "Zumbi dos Palmares.jpg",
+        "label_pt": "Ganga Zumba (c. 1630–1678)",
+        "label_he": "גַנְגָּה זוּמְבָּה (1630–1678 לערך)"
+      }
+    ],
+    "lyrics": [
+      [
+        {
+          "pt": "Iaiá, acende o candieiro, iaiá",
+          "he": "יאיא, תדליק את המנורה, יאיא"
+        },
+        {
+          "pt": "Só a luz ofuscante da candeia",
+          "he": "רק האור המסנוור של העששית"
+        },
+        {
+          "pt": "E o clarão da lua cheia",
+          "he": "וזוהר הירח המלא"
+        },
+        {
+          "pt": "É o que faz o terreiro clarear",
+          "he": "זה מה שמאיר את החצר"
+        },
+        {
+          "pt": "Oh Iaiá",
+          "he": "הו, יאיא"
+        }
+      ],
+      [
+        {
+          "pt": "Iaiá, oh Iaiá, acende o candieiro iaiá",
+          "he": "יאיא, הו יאיא, תדליק את המנורה, יאיא"
+        },
+        {
+          "pt": "Só a luz ofuscante da candeia",
+          "he": "רק האור המסנוור של העששית"
+        },
+        {
+          "pt": "E o clarão da lua cheia",
+          "he": "וזוהר הירח המלא"
+        },
+        {
+          "pt": "É o que faz o terreiro clarear",
+          "he": "זה מה שמאיר את החצר"
+        }
+      ],
+      [
+        {
+          "pt": "Hoje tem festa",
+          "he": "היום יש חגיגה"
+        },
+        {
+          "pt": "no Quilombo dos Palmares",
+          "he": "בקִילוֹמְבּוֹ דוֹס פַּלְמָארֶס"
+        },
+        {
+          "pt": "Já se ouve pelos ares",
+          "he": "כבר נשמע באוויר"
+        },
+        {
+          "pt": "O som estridente do tambor",
+          "he": "הצליל הצורם של התוף"
+        },
+        {
+          "pt": "Ô Ioiô, no rabo de arraia, certeiro",
+          "he": "הו יוֹיוֹ, בבעיטת האבו ג'י אהייה, מדויק"
+        },
+        {
+          "pt": "No jogo de Angola, rasteiro",
+          "he": "במשחק האנגולה, נמוך על הקרקע"
+        },
+        {
+          "pt": "No bote da cobra coral",
+          "he": "בהתקפה של נחש הקורל"
+        },
+        {
+          "pt": "Com a ligeireza dos raios",
+          "he": "בזריזות של הברקים"
+        },
+        {
+          "pt": "Destreza fundamental",
+          "he": "מיומנות יסודית"
+        },
+        {
+          "pt": "Quem paga o pato é o capitão do mato",
+          "he": "מי שחוטף בסוף זה צייד העבדים הנמלטים"
+        },
+        {
+          "pt": "Na luta do bem contra mal",
+          "he": "במאבק של הטוב נגד הרע"
+        },
+        {
+          "pt": "Oh Iaiá",
+          "he": "הו, יאיא"
+        }
+      ],
+      [
+        {
+          "pt": "Iaiá, oh Iaiá, acende o candieiro iaiá",
+          "he": "יאיא, הו יאיא, תדליק את המנורה, יאיא"
+        },
+        {
+          "pt": "Só a luz ofuscante da candeia",
+          "he": "רק האור המסנוור של העששית"
+        },
+        {
+          "pt": "E o clarão da lua cheia",
+          "he": "וזוהר הירח המלא"
+        },
+        {
+          "pt": "É o que faz o terreiro clarear",
+          "he": "זה מה שמאיר את החצר"
+        }
+      ],
+      [
+        {
+          "pt": "Oh a balança na barra da saia",
+          "he": "הו, הנדנוד בשולי החצאית"
+        },
+        {
+          "pt": "Levanta, sacode a poeira do chão",
+          "he": "קום, נַעֵר את האבק מהרצפה"
+        },
+        {
+          "pt": "Oh abre a roda que agora o pau vai comer",
+          "he": "הו, פִּתחו את הרוֹדה כי עכשיו זה מתלהט"
+        },
+        {
+          "pt": "No samba duro angolano",
+          "he": "בסמבה הקשוח האנגולני"
+        },
+        {
+          "pt": "na ginga do maculelê",
+          "he": "בג'ינגה של המָקוּלֶלֶה"
+        }
+      ],
+      [
+        {
+          "pt": "Oh abre a roda que agora o pau vai comer",
+          "he": "הו, פִּתחו את הרוֹדה כי עכשיו זה מתלהט"
+        },
+        {
+          "pt": "No samba duro angolano",
+          "he": "בסמבה הקשוח האנגולני"
+        },
+        {
+          "pt": "na ginga do maculelê",
+          "he": "בג'ינגה של המָקוּלֶלֶה"
+        }
+      ],
+      [
+        {
+          "pt": "Ô quem tem sangue do quilombola não cai",
+          "he": "הו, מי שיש בו דם של קִילוֹמְבּוֹלה — לא נופל"
+        },
+        {
+          "pt": "Finge que vai, mas não vai",
+          "he": "מעמיד פנים שילך, אבל לא הולך"
+        },
+        {
+          "pt": "Risca seu nome no vento",
+          "he": "חורט את שמו ברוח"
+        },
+        {
+          "pt": "Rei Gangazumba vem dar início ao festejo",
+          "he": "המלך גַנְגָּזוּמְבָּה בא לפתוח את החגיגה"
+        },
+        {
+          "pt": "Sua voz é um lampejo",
+          "he": "קולו הוא הבזק"
+        },
+        {
+          "pt": "Que comanda o ritual",
+          "he": "שמפקד על הטקס"
+        },
+        {
+          "pt": "O seu lamento era um grito de guerra",
+          "he": "קינתו הייתה צעקת מלחמה"
+        },
+        {
+          "pt": "Que escoava sobre a terra",
+          "he": "שזרמה על פני האדמה"
+        },
+        {
+          "pt": "Formando um Quilombo imortal",
+          "he": "ויוצרת קִילוֹמְבּוֹ בן אלמוות"
+        },
+        {
+          "pt": "Oh Iaiá",
+          "he": "הו, יאיא"
+        }
+      ],
+      [
+        {
+          "pt": "Iaiá, oh Iaiá, acende o candieiro iaiá",
+          "he": "יאיא, הו יאיא, תדליק את המנורה, יאיא"
+        },
+        {
+          "pt": "Só a luz ofuscante da candeia",
+          "he": "רק האור המסנוור של העששית"
+        },
+        {
+          "pt": "E o clarão da lua cheia",
+          "he": "וזוהר הירח המלא"
+        },
+        {
+          "pt": "É o que faz o terreiro clarear",
+          "he": "זה מה שמאיר את החצר"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Iaiá, acende o candieiro, iaiá",
+        "marked_words": [
+          "acende"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — acender: acende (הדלֵק/הדליקי)",
+        "is_new": true,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Só a luz ofuscante da candeia",
+        "marked_words": [
+          "da"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — da = de + a (של ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "E o clarão da lua cheia",
+        "marked_words": [
+          "cheia"
+        ],
+        "topic_id": "adjectives",
+        "label_he": "שם תואר — התאמת מין: lua cheia (ירח מלא, נקבה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "É o que faz o terreiro clarear",
+        "marked_words": [
+          "faz"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — fazer: faz (עושה / גורם)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "fazer"
+      },
+      {
+        "sentence_pt": "Hoje tem festa",
+        "marked_words": [
+          "tem"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "ter במובן 'יש' — tem festa (יש חגיגה)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "Já se ouve pelos ares",
+        "marked_words": [
+          "se ouve"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "se סתמי/סביל — se ouve (נשמע / שומעים)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Já se ouve pelos ares",
+        "marked_words": [
+          "pelos"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — pelos = por + os (דרך ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Com a ligeireza dos raios",
+        "marked_words": [
+          "raios"
+        ],
+        "topic_id": "plurals",
+        "label_he": "רבים — raio → raios (מוסיפים S)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Quem paga o pato é o capitão do mato",
+        "marked_words": [
+          "paga"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — pagar: paga (משלם)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Quem paga o pato é o capitão do mato",
+        "marked_words": [
+          "é"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "ser — é (הוא / זה)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Levanta, sacode a poeira do chão",
+        "marked_words": [
+          "Levanta",
+          "sacode"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — levantar / sacudir: levanta, sacode (קום, נַעֵר)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Oh abre a roda que agora o pau vai comer",
+        "marked_words": [
+          "vai comer"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "עתיד קרוב — ir + שם פועל: vai comer (עומד / הולך ל...)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Ô quem tem sangue do quilombola não cai",
+        "marked_words": [
+          "não"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה — não cai (לא נופל)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Finge que vai, mas não vai",
+        "marked_words": [
+          "vai"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ir: vai (הולך / ילך)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Risca seu nome no vento",
+        "marked_words": [
+          "seu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — seu (שלו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Rei Gangazumba vem dar início ao festejo",
+        "marked_words": [
+          "vem"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — vir: vem (בא)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "vir"
+      },
+      {
+        "sentence_pt": "Rei Gangazumba vem dar início ao festejo",
+        "marked_words": [
+          "ao"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — ao = a + o (אל ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "O seu lamento era um grito de guerra",
+        "marked_words": [
+          "era"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "עבר לא־מושלם — ser: era (היה / הייתה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Que escoava sobre a terra",
+        "marked_words": [
+          "escoava"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר לא־מושלם — escoar: escoava (זרמה / הייתה זורמת)",
+        "is_new": true,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Formando um Quilombo imortal",
+        "marked_words": [
+          "Formando"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "גרונדיו — formar: formando (יוצר / תוך כדי)",
+        "is_new": true,
+        "tense_id": "gerundio"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "acender",
+        "he": "להדליק"
+      },
+      {
+        "pt": "luz",
+        "he": "אור"
+      },
+      {
+        "pt": "ofuscante",
+        "he": "מסנוור, מסמא"
+      },
+      {
+        "pt": "candeia / candeeiro",
+        "he": "עששית, מנורת שמן"
+      },
+      {
+        "pt": "clarão",
+        "he": "זוהר, הבזק אור"
+      },
+      {
+        "pt": "lua",
+        "he": "ירח"
+      },
+      {
+        "pt": "cheio / cheia",
+        "he": "מלא / מלאה"
+      },
+      {
+        "pt": "terreiro",
+        "he": "מגרש, חצר (מקום המשחק והטקס)"
+      },
+      {
+        "pt": "clarear",
+        "he": "להאיר, להתבהר"
+      },
+      {
+        "pt": "hoje",
+        "he": "היום"
+      },
+      {
+        "pt": "festa",
+        "he": "חגיגה, מסיבה"
+      },
+      {
+        "pt": "quilombo",
+        "he": "קִילוֹמְבּוֹ (יישוב של עבדים נמלטים ומשוחררים)"
+      },
+      {
+        "pt": "ouvir",
+        "he": "לשמוע"
+      },
+      {
+        "pt": "ar / ares",
+        "he": "אוויר"
+      },
+      {
+        "pt": "som",
+        "he": "צליל, קול"
+      },
+      {
+        "pt": "estridente",
+        "he": "צורם, צרחני"
+      },
+      {
+        "pt": "tambor",
+        "he": "תוף"
+      },
+      {
+        "pt": "rabo de arraia",
+        "he": "בעיטת האבו ג'י אהייה (בעיטה בקפואירה)"
+      },
+      {
+        "pt": "certeiro",
+        "he": "קולע, מדויק"
+      },
+      {
+        "pt": "rasteiro",
+        "he": "נמוך, זוחל על הקרקע"
+      },
+      {
+        "pt": "bote",
+        "he": "זינוק, התקפה (של נחש)"
+      },
+      {
+        "pt": "cobra coral",
+        "he": "נחש הקורל"
+      },
+      {
+        "pt": "ligeireza",
+        "he": "זריזות, קלילות"
+      },
+      {
+        "pt": "raio",
+        "he": "ברק, קרן"
+      },
+      {
+        "pt": "destreza",
+        "he": "מיומנות, זריזות"
+      },
+      {
+        "pt": "fundamental",
+        "he": "יסודי, בסיסי"
+      },
+      {
+        "pt": "pagar o pato",
+        "he": "לשלם את המחיר, לחטוף על לא עוול"
+      },
+      {
+        "pt": "capitão do mato",
+        "he": "צייד העבדים הנמלטים"
+      },
+      {
+        "pt": "luta",
+        "he": "מאבק, קרב"
+      },
+      {
+        "pt": "bem",
+        "he": "טוב"
+      },
+      {
+        "pt": "mal",
+        "he": "רע"
+      },
+      {
+        "pt": "balança",
+        "he": "מאזניים; בקפואירה — תנועת נדנוד"
+      },
+      {
+        "pt": "saia",
+        "he": "חצאית"
+      },
+      {
+        "pt": "levantar",
+        "he": "להרים, לקום"
+      },
+      {
+        "pt": "sacudir",
+        "he": "לנער, לנענע"
+      },
+      {
+        "pt": "poeira",
+        "he": "אבק"
+      },
+      {
+        "pt": "chão",
+        "he": "רצפה, קרקע"
+      },
+      {
+        "pt": "abrir",
+        "he": "לפתוח"
+      },
+      {
+        "pt": "roda",
+        "he": "מעגל (הרוֹדה של הקפואירה)"
+      },
+      {
+        "pt": "agora",
+        "he": "עכשיו"
+      },
+      {
+        "pt": "o pau vai comer",
+        "he": "הולך להיות חם, מתלהט (ביטוי)"
+      },
+      {
+        "pt": "duro",
+        "he": "קשה, קשוח"
+      },
+      {
+        "pt": "angolano",
+        "he": "אנגולני"
+      },
+      {
+        "pt": "ginga",
+        "he": "ג'ינגה (תנועת היסוד בקפואירה)"
+      },
+      {
+        "pt": "maculelê",
+        "he": "מָקוּלֶלֶה (ריקוד לחימה עם מקלות)"
+      },
+      {
+        "pt": "sangue",
+        "he": "דם"
+      },
+      {
+        "pt": "quilombola",
+        "he": "קִילוֹמְבּוֹלה (תושב קילומבו)"
+      },
+      {
+        "pt": "cair",
+        "he": "ליפול"
+      },
+      {
+        "pt": "fingir",
+        "he": "להעמיד פנים, לזייף"
+      },
+      {
+        "pt": "riscar",
+        "he": "לחרוט, לשרטט"
+      },
+      {
+        "pt": "vento",
+        "he": "רוח"
+      },
+      {
+        "pt": "rei",
+        "he": "מלך"
+      },
+      {
+        "pt": "vir",
+        "he": "לבוא"
+      },
+      {
+        "pt": "dar início",
+        "he": "לפתוח, להתחיל"
+      },
+      {
+        "pt": "festejo",
+        "he": "חגיגה, חגיגות"
+      },
+      {
+        "pt": "voz",
+        "he": "קול"
+      },
+      {
+        "pt": "lampejo",
+        "he": "הבזק, ברק"
+      },
+      {
+        "pt": "comandar",
+        "he": "לפקד, להוביל"
+      },
+      {
+        "pt": "ritual",
+        "he": "טקס, ריטואל"
+      },
+      {
+        "pt": "lamento",
+        "he": "קינה, יבבה"
+      },
+      {
+        "pt": "grito",
+        "he": "צעקה, זעקה"
+      },
+      {
+        "pt": "guerra",
+        "he": "מלחמה"
+      },
+      {
+        "pt": "escoar",
+        "he": "לזרום, לנקז"
+      },
+      {
+        "pt": "terra",
+        "he": "אדמה, ארץ"
+      },
+      {
+        "pt": "formar",
+        "he": "ליצור, לגבש"
+      },
+      {
+        "pt": "imortal",
+        "he": "בן אלמוות"
+      },
+      {
+        "pt": "fazer",
+        "he": "לעשות, לגרום"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Iaiá, acende o candieiro",
+        "he": "יאיא, תדליק את המנורה"
+      },
+      {
+        "pt": "Só a luz ofuscante da candeia",
+        "he": "רק האור המסנוור של העששית"
+      },
+      {
+        "pt": "E o clarão da lua cheia",
+        "he": "וזוהר הירח המלא"
+      },
+      {
+        "pt": "É o que faz o terreiro clarear",
+        "he": "זה מה שמאיר את הטרֵיירו"
+      },
+      {
+        "pt": "Hoje tem festa no Quilombo dos Palmares",
+        "he": "היום יש חגיגה בקילומבו דוס פלמארס"
+      },
+      {
+        "pt": "Já se ouve pelos ares o som estridente do tambor",
+        "he": "כבר נשמע באוויר הצליל הצורם של התוף"
+      },
+      {
+        "pt": "Com a ligeireza dos raios, destreza fundamental",
+        "he": "בזריזות של הברקים, מיומנות יסודית"
+      },
+      {
+        "pt": "Quem paga o pato é o capitão do mato",
+        "he": "מי שחוטף בסוף זה צייד העבדים הנמלטים"
+      },
+      {
+        "pt": "Na luta do bem contra mal",
+        "he": "במאבק של הטוב נגד הרע"
+      },
+      {
+        "pt": "Levanta, sacode a poeira do chão",
+        "he": "קום, נַעֵר את האבק מהרצפה"
+      },
+      {
+        "pt": "Abre a roda que agora o pau vai comer",
+        "he": "פִּתחו את הרוֹדה כי עכשיו זה מתלהט"
+      },
+      {
+        "pt": "Quem tem sangue do quilombola não cai",
+        "he": "מי שיש בו דם של קילומבולה לא נופל"
+      },
+      {
+        "pt": "Finge que vai, mas não vai",
+        "he": "מעמיד פנים שילך, אבל לא הולך"
+      },
+      {
+        "pt": "Rei Gangazumba vem dar início ao festejo",
+        "he": "המלך גנגזומבה בא לפתוח את החגיגה"
+      },
+      {
+        "pt": "O seu lamento era um grito de guerra",
+        "he": "קינתו הייתה צעקת מלחמה"
+      },
+      {
+        "pt": "Que escoava sobre a terra, formando um Quilombo imortal",
+        "he": "שזרמה על פני האדמה, ויוצרת קילומבו בן אלמוות"
+      }
+    ]
   }
 ]
