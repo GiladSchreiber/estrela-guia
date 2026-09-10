@@ -2708,6 +2708,10 @@
                 "vão + infinitivo"
               ]
             ]
+          },
+          {
+            "type": "note",
+            "he": "זהו העתיד הקרוב (ir + מקור), הנפוץ בדיבור בברזיל. לעתיד הרגיל עם הטיה — será, jogará — ראו את הלשונית «עתיד רגיל»."
           }
         ],
         "examples": [
@@ -2794,6 +2798,161 @@
             "answer": "vai organizar",
             "base": "organizar",
             "translation": "המאסטר הולך לארגן אימון מיוחד"
+          }
+        ]
+      },
+      {
+        "id": "futuro-simples",
+        "nameHe": "עתיד רגיל",
+        "namePt": "Futuro simples",
+        "explanation": [
+          {
+            "type": "paragraph",
+            "he": "העתיד הרגיל (futuro do presente) נוצר בהוספת סיומת ישירות למקור הפועל — בלי ir."
+          },
+          {
+            "type": "paragraph",
+            "he": "הסיומות זהות לכל שלוש הקבוצות: Eu ‎-ei · Você/Ele/Ela ‎-á · Nós ‎-emos · Vocês/Eles/Elas ‎-ão"
+          },
+          {
+            "type": "table",
+            "caption": "נטיית עתיד רגיל",
+            "columnLangs": [
+              "label",
+              "pt",
+              "pt",
+              "pt"
+            ],
+            "headers": [
+              "גוף",
+              "jogar (-ar)",
+              "aprender (-er)",
+              "partir (-ir)"
+            ],
+            "rows": [
+              [
+                "Eu",
+                "jogarei",
+                "aprenderei",
+                "partirei"
+              ],
+              [
+                "Você/Ele/Ela",
+                "jogará",
+                "aprenderá",
+                "partirá"
+              ],
+              [
+                "Nós",
+                "jogaremos",
+                "aprenderemos",
+                "partiremos"
+              ],
+              [
+                "Vocês/Eles/Elas",
+                "jogarão",
+                "aprenderão",
+                "partirão"
+              ]
+            ]
+          },
+          {
+            "type": "note",
+            "he": "בברזיל מדוברת משתמשים יותר ב-ir + מקור (עתיד קרוב). העתיד הרגיל נפוץ בשירים, בכתב ובסגנון רשמי."
+          },
+          {
+            "type": "paragraph",
+            "he": "ser, estar ו-dar סדירים כאן: será, estará, dará.\nחריגים: fazer → farei, dizer → direi, trazer → trarei, ter → terei."
+          }
+        ],
+        "examples": [
+          {
+            "pt": "Amanhã jogarei capoeira",
+            "he": "מחר אשחק קפוארה"
+          },
+          {
+            "pt": "Ela aprenderá a música",
+            "he": "היא תלמד את השיר"
+          },
+          {
+            "pt": "Assim sucumbirá a dor",
+            "he": "כך ייכנע הכאב"
+          },
+          {
+            "pt": "Será vital para o seu coração",
+            "he": "זה יהיה חיוני ללב שלך"
+          }
+        ],
+        "sentences": [
+          {
+            "id": "vr-futs-1",
+            "blank_pt": "Amanhã eu ___ capoeira no treino",
+            "answer": "jogarei",
+            "base": "jogar",
+            "translation": "מחר אשחק קפוארה באימון"
+          },
+          {
+            "id": "vr-futs-2",
+            "blank_pt": "Ela ___ português no Brasil",
+            "answer": "aprenderá",
+            "base": "aprender",
+            "translation": "היא תלמד פורטוגזית בברזיל"
+          },
+          {
+            "id": "vr-futs-3",
+            "blank_pt": "Nós ___ juntos amanhã cedo",
+            "answer": "partiremos",
+            "base": "partir",
+            "translation": "נצא ביחד מחר בבוקר"
+          },
+          {
+            "id": "vr-futs-4",
+            "blank_pt": "Eles ___ a música nova",
+            "answer": "cantarão",
+            "base": "cantar",
+            "translation": "הם ישירו את השיר החדש"
+          },
+          {
+            "id": "vr-futs-5",
+            "blank_pt": "Você ___ no fim de semana?",
+            "answer": "treinará",
+            "base": "treinar",
+            "translation": "אתה/את תתאמן/י בסוף שבוע?"
+          },
+          {
+            "id": "vr-futs-6",
+            "blank_pt": "Assim ___ a dor",
+            "answer": "sucumbirá",
+            "base": "sucumbir",
+            "translation": "כך ייכנע הכאב"
+          },
+          {
+            "id": "vr-futs-7",
+            "blank_pt": "Ela ___ no parque amanhã",
+            "answer": "correrá",
+            "base": "correr",
+            "translation": "היא תרוץ בפארק מחר"
+          },
+          {
+            "id": "vr-futs-8",
+            "blank_pt": "Nós ___ a lição juntos",
+            "answer": "aprenderemos",
+            "base": "aprender",
+            "translation": "נלמד את השיעור ביחד"
+          },
+          {
+            "id": "vr-futs-9",
+            "blank_pt": "O mestre ___ um treino especial",
+            "answer": "organizará",
+            "base": "organizar",
+            "translation": "המאסטר יארגן אימון מיוחד"
+          },
+          {
+            "id": "vr-futs-10",
+            "blank_pt": "Eu ___ na roda amanhã",
+            "answer": "cantarei",
+            "base": "cantar",
+            "translation": "אשיר ברודה מחר"
           }
         ]
       },
@@ -3313,6 +3472,14 @@
             "he": "בשילוב עם estar מבטא פעולה מתמשכת."
           },
           {
+            "type": "paragraph",
+            "he": "אפשר גם בלי estar. אז הגרונדיו מתאר את אופן הפעולה — לא זמן מתמשך.\nAgindo assim… — מילולית: \"בפועלך כך…\". בעברית טבעית: אם תפעל כך / בכך שתפעל כך."
+          },
+          {
+            "type": "note",
+            "he": "לא צריך está agindo כשהכוונה היא לאופן שבו נעשית הפעולה, לא ל־progressive."
+          },
+          {
             "type": "table",
             "caption": "נטיית בינוני פועל",
             "columnLangs": [
@@ -3435,6 +3602,13 @@
             "answer": "navegando",
             "instruction": "גרונדיו של navegar",
             "translation": "אני מפליג בעולם"
+          },
+          {
+            "id": "vr-ger-12",
+            "blank_pt": "___ assim, será vital para o seu coração",
+            "answer": "Agindo",
+            "base": "agir",
+            "translation": "אם תפעל כך, זה יהיה חיוני ללב שלך"
           }
         ]
       },
@@ -11465,7 +11639,7 @@
         "explanation": [
           {
             "type": "paragraph",
-            "he": "עתיד של ser ו-estar: ir + ser / ir + estar, בדיוק כמו פעלים סדירים."
+            "he": "עתיד של ser ו-estar: ir + ser / ir + estar, בדיוק כמו פעלים סדירים. לעתיד הרגיל (será, estará) ראו את הלשונית «עתיד רגיל»."
           },
           {
             "type": "table",
@@ -11546,6 +11720,119 @@
             "answer": "vão estar",
             "base": "estar",
             "translation": "הם יהיו מוכנים בשמונה"
+          }
+        ]
+      },
+      {
+        "id": "futuro-simples",
+        "nameHe": "עתיד רגיל",
+        "namePt": "Futuro simples",
+        "explanation": [
+          {
+            "type": "paragraph",
+            "he": "ser ו-estar סדירים בעתיד הרגיל: מוסיפים את הסיומות ‎-ei / ‎-á / ‎-emos / ‎-ão ישירות למקור."
+          },
+          {
+            "type": "table",
+            "caption": "עתיד רגיל — ser לעומת estar",
+            "columnLangs": [
+              "label",
+              "pt",
+              "pt"
+            ],
+            "headers": [
+              "גוף",
+              "ser",
+              "estar"
+            ],
+            "rows": [
+              [
+                "Eu",
+                "serei",
+                "estarei"
+              ],
+              [
+                "Você/Ele/Ela",
+                "será",
+                "estará"
+              ],
+              [
+                "Nós",
+                "seremos",
+                "estaremos"
+              ],
+              [
+                "Vocês/Eles/Elas",
+                "serão",
+                "estarão"
+              ]
+            ]
+          },
+          {
+            "type": "note",
+            "he": "será = הוא/היא/זה יהיה. בשיר: Será vital para o seu coração — זה יהיה חיוני ללב שלך."
+          }
+        ],
+        "examples": [
+          {
+            "pt": "Será vital para o seu coração",
+            "he": "זה יהיה חיוני ללב שלך"
+          },
+          {
+            "pt": "Eu serei mestre um dia",
+            "he": "אהיה מאסטר יום אחד"
+          },
+          {
+            "pt": "Ela estará aqui amanhã",
+            "he": "היא תהיה כאן מחר"
+          },
+          {
+            "pt": "Nós seremos amigos para sempre",
+            "he": "נהיה חברים לתמיד"
+          }
+        ],
+        "sentences": [
+          {
+            "id": "se-futs-1",
+            "blank_pt": "Eu ___ mestre um dia",
+            "answer": "serei",
+            "base": "ser",
+            "translation": "אהיה מאסטר יום אחד"
+          },
+          {
+            "id": "se-futs-2",
+            "blank_pt": "Ela ___ aqui amanhã de manhã",
+            "answer": "estará",
+            "base": "estar",
+            "translation": "היא תהיה כאן מחר בבוקר"
+          },
+          {
+            "id": "se-futs-3",
+            "blank_pt": "Nós ___ campeões",
+            "answer": "seremos",
+            "base": "ser",
+            "translation": "נהיה אלופים"
+          },
+          {
+            "id": "se-futs-4",
+            "blank_pt": "Eles ___ prontos às oito",
+            "answer": "estarão",
+            "base": "estar",
+            "translation": "הם יהיו מוכנים בשמונה"
+          },
+          {
+            "id": "se-futs-5",
+            "blank_pt": "___ vital para o seu coração",
+            "answer": "Será",
+            "base": "ser",
+            "translation": "זה יהיה חיוני ללב שלך"
+          },
+          {
+            "id": "se-futs-6",
+            "blank_pt": "Você ___ um grande jogador",
+            "answer": "será",
+            "base": "ser",
+            "translation": "אתה תהיה שחקן גדול"
           }
         ]
       },

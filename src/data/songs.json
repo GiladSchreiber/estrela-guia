@@ -11565,11 +11565,10 @@
         "marked_words": [
           "Dará"
         ],
-        "topic_id": "verbs-irregular",
-        "label_he": "עתיד — dar: dará (ייתן)",
+        "topic_id": "verbs-regular",
+        "label_he": "עתיד רגיל — dar: dará (ייתן)",
         "is_new": false,
-        "tense_id": "futuro",
-        "verb_id": "dar"
+        "tense_id": "futuro-simples"
       },
       {
         "sentence_pt": "Ai, ai, aidê, joga bonito que eu quero ver",
@@ -12582,6 +12581,409 @@
       {
         "pt": "Que escoava sobre a terra, formando um Quilombo imortal",
         "he": "שזרמה על פני האדמה, ויוצרת קילומבו בן אלמוות"
+      }
+    ]
+  },
+  {
+    "id": "conselho",
+    "title": "Conselho",
+    "type": "popular",
+    "badge": "traditional",
+    "media_url": "https://www.youtube.com/watch?v=0l5OCS3FVzQ",
+    "lyrics": [
+      [
+        {
+          "pt": "Deixe de lado esse baixo astral",
+          "he": "שים בצד את מצב הרוח הרע הזה"
+        },
+        {
+          "pt": "Erga a cabeça",
+          "he": "הרם את הראש"
+        },
+        {
+          "pt": "Enfrente o mal",
+          "he": "התמודד עם הרע"
+        },
+        {
+          "pt": "Que agindo assim",
+          "he": "כי אם תפעל כך"
+        },
+        {
+          "pt": "Será vital para o seu coração",
+          "he": "זה יהיה חיוני ללב שלך"
+        }
+      ],
+      [
+        {
+          "pt": "É que em cada experiência",
+          "he": "העניין הוא שבכל חוויה"
+        },
+        {
+          "pt": "Se aprende uma lição",
+          "he": "לומדים לקח"
+        },
+        {
+          "pt": "Eu já sofri por amar assim",
+          "he": "אני כבר סבלתי מלאהוב כך"
+        },
+        {
+          "pt": "Me dediquei, mas foi tudo em vão",
+          "he": "הקדשתי את עצמי, אבל הכול היה לשווא"
+        }
+      ],
+      [
+        {
+          "pt": "Pra que se lamentar",
+          "he": "בשביל מה להצטער?"
+        },
+        {
+          "pt": "Se em sua vida pode encontrar",
+          "he": "אם בחייך אתה יכול למצוא"
+        },
+        {
+          "pt": "Quem te ame com toda força e ardor",
+          "he": "מישהו שיאהב אותך בכל הכוח והלהט"
+        },
+        {
+          "pt": "Assim sucumbirá a dor (tem que lutar)",
+          "he": "כך ייכנע הכאב (צריך להילחם)"
+        }
+      ],
+      [
+        {
+          "pt": "Tem que lutar",
+          "he": "צריך להילחם"
+        },
+        {
+          "pt": "Não se abater",
+          "he": "לא להישבר"
+        },
+        {
+          "pt": "Só se entregar",
+          "he": "להתמסר רק"
+        },
+        {
+          "pt": "A quem te merecer",
+          "he": "למי שראוי לך"
+        }
+      ],
+      [
+        {
+          "pt": "Não estou dando nem vendendo",
+          "he": "אני לא נותן ולא מוכר"
+        },
+        {
+          "pt": "Como o ditado diz",
+          "he": "כמו שאומר הפתגם"
+        },
+        {
+          "pt": "O meu conselho é pra te ver feliz",
+          "he": "העצה שלי היא כדי לראות אותך מאושר"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Que agindo assim",
+        "marked_words": [
+          "agindo"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "גרונדיו בלי estar — agindo assim (אם תפעל כך / בפועלך כך), מתאר אופן ולא זמן מתמשך",
+        "is_new": true,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "Será vital para o seu coração",
+        "marked_words": [
+          "Será"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "עתיד רגיל — ser: será (יהיה). סיומת ‎-á על המקור, בלי ir",
+        "is_new": true,
+        "tense_id": "futuro-simples"
+      },
+      {
+        "sentence_pt": "Assim sucumbirá a dor",
+        "marked_words": [
+          "sucumbirá"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עתיד רגיל — sucumbir: sucumbirá (ייכנע). אותה סיומת ‎-á על המקור",
+        "is_new": true,
+        "tense_id": "futuro-simples"
+      },
+      {
+        "sentence_pt": "Deixe de lado esse baixo astral",
+        "marked_words": [
+          "Deixe"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי (você) — deixar: deixe. מבוסס על presente do subjuntivo (כמו fale)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Erga a cabeça",
+        "marked_words": [
+          "Erga"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי (você) — erguer: erga. פעלי ‎-er/‎-ir מקבלים ‎-a (כמו coma)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Enfrente o mal",
+        "marked_words": [
+          "Enfrente"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי (você) — enfrentar: enfrente (‎-ar → ‎-e), כמו deixe ו-fale",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Se aprende uma lição",
+        "marked_words": [
+          "Se aprende"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "se סתמי — se aprende (לומדים / נלמד), בלי נושא ספציפי",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Quem te ame com toda força e ardor",
+        "marked_words": [
+          "te"
+        ],
+        "topic_id": "direct-object",
+        "label_he": "כינוי מושא ישיר — te ame (יאהב אותך)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Quem te ame com toda força e ardor",
+        "marked_words": [
+          "ame"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "presente do subjuntivo — quem te ame (מי שיאהב אותך; אותה צורה כמו ציווי você)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Não se abater",
+        "marked_words": [
+          "se abater"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "מקור רפלקסיבי — abater-se: não se abater (לא להישבר)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Não estou dando nem vendendo",
+        "marked_words": [
+          "estou dando"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה מתמשך — estar + gerúndio: estou dando (אני נותן). כאן כן עם estar",
+        "is_new": false,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "Tem que lutar",
+        "marked_words": [
+          "Tem que"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "ter que + מקור — tem que lutar (צריך להילחם)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ter"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "deixe (deixar)",
+        "he": "שים בצד; להשאיר"
+      },
+      {
+        "pt": "baixo astral",
+        "he": "מצב רוח רע, אווירה שלילית"
+      },
+      {
+        "pt": "erga (erguer)",
+        "he": "הרם; להרים"
+      },
+      {
+        "pt": "enfrente (enfrentar)",
+        "he": "התמודד עם"
+      },
+      {
+        "pt": "mal",
+        "he": "רע"
+      },
+      {
+        "pt": "agindo (agir)",
+        "he": "פועל; לפעול"
+      },
+      {
+        "pt": "será (ser)",
+        "he": "יהיה"
+      },
+      {
+        "pt": "vital",
+        "he": "חיוני"
+      },
+      {
+        "pt": "coração",
+        "he": "לב"
+      },
+      {
+        "pt": "experiência",
+        "he": "חוויה, ניסיון"
+      },
+      {
+        "pt": "se aprende (aprender)",
+        "he": "לומדים"
+      },
+      {
+        "pt": "lição",
+        "he": "שיעור, לקח"
+      },
+      {
+        "pt": "sofri (sofrer)",
+        "he": "סבלתי"
+      },
+      {
+        "pt": "amar",
+        "he": "לאהוב"
+      },
+      {
+        "pt": "me dediquei (dedicar-se)",
+        "he": "הקדשתי את עצמי"
+      },
+      {
+        "pt": "em vão",
+        "he": "לשווא"
+      },
+      {
+        "pt": "se lamentar (lamentar-se)",
+        "he": "להצטער, לקונן"
+      },
+      {
+        "pt": "ame (amar)",
+        "he": "יאהב"
+      },
+      {
+        "pt": "força",
+        "he": "כוח"
+      },
+      {
+        "pt": "ardor",
+        "he": "להט, תשוקה"
+      },
+      {
+        "pt": "sucumbirá (sucumbir)",
+        "he": "ייכנע, ייפול"
+      },
+      {
+        "pt": "dor",
+        "he": "כאב"
+      },
+      {
+        "pt": "tem que",
+        "he": "צריך"
+      },
+      {
+        "pt": "lutar",
+        "he": "להילחם"
+      },
+      {
+        "pt": "se abater (abater-se)",
+        "he": "להישבר, להתייאש"
+      },
+      {
+        "pt": "se entregar (entregar-se)",
+        "he": "להתמסר"
+      },
+      {
+        "pt": "merecer",
+        "he": "להיות ראוי ל־"
+      },
+      {
+        "pt": "ditado",
+        "he": "פתגם"
+      },
+      {
+        "pt": "conselho",
+        "he": "עצה"
+      },
+      {
+        "pt": "feliz",
+        "he": "מאושר"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Deixe de lado esse baixo astral",
+        "he": "שים בצד את מצב הרוח הרע הזה"
+      },
+      {
+        "pt": "Erga a cabeça",
+        "he": "הרם את הראש"
+      },
+      {
+        "pt": "Enfrente o mal",
+        "he": "התמודד עם הרע"
+      },
+      {
+        "pt": "Que agindo assim será vital para o seu coração",
+        "he": "כי אם תפעל כך, זה יהיה חיוני ללב שלך"
+      },
+      {
+        "pt": "É que em cada experiência se aprende uma lição",
+        "he": "העניין הוא שבכל חוויה לומדים לקח"
+      },
+      {
+        "pt": "Eu já sofri por amar assim",
+        "he": "אני כבר סבלתי מלאהוב כך"
+      },
+      {
+        "pt": "Me dediquei, mas foi tudo em vão",
+        "he": "הקדשתי את עצמי, אבל הכול היה לשווא"
+      },
+      {
+        "pt": "Pra que se lamentar",
+        "he": "בשביל מה להצטער?"
+      },
+      {
+        "pt": "Quem te ame com toda força e ardor",
+        "he": "מישהו שיאהב אותך בכל הכוח והלהט"
+      },
+      {
+        "pt": "Assim sucumbirá a dor",
+        "he": "כך ייכנע הכאב"
+      },
+      {
+        "pt": "Tem que lutar, não se abater",
+        "he": "צריך להילחם, לא להישבר"
+      },
+      {
+        "pt": "Só se entregar a quem te merecer",
+        "he": "להתמסר רק למי שראוי לך"
+      },
+      {
+        "pt": "Não estou dando nem vendendo",
+        "he": "אני לא נותן ולא מוכר"
+      },
+      {
+        "pt": "Como o ditado diz",
+        "he": "כמו שאומר הפתגם"
+      },
+      {
+        "pt": "O meu conselho é pra te ver feliz",
+        "he": "העצה שלי היא כדי לראות אותך מאושר"
       }
     ]
   }
