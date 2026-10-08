@@ -12986,5 +12986,1005 @@
         "he": "העצה שלי היא כדי לראות אותך מאושר"
       }
     ]
+  },
+  {
+    "id": "berimbau-tocou",
+    "title": "Berimbau Tocou",
+    "type": "capoeira",
+    "media_url": "https://open.spotify.com/track/2u1EK18Ct9pvyYetu3IM1N",
+    "lyrics": [
+      [
+        {
+          "pt": "Que bom estar com você",
+          "he": "כמה טוב להיות איתך"
+        },
+        {
+          "pt": "Aqui nessa roda",
+          "he": "כאן ברוֹדה הזאת"
+        },
+        {
+          "pt": "Com esse conjunto",
+          "he": "עם החבורה הזאת"
+        },
+        {
+          "pt": "Bahia axé, axé Bahia",
+          "he": "באהיה אַשֶׁה, אַשֶׁה באהיה"
+        },
+        {
+          "pt": "Bahia axé, axé Bahia",
+          "he": "באהיה אַשֶׁה, אַשֶׁה באהיה"
+        }
+      ],
+      [
+        {
+          "pt": "io io io io io io io io",
+          "he": "יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ"
+        },
+        {
+          "pt": "io io io io io io io io",
+          "he": "יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ"
+        },
+        {
+          "pt": "io io io io io io io io",
+          "he": "יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ"
+        },
+        {
+          "pt": "io io io io io io io io",
+          "he": "יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ יוֹ"
+        }
+      ],
+      [
+        {
+          "pt": "Os ventos",
+          "he": "הרוחות"
+        },
+        {
+          "pt": "que sopram tão lindos",
+          "he": "שנושבות כה יפות"
+        },
+        {
+          "pt": "sobre os coqueirais",
+          "he": "מעל עצי הקוקוס"
+        },
+        {
+          "pt": "isso é demais",
+          "he": "זה פשוט מדהים"
+        },
+        {
+          "pt": "Bahia axé, axé Bahia",
+          "he": "באהיה אַשֶׁה, אַשֶׁה באהיה"
+        },
+        {
+          "pt": "Bahia axé, axé Bahia",
+          "he": "באהיה אַשֶׁה, אַשֶׁה באהיה"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Que bom estar com você",
+        "marked_words": [
+          "você"
+        ],
+        "topic_id": "prepositional-pronouns",
+        "label_he": "כינוי אחרי מילת יחס — com você (איתך)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Aqui nessa roda",
+        "marked_words": [
+          "nessa"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כיווץ עם רמז — nessa = em + essa (בזאת)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Com esse conjunto",
+        "marked_words": [
+          "esse"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כינוי רמז — esse (זה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "que sopram tão lindos",
+        "marked_words": [
+          "sopram"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — soprar: sopram (נושבות)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "que sopram tão lindos",
+        "marked_words": [
+          "lindos"
+        ],
+        "topic_id": "adjectives",
+        "label_he": "שם תואר — התאמת מין ומספר: lindos (יפים)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "sobre os coqueirais",
+        "marked_words": [
+          "coqueirais"
+        ],
+        "topic_id": "plurals",
+        "label_he": "רבים — coqueiral → coqueirais (סיומת ‎-al → ‎-ais)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "isso é demais",
+        "marked_words": [
+          "isso"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כינוי רמז סתמי — isso (זה / הדבר הזה)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "bom",
+        "he": "טוב"
+      },
+      {
+        "pt": "estar",
+        "he": "להיות (מצב / הימצאות)"
+      },
+      {
+        "pt": "você",
+        "he": "אתה / את"
+      },
+      {
+        "pt": "aqui",
+        "he": "כאן, פה"
+      },
+      {
+        "pt": "roda",
+        "he": "מעגל (הרוֹדה של הקפואירה)"
+      },
+      {
+        "pt": "conjunto",
+        "he": "חבורה, קבוצה, הרכב"
+      },
+      {
+        "pt": "axé",
+        "he": "אַשֶׁה (אנרגיה רוחנית, ברכה; מילה ממוצא יורובה)"
+      },
+      {
+        "pt": "Bahia",
+        "he": "באהיה (מדינה בברזיל, ערש הקפואירה)"
+      },
+      {
+        "pt": "vento",
+        "he": "רוח"
+      },
+      {
+        "pt": "soprar",
+        "he": "לנשוב, לנשוף"
+      },
+      {
+        "pt": "tão",
+        "he": "כה, כל כך"
+      },
+      {
+        "pt": "lindo",
+        "he": "יפהפה, מקסים"
+      },
+      {
+        "pt": "sobre",
+        "he": "מעל, על"
+      },
+      {
+        "pt": "coqueiral",
+        "he": "חורשת עצי קוקוס"
+      },
+      {
+        "pt": "isso",
+        "he": "זה, הדבר הזה"
+      },
+      {
+        "pt": "demais",
+        "he": "יותר מדי; כאן: אדיר, מדהים"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Que bom estar com você",
+        "he": "כמה טוב להיות איתך"
+      },
+      {
+        "pt": "Aqui nessa roda com esse conjunto",
+        "he": "כאן ברוֹדה הזאת עם החבורה הזאת"
+      },
+      {
+        "pt": "Os ventos que sopram tão lindos",
+        "he": "הרוחות שנושבות כה יפות"
+      },
+      {
+        "pt": "Sobre os coqueirais, isso é demais",
+        "he": "מעל עצי הקוקוס, זה פשוט מדהים"
+      }
+    ]
+  },
+  {
+    "id": "dona-isabel",
+    "title": "Dona Isabel",
+    "type": "capoeira",
+    "badge": "ladainha",
+    "lyrics": [
+      [
+        {
+          "pt": "Código Penal da República dos Estados Unidos do Brasil",
+          "he": "החוק הפלילי של רפובליקת ארצות הברית של ברזיל"
+        },
+        {
+          "pt": "Decreto número 847",
+          "he": "צו מספר 847"
+        },
+        {
+          "pt": "De 11 de outubro de 1890",
+          "he": "מ־11 באוקטובר 1890"
+        },
+        {
+          "pt": "Capítulo 13",
+          "he": "פרק 13"
+        },
+        {
+          "pt": "Dos vadios e capoeiras",
+          "he": "על הנוודים, הבטלנים והקפואריסטים"
+        }
+      ],
+      [
+        {
+          "pt": "Artigo 402",
+          "he": "סעיף 402"
+        },
+        {
+          "pt": "Fazer nas ruas e praças públicas",
+          "he": "לבצע ברחובות ובכיכרות ציבוריות"
+        },
+        {
+          "pt": "Exercícios de agilidade e destreza corporal",
+          "he": "תרגילים של זריזות ומיומנות גופנית"
+        },
+        {
+          "pt": "Conhecido pela denominação \"Capoeiragem\"",
+          "he": "המוכרים בשם \"קפוארז'ם\""
+        },
+        {
+          "pt": "Andar em correrias com armas e instrumentos",
+          "he": "להתרוצץ כשברשותם כלי נשק ומכשירים"
+        },
+        {
+          "pt": "Capazes de produzir lesão corporal",
+          "he": "המסוגלים לגרום לפגיעה גופנית"
+        },
+        {
+          "pt": "Provocando tumulto ou desordem",
+          "he": "תוך גרימת מהומה או הפרת סדר"
+        },
+        {
+          "pt": "Ameaçando pessoa certa ou incerta",
+          "he": "תוך איום על אדם מסוים או בלתי מסוים"
+        },
+        {
+          "pt": "Ou incutindo temor de algum mal",
+          "he": "או תוך הטלת פחד מפני פגיעה כלשהי"
+        },
+        {
+          "pt": "Pena: De prisão celular de 2 a 6 meses",
+          "he": "עונש: מאסר בתא כלא למשך חודשיים עד שישה חודשים"
+        }
+      ],
+      [
+        {
+          "pt": "Parágrafo único",
+          "he": "פסקה יחידה"
+        },
+        {
+          "pt": "É considerável circunstância agravante",
+          "he": "נסיבה מחמירה תיחשב"
+        },
+        {
+          "pt": "Pertencer o capoeira a algum bando ou malta",
+          "he": "השתייכותו של הקפואריסט לחבורה או לכנופיה"
+        },
+        {
+          "pt": "Aos chefes ou cabeças",
+          "he": "על המנהיגים או ראשי הכנופיות"
+        },
+        {
+          "pt": "Se em porá pena em dobro",
+          "he": "יוטל עונש כפול"
+        }
+      ],
+      [
+        {
+          "pt": "Dona Isabel, que história é essa?",
+          "he": "דונה איזבל, מה זה הסיפור הזה?"
+        },
+        {
+          "pt": "Dona Isabel, que história é essa?",
+          "he": "דונה איזבל, מה זה הסיפור הזה?"
+        },
+        {
+          "pt": "Oi, ai, ai!",
+          "he": "אוי, איי, איי!"
+        },
+        {
+          "pt": "De ter feito abolição?",
+          "he": "שאת זו שביטלת את העבדות?"
+        },
+        {
+          "pt": "De ser princesa boazinha que libertou a escravidão",
+          "he": "שאת נסיכה טובת לב ששחררה את העבדים?"
+        },
+        {
+          "pt": "Tô cansado de conversa",
+          "he": "נמאס לי מדיבורים"
+        },
+        {
+          "pt": "Tô cansado de ilusão",
+          "he": "נמאס לי מאשליות"
+        }
+      ],
+      [
+        {
+          "pt": "Abolição se fez com sangue",
+          "he": "ביטול העבדות הושג בדם"
+        },
+        {
+          "pt": "Que inundava este país",
+          "he": "שהציף את הארץ הזאת"
+        },
+        {
+          "pt": "Que o negro transformou em luta",
+          "he": "ושהאדם השחור הפך למאבק"
+        },
+        {
+          "pt": "Cansado de ser infeliz",
+          "he": "לאחר שנמאס לו להיות אומלל"
+        }
+      ],
+      [
+        {
+          "pt": "Abolição se fez bem antes",
+          "he": "ביטול העבדות התרחש הרבה קודם"
+        },
+        {
+          "pt": "E ainda há por se fazer agora",
+          "he": "ועדיין יש מה לעשות כדי להשלים אותו גם היום"
+        },
+        {
+          "pt": "Com a verdade da favela",
+          "he": "עם האמת של הפאבלה"
+        },
+        {
+          "pt": "E não com a mentira da escola",
+          "he": "ולא עם השקר שמלמדים בבית הספר"
+        }
+      ],
+      [
+        {
+          "pt": "Dona Isabel, chegou a hora",
+          "he": "דונה איזבל, הגיע הזמן"
+        },
+        {
+          "pt": "De se acabar com essa maldade",
+          "he": "לשים סוף לרוע הזה"
+        },
+        {
+          "pt": "De se ensinar aos nossos filhos",
+          "he": "ללמד את ילדינו"
+        },
+        {
+          "pt": "O quanto custa a liberdade",
+          "he": "כמה עולה החירות"
+        }
+      ],
+      [
+        {
+          "pt": "Viva Zumbi, nosso rei negro",
+          "he": "יחי זומבי, המלך השחור שלנו"
+        },
+        {
+          "pt": "Que fez-se herói lá em Palmares",
+          "he": "שהפך לגיבור שם בפלמארס"
+        },
+        {
+          "pt": "Viva a cultura desse povo",
+          "he": "תחי התרבות של העם הזה"
+        },
+        {
+          "pt": "A liberdade verdadeira",
+          "he": "החירות האמיתית"
+        },
+        {
+          "pt": "Que já corria nos Quilombos",
+          "he": "שכבר זרמה בקילומבוס"
+        },
+        {
+          "pt": "E já jogava capoeira",
+          "he": "וכבר שיחקה קפוארה"
+        }
+      ],
+      [
+        {
+          "pt": "Iê! Viva Zumbi",
+          "he": "אִיֵה! יחי זומבי!"
+        },
+        {
+          "pt": "Iêê Viva Zumbi, Camará",
+          "he": "אִיֵה! יחי זומבי, חברי!"
+        },
+        {
+          "pt": "Iê! Rei de Palmares",
+          "he": "אִיֵה! מלך פלמארס!"
+        },
+        {
+          "pt": "Iêê Rei de Palmares, Camará",
+          "he": "אִיֵה! מלך פלמארס, חברי!"
+        },
+        {
+          "pt": "Iê! Libertador",
+          "he": "אִיֵה! המשחרר!"
+        },
+        {
+          "pt": "Iêê Libertador, Camará",
+          "he": "אִיֵה! המשחרר, חברי!"
+        },
+        {
+          "pt": "Iê! Viva Meu Mestre",
+          "he": "אִיֵה! יחי המאסטר שלי!"
+        },
+        {
+          "pt": "Iêê Viva Meu Mestre, Camará",
+          "he": "אִיֵה! יחי המאסטר שלי, חברי!"
+        },
+        {
+          "pt": "Iê! Quem me ensinou",
+          "he": "אִיֵה! מי שלימד אותי!"
+        },
+        {
+          "pt": "Iêê quem me ensinou, Camará",
+          "he": "אִיֵה! מי שלימד אותי, חברי!"
+        },
+        {
+          "pt": "Iê! A Capoeira",
+          "he": "אִיֵה! הקפוארה!"
+        },
+        {
+          "pt": "Iêê a Capoeira, Camará",
+          "he": "אִיֵה! הקפוארה, חברי!"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "De ter feito abolição?",
+        "marked_words": [
+          "ter feito"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "אינפיניטיב מורכב — ter + feito (fazer): לעשות דבר שכבר הושלם",
+        "is_new": true,
+        "tense_id": "participio",
+        "verb_id": "fazer"
+      },
+      {
+        "sentence_pt": "Tô cansado de conversa",
+        "marked_words": [
+          "Tô"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "estar במדוברת — tô = estou (אני)",
+        "is_new": true,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Abolição se fez com sangue",
+        "marked_words": [
+          "se fez"
+        ],
+        "topic_id": "passive",
+        "label_he": "סביל עם se — se fez (נעשה / הושג)",
+        "is_new": true,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "E ainda há por se fazer agora",
+        "marked_words": [
+          "há"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "haver + por + שם פועל — há por se fazer (יש עוד מה לעשות)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "haver"
+      },
+      {
+        "sentence_pt": "O quanto custa a liberdade",
+        "marked_words": [
+          "custa"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — custar: custa (עולה / דורש)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "De ser princesa boazinha que libertou a escravidão",
+        "marked_words": [
+          "libertou"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — libertar: libertou (שחררה)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "De ser princesa boazinha que libertou a escravidão",
+        "marked_words": [
+          "boazinha"
+        ],
+        "topic_id": "diminutives",
+        "label_he": "הקטנה — boa → boazinha (טובה, נחמדונת)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Que inundava este país",
+        "marked_words": [
+          "inundava"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר לא־מושלם — inundar: inundava (הציף / היה מציף)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Que inundava este país",
+        "marked_words": [
+          "este"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כינוי רמז — este país (הארץ הזאת)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Ameaçando pessoa certa ou incerta",
+        "marked_words": [
+          "Ameaçando"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "גרונדיו — ameaçar: ameaçando (תוך איום)",
+        "is_new": false,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "Ou incutindo temor de algum mal",
+        "marked_words": [
+          "incutindo"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "גרונדיו — incutir: incutindo (תוך הטלה)",
+        "is_new": false,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "De se ensinar aos nossos filhos",
+        "marked_words": [
+          "nossos"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — nossos filhos (ילדינו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "De se ensinar aos nossos filhos",
+        "marked_words": [
+          "aos"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — aos = a + os (אל ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Viva a cultura desse povo",
+        "marked_words": [
+          "desse"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כיווץ עם רמז — desse = de + esse (של זה)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Que fez-se herói lá em Palmares",
+        "marked_words": [
+          "fez-se"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "fazer-se — fez-se herói (הפך לגיבור)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "De se acabar com essa maldade",
+        "marked_words": [
+          "se acabar"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "se סתמי — de se acabar (לשים קץ / שייגמר)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Que já corria nos Quilombos",
+        "marked_words": [
+          "corria"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר לא־מושלם — correr: corria (זרמה / רצה)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "E já jogava capoeira",
+        "marked_words": [
+          "jogava"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר לא־מושלם — jogar: jogava (שיחקה / היתה משחקת)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Iê! Quem me ensinou",
+        "marked_words": [
+          "me"
+        ],
+        "topic_id": "indirect-object",
+        "label_he": "כינוי מושא עקיף — me ensinou (לימד אותי)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "decreto",
+        "he": "צו, גזֵרה"
+      },
+      {
+        "pt": "vadio",
+        "he": "בטלן, משוטט"
+      },
+      {
+        "pt": "praça",
+        "he": "כיכר, רחבה"
+      },
+      {
+        "pt": "público",
+        "he": "ציבורי"
+      },
+      {
+        "pt": "exercício",
+        "he": "תרגיל, אימון"
+      },
+      {
+        "pt": "agilidade",
+        "he": "זריזות"
+      },
+      {
+        "pt": "destreza",
+        "he": "מיומנות"
+      },
+      {
+        "pt": "corporal",
+        "he": "גופני"
+      },
+      {
+        "pt": "denominação",
+        "he": "כינוי, שם"
+      },
+      {
+        "pt": "correria",
+        "he": "ריצה מבוהלת, מרוצה"
+      },
+      {
+        "pt": "arma",
+        "he": "נשק"
+      },
+      {
+        "pt": "instrumento",
+        "he": "מכשיר, כלי"
+      },
+      {
+        "pt": "capaz",
+        "he": "מסוגל"
+      },
+      {
+        "pt": "produzir",
+        "he": "לייצר, לגרום"
+      },
+      {
+        "pt": "lesão",
+        "he": "פציעה, פגיעה"
+      },
+      {
+        "pt": "provocar",
+        "he": "לעורר, לגרום"
+      },
+      {
+        "pt": "tumulto",
+        "he": "מהומה"
+      },
+      {
+        "pt": "desordem",
+        "he": "אי־סדר, מהומה"
+      },
+      {
+        "pt": "ameaçar",
+        "he": "לאיים"
+      },
+      {
+        "pt": "pessoa",
+        "he": "אדם, אישיות"
+      },
+      {
+        "pt": "certo / incerto",
+        "he": "ודאי / בלתי ודאי"
+      },
+      {
+        "pt": "incutir",
+        "he": "להחדיר, להטיל (פחד)"
+      },
+      {
+        "pt": "temor",
+        "he": "פחד, חשש"
+      },
+      {
+        "pt": "mal",
+        "he": "רע, נזק, פגיעה"
+      },
+      {
+        "pt": "pena",
+        "he": "עונש"
+      },
+      {
+        "pt": "prisão",
+        "he": "מאסר, כלא"
+      },
+      {
+        "pt": "agravante",
+        "he": "נסיבה מחמירה"
+      },
+      {
+        "pt": "pertencer",
+        "he": "להשתייך, להיות שייך"
+      },
+      {
+        "pt": "bando",
+        "he": "חבורה, להקה"
+      },
+      {
+        "pt": "malta",
+        "he": "כנופיה, חבורה"
+      },
+      {
+        "pt": "chefe",
+        "he": "מנהיג, ראש"
+      },
+      {
+        "pt": "dobro",
+        "he": "כפול, פי שניים"
+      },
+      {
+        "pt": "história",
+        "he": "סיפור, היסטוריה"
+      },
+      {
+        "pt": "abolição",
+        "he": "ביטול (העבדות)"
+      },
+      {
+        "pt": "princesa",
+        "he": "נסיכה"
+      },
+      {
+        "pt": "boazinha",
+        "he": "טובת לב, נחמדונת (הקטנה של boa)"
+      },
+      {
+        "pt": "libertar",
+        "he": "לשחרר"
+      },
+      {
+        "pt": "escravidão",
+        "he": "עבדות"
+      },
+      {
+        "pt": "cansado",
+        "he": "עייף; נמאס (estar cansado de — נמאס מ...)"
+      },
+      {
+        "pt": "conversa",
+        "he": "שיחה, דיבורים"
+      },
+      {
+        "pt": "ilusão",
+        "he": "אשליה"
+      },
+      {
+        "pt": "sangue",
+        "he": "דם"
+      },
+      {
+        "pt": "inundar",
+        "he": "להציף"
+      },
+      {
+        "pt": "país",
+        "he": "ארץ, מדינה"
+      },
+      {
+        "pt": "negro",
+        "he": "שחור; אדם שחור"
+      },
+      {
+        "pt": "transformar",
+        "he": "להפוך, לשנות"
+      },
+      {
+        "pt": "luta",
+        "he": "מאבק, קרב"
+      },
+      {
+        "pt": "infeliz",
+        "he": "אומלל, לא מאושר"
+      },
+      {
+        "pt": "ainda",
+        "he": "עדיין"
+      },
+      {
+        "pt": "verdade",
+        "he": "אמת"
+      },
+      {
+        "pt": "favela",
+        "he": "פאבלה (שכונת עוני)"
+      },
+      {
+        "pt": "mentira",
+        "he": "שקר"
+      },
+      {
+        "pt": "escola",
+        "he": "בית ספר"
+      },
+      {
+        "pt": "hora",
+        "he": "שעה, זמן; chegou a hora — הגיע הזמן"
+      },
+      {
+        "pt": "acabar",
+        "he": "לגמור, לשים סוף"
+      },
+      {
+        "pt": "maldade",
+        "he": "רוע, רשעות"
+      },
+      {
+        "pt": "ensinar",
+        "he": "ללמד"
+      },
+      {
+        "pt": "filho",
+        "he": "בן, ילד"
+      },
+      {
+        "pt": "o quanto",
+        "he": "כמה, עד כמה"
+      },
+      {
+        "pt": "custar",
+        "he": "לעלות (במחיר), לדרוש הקרבה"
+      },
+      {
+        "pt": "liberdade",
+        "he": "חירות, חופש"
+      },
+      {
+        "pt": "viva",
+        "he": "יחי, תחי"
+      },
+      {
+        "pt": "rei",
+        "he": "מלך"
+      },
+      {
+        "pt": "herói",
+        "he": "גיבור"
+      },
+      {
+        "pt": "cultura",
+        "he": "תרבות"
+      },
+      {
+        "pt": "povo",
+        "he": "עם"
+      },
+      {
+        "pt": "verdadeiro",
+        "he": "אמיתי"
+      },
+      {
+        "pt": "correr",
+        "he": "לרוץ, לזרום"
+      },
+      {
+        "pt": "libertador",
+        "he": "משחרר"
+      },
+      {
+        "pt": "camará",
+        "he": "חבר, בן ברית (camarada)"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Dona Isabel, que história é essa?",
+        "he": "דונה איזבל, מה זה הסיפור הזה?"
+      },
+      {
+        "pt": "De ter feito abolição?",
+        "he": "שאת זו שביטלת את העבדות?"
+      },
+      {
+        "pt": "De ser princesa boazinha que libertou a escravidão",
+        "he": "שאת נסיכה טובת לב ששחררה את העבדים?"
+      },
+      {
+        "pt": "Tô cansado de conversa, tô cansado de ilusão",
+        "he": "נמאס לי מדיבורים, נמאס לי מאשליות"
+      },
+      {
+        "pt": "Abolição se fez com sangue que inundava este país",
+        "he": "ביטול העבדות הושג בדם שהציף את הארץ הזאת"
+      },
+      {
+        "pt": "Que o negro transformou em luta",
+        "he": "ושהאדם השחור הפך למאבק"
+      },
+      {
+        "pt": "E ainda há por se fazer agora",
+        "he": "ועדיין יש מה לעשות גם היום"
+      },
+      {
+        "pt": "Com a verdade da favela, e não com a mentira da escola",
+        "he": "עם האמת של הפאבלה, ולא עם השקר של בית הספר"
+      },
+      {
+        "pt": "Dona Isabel, chegou a hora",
+        "he": "דונה איזבל, הגיע הזמן"
+      },
+      {
+        "pt": "De se ensinar aos nossos filhos o quanto custa a liberdade",
+        "he": "ללמד את ילדינו כמה עולה החירות"
+      },
+      {
+        "pt": "Viva Zumbi, nosso rei negro",
+        "he": "יחי זומבי, המלך השחור שלנו"
+      },
+      {
+        "pt": "Que fez-se herói lá em Palmares",
+        "he": "שהפך לגיבור שם בפלמארס"
+      },
+      {
+        "pt": "Que já corria nos Quilombos e já jogava capoeira",
+        "he": "שכבר זרמה בקילומבוס וכבר שיחקה קפוארה"
+      }
+    ]
   }
 ]
