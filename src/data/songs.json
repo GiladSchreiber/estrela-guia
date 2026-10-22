@@ -13986,5 +13986,433 @@
         "he": "שכבר זרמה בקילומבוס וכבר שיחקה קפוארה"
       }
     ]
+  },
+  {
+    "id": "camarao-que-dorme",
+    "title": "Camarão que dorme, a onda leva",
+    "type": "popular",
+    "media_url": "https://open.spotify.com/track/5a8O0CAraAuR4iLZXg0s46",
+    "lyrics": [
+      [
+        {
+          "pt": "Não pense que meu coração",
+          "he": "אל תחשוב שהלב שלי"
+        },
+        {
+          "pt": "Não pense que meu coração é de papel",
+          "he": "אל תחשוב שהלב שלי עשוי מנייר"
+        },
+        {
+          "pt": "Não brinque com o meu interior",
+          "he": "אל תשחק עם הרגשות שלי"
+        },
+        {
+          "pt": "Camarão que dorme, a onda leva",
+          "he": "חסילון שנרדם — הגל סוחף אותו"
+        },
+        {
+          "pt": "Hoje é dia da caça, amanhã do caçador",
+          "he": "היום יומו של הניצוד, מחר של הצייד"
+        }
+      ],
+      [
+        {
+          "pt": "Não quero que nosso amor acabe assim",
+          "he": "אני לא רוצה שהאהבה שלנו תיגמר ככה"
+        },
+        {
+          "pt": "Um coração quando ama é sempre amigo",
+          "he": "לב שאוהב הוא תמיד ידיד"
+        },
+        {
+          "pt": "Só não faça gato e sapato de mim",
+          "he": "רק אל תעשה ממני מרמס"
+        },
+        {
+          "pt": "Pois aquele que dá pão, também dá castigo",
+          "he": "כי מי שנותן לחם, גם נותן עונש"
+        }
+      ],
+      [
+        {
+          "pt": "Não veja meu sentimento com desdém",
+          "he": "אל תראה את רגשותיי בבוז"
+        },
+        {
+          "pt": "Enquanto o bem existir, o mal tem cura",
+          "he": "כל עוד הטוב קיים, לרע יש תרופה"
+        },
+        {
+          "pt": "A pedra é muito forte, mas tem um porém, meu bem",
+          "he": "האבן חזקה מאוד, אבל יש בה פגם אחד, יקירתי"
+        },
+        {
+          "pt": "A água tanto bate até que fura",
+          "he": "המים מכים שוב ושוב עד שהם מנקבים אותה"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Não pense que meu coração é de papel",
+        "marked_words": [
+          "Não pense"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי שלילי (סוביונטיבו) — pensar: não pense (אל תחשוב)",
+        "is_new": true,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "Não brinque com o meu interior",
+        "marked_words": [
+          "meu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu interior (הפנימיות שלי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Camarão que dorme, a onda leva",
+        "marked_words": [
+          "dorme"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — dormir: dorme (ישן / נרדם)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "dormir"
+      },
+      {
+        "sentence_pt": "Hoje é dia da caça, amanhã do caçador",
+        "marked_words": [
+          "da",
+          "do"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — da / do = de + a / o (של ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Não quero que nosso amor acabe assim",
+        "marked_words": [
+          "quero",
+          "acabe"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "querer que + סוביונטיבו — quero que... acabe (רוצה ש...ייגמר)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "querer"
+      },
+      {
+        "sentence_pt": "Não quero que nosso amor acabe assim",
+        "marked_words": [
+          "nosso"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — nosso amor (האהבה שלנו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Um coração quando ama é sempre amigo",
+        "marked_words": [
+          "ama"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — amar: ama (אוהב)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Só não faça gato e sapato de mim",
+        "marked_words": [
+          "faça"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "ציווי שלילי — fazer: não faça (אל תעשה)",
+        "is_new": true,
+        "tense_id": "imperativo",
+        "verb_id": "fazer"
+      },
+      {
+        "sentence_pt": "Só não faça gato e sapato de mim",
+        "marked_words": [
+          "mim"
+        ],
+        "topic_id": "prepositional-pronouns",
+        "label_he": "כינוי אחרי מילת יחס — de mim (ממני)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Pois aquele que dá pão, também dá castigo",
+        "marked_words": [
+          "dá"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — dar: dá (נותן)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "dar"
+      },
+      {
+        "sentence_pt": "Pois aquele que dá pão, também dá castigo",
+        "marked_words": [
+          "aquele"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כינוי רמז — aquele (ההוא / מי ש...)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Não veja meu sentimento com desdém",
+        "marked_words": [
+          "veja"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "ציווי שלילי — ver: não veja (אל תראה)",
+        "is_new": true,
+        "tense_id": "imperativo",
+        "verb_id": "ver"
+      },
+      {
+        "sentence_pt": "Enquanto o bem existir, o mal tem cura",
+        "marked_words": [
+          "tem"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "ter — tem cura (יש לו תרופה / ניתן לריפוי)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "A pedra é muito forte, mas tem um porém, meu bem",
+        "marked_words": [
+          "muito"
+        ],
+        "topic_id": "adverbs",
+        "label_he": "תואר הפועל — muito forte (חזקה מאוד)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "A água tanto bate até que fura",
+        "marked_words": [
+          "fura"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — furar: fura (מנקב / קודח)",
+        "is_new": false,
+        "tense_id": "presente"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "pensar",
+        "he": "לחשוב"
+      },
+      {
+        "pt": "coração",
+        "he": "לב"
+      },
+      {
+        "pt": "papel",
+        "he": "נייר; תפקיד"
+      },
+      {
+        "pt": "brincar",
+        "he": "לשחק, להתלוצץ"
+      },
+      {
+        "pt": "interior",
+        "he": "פנים, פנימיות; רגשות"
+      },
+      {
+        "pt": "camarão",
+        "he": "חסילון, שרימפ"
+      },
+      {
+        "pt": "dormir",
+        "he": "לישון, להירדם"
+      },
+      {
+        "pt": "onda",
+        "he": "גל"
+      },
+      {
+        "pt": "levar",
+        "he": "לקחת, לשאת, לסחוף"
+      },
+      {
+        "pt": "hoje",
+        "he": "היום"
+      },
+      {
+        "pt": "caça",
+        "he": "ציד; הניצוד, הטרף"
+      },
+      {
+        "pt": "amanhã",
+        "he": "מחר"
+      },
+      {
+        "pt": "caçador",
+        "he": "צייד"
+      },
+      {
+        "pt": "querer",
+        "he": "לרצות"
+      },
+      {
+        "pt": "amor",
+        "he": "אהבה"
+      },
+      {
+        "pt": "acabar",
+        "he": "להיגמר, לסיים"
+      },
+      {
+        "pt": "assim",
+        "he": "ככה, כך"
+      },
+      {
+        "pt": "amar",
+        "he": "לאהוב"
+      },
+      {
+        "pt": "sempre",
+        "he": "תמיד"
+      },
+      {
+        "pt": "amigo",
+        "he": "חבר, ידיד"
+      },
+      {
+        "pt": "fazer gato e sapato de alguém",
+        "he": "להתעלל במישהו, לעשות ממנו מרמס (ביטוי)"
+      },
+      {
+        "pt": "pão",
+        "he": "לחם"
+      },
+      {
+        "pt": "também",
+        "he": "גם, כמו כן"
+      },
+      {
+        "pt": "dar",
+        "he": "לתת"
+      },
+      {
+        "pt": "castigo",
+        "he": "עונש"
+      },
+      {
+        "pt": "sentimento",
+        "he": "רגש, תחושה"
+      },
+      {
+        "pt": "desdém",
+        "he": "בוז, זלזול"
+      },
+      {
+        "pt": "enquanto",
+        "he": "כל עוד, בזמן ש..."
+      },
+      {
+        "pt": "bem",
+        "he": "טוב; (meu bem) יקירי / יקירתי"
+      },
+      {
+        "pt": "existir",
+        "he": "להתקיים"
+      },
+      {
+        "pt": "mal",
+        "he": "רע"
+      },
+      {
+        "pt": "cura",
+        "he": "תרופה, ריפוי"
+      },
+      {
+        "pt": "pedra",
+        "he": "אבן"
+      },
+      {
+        "pt": "forte",
+        "he": "חזק"
+      },
+      {
+        "pt": "porém",
+        "he": "אבל, אולם; um porém — פגם, מגרעת"
+      },
+      {
+        "pt": "água",
+        "he": "מים"
+      },
+      {
+        "pt": "tanto",
+        "he": "כל כך, כה הרבה"
+      },
+      {
+        "pt": "bater",
+        "he": "להכות, לדפוק"
+      },
+      {
+        "pt": "furar",
+        "he": "לנקב, לקדוח, לחורר"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Não pense que meu coração é de papel",
+        "he": "אל תחשוב שהלב שלי עשוי מנייר"
+      },
+      {
+        "pt": "Não brinque com o meu interior",
+        "he": "אל תשחק עם הרגשות שלי"
+      },
+      {
+        "pt": "Camarão que dorme, a onda leva",
+        "he": "חסילון שנרדם — הגל סוחף אותו"
+      },
+      {
+        "pt": "Hoje é dia da caça, amanhã do caçador",
+        "he": "היום יומו של הניצוד, מחר של הצייד"
+      },
+      {
+        "pt": "Não quero que nosso amor acabe assim",
+        "he": "אני לא רוצה שהאהבה שלנו תיגמר ככה"
+      },
+      {
+        "pt": "Um coração quando ama é sempre amigo",
+        "he": "לב שאוהב הוא תמיד ידיד"
+      },
+      {
+        "pt": "Só não faça gato e sapato de mim",
+        "he": "רק אל תעשה ממני מרמס"
+      },
+      {
+        "pt": "Pois aquele que dá pão, também dá castigo",
+        "he": "כי מי שנותן לחם, גם נותן עונש"
+      },
+      {
+        "pt": "Não veja meu sentimento com desdém",
+        "he": "אל תראה את רגשותיי בבוז"
+      },
+      {
+        "pt": "Enquanto o bem existir, o mal tem cura",
+        "he": "כל עוד הטוב קיים, לרע יש תרופה"
+      },
+      {
+        "pt": "A pedra é muito forte, mas tem um porém",
+        "he": "האבן חזקה מאוד, אבל יש בה פגם אחד"
+      },
+      {
+        "pt": "A água tanto bate até que fura",
+        "he": "המים מכים שוב ושוב עד שהם מנקבים"
+      }
+    ]
   }
 ]
