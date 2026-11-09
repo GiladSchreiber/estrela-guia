@@ -14872,5 +14872,360 @@
         "he": "השמש של השחר שלי — זה את"
       }
     ]
+  },
+  {
+    "id": "acreditar",
+    "title": "Acreditar",
+    "type": "popular",
+    "media_url": "https://www.youtube.com/watch?v=E8v0H86EIF8",
+    "lyrics": [
+      [
+        {
+          "pt": "Acreditar, eu não",
+          "he": "להאמין מחדש? אני? לא"
+        },
+        {
+          "pt": "Recomeçar, jamais",
+          "he": "להתחיל מחדש? לעולם לא"
+        },
+        {
+          "pt": "A vida foi em frente",
+          "he": "החיים המשיכו קדימה"
+        },
+        {
+          "pt": "E você simplesmente",
+          "he": "ואתה פשוט"
+        },
+        {
+          "pt": "Não viu que ficou pra trás",
+          "he": "לא ראית שנשארת מאחור"
+        }
+      ],
+      [
+        {
+          "pt": "Não sei se você me enganou",
+          "he": "אני לא יודע אם רימית אותי"
+        },
+        {
+          "pt": "Pois quando você tropeçou",
+          "he": "כי כשמעדת"
+        },
+        {
+          "pt": "Não viu o tempo que passou",
+          "he": "לא ראית את הזמן שחלף"
+        },
+        {
+          "pt": "Não viu que ele me carregava",
+          "he": "לא ראית שהוא נשא אותי קדימה"
+        },
+        {
+          "pt": "E a saudade lhe entregava",
+          "he": "והגעגוע העניק לך"
+        },
+        {
+          "pt": "O aval da imensa dor",
+          "he": "את חותם הכאב העצום"
+        }
+      ],
+      [
+        {
+          "pt": "E eu que agora moro",
+          "he": "ואני, שעכשיו שוכן"
+        },
+        {
+          "pt": "Nos braços da paz",
+          "he": "בזרועות השלווה"
+        },
+        {
+          "pt": "Ignoro o passado",
+          "he": "מתעלם מהעבר"
+        },
+        {
+          "pt": "Que hoje você me traz",
+          "he": "שאתה מביא לי היום"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "A vida foi em frente",
+        "marked_words": [
+          "foi"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ir: foi (הלך / המשיך)",
+        "is_new": true,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Não viu que ficou pra trás",
+        "marked_words": [
+          "viu"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ver: viu (ראה)",
+        "is_new": true,
+        "tense_id": "preterito-perfeito",
+        "verb_id": "ver"
+      },
+      {
+        "sentence_pt": "Não viu que ficou pra trás",
+        "marked_words": [
+          "ficou"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — ficar: ficou (נשאר)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Recomeçar, jamais",
+        "marked_words": [
+          "jamais"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה — jamais (לעולם לא)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Não sei se você me enganou",
+        "marked_words": [
+          "me"
+        ],
+        "topic_id": "direct-object",
+        "label_he": "כינוי מושא ישיר — me enganou (רימה אותי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Pois quando você tropeçou",
+        "marked_words": [
+          "tropeçou"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — tropeçar: tropeçou (מעד)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Não viu que ele me carregava",
+        "marked_words": [
+          "carregava"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר לא־מושלם — carregar: carregava (נשא / היה נושא)",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "E a saudade lhe entregava",
+        "marked_words": [
+          "lhe"
+        ],
+        "topic_id": "indirect-object",
+        "label_he": "כינוי מושא עקיף — lhe entregava (מסר לו / לך)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "E eu que agora moro",
+        "marked_words": [
+          "moro"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — morar: moro (גר / שוכן)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "Nos braços da paz",
+        "marked_words": [
+          "Nos"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — nos = em + os (ב...ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Que hoje você me traz",
+        "marked_words": [
+          "traz"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — trazer: traz (מביא)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "trazer"
+      },
+      {
+        "sentence_pt": "Ignoro o passado",
+        "marked_words": [
+          "Ignoro"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — ignorar: ignoro (מתעלם)",
+        "is_new": false,
+        "tense_id": "presente"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "acreditar",
+        "he": "להאמין"
+      },
+      {
+        "pt": "recomeçar",
+        "he": "להתחיל מחדש"
+      },
+      {
+        "pt": "jamais",
+        "he": "לעולם לא, אף פעם"
+      },
+      {
+        "pt": "vida",
+        "he": "חיים"
+      },
+      {
+        "pt": "em frente",
+        "he": "קדימה, הלאה"
+      },
+      {
+        "pt": "simplesmente",
+        "he": "פשוט, בפשטות"
+      },
+      {
+        "pt": "ficar",
+        "he": "להישאר, להיות"
+      },
+      {
+        "pt": "pra trás",
+        "he": "מאחור, לאחור"
+      },
+      {
+        "pt": "saber",
+        "he": "לדעת"
+      },
+      {
+        "pt": "enganar",
+        "he": "לרמות, להטעות"
+      },
+      {
+        "pt": "pois",
+        "he": "כי, שכן"
+      },
+      {
+        "pt": "quando",
+        "he": "כאשר, מתי"
+      },
+      {
+        "pt": "tropeçar",
+        "he": "למעוד, להיתקל"
+      },
+      {
+        "pt": "tempo",
+        "he": "זמן"
+      },
+      {
+        "pt": "passar",
+        "he": "לעבור, לחלוף"
+      },
+      {
+        "pt": "carregar",
+        "he": "לשאת, לסחוב"
+      },
+      {
+        "pt": "saudade",
+        "he": "געגוע, כמיהה (רגש ברזילאי אופייני)"
+      },
+      {
+        "pt": "entregar",
+        "he": "למסור, להעניק"
+      },
+      {
+        "pt": "aval",
+        "he": "ערבות, חותם, אישור"
+      },
+      {
+        "pt": "imenso",
+        "he": "עצום, אדיר"
+      },
+      {
+        "pt": "dor",
+        "he": "כאב"
+      },
+      {
+        "pt": "agora",
+        "he": "עכשיו"
+      },
+      {
+        "pt": "morar",
+        "he": "לגור, לשכון"
+      },
+      {
+        "pt": "braço",
+        "he": "זרוע"
+      },
+      {
+        "pt": "paz",
+        "he": "שלום, שלווה"
+      },
+      {
+        "pt": "ignorar",
+        "he": "להתעלם; לא לדעת"
+      },
+      {
+        "pt": "passado",
+        "he": "עבר"
+      },
+      {
+        "pt": "hoje",
+        "he": "היום"
+      },
+      {
+        "pt": "trazer",
+        "he": "להביא"
+      },
+      {
+        "pt": "você",
+        "he": "אתה / את"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Acreditar, eu não; recomeçar, jamais",
+        "he": "להאמין מחדש? אני לא. להתחיל מחדש? לעולם לא"
+      },
+      {
+        "pt": "A vida foi em frente",
+        "he": "החיים המשיכו קדימה"
+      },
+      {
+        "pt": "E você simplesmente não viu que ficou pra trás",
+        "he": "ואתה פשוט לא ראית שנשארת מאחור"
+      },
+      {
+        "pt": "Não sei se você me enganou",
+        "he": "אני לא יודע אם רימית אותי"
+      },
+      {
+        "pt": "Pois quando você tropeçou, não viu o tempo que passou",
+        "he": "כי כשמעדת, לא ראית את הזמן שחלף"
+      },
+      {
+        "pt": "Não viu que ele me carregava",
+        "he": "לא ראית שהוא נשא אותי"
+      },
+      {
+        "pt": "E a saudade lhe entregava o aval da imensa dor",
+        "he": "והגעגוע העניק לך את חותם הכאב העצום"
+      },
+      {
+        "pt": "E eu que agora moro nos braços da paz",
+        "he": "ואני, שעכשיו שוכן בזרועות השלווה"
+      },
+      {
+        "pt": "Ignoro o passado que hoje você me traz",
+        "he": "מתעלם מהעבר שאתה מביא לי היום"
+      }
+    ]
   }
 ]
