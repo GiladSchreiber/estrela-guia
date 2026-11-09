@@ -14415,5 +14415,462 @@
         "he": "המים מכים שוב ושוב עד שהם מנקבים"
       }
     ]
+  },
+  {
+    "id": "agua-de-chuva-no-mar",
+    "title": "Água de chuva no mar",
+    "type": "popular",
+    "badge": "traditional",
+    "media_url": "https://www.youtube.com/watch?v=NO3VA1BwZhw",
+    "lyrics": [
+      [
+        {
+          "pt": "O meu coração hoje tem paz",
+          "he": "בלבי יש שלווה היום"
+        },
+        {
+          "pt": "Decepção ficou pra trás",
+          "he": "האכזבה נשארה מאחור"
+        },
+        {
+          "pt": "Eu encontrei um grande amor",
+          "he": "מצאתי אהבה גדולה"
+        },
+        {
+          "pt": "Felicidade enfim chegou",
+          "he": "האושר סוף סוף הגיע"
+        }
+      ],
+      [
+        {
+          "pt": "Como um brilho do luar",
+          "he": "כמו זוהר של אור ירח"
+        },
+        {
+          "pt": "Em sintonia com o mar",
+          "he": "בהרמוניה עם הים"
+        },
+        {
+          "pt": "Nessa viagem de esplendor",
+          "he": "במסע הנהדר הזה"
+        },
+        {
+          "pt": "Meu sonho se realizou, realizou",
+          "he": "החלום שלי התגשם, התגשם"
+        }
+      ],
+      [
+        {
+          "pt": "A gente se fala no olhar",
+          "he": "אנחנו מדברים זה עם זה במבט"
+        },
+        {
+          "pt": "É água de chuva no mar",
+          "he": "זה כמו מי גשם בים"
+        },
+        {
+          "pt": "Caminha pro mesmo lugar",
+          "he": "צועד אל אותו מקום"
+        },
+        {
+          "pt": "Sem pressa, sem medo de errar",
+          "he": "בלי חיפזון, בלי פחד לטעות"
+        },
+        {
+          "pt": "É tão bonito, é tão bonito o nosso amor",
+          "he": "כה יפה, כה יפה האהבה שלנו"
+        }
+      ],
+      [
+        {
+          "pt": "A gente tem tanto querer",
+          "he": "יש בנו כל כך הרבה אהבה"
+        },
+        {
+          "pt": "Faz até a terra tremer",
+          "he": "זה גורם אפילו לאדמה לרעוד"
+        },
+        {
+          "pt": "A luz que reluz meu viver",
+          "he": "האור שמאיר את חיי"
+        },
+        {
+          "pt": "O sol do meu amanhecer é você",
+          "he": "השמש של השחר שלי — זה את"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "O meu coração hoje tem paz",
+        "marked_words": [
+          "tem"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "ter — tem paz (יש לו שלווה)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "O meu coração hoje tem paz",
+        "marked_words": [
+          "meu"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — meu coração (ליבי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Decepção ficou pra trás",
+        "marked_words": [
+          "ficou"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — ficar: ficou (נשאר)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Eu encontrei um grande amor",
+        "marked_words": [
+          "encontrei"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — encontrar: encontrei (מצאתי)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Eu encontrei um grande amor",
+        "marked_words": [
+          "grande"
+        ],
+        "topic_id": "adjectives",
+        "label_he": "שם תואר לפני שם העצם — um grande amor (אהבה גדולה)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Como um brilho do luar",
+        "marked_words": [
+          "do"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — do = de + o (של ה־)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Nessa viagem de esplendor",
+        "marked_words": [
+          "Nessa"
+        ],
+        "topic_id": "demonstratives",
+        "label_he": "כיווץ עם רמז — nessa = em + essa (ב...הזאת)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Meu sonho se realizou, realizou",
+        "marked_words": [
+          "se realizou"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "פועל רפלקסיבי בעבר — realizar-se: se realizou (התגשם)",
+        "is_new": true,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "A gente se fala no olhar",
+        "marked_words": [
+          "se fala"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "se הדדי — a gente se fala (מדברים זה עם זה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Caminha pro mesmo lugar",
+        "marked_words": [
+          "pro"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ מדובר — pro = para + o (אל ה־)",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Sem pressa, sem medo de errar",
+        "marked_words": [
+          "errar"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "שם הפועל אחרי מילת יחס — de errar (לטעות)",
+        "is_new": false,
+        "tense_id": "infinitivo"
+      },
+      {
+        "sentence_pt": "É tão bonito, é tão bonito o nosso amor",
+        "marked_words": [
+          "tão"
+        ],
+        "topic_id": "adverbs",
+        "label_he": "תואר הפועל של עוצמה — tão bonito (כה יפה)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "É tão bonito, é tão bonito o nosso amor",
+        "marked_words": [
+          "nosso"
+        ],
+        "topic_id": "possession",
+        "label_he": "כינוי שייכות — nosso amor (האהבה שלנו)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Faz até a terra tremer",
+        "marked_words": [
+          "Faz"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "fazer + שם פועל — faz tremer (גורם לרעוד)",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "fazer"
+      },
+      {
+        "sentence_pt": "A luz que reluz meu viver",
+        "marked_words": [
+          "reluz"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — reluzir: reluz (מאיר / נוצץ)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "O sol do meu amanhecer é você",
+        "marked_words": [
+          "é"
+        ],
+        "topic_id": "ser-estar",
+        "label_he": "ser — é você (זה את / אתה)",
+        "is_new": false,
+        "tense_id": "presente"
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "coração",
+        "he": "לב"
+      },
+      {
+        "pt": "paz",
+        "he": "שלום, שלווה"
+      },
+      {
+        "pt": "hoje",
+        "he": "היום"
+      },
+      {
+        "pt": "decepção",
+        "he": "אכזבה"
+      },
+      {
+        "pt": "ficar",
+        "he": "להישאר, להיות"
+      },
+      {
+        "pt": "pra trás",
+        "he": "מאחור, לאחור"
+      },
+      {
+        "pt": "encontrar",
+        "he": "למצוא, לפגוש"
+      },
+      {
+        "pt": "grande",
+        "he": "גדול"
+      },
+      {
+        "pt": "amor",
+        "he": "אהבה"
+      },
+      {
+        "pt": "felicidade",
+        "he": "אושר"
+      },
+      {
+        "pt": "enfim",
+        "he": "סוף סוף, לבסוף"
+      },
+      {
+        "pt": "chegar",
+        "he": "להגיע"
+      },
+      {
+        "pt": "brilho",
+        "he": "זוהר, נצנוץ"
+      },
+      {
+        "pt": "luar",
+        "he": "אור ירח"
+      },
+      {
+        "pt": "sintonia",
+        "he": "הרמוניה, התאמה"
+      },
+      {
+        "pt": "mar",
+        "he": "ים"
+      },
+      {
+        "pt": "viagem",
+        "he": "מסע, נסיעה"
+      },
+      {
+        "pt": "esplendor",
+        "he": "פאר, הדר, זוהר"
+      },
+      {
+        "pt": "sonho",
+        "he": "חלום"
+      },
+      {
+        "pt": "realizar-se",
+        "he": "להתגשם, להתממש"
+      },
+      {
+        "pt": "a gente",
+        "he": "אנחנו (ביטוי מדובר, נוטה בגוף שלישי יחיד)"
+      },
+      {
+        "pt": "olhar",
+        "he": "מבט; להסתכל"
+      },
+      {
+        "pt": "água",
+        "he": "מים"
+      },
+      {
+        "pt": "chuva",
+        "he": "גשם"
+      },
+      {
+        "pt": "caminhar",
+        "he": "לצעוד, ללכת"
+      },
+      {
+        "pt": "mesmo",
+        "he": "אותו, עצמו; אפילו"
+      },
+      {
+        "pt": "lugar",
+        "he": "מקום"
+      },
+      {
+        "pt": "pressa",
+        "he": "חיפזון, דחיפות"
+      },
+      {
+        "pt": "medo",
+        "he": "פחד"
+      },
+      {
+        "pt": "errar",
+        "he": "לטעות, לשגות"
+      },
+      {
+        "pt": "tão",
+        "he": "כה, כל כך"
+      },
+      {
+        "pt": "bonito",
+        "he": "יפה, נאה"
+      },
+      {
+        "pt": "querer",
+        "he": "לרצות; רצון, אהבה"
+      },
+      {
+        "pt": "terra",
+        "he": "אדמה, ארץ"
+      },
+      {
+        "pt": "tremer",
+        "he": "לרעוד"
+      },
+      {
+        "pt": "luz",
+        "he": "אור"
+      },
+      {
+        "pt": "reluzir",
+        "he": "לזהור, להבריק, להאיר"
+      },
+      {
+        "pt": "viver",
+        "he": "לחיות; חיים"
+      },
+      {
+        "pt": "sol",
+        "he": "שמש"
+      },
+      {
+        "pt": "amanhecer",
+        "he": "שחר; להפציע (השחר)"
+      },
+      {
+        "pt": "você",
+        "he": "אתה / את"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "O meu coração hoje tem paz",
+        "he": "בלבי יש שלווה היום"
+      },
+      {
+        "pt": "Decepção ficou pra trás",
+        "he": "האכזבה נשארה מאחור"
+      },
+      {
+        "pt": "Eu encontrei um grande amor",
+        "he": "מצאתי אהבה גדולה"
+      },
+      {
+        "pt": "Felicidade enfim chegou",
+        "he": "האושר סוף סוף הגיע"
+      },
+      {
+        "pt": "Meu sonho se realizou",
+        "he": "החלום שלי התגשם"
+      },
+      {
+        "pt": "A gente se fala no olhar",
+        "he": "אנחנו מדברים זה עם זה במבט"
+      },
+      {
+        "pt": "É água de chuva no mar",
+        "he": "זה כמו מי גשם בים"
+      },
+      {
+        "pt": "Caminha pro mesmo lugar, sem pressa, sem medo de errar",
+        "he": "צועד אל אותו מקום, בלי חיפזון, בלי פחד לטעות"
+      },
+      {
+        "pt": "É tão bonito o nosso amor",
+        "he": "כה יפה האהבה שלנו"
+      },
+      {
+        "pt": "Faz até a terra tremer",
+        "he": "זה גורם אפילו לאדמה לרעוד"
+      },
+      {
+        "pt": "A luz que reluz meu viver",
+        "he": "האור שמאיר את חיי"
+      },
+      {
+        "pt": "O sol do meu amanhecer é você",
+        "he": "השמש של השחר שלי — זה את"
+      }
+    ]
   }
 ]
