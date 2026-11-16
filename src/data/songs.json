@@ -15228,5 +15228,480 @@
         "he": "מתעלם מהעבר שאתה מביא לי היום"
       }
     ]
+  },
+  {
+    "id": "jura-de-vinganca",
+    "title": "Jura de Vingança",
+    "type": "capoeira",
+    "media_url": "https://www.youtube.com/watch?v=28p3C2LuejA",
+    "lyrics": [
+      [
+        {
+          "pt": "Tracei meu sangue com dele",
+          "he": "ערבבתי את דמי עם דמו"
+        },
+        {
+          "pt": "E jurei no pé da cruz",
+          "he": "ונשבעתי למרגלות הצלב"
+        },
+        {
+          "pt": "Que eu iria me vingar",
+          "he": "שאני אנקום"
+        },
+        {
+          "pt": "Vingança essa muito séria",
+          "he": "נקמה רצינית מאוד"
+        },
+        {
+          "pt": "Que eu tinha que lutar",
+          "he": "שהייתי צריך להילחם"
+        },
+        {
+          "pt": "Contra um negro muito forte",
+          "he": "נגד גבר שחור חזק מאוד"
+        },
+        {
+          "pt": "Só jogava pra matar",
+          "he": "ששיחק רק כדי להרוג"
+        },
+        {
+          "pt": "Só jogava pra matar",
+          "he": "ששיחק רק כדי להרוג"
+        }
+      ],
+      [
+        {
+          "pt": "Mas o tempo foi passando",
+          "he": "אבל הזמן הלך וחלף"
+        },
+        {
+          "pt": "Eu fiquei a imaginar",
+          "he": "ואני נשארתי להרהר"
+        },
+        {
+          "pt": "Para ser bom capoeira",
+          "he": "כדי להיות קפואריסטה טוב"
+        },
+        {
+          "pt": "Tem que ter bom fundamento",
+          "he": "צריך שיהיה לך יסוד טוב"
+        },
+        {
+          "pt": "E muita ginga pra jogar",
+          "he": "והרבה ג'ינגה כדי לשחק"
+        },
+        {
+          "pt": "Eu não carrego medo",
+          "he": "אני לא נושא פחד"
+        },
+        {
+          "pt": "Mas aguento com a mandinga",
+          "he": "אבל אני מחזיק מעמד עם המנדינגה"
+        },
+        {
+          "pt": "Eu carrego um patuá",
+          "he": "אני נושא קמע (פָּטוּאָה)"
+        },
+        {
+          "pt": "E olha aqui, meu camarada",
+          "he": "ותקשיב לי, חבר שלי"
+        },
+        {
+          "pt": "Se queres jogar, vamos lá",
+          "he": "אם אתה רוצה לשחק — קדימה"
+        },
+        {
+          "pt": "Se queres jogar, vamos lá",
+          "he": "אם אתה רוצה לשחק — קדימה"
+        }
+      ],
+      [
+        {
+          "pt": "Manhã, manhã eu vou",
+          "he": "בוקר, בבוקר אני הולך"
+        }
+      ]
+    ],
+    "grammar_notes": [
+      {
+        "sentence_pt": "Que eu iria me vingar",
+        "marked_words": [
+          "iria"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ir בתנאי: iria (הייתי הולך / אלך) — 'iria + פועל' = עתיד מנקודת מבט של עבר",
+        "is_new": true,
+        "tense_id": "condicional",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Que eu iria me vingar",
+        "marked_words": [
+          "me",
+          "vingar"
+        ],
+        "topic_id": "reflexive",
+        "label_he": "פועל חוזר — vingar-se: me vingar (לנקום — 'לנקום את עצמי')",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Que eu tinha que lutar",
+        "marked_words": [
+          "tinha",
+          "que"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ter que + פועל = חייב / צריך: tinha que lutar (הייתי צריך להילחם)",
+        "is_new": true,
+        "tense_id": "preterito-imperfeito",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "Tem que ter bom fundamento",
+        "marked_words": [
+          "Tem",
+          "que"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ter que בהווה: tem que ter (צריך שיהיה)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ter"
+      },
+      {
+        "sentence_pt": "Tracei meu sangue com dele",
+        "marked_words": [
+          "dele"
+        ],
+        "topic_id": "possession",
+        "label_he": "שייכות — dele = de + ele (שלו). 'com dele' = עם [הדם] שלו",
+        "is_new": true
+      },
+      {
+        "sentence_pt": "Tracei meu sangue com dele",
+        "marked_words": [
+          "Tracei"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — traçar: tracei (ערבבתי) — ç הופך ל־c לפני e",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "E jurei no pé da cruz",
+        "marked_words": [
+          "jurei"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר שלם — jurar: jurei (נשבעתי)",
+        "is_new": false,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "E jurei no pé da cruz",
+        "marked_words": [
+          "no",
+          "da"
+        ],
+        "topic_id": "contractions",
+        "label_he": "כיווץ — no = em + o, da = de + a",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Só jogava pra matar",
+        "marked_words": [
+          "jogava"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "עבר לא־מושלם — jogar: jogava (נהג לשחק) — הרגל בעבר",
+        "is_new": false,
+        "tense_id": "preterito-imperfeito"
+      },
+      {
+        "sentence_pt": "Mas o tempo foi passando",
+        "marked_words": [
+          "foi",
+          "passando"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ir + גרונדיו — foi passando (הלך וחלף) — תהליך הדרגתי",
+        "is_new": true,
+        "tense_id": "gerundio"
+      },
+      {
+        "sentence_pt": "Eu fiquei a imaginar",
+        "marked_words": [
+          "fiquei",
+          "a",
+          "imaginar"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ficar a + שם פועל — fiquei a imaginar (נשארתי להרהר) — כמו ficar imaginando",
+        "is_new": true,
+        "tense_id": "preterito-perfeito"
+      },
+      {
+        "sentence_pt": "Eu não carrego medo",
+        "marked_words": [
+          "não"
+        ],
+        "topic_id": "negation",
+        "label_he": "שלילה — não לפני הפועל",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Eu carrego um patuá",
+        "marked_words": [
+          "carrego"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "הווה — carregar: carrego (נושא)",
+        "is_new": false,
+        "tense_id": "presente"
+      },
+      {
+        "sentence_pt": "E olha aqui, meu camarada",
+        "marked_words": [
+          "olha"
+        ],
+        "topic_id": "verbs-regular",
+        "label_he": "ציווי — olhar: olha! (תסתכל / תקשיב!)",
+        "is_new": false,
+        "tense_id": "imperativo"
+      },
+      {
+        "sentence_pt": "E olha aqui, meu camarada",
+        "marked_words": [
+          "meu"
+        ],
+        "topic_id": "possession",
+        "label_he": "שייכות — meu camarada (החבר שלי)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Se queres jogar, vamos lá",
+        "marked_words": [
+          "queres"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — querer בגוף tu: queres (אתה רוצה) — tu במקום você",
+        "is_new": true,
+        "tense_id": "presente",
+        "verb_id": "querer"
+      },
+      {
+        "sentence_pt": "Se queres jogar, vamos lá",
+        "marked_words": [
+          "vamos"
+        ],
+        "topic_id": "verbs-irregular",
+        "label_he": "פועל חריג — ir: vamos lá (בוא נלך / קדימה)",
+        "is_new": false,
+        "tense_id": "presente",
+        "verb_id": "ir"
+      },
+      {
+        "sentence_pt": "Se queres jogar, vamos lá",
+        "marked_words": [
+          "lá"
+        ],
+        "topic_id": "place-adverbs",
+        "label_he": "תואר מקום — lá (שם)",
+        "is_new": false
+      },
+      {
+        "sentence_pt": "Contra um negro muito forte",
+        "marked_words": [
+          "muito"
+        ],
+        "topic_id": "adverbs",
+        "label_he": "תואר הפועל — muito forte (חזק מאוד)",
+        "is_new": false
+      }
+    ],
+    "vocab": [
+      {
+        "pt": "jura",
+        "he": "שבועה, נדר"
+      },
+      {
+        "pt": "vingança",
+        "he": "נקמה"
+      },
+      {
+        "pt": "traçar",
+        "he": "לשרטט; לערבב (בהקשר הזה)"
+      },
+      {
+        "pt": "sangue",
+        "he": "דם"
+      },
+      {
+        "pt": "jurar",
+        "he": "להישבע"
+      },
+      {
+        "pt": "pé",
+        "he": "רגל; בסיס, מרגלות"
+      },
+      {
+        "pt": "no pé da cruz",
+        "he": "למרגלות הצלב"
+      },
+      {
+        "pt": "cruz",
+        "he": "צלב"
+      },
+      {
+        "pt": "vingar-se",
+        "he": "לנקום"
+      },
+      {
+        "pt": "sério",
+        "he": "רציני"
+      },
+      {
+        "pt": "ter que",
+        "he": "להיות חייב, צריך"
+      },
+      {
+        "pt": "lutar",
+        "he": "להילחם, להיאבק"
+      },
+      {
+        "pt": "contra",
+        "he": "נגד"
+      },
+      {
+        "pt": "forte",
+        "he": "חזק"
+      },
+      {
+        "pt": "só",
+        "he": "רק"
+      },
+      {
+        "pt": "jogar",
+        "he": "לשחק (במשחק הקפוארה)"
+      },
+      {
+        "pt": "matar",
+        "he": "להרוג"
+      },
+      {
+        "pt": "tempo",
+        "he": "זמן"
+      },
+      {
+        "pt": "passar",
+        "he": "לעבור, לחלוף"
+      },
+      {
+        "pt": "ficar",
+        "he": "להישאר"
+      },
+      {
+        "pt": "imaginar",
+        "he": "לדמיין, להרהר"
+      },
+      {
+        "pt": "capoeira",
+        "he": "קפואריסטה; קפוארה"
+      },
+      {
+        "pt": "fundamento",
+        "he": "יסוד, בסיס (המסורת והעקרונות של הקפוארה)"
+      },
+      {
+        "pt": "ginga",
+        "he": "ג'ינגה — תנועת הבסיס של הקפוארה"
+      },
+      {
+        "pt": "carregar",
+        "he": "לשאת, לסחוב"
+      },
+      {
+        "pt": "medo",
+        "he": "פחד"
+      },
+      {
+        "pt": "aguentar",
+        "he": "להחזיק מעמד, לסבול"
+      },
+      {
+        "pt": "mandinga",
+        "he": "מנדינגה — כישוף, ערמומיות וקסם של הקפוארה"
+      },
+      {
+        "pt": "patuá",
+        "he": "פָּטוּאָה — קמע הגנה שנושאים על הגוף"
+      },
+      {
+        "pt": "olhar",
+        "he": "להסתכל"
+      },
+      {
+        "pt": "aqui",
+        "he": "כאן"
+      },
+      {
+        "pt": "camarada",
+        "he": "חבר, רֵעַ"
+      },
+      {
+        "pt": "querer",
+        "he": "לרצות"
+      },
+      {
+        "pt": "vamos lá",
+        "he": "קדימה, בוא נלך"
+      },
+      {
+        "pt": "manhã",
+        "he": "בוקר"
+      }
+    ],
+    "sentences": [
+      {
+        "pt": "Tracei meu sangue com dele e jurei no pé da cruz",
+        "he": "ערבבתי את דמי עם דמו ונשבעתי למרגלות הצלב"
+      },
+      {
+        "pt": "Que eu iria me vingar",
+        "he": "שאני אנקום"
+      },
+      {
+        "pt": "Que eu tinha que lutar contra um negro muito forte",
+        "he": "שהייתי צריך להילחם נגד גבר שחור חזק מאוד"
+      },
+      {
+        "pt": "Só jogava pra matar",
+        "he": "שיחק רק כדי להרוג"
+      },
+      {
+        "pt": "Mas o tempo foi passando, eu fiquei a imaginar",
+        "he": "אבל הזמן הלך וחלף, ואני נשארתי להרהר"
+      },
+      {
+        "pt": "Para ser bom capoeira tem que ter bom fundamento",
+        "he": "כדי להיות קפואריסטה טוב צריך שיהיה לך יסוד טוב"
+      },
+      {
+        "pt": "E muita ginga pra jogar",
+        "he": "והרבה ג'ינגה כדי לשחק"
+      },
+      {
+        "pt": "Eu não carrego medo, mas aguento com a mandinga",
+        "he": "אני לא נושא פחד, אבל אני מחזיק מעמד עם המנדינגה"
+      },
+      {
+        "pt": "Eu carrego um patuá",
+        "he": "אני נושא קמע"
+      },
+      {
+        "pt": "E olha aqui, meu camarada: se queres jogar, vamos lá",
+        "he": "ותקשיב לי, חבר שלי: אם אתה רוצה לשחק — קדימה"
+      }
+    ]
   }
 ]
